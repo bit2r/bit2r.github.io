@@ -1,7 +1,7 @@
 ---
 title: "비트알 소개"
 description: |
-  Bit2R provides edu-tech, open-source took kit for data science, statistics, and machine learning.
+  데이터과학 에듀테크 비즈니스
 ---
 
 ```{r setup, include=FALSE}
@@ -9,5 +9,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 비트알은 오픈소스 기반의 데이터과학 솔루션과 오픈 에듀테크 비즈니스를 합니다.
+
+교육요청, 사업문의, 데이터과학 관련 과제 수행에 대한 문의는 이메일을 보내주세요.
 
 연락처: <a href="mainto:admin@bit2r.com">admin@bit2r.com</a>

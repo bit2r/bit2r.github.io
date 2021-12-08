@@ -1,7 +1,7 @@
 ---
-title: "학습자료"
+title: "교육자료"
 description: |
-  Learning materials
+  데이터과학 학습 또는 교육을 위한 교육자료
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
@@ -10,5 +10,5 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-오픈소스 커뮤니티와 개인이 기여한 교육자료로 데이터 교육이 필요한 분들과 교육, 강의, 강연을 매칭합니다.
+비트알은 이해하기 쉬은 데이터과학 교육 자료를 만들고 오픈소스 커뮤니티와 개인이 기여한 교육자료와 함께 교육이 필요한 개인과 조직을 위해 정규 교육, 강의, 강연을 합니다.
 
