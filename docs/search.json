@@ -1,0 +1,30 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "비트알 소개",
+      "description": "Bit2R provides edu-tech, open-source took kit for data science, statistics, and machine learning.",
+      "author": [],
+      "contents": "\r\n비트알은 오픈소스 기반의 데이터과학 솔루션과 오픈 에듀테크 비즈니스를 합니다.\r\n연락처: admin@bit2r.com\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-12-08T16:07:39+09:00"
+    },
+    {
+      "path": "index.html",
+      "title": "비트알 BIT2R",
+      "description": "비트알은 오픈소스 기반 데이터과학 도구와 교육 비즈니스 기업입니다.\n",
+      "author": [],
+      "contents": "\r\n교육 프로그램 - 오픈 에듀테크\r\n오픈소스 통계 패키지 - 빗스탯\r\n대화형, 반응형 흐름\r\n데이터 분석을 어렵게 한다고 해서 분석결과가 더 정확해지는 것은 아닙니다. R2BiT은 대화형으로 친절한 피드백으로 사용자가 쉽게 데이터분석의 문제를 해결할 수 있게 진행을 도울 것입니다.\r\n사려깊은 사용성\r\n데이터 분석은 데이터와 함께 분석하는 과정을 이해해야 잘 할 수 있습니다. 빗스텟은 통계와 데이터분석을 어렵지 않고 이해하기 쉽게 도와줄 것입니다.\r\n모든 사람을 위한 데이터 분석 도구\r\n모든 사람이 다 쓸 수 있습니다. 특별한 분야를 위한 추가 기능이 필요하다면 그것만 더 추가해서 사용할 수 있습니다. 전문가뿐만 아니라 모든 사람을 위한 도구를 지향합니다.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-12-08T16:07:40+09:00"
+    },
+    {
+      "path": "learnings.html",
+      "title": "학습자료",
+      "description": "Learning materials\n",
+      "author": [],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\n오픈소스 커뮤니티와 개인이 기여한 교육자료로 데이터 교육이 필요한 분들과 교육, 강의, 강연을 매칭합니다.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-12-08T16:07:41+09:00"
+    }
+  ],
+  "collections": []
+}
