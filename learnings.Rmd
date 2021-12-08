@@ -1,0 +1,14 @@
+---
+title: "학습자료"
+description: |
+  Learning materials
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+오픈소스 커뮤니티와 개인이 기여한 교육자료로 데이터 교육이 필요한 분들과 교육, 강의, 강연을 매칭합니다.
+
