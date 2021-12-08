@@ -1,4 +1,6 @@
 ﻿.Rproj.user
-.Rproj.user
 .vscode
 .idea
+.Rhistory
+.RData
+.Ruserdata
