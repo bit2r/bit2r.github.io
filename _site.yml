@@ -10,6 +10,10 @@ navbar:
     - text: "소개"
       href: about.html
     - text: "교육자료"
-      href: learnings.html
+      menu:
+      - text: "개요"
+        href: learnings.html
+      - text: "SW 카펜트리"
+        href: swc.html
 output: distill::distill_article
 theme: theme.css
