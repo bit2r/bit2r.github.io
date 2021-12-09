@@ -15,5 +15,7 @@ navbar:
         href: learnings.html
       - text: "SW 카펜트리"
         href: swc.html
+      - text: "통계 패키지"
+        href: bitstat.html        
 output: distill::distill_article
 theme: theme.css
