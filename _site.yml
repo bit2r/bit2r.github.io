@@ -9,6 +9,8 @@ navbar:
       href: index.html
     - text: "소개"
       href: about.html
+    - text: "커뮤니티"
+      href: community.html
     - text: "교육자료"
       menu:
       - text: "개요"
