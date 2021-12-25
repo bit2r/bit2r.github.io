@@ -19,5 +19,7 @@ navbar:
         href: swc.html
       - text: "통계 패키지"
         href: bitstat.html        
+      - text: "자기주도학습"
+        href: learnr.html                
 output: distill::distill_article
 theme: theme.css
