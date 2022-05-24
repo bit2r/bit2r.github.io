@@ -10,4 +10,5 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-# ...
+![](fig/hex-stickers.png){width=100%}
+
