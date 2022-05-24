@@ -3,6 +3,8 @@ title: "비트알"
 description: |
   BIT2R website
 output_dir: "docs"
+google_analytics: "UA-229551680-1"
+theme: theme.css
 navbar:
   right:
     - text: "홈"
@@ -21,5 +23,9 @@ navbar:
         href: bitstat.html        
       - text: "자기주도학습"
         href: learnr.html                
+  logo:
+    image: fig/koRea_logo.png
+    href: https://r2bit.com
 output: distill::distill_article
-theme: theme.css
+includes:
+   in_header: google_analytics.html
