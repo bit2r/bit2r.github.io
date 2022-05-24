@@ -2753,33 +2753,70 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <p><img src="fig/bitstat.png" /></p>
 <h1 id="프로젝트-개요">프로젝트 개요</h1>
 <p>코로나19로 인해 심화된 <strong>디지털 불평등</strong>과
-<strong>디지털 경제 전환(Digital Transformation)</strong>으로 인해
-시민의 필수 역량이 된 <strong>Data Literacy 역량 강화</strong>를 위해
-컴퓨터를 처음 접하거나 데이터 작업이 처음인 대한민국 국민 누구나 쉽게
-통계 팩키지를 접할 수 있도록 하고 데이터 프로그래밍 역량도 수준별로
-강화할 수 있도록 새로운 형태의 블록 통계 분석을 포함한 <strong>초중등
-오픈 통계 팩키지 개발</strong>을 금번 컨트리뷰션 아카데미 프로그램을
-빌어 Tidyverse Korea 멘토와 멘티가 함께 2021년 새로운 여행을 함께
-떠나가고자 합니다.</p>
+<strong>디지털 전환(Digital Transformation)</strong>으로 인해 시민의
+필수 역량이 된 <strong>Data Literacy 역량 강화</strong>와 통계 대중화를
+위해 오픈 통계 패키지 - 빛스탯(<code>BitStat</code>) - 를 개발하게
+되었습니다. 데이터 리터러시 역량은 결국 디지털 불평등과 맥이 닿아 있고
+이후 교육불평등, 취업불평등, 소득불평등, 자산불평등으로 이어져 사회
+양극화를 심화시키는 주범으로 지목되고 있다.</p>
+<p><img src="fig/inequality.jpeg" style="width:100.0%" /></p>
 <h1 id="기대-효과">기대 효과</h1>
 <ul>
-<li>프로젝트 멘티의 기대 효과
+<li>기술적 측면
 <ul>
-<li>R/Shiny로 동적 웹 애플리케이션을 개발할 수 있는 방법을
-터득합니다.</li>
-<li>자신만의 R 패키지를 개발하고, Github과 CRAN에 등록할 수
-있습니다.</li>
-<li>통계 패키지의 동작 방법을 이해할 수 있습니다.</li>
+<li>기하급수적으로 증가하는 데이터를 분석하여 가치를 창출하는 데이터
+경제가 급부상하고 있으나, 인력 육성이나 도구는 선형적 증가 상황을 타개할
+수 있는 혁신적인 기술이 요구됨</li>
+<li>폭발적으로 늘어나는 데이터를 일반국민도 활용할 수 있도록 하는 공개SW
+통계 패키지는 다분야에서도 활용 가능한 Auto-X 기술을 기반으로 통계분석
+생산성과 품질을 큰 폭을 높일 수 있는 혁신적인 기술임</li>
 </ul></li>
-<li>프로젝트 멘티의 오픈소스 생태계 기여
+<li>경제적, 산업적 측면
 <ul>
-<li>오픈통계 패키지 프레임워크 개발 참여로, 오픈통계 패키지 기틀 마련에
-기여합니다.</li>
-<li>영문 패키지 도움말의 한글화로, 국내 사용자의 패키지 활용도 제고에
-기여합니다.</li>
+<li>’22년 글로벌 빅데이터, 분석시장 규모는 전년 대비 27% 성장한 $2,740억
+달러 규모 전망
+<ul>
+<li>IDC, “Revenue from big data and business analytics worldwide from
+2015 to 2022”, 2021년 9월</li>
+</ul></li>
+<li>오픈 통계 패키지에 내장된 Auto-X 기술을 포함하여 공개SW로 개방하여
+중소기업 및 데이터 기반 의사결정을 지원하고, 공개SW 활용 스타트업을 통한
+신규 부가가치 창출</li>
+</ul></li>
+<li>사회적 측면
+<ul>
+<li>지속적인 공공데이터 확대, 데이터3법 통과에 따라 데이터가 늘어나고
+데이터 경제가 급속도로 커짐에 따라 데이터 리터러시(Data Literacy) 능력과
+디지털 불평등의 양극화가 확대됨에 따라 오픈통계 패키지 SW를 공급하고
+서비스로 제공함으로써 사회통합과 통계 대중화에 기여할 수 있음</li>
 </ul></li>
 </ul>
-<h1 id="tidyblocks"><code>tidyblocks</code></h1>
+<h1 id="bitstat-아키텍처"><code>BitStat</code> 아키텍처</h1>
+<p>데이터 통계 분석의 대중화를 위해서는 통계 비전공자 및 일반인이 쉽게
+사용할 수 있는 통계 패키지 소프트웨어 개발 취지에 맞춰 데이터를 입력하면
+이를 인식하여 통계 분석 후 산출물을 자동 생성할 수 있는 오픈소스 기반의
+클라우드 통계 패키지 소프트웨어.</p>
+<p><img src="fig/bitstat_architecture.png" /></p>
+<h1 id="bitstat-시연">BitStat 시연</h1>
+<p><code>BitStat</code> 통계 패키지는 지속적으로 개발을 이어나가고
+있으며 2021년 12월 기준 개발버전을 업그레이드하여 2022년 7월 대대적인
+업그레이드가 예정되어 있다.</p>
+<p><img src="fig/openStat_quick.gif" /></p>
+<h1 id="참고자료">참고자료</h1>
+<p><img src="fig/statistics-pkg.jpeg" style="width:100.0%" /></p>
+<ul>
+<li><a href="https://use-r.kr/">한국 R 컨퍼런스</a> 발표 - <a
+href="https://www.youtube.com/watch?v=XtGFpZJML2s">Digital Divide
+Solution - 오픈 통계 팩키지</a></li>
+<li><a
+href="https://docs.google.com/presentation/d/1v5gu8pTHMcRUei8II4eGB5367fGRZJlRzML9v0U9QdE/edit?usp=sharing">국산
+오픈 통계 팩키지</a></li>
+<li><a href="https://contributionacademy.oopy.io/">2021 오픈소스
+컨트리뷰션 아카데미 - Tidyverse Korea 데이터 과학</a></li>
+<li><a
+href="https://docs.google.com/presentation/d/1xXQ_DzjSaS24Kr7c_rqiaAr5GqP5gsEKujq5fQNy-MA/edit?usp=sharing">오픈
+통계 팩키지 개발 안내서</a></li>
+<li><code>tidyblocks</code>
 <ul>
 <li>Tidy Blocks 한글화 지원 : <a
 href="https://github.com/tidyblocks/tidyblocks/"
@@ -2790,59 +2827,9 @@ class="uri">https://tidyblocks.tech/en/guide/</a></li>
 <li>한글 사례(Example) 추가 및 확대 : <a
 href="https://tidyblocks.tech/en/examples/"
 class="uri">https://tidyblocks.tech/en/examples/</a></li>
-</ul>
-<h1 id="글로벌-실전-dlookr-팩키지-cran-한글화">글로벌 실전
-<code>dlookr</code> 팩키지 CRAN 한글화</h1>
-<ul>
-<li><code>dlookr</code> 패키지의 사용자 가이드 한글화
-<ul>
-<li><a href="https://github.com/choonghyunryu/dlookr"
-class="uri">https://github.com/choonghyunryu/dlookr</a></li>
-<li><a href="https://choonghyunryu.github.io/dlookr/"
-class="uri">https://choonghyunryu.github.io/dlookr/</a></li>
 </ul></li>
-<li>소품(Vignettes)
-<ul>
-<li>Introduce dlookr, Data Diagnosis, EDA, Data Transformation</li>
 <li><a
-href="https://github.com/choonghyunryu/dlookr/tree/master/vignettes"
-class="uri">https://github.com/choonghyunryu/dlookr/tree/master/vignettes</a></li>
-</ul></li>
-<li>도움말(Manpages)
-<ul>
-<li>목록 : <a
-href="https://choonghyunryu.github.io/dlookr/reference/index.html"
-class="uri">https://choonghyunryu.github.io/dlookr/reference/index.html</a></li>
-<li>소스 : <a
-href="https://github.com/choonghyunryu/dlookr/tree/master/man"
-class="uri">https://github.com/choonghyunryu/dlookr/tree/master/man</a></li>
-</ul></li>
-</ul>
-<h1 id="오픈-통계-패키지-rshiny-개발">오픈 통계 패키지 R/Shiny 개발</h1>
-<ul>
-<li>초중등 통계 교육 및 Data Literacy 향상을 위한 R/Shiny 앱 개발</li>
-<li>초중등 통계 교육에 필요한 기능 식별</li>
-<li>Shiny UI 설계/구현</li>
-<li>Shiny server 로직 설계/구현</li>
-</ul>
-<p>참고: <a
-href="https://mdis.kostat.go.kr/tong/index.html">통그라미</a></p>
-<h1 id="한국-r-컨퍼런스-발표"><a href="https://use-r.kr/">한국 R
-컨퍼런스</a> 발표</h1>
-<ul>
-<li><a href="https://use-r.kr/speaker.html">발표자</a></li>
-<li><a href="https://use-r.kr/program.html">정규 프로그램</a></li>
-</ul>
-<h1 id="참고자료">참고자료</h1>
-<ul>
-<li><a
-href="https://docs.google.com/presentation/d/1v5gu8pTHMcRUei8II4eGB5367fGRZJlRzML9v0U9QdE/edit?usp=sharing">국산
-오픈 통계 팩키지</a></li>
-<li><a href="https://contributionacademy.oopy.io/">2021 오픈소스
-컨트리뷰션 아카데미 - Tidyverse Korea 데이터 과학</a></li>
-<li><a
-href="https://docs.google.com/presentation/d/1xXQ_DzjSaS24Kr7c_rqiaAr5GqP5gsEKujq5fQNy-MA/edit?usp=sharing">오픈
-통계 팩키지 개발 안내서</a></li>
+href="https://mdis.kostat.go.kr/tong/index.html">통그라미</a></li>
 </ul>
 <div class="sourceCode" id="cb1"><pre
 class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
