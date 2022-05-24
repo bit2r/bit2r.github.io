@@ -1,0 +1,14 @@
+---
+title: "에듀테크"
+description: |
+  AI 기술을 오픈 통계 패키지 개발과 콘텐츠 개발을 비롯한 각종 문제 해결에 사용합니다.
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+

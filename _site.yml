@@ -1,9 +1,11 @@
 name: "bit2r-website"
-title: "비트알"
+title: "한국 R 사용자회"
 description: |
-  BIT2R website
+  비영리법인 한국 알(R) 사용자회 공식 웹사이트 방문을 환영합니다.
 output_dir: "docs"
 google_analytics: "UA-229551680-1"
+includes:
+   in_header: google_analytics.html
 theme: theme.css
 navbar:
   right:
@@ -11,21 +13,22 @@ navbar:
       href: index.html
     - text: "소개"
       href: about.html
-    - text: "커뮤니티"
-      href: community.html
-    - text: "교육자료"
+    - text: "통계 패키지"
+      href: bitstat.html        
+    - text: "콘텐츠"
+      href: book.html
+    - text: "에듀테크"
       menu:
       - text: "개요"
-        href: learnings.html
+        href: edutech.html
       - text: "SW 카펜트리"
         href: swc.html
-      - text: "통계 패키지"
-        href: bitstat.html        
       - text: "자기주도학습"
         href: learnr.html                
+    - text: "커뮤니티"
+      href: community.html
   logo:
     image: fig/koRea_logo.png
     href: https://r2bit.com
 output: distill::distill_article
-includes:
-   in_header: google_analytics.html
+

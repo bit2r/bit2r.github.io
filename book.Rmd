@@ -1,0 +1,28 @@
+---
+title: "콘텐츠"
+description: |
+  통계 대중화와 불평등 해소를 위해 전세계적으로 검증된 콘텐츠를 한국 알 사용자회에서 선별하여 크리에이티브 커먼즈 라이선스에 준용하여 번역 및 우리나라 상황을 반영하여 콘텐츠를 추가하였습니다. 디지털 콘텐츠도 재현성과 추적성이 강조되는 세계적인 현상을 감안하여 소프트웨어 개발 방법론을 적극 채용하여 지속적인 업그레이드와 개발이 이뤄지고 있습니다. 
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+# [데이터 과학 프로그래밍](https://r2bit.com/book_programming/)
+
+# [데이터 시각화](https://r2bit.com/book_viz/)
+
+# [데이터 과학을 지탱하는 기본기](https://r2bit.com/book_analytics/)
+
+# [설치형 오픈통계 패키지 - `Rcmdr`](https://r2bit.com/Rcmdr/)
+
+# [데이터 과학 언플러그드](https://r2bit.com/book_unplugged/) - 개발중
+
+# 문서 콘텐츠 제작 실무 - 개발예정
+
+# ...
+
+
