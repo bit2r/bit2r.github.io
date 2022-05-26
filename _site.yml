@@ -17,6 +17,8 @@ navbar:
       href: bitstat.html        
     - text: "콘텐츠"
       href: book.html
+    - text: "데이터"
+      href: data.html
     - text: "에듀테크"
       menu:
       - text: "개요"

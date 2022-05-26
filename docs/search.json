@@ -5,8 +5,8 @@
       "title": "한국 알(R) 사용자회 소개",
       "description": "한국 알(R) 사용자회는 2022년 2월 설립된 비영리법입니다.",
       "author": [],
-      "contents": "\n연락처: admin@bit2r.com\n\n\n\n",
-      "last_modified": "2022-05-24T15:21:12+09:00"
+      "contents": "\r\n연락처: admin@bit2r.com\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-05-26T08:59:44+09:00"
     },
     {
       "path": "bitstat.html",
@@ -14,8 +14,8 @@
       "description": "Data Literacy 역량 강화를 위해 컴퓨터를 처음 접하거나 데이터 작업이 처음인 대한민국 국민 누구나 쉽게 통계 패키지를 접할 수 있도록 하고 데이터 프로그래밍 역량도 수준별로 강화할 수 있도록 새로운 형태의 블록 통계 분석을 포함한 오픈 통계 패키지 개발을 목표로 합니다.\n",
       "author": [],
       "date": "`r Sys.Date()`",
-      "contents": "\n\n프로젝트 개요\n코로나19로 인해 심화된 디지털 불평등과\n디지털 전환(Digital Transformation)으로 인해 시민의\n필수 역량이 된 Data Literacy 역량 강화와 통계 대중화를\n위해 오픈 통계 패키지 - 빛스탯(BitStat) - 를 개발하게\n되었습니다. 데이터 리터러시 역량은 결국 디지털 불평등과 맥이 닿아 있고\n이후 교육불평등, 취업불평등, 소득불평등, 자산불평등으로 이어져 사회\n양극화를 심화시키는 주범으로 지목되고 있다.\n\n기대 효과\n기술적 측면\n기하급수적으로 증가하는 데이터를 분석하여 가치를 창출하는 데이터\n경제가 급부상하고 있으나, 인력 육성이나 도구는 선형적 증가 상황을 타개할\n수 있는 혁신적인 기술이 요구됨\n폭발적으로 늘어나는 데이터를 일반국민도 활용할 수 있도록 하는 공개SW\n통계 패키지는 다분야에서도 활용 가능한 Auto-X 기술을 기반으로 통계분석\n생산성과 품질을 큰 폭을 높일 수 있는 혁신적인 기술임\n\n경제적, 산업적 측면\n’22년 글로벌 빅데이터, 분석시장 규모는 전년 대비 27% 성장한 $2,740억\n달러 규모 전망\nIDC, “Revenue from big data and business analytics worldwide from\n2015 to 2022”, 2021년 9월\n\n오픈 통계 패키지에 내장된 Auto-X 기술을 포함하여 공개SW로 개방하여\n중소기업 및 데이터 기반 의사결정을 지원하고, 공개SW 활용 스타트업을 통한\n신규 부가가치 창출\n\n사회적 측면\n지속적인 공공데이터 확대, 데이터3법 통과에 따라 데이터가 늘어나고\n데이터 경제가 급속도로 커짐에 따라 데이터 리터러시(Data Literacy) 능력과\n디지털 불평등의 양극화가 확대됨에 따라 오픈통계 패키지 SW를 공급하고\n서비스로 제공함으로써 사회통합과 통계 대중화에 기여할 수 있음\n\nBitStat 아키텍처\n데이터 통계 분석의 대중화를 위해서는 통계 비전공자 및 일반인이 쉽게\n사용할 수 있는 통계 패키지 소프트웨어 개발 취지에 맞춰 데이터를 입력하면\n이를 인식하여 통계 분석 후 산출물을 자동 생성할 수 있는 오픈소스 기반의\n클라우드 통계 패키지 소프트웨어.\n\nBitStat 시연\nBitStat 통계 패키지는 지속적으로 개발을 이어나가고\n있으며 2021년 12월 기준 개발버전을 업그레이드하여 2022년 7월 대대적인\n업그레이드가 예정되어 있다.\n\n참고자료\n\n한국 R 컨퍼런스 발표 - Digital Divide\nSolution - 오픈 통계 팩키지\n국산\n오픈 통계 팩키지\n2021 오픈소스\n컨트리뷰션 아카데미 - Tidyverse Korea 데이터 과학\n오픈\n통계 팩키지 개발 안내서\ntidyblocks\nTidy Blocks 한글화 지원 : https://github.com/tidyblocks/tidyblocks/\nTidy Blocks 블록 통계 프로그래밍 안내서 한글 번역: https://tidyblocks.tech/en/guide/\n한글 사례(Example) 추가 및 확대 : https://tidyblocks.tech/en/examples/\n\n통그라미\n\n\n\n",
-      "last_modified": "2022-05-24T15:21:12+09:00"
+      "contents": "\r\n\r\n프로젝트 개요\r\n코로나19로 인해 심화된 디지털 불평등과\r\n디지털 전환(Digital Transformation)으로 인해 시민의\r\n필수 역량이 된 Data Literacy 역량 강화와 통계 대중화를\r\n위해 오픈 통계 패키지 - 빛스탯(BitStat) - 를 개발하게\r\n되었습니다. 데이터 리터러시 역량은 결국 디지털 불평등과 맥이 닿아 있고\r\n이후 교육불평등, 취업불평등, 소득불평등, 자산불평등으로 이어져 사회\r\n양극화를 심화시키는 주범으로 지목되고 있다.\r\n\r\n기대 효과\r\n기술적 측면\r\n기하급수적으로 증가하는 데이터를 분석하여 가치를 창출하는 데이터\r\n경제가 급부상하고 있으나, 인력 육성이나 도구는 선형적 증가 상황을 타개할\r\n수 있는 혁신적인 기술이 요구됨\r\n폭발적으로 늘어나는 데이터를 일반국민도 활용할 수 있도록 하는 공개SW\r\n통계 패키지는 다분야에서도 활용 가능한 Auto-X 기술을 기반으로 통계분석\r\n생산성과 품질을 큰 폭을 높일 수 있는 혁신적인 기술임\r\n\r\n경제적, 산업적 측면\r\n’22년 글로벌 빅데이터, 분석시장 규모는 전년 대비 27% 성장한 $2,740억\r\n달러 규모 전망\r\nIDC, “Revenue from big data and business analytics worldwide from\r\n2015 to 2022”, 2021년 9월\r\n\r\n오픈 통계 패키지에 내장된 Auto-X 기술을 포함하여 공개SW로 개방하여\r\n중소기업 및 데이터 기반 의사결정을 지원하고, 공개SW 활용 스타트업을 통한\r\n신규 부가가치 창출\r\n\r\n사회적 측면\r\n지속적인 공공데이터 확대, 데이터3법 통과에 따라 데이터가 늘어나고\r\n데이터 경제가 급속도로 커짐에 따라 데이터 리터러시(Data Literacy) 능력과\r\n디지털 불평등의 양극화가 확대됨에 따라 오픈통계 패키지 SW를 공급하고\r\n서비스로 제공함으로써 사회통합과 통계 대중화에 기여할 수 있음\r\n\r\nBitStat 아키텍처\r\n데이터 통계 분석의 대중화를 위해서는 통계 비전공자 및 일반인이 쉽게\r\n사용할 수 있는 통계 패키지 소프트웨어 개발 취지에 맞춰 데이터를 입력하면\r\n이를 인식하여 통계 분석 후 산출물을 자동 생성할 수 있는 오픈소스 기반의\r\n클라우드 통계 패키지 소프트웨어.\r\n\r\nBitStat 시연\r\nBitStat 통계 패키지는 지속적으로 개발을 이어나가고\r\n있으며 2021년 12월 기준 개발버전을 업그레이드하여 2022년 7월 대대적인\r\n업그레이드가 예정되어 있다.\r\n\r\n참고자료\r\n\r\n한국 R 컨퍼런스 발표 - Digital Divide\r\nSolution - 오픈 통계 팩키지\r\n국산\r\n오픈 통계 팩키지\r\n2021 오픈소스\r\n컨트리뷰션 아카데미 - Tidyverse Korea 데이터 과학\r\n오픈\r\n통계 팩키지 개발 안내서\r\ntidyblocks\r\nTidy Blocks 한글화 지원 : https://github.com/tidyblocks/tidyblocks/\r\nTidy Blocks 블록 통계 프로그래밍 안내서 한글 번역: https://tidyblocks.tech/en/guide/\r\n한글 사례(Example) 추가 및 확대 : https://tidyblocks.tech/en/examples/\r\n\r\n통그라미\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-05-26T08:59:46+09:00"
     },
     {
       "path": "book.html",
@@ -23,8 +23,8 @@
       "description": "통계 대중화와 불평등 해소를 위해 전세계적으로 검증된 콘텐츠를 한국 알 사용자회에서 선별하여 크리에이티브 커먼즈 라이선스에 준용하여 번역 및 우리나라 상황을 반영하여 콘텐츠를 추가하였습니다. 디지털 콘텐츠도 재현성과 추적성이 강조되는 세계적인 현상을 감안하여 소프트웨어 개발 방법론을 적극 채용하여 지속적인 업그레이드와 개발이 이뤄지고 있습니다. \n",
       "author": [],
       "date": "`r Sys.Date()`",
-      "contents": "\n데이터 과학\n프로그래밍\n데이터\n시각화\n데이터 과학을 지탱하는\n기본기\n설치형 오픈통계 패키지 -\nRcmdr\n데이터 과학 언플러그드 -\n개발중\n문서 콘텐츠 제작 실무 -\n개발예정\n…\n\n\n\n",
-      "last_modified": "2022-05-24T15:21:13+09:00"
+      "contents": "\r\n데이터 과학\r\n프로그래밍\r\n데이터\r\n시각화\r\n데이터 과학을 지탱하는\r\n기본기\r\n설치형 오픈통계 패키지 -\r\nRcmdr\r\n데이터 과학 언플러그드 -\r\n개발중\r\n문서 콘텐츠 제작 실무 -\r\n개발예정\r\n…\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-05-26T08:59:47+09:00"
     },
     {
       "path": "community.html",
@@ -32,8 +32,17 @@
       "description": "건강한 커뮤니티의 일원으로 기여와 협업이 지속가능한 성장과 발전을 이루기 \n위해서 꼭 필요합니다. \n",
       "author": [],
       "date": "`r Sys.Date()`",
-      "contents": "\n\n한국 알(R) 사용자회: link\n한국 알 사용자회 페이스북: link\nSeoul R Meetup: link\nSeoul R Meetup: link\nAsia R Community link\nGlobal R Meetup: link\n\nAISpiration: link\nKorea R Conference: link\nYoutube Channel: link\n\n\n\n",
-      "last_modified": "2022-05-24T15:21:13+09:00"
+      "contents": "\r\n\r\n한국 알(R) 사용자회: link\r\n한국 알 사용자회 페이스북: link\r\nSeoul R Meetup: link\r\nSeoul R Meetup: link\r\nAsia R Community link\r\nGlobal R Meetup: link\r\n\r\nAISpiration: link\r\nKorea R Conference: link\r\nYoutube Channel: link\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-05-26T08:59:50+09:00"
+    },
+    {
+      "path": "data.html",
+      "title": "데이터",
+      "description": "통계 대중화와 디지털 불평등 해소를 위해 데이터를 R 데이터 패키지로 공개하고 있습니다. \n",
+      "author": [],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\n고등학교 실용통계 교과서\r\n패키지명\r\n데이터 패키지 설명\r\n로고\r\nhsData\r\n통계청 통계교육원에서 발간한 “고등학교\r\n실용통계” 교과서\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-05-26T08:59:51+09:00"
     },
     {
       "path": "edutech.html",
@@ -41,16 +50,16 @@
       "description": "AI 기술을 오픈 통계 패키지 개발과 콘텐츠 개발을 비롯한 각종 문제 해결에 사용합니다.\n",
       "author": [],
       "date": "`r Sys.Date()`",
-      "contents": "\n\n\n\n",
-      "last_modified": "2022-05-24T15:21:14+09:00"
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-05-26T08:59:53+09:00"
     },
     {
       "path": "index.html",
       "title": "한국 R 사용자회",
       "description": "사단법인 한국 알(R) 사용자회는 디지털 불평등 해소와 통계 대중화를 위해 2022년 설립되었습니다. 오픈 통계 패키지(BitStat) 개발을 비롯하여 최근에 통계 및 데이터 과학 관련 오픈 전자책도 함께 제작하여 발간하고 있습니다. 통계 패키지와 통계 및 데이터 과학 전자책은 사용자회 회원들의 자발적인 참여로 개발 및 유지보수 되고 있습니다.\n",
       "author": [],
-      "contents": "\n\n\n\n\n",
-      "last_modified": "2022-05-24T15:21:14+09:00"
+      "contents": "\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-05-26T08:59:54+09:00"
     },
     {
       "path": "learnr.html",
@@ -58,8 +67,8 @@
       "description": "`learnr` 패키지의 도움으로 진정한 자기주도 학습이 가능하게 되었습니다. \n이제 데이터 과학을 직접 선생님을 통해 학습하는 방식에 새로운 변화의 바람이\n불고 있습니다. \n",
       "author": [],
       "date": "`r Sys.Date()`",
-      "contents": "\n # 자기주도학습 콘텐츠 저작\n데이터 과학 자기주도학습 학습 콘텐츠 저작은 기본적으로 rmarkdown으로\n데이터 과학 언어는 R, 문서는 마크다운으로 하여 저작한다. 이를 인터랙티브\n학습 콘텐츠로 제작하는 방식은 learnr\n팩키지를 사용해서 개발한다.\nlearnr\nTutorial Examples\n학습 콘텐츠 사례\n먼저, 데이터 과학 환경설정 Set Up\n사례를 참고해서 살펴보자. 소스코드를\n다운로드 받아 이를 사례로 활용한다.\nR 설치\nRStudio 설치\ntidyverse 팩키지 설치\n개발 환경\n자기주소 학습 콘텐츠 저작을 위해서 가장 먼저 GitHub에 저장소를\n생성한다. statkclee\n/learnr를 제작한 후 .Rmd 파일으로 learnr\n팩키지 기능을 활용하여 사용해서 제작한다.\n배포\nshinyapps.io\n가장 단순한 방법은 shinyapps.io를 통해 바로 배포하는\n것이다. shinyapps.io 는 10~20명정도 적은 인원이 자기주도\n학습을 할 경우 적합한 것으로 알려져 있다. - shinyaps\n사례\n\nmybinder.org\n두번째 방식은 binder\n서비스를 활용하는 것으로 도커 컨테이너를 처음 띄울 때 시간이 다소\n소요되지는 이슈가 있지만 자기주도 학습을 원하는 분들이 많은 경우 원활한\n서비스를 제공한다는 점에서 큰 장점이 있다. 방식은 Github 저장소를 binder 에 연결시켜 도커\n이미지를 컨테이너를 만들어 두어 자기주도 학습 사용자가 붙을 때마다 이를\n동일한 학습환경으로 띄워주는 개념이다.\n\n데이터 과학 환경 학습\n데이터 과학 환경을 구축하는 과정을 자기주도 학습을 통해서 배워가는\n환경은 다음과 같이 구축된다. 실제 자기주도 학습 웹사이트 들어가서 직접\n학습을 진행해도 좋다.\n자기주도\n학습 들어가기\n자기주도 학습을 R린이(=R+어린이) 시작하는 모습은 다음과 같다.\n\n\n\n\n",
-      "last_modified": "2022-05-24T15:21:15+09:00"
+      "contents": "\r\n # 자기주도학습 콘텐츠 저작\r\n데이터 과학 자기주도학습 학습 콘텐츠 저작은 기본적으로 rmarkdown으로\r\n데이터 과학 언어는 R, 문서는 마크다운으로 하여 저작한다. 이를 인터랙티브\r\n학습 콘텐츠로 제작하는 방식은 learnr\r\n팩키지를 사용해서 개발한다.\r\nlearnr\r\nTutorial Examples\r\n학습 콘텐츠 사례\r\n먼저, 데이터 과학 환경설정 Set Up\r\n사례를 참고해서 살펴보자. 소스코드를\r\n다운로드 받아 이를 사례로 활용한다.\r\nR 설치\r\nRStudio 설치\r\ntidyverse 팩키지 설치\r\n개발 환경\r\n자기주소 학습 콘텐츠 저작을 위해서 가장 먼저 GitHub에 저장소를\r\n생성한다. statkclee\r\n/learnr를 제작한 후 .Rmd 파일으로 learnr\r\n팩키지 기능을 활용하여 사용해서 제작한다.\r\n배포\r\nshinyapps.io\r\n가장 단순한 방법은 shinyapps.io를 통해 바로 배포하는\r\n것이다. shinyapps.io 는 10~20명정도 적은 인원이 자기주도\r\n학습을 할 경우 적합한 것으로 알려져 있다. - shinyaps\r\n사례\r\n\r\nmybinder.org\r\n두번째 방식은 binder\r\n서비스를 활용하는 것으로 도커 컨테이너를 처음 띄울 때 시간이 다소\r\n소요되지는 이슈가 있지만 자기주도 학습을 원하는 분들이 많은 경우 원활한\r\n서비스를 제공한다는 점에서 큰 장점이 있다. 방식은 Github 저장소를 binder 에 연결시켜 도커\r\n이미지를 컨테이너를 만들어 두어 자기주도 학습 사용자가 붙을 때마다 이를\r\n동일한 학습환경으로 띄워주는 개념이다.\r\n\r\n데이터 과학 환경 학습\r\n데이터 과학 환경을 구축하는 과정을 자기주도 학습을 통해서 배워가는\r\n환경은 다음과 같이 구축된다. 실제 자기주도 학습 웹사이트 들어가서 직접\r\n학습을 진행해도 좋다.\r\n자기주도\r\n학습 들어가기\r\n자기주도 학습을 R린이(=R+어린이) 시작하는 모습은 다음과 같다.\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-05-26T08:59:56+09:00"
     },
     {
       "path": "swc.html",
@@ -67,8 +76,8 @@
       "description": "소프트웨어를 누구나 배워야 되고 이를 통해서 생산성이 20% 이상 높아질 수 있습니다. 생산성 20%는 주5일 근무에 하루 이상을 벌 수 있는 시간이고, 매월 4일 1년으로 치면 52일 입니다.어떻게 가능하냐구요? 사람이 못하고 컴퓨터가 잘하는 일을 컴퓨터에 시키면 됩니다. 단 2일간의 워크샵을 통해 시간을 복리로 저축하세요.\n",
       "author": [],
       "date": "`r Sys.Date()`",
-      "contents": "\n한국 소프트웨어 카펜트리는 소프트웨어\n카펜트리 버젼 5.3 한국어로 번역이 되어 있으며 카펜트리\n사단법인으로부터 자격증을 취득한 공인강사가 워크샵을 진행합니다. 2012년\n1월 18일 이후 현재 시점 기준(2021-12-09) 한국을 비롯한 52개국에서\n1,913회 워크샵이 있었습니다.\n\n소프트웨어 카펜트리에 대한 자세한 사항은 다음 웹사이트를 참고\n바랍니다.\n소프트웨어\n카펜트리\nThe Carpentries\nSoftware\nCarpentry\nData Carpentry\nLibrary Carpentry\n\n\n\n\n",
-      "last_modified": "2022-05-24T15:21:15+09:00"
+      "contents": "\r\n한국 소프트웨어 카펜트리는 소프트웨어\r\n카펜트리 버젼 5.3 한국어로 번역이 되어 있으며 카펜트리\r\n사단법인으로부터 자격증을 취득한 공인강사가 워크샵을 진행합니다. 2012년\r\n1월 18일 이후 현재 시점 기준(2021-12-09) 한국을 비롯한 52개국에서\r\n1,913회 워크샵이 있었습니다.\r\n\r\n소프트웨어 카펜트리에 대한 자세한 사항은 다음 웹사이트를 참고\r\n바랍니다.\r\n소프트웨어\r\n카펜트리\r\nThe Carpentries\r\nSoftware\r\nCarpentry\r\nData Carpentry\r\nLibrary Carpentry\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-05-26T08:59:58+09:00"
     }
   ],
   "collections": []
