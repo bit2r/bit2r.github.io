@@ -28,7 +28,11 @@ navbar:
       - text: "자기주도학습"
         href: learnr.html                
     - text: "커뮤니티"
-      href: community.html
+      menu:
+      - text: "커뮤니티"
+        href: community.html
+      - text: "경진대회"
+        href: contest.html
   logo:
     image: fig/koRea_logo.png
     href: https://r2bit.com

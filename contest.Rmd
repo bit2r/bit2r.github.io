@@ -1,0 +1,24 @@
+---
+title: "경진대회"
+description: |
+  R 경진대회를 소개합니다.
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+# [Shiny](https://shiny.rstudio.com/)
+
+- 1회: [2019년 4월 05일](https://www.rstudio.com/blog/first-shiny-contest-winners/)
+- 2회: [2020년 7월 13일](https://www.rstudio.com/blog/winners-of-the-2nd-shiny-contest/)
+- 3회: [2021년 6월 24일](https://www.rstudio.com/blog/winners-of-the-3rd-annual-shiny-contest/)
+
+# [GT](https://gt.rstudio.com/)
+
+- [2020년](https://www.rstudio.com/blog/winners-of-the-2020-rstudio-table-contest/)
+- [2021년](https://www.rstudio.com/blog/winners-of-the-2021-table-contest/)
+
