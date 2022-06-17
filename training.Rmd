@@ -13,9 +13,10 @@ editor_options:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# 참여대학 (잠정)
+# 참여대학과 기관
 
--   한밭대
+-   성균관대 (확정)
+-   한밭대 (확정)
 -   서울대
 -   건국대
 
@@ -28,9 +29,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # 교육 일정 및 신청방법
 
--   2020년 6월
--   2020년 7월
--   2020년 8월
+-   [2022년 7월 9일](https://www.meetup.com/seoul-r-meetup/events/286541787/)
+-   [2022년 7월15일](https://www.meetup.com/seoul-r-meetup/events/286621551/)
+-   2022년 8월19일
 
 **신청방법**은 [Seoul R Meetup](https://www.meetup.com/seoul-r-meetup/) 웹사이틀 통해 추후 공지될 예정입니다.
 
@@ -54,8 +55,9 @@ R 컨퍼런스는 "지위를 이용하거나 업무 등과 관련하여 성적 �
 
 # 후원
 
-2022년도 과학기술진흥기금의 재원으로 한국과학창의재단의 지원을 받아 수행된 콘텐츠(성과물)의 일부를 교육에 사용했음을 밝혀둡니다.
+이 프로그램은 과학기술진흥기금 및 복권기금의 재원으로 운영되고, 과학기술정보통신부와 한국과학창의재단의 지원을 받아 수행된 성과물로 우리나라의 과학기술 발전과 사회적 가치 증진에 기여하고 있습니다. 성균관대학교 경제학과, 한밭대학교 창업경영학과에서 장소를 지원해주셨습니다.
 
-|                                                            |                                            |                                                  |                                             |                                             |
-|:--------------:|:------------:|:------------:|:------------:|:------------:|
-| ![](fig/R_Consortium-logo-vertical-color.png){width="121"} | ![](fig/logo-science-ict.png){width="121"} | ![](fig/logo-kofac.jpg){width="118" height="99"} | ![](fig/logo-daejeon-city.jpg){width="121"} | ![](fig/daejeon-tour-logo.jpg){width="120"} |
+|                                                            |                                            |                                                  |                                             |
+|:-------------:|:----------------:|:-------------:|:-------------:|
+| ![](fig/R_Consortium-logo-vertical-color.png){width="121"} | ![](fig/logo-science-ict.png){width="121"} | ![](fig/logo-kofac.jpg){width="118" height="99"} | ![](fig/daejeon-tour-logo.jpg){width="120"} |
+|        ![](fig/logo-daejeon-city.jpg){width="121"}         |      ![](fig/hanbat.jpg){width="96"}       |         ![](fig/skku_s.png){width="96"}          |                                             |
