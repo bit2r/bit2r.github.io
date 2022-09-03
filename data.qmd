@@ -1,0 +1,21 @@
+---
+title: "데이터"
+description: |
+  통계 대중화와 디지털 불평등 해소를 위해 데이터를 R 데이터 패키지로 공개하고 있습니다. 
+date: "`r Sys.Date()`"
+format: html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE,
+                      comment = "#>", 
+                      digits = 3, tidy = FALSE, prompt = FALSE, fig.align = 'center')
+```
+
+## 한국 R 사용자회 제작 오픈 데이터 패키지
+
+|                     패키지명                     |                                                                            데이터 패키지 설명                                                                            |                                  로고                                  |
+|:--------------:|:-------------------------------------:|:--------------:|
+|      [`hsData`](https://r2bit.com/hsData/)       |                                                         통계청 통계교육원에서 발간한 "고등학교 실용통계" 교과서                                                          |                  ![](fig/logo_hsData.png){width="73"}                  |
+| [krvote](https://ai-carpentry.github.io/krvote/) | [중앙선거관리위원회](https://www.nec.go.kr/site/nec/main.do) [선거통계시스템](http://info.nec.go.kr/main/main_load.xhtml)에 공개된 역대 선거관련 투표와 득표 공공 데이터 |                  ![](fig/logo_krvote.png){width="73"}                  |
+|      [bitData](https://r2bit.com/bitData/)       |           통계(데이터 과학) 교육과 신속한 현업 적용에 필요한 대한민국 데이터셋: 파머 펭귄, 국방부 남녀 신체측정, 강남 강수량, 인구, 대기오염물질, 온실가스 등            | [![](fig/favicon_bitData.png){width="73"}](https://r2bit.com/bitData/) |

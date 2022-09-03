@@ -1,0 +1,14 @@
+{
+  "hash": "8d05e742dda854ea332dc3a273959a6d",
+  "result": {
+    "markdown": "---\ntitle: \"경진대회\"\ndescription: |\n  R 경진대회를 소개합니다.\ndate: \"2022-08-22\"\noutput: distill::distill_article\n---\n\n\n\n\n\n# [Shiny](https://shiny.rstudio.com/)\n\n- 1회: [2019년 4월 05일](https://www.rstudio.com/blog/first-shiny-contest-winners/)\n- 2회: [2020년 7월 13일](https://www.rstudio.com/blog/winners-of-the-2nd-shiny-contest/)\n- 3회: [2021년 6월 24일](https://www.rstudio.com/blog/winners-of-the-3rd-annual-shiny-contest/)\n\n# [GT](https://gt.rstudio.com/)\n\n- [2020년](https://www.rstudio.com/blog/winners-of-the-2020-rstudio-table-contest/)\n- [2021년](https://www.rstudio.com/blog/winners-of-the-2021-table-contest/)\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

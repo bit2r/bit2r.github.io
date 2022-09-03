@@ -1,0 +1,85 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "!materials/workshop/"
+
+website:
+  title: "한국 R 사용자회"
+  site-url: https://r2bit.com
+  image: "fig/koRea_logo.png"
+  page-footer:
+    left: "사단법인 한국 R 사용자회 [Quarto](https://quarto.org/) 로 제작"
+  navbar:
+    background: "#447099"
+    left:
+      - href: index.qmd
+        text: "Home"
+      - text: "소개"
+        href: about.qmd
+      - text: "통계 패키지"
+        href: bitstat.qmd
+      - text: "콘텐츠"
+        href: book.qmd
+      - text: "데이터"
+        href: data.qmd
+      - text: "에듀테크"
+        menu:
+        - text: "개요"
+          href: edutech.qmd
+        - text: "데이터 카펜트리"
+          href: swc.qmd
+        - text: "자기주도학습"
+          href: learnr.qmd
+        - text: "교육"
+          href: training.qmd
+      - href: blog.qmd     
+        text: "Blog"
+      - text: 관련 정보
+        menu: 
+          - text: "경진대회"
+            href: contest.qmd
+          - href: https://use-r.kr/
+            text: "한국 R 컨퍼런스"
+          - href: https://www.meetup.com/seoul-r-meetup
+            text: "서울 R Meetup"
+          - href: https://tidyverse-korea.github.io/seoul-R/
+            text: "서울 R Meetup Archive"
+          - href: https://r-community.org/usergroups/
+            text: "글로벌 R Meetup"
+          - href: https://quarto.org/
+            text: "Quarto"
+    right: 
+      - href: https://r2bit.com
+        text: "R사용자회"
+      - icon: youtube
+        href: https://www.youtube.com/channel/UCW-epmIvjBEhhVXw_F0Nqbw
+      - icon: github
+        href:  https://github.com/bit2r/quarto
+      - icon: facebook
+        href: https://www.facebook.com/groups/tidyverse
+  sidebar: 
+    style: docked
+    contents: 
+      - section: "발표자료"
+        contents:
+          - href: slideshow/202210-hongik/index.qmd
+            text: "홍익대 특강"
+          - href: https://aispiration.com/ds-authoring/ds-world-student.html
+            text: "데이터 과학자 세계"
+      - section: "워크샵"
+        contents:
+          - href: https://choonghyunryu.github.io/workshop_lecture/
+            text: "HCI 2022"
+          - href: https://www.sharingkorea.net/gboard/
+            text: "나눔국민운동본부"
+format:
+  html:
+    theme: 
+      - litera
+      - css/quarto.scss
+    toc: true
+    
+execute:
+  freeze: true

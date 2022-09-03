@@ -1,0 +1,13 @@
+---
+title: "한국 R 사용자회"
+description: |
+  사단법인 한국 알(R) 사용자회는 디지털 불평등 해소와 통계 대중화를 위해 2022년 설립되었습니다. 오픈 통계 패키지(BitStat) 개발을 비롯하여 최근에 통계 및 데이터 과학 관련 오픈 전자책도 함께 제작하여 발간하고 있습니다. 통계 패키지와 통계 및 데이터 과학 전자책은 사용자회 회원들의 자발적인 참여로 개발 및 유지보수 되고 있습니다.
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+![](fig/hex-stickers.png){width="100%"}

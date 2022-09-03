@@ -1,0 +1,14 @@
+{
+  "hash": "6ccd8c4ce3b76612e5995b75398076de",
+  "result": {
+    "markdown": "---\ntitle: \"에듀테크\"\ndescription: |\n  AI 기술을 오픈 통계 패키지 개발과 콘텐츠 개발을 비롯한 각종 문제 해결에 사용합니다.\ndate: \"2022-08-22\"\noutput: distill::distill_article\n---\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

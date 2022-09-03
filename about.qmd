@@ -1,0 +1,43 @@
+---
+title: "한국 알(R) 사용자회 소개"
+description: |
+  한국 알(R) 사용자회는 2022년 2월 설립된 비영리법입니다. BitStat 오픈 통계 패키지를 비롯하여 데이터 사이언스 전자책 콘텐츠 개발, 서울 R 미트업과 한국 R 컨퍼런스를 비롯하여 최근에는 나눔국민운동본부와 함께 디지털 불평등 해소와 오픈 과학기술을 보급하여 더 나은 세상을 함께 만들어가고 있습니다.
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## 커뮤니티 네트워크
+
+![](fig/communities.png)
+
+-   한국 알(R) 사용자회: [link](https://r2bit.com/)
+-   한국 알 사용자회 페이스북: [link](https://www.facebook.com/groups/tidyverse)
+-   **Seoul R Meetup**: [link](https://www.meetup.com/seoul-r-meetup)
+    -   Seoul R Meetup: [link](https://tidyverse-korea.github.io/seoul-R/)
+    -   Asia R Community [link](https://github.com/AsiaR-community)
+    -   Global R Meetup: [link](https://benubah.github.io/r-community-explorer/rugs.html)
+-   AISpiration: [link](https://aispiration.com/)
+-   Korea R Conference: [link](https://use-r.kr/)
+-   Youtube Channel: [link](https://www.youtube.com/channel/UCW-epmIvjBEhhVXw_F0Nqbw)
+
+## 한국 R 사용자회 
+
+한국 R 사용자회는 오픈 통계 패키지 개발, 오픈 데이터 패키지 개발, 오픈 콘텐츠 제작과 오픈 교육/컨설팅 등 통해 과학기술 발전과 디지털 불평등 해소를 위해 많은 분들이 함께 하시고 계십니다.
+
+한국 R 사용자회는 데이터 저널리즘과 데이터 경제 분과를 중심으로 운영되고 있으며 법무법인 평안 소속 김형주 변호사님이 한국 R 사용자회 고문 변호사로 함께 하시고 계십니다.
+
+
+![](fig/organization.png) 
+
+## 연락처
+
+다음 전자우편으로 연락주세요. <a href="mainto:admin@bit2r.com">admin\@bit2r.com</a>
+
+
+
+
+
+
+
