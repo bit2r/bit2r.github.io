@@ -18,6 +18,8 @@ website:
         text: "Home"
       - text: "소개"
         href: about.qmd
+      - text: "**chatGPT**"
+        href: https://r2bit.com/chatGPT/
       - text: "통계 패키지"
         href: bitstat.qmd
       - text: "콘텐츠"
@@ -64,16 +66,18 @@ website:
     contents: 
       - section: "발표자료"
         contents:
-          - href: slideshow/202210-hongik/index.qmd
+          - href: https://r2bit.com/bitSlide/slideshow/202210-hongik-v2
             text: "홍익대 특강"
           - href: https://aispiration.com/ds-authoring/ds-world-student.html
             text: "데이터 과학자 세계"
       - section: "워크샵"
         contents:
-          - href: https://choonghyunryu.github.io/workshop_lecture/
-            text: "HCI 2022"
           - href: https://www.sharingkorea.net/gboard/
             text: "나눔국민운동본부"
+          - href: https://r2bit.com/sen
+            text: "서울교육청 - 혁신교육"            
+          - href: https://choonghyunryu.github.io/workshop_lecture/
+            text: "HCI 2024 (준비중)"
 format:
   html:
     theme: 
