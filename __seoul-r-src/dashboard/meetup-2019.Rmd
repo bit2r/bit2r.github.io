@@ -1,17 +1,17 @@
 ---
-title: "."
-output: 
+title: "서울R밋업 2019년"
+output:
   flexdashboard::flex_dashboard:
     logo: fig/hex-tidyverse.png
-    orientation: rows    
+    orientation: rows
     theme: readable
     vertical_layout: fill
     css: extra.css
     include:
       after_body: footer.html
       before_body: header.html
-mainfont: NanumGothic 
-editor_options: 
+mainfont: NanumGothic
+editor_options:
   chunk_output_type: console
 ---
 
@@ -26,14 +26,6 @@ options(knitr.duplicate.label = 'allow')
 
 library(flexdashboard)
 ```
-
-
-2019
-===============================================================================
-
-
-Column {.tabset}
------------------------------------------------------------------------------
 
 ### 2019-04 ~ 2019-09
 
@@ -82,9 +74,9 @@ Column {.tabset}
 |              |나영준| R for animal science: project ```adatalab```|[슬라이드쉐어](https://www.slideshare.net/YoungjunNa/r-for-animal-science), [GitHub](https://github.com/YoungjunNa/2019DataSci_Meetup/blob/master/R%20for%20animal%20science.pdf) |      |
 |              |김준혁| `RcppMeCab`은 왜 만들었나? |[발표자료](data/data-science-meetup-190123-RcppMeCab-JK.pdf) |      |
 |              |차석근| 스마트공장 및 데이터 분석 |[발표자료](data/데이터 사이언스_스마트공장_차석근(발표자료).ppt) |      |
-|2018.12.20(목)|이광춘| 데이터 과학자가 바라본 사기 탐지(Fraud Detection) |[발표자료](https://statkclee.github.io/ds-authoring/r_meetup_outlier_anomaly.html) | 
-|              |나성호| 2018 프로야구 기사로 살펴본 이모저모              |[발표자료](https://bit.ly/2Ex487i) | 
-|              |최진영| AutoML과 머신러닝 툴 개발/사업화 과정의 어려움    |[발표자료](data/XBrain_Seminar_1220_RMeetUp.pdf) | 
+|2018.12.20(목)|이광춘| 데이터 과학자가 바라본 사기 탐지(Fraud Detection) |[발표자료](https://statkclee.github.io/ds-authoring/r_meetup_outlier_anomaly.html) |
+|              |나성호| 2018 프로야구 기사로 살펴본 이모저모              |[발표자료](https://bit.ly/2Ex487i) |
+|              |최진영| AutoML과 머신러닝 툴 개발/사업화 과정의 어려움    |[발표자료](data/XBrain_Seminar_1220_RMeetUp.pdf) |
 |2018.11.22(목)|이광춘|설명가능한 기계학습          |[발표자료](https://www.slideshare.net/statkclee/cloudera-sessions-2018-datayanolja) |클라우데라 |
 |              |나성호|기업리뷰 분석 시리즈         |[1](https://mrkevinna.github.io/특강-기업리뷰-분석-1/) [2](https://mrkevinna.github.io/특강-기업리뷰-분석-2/) [3](https://mrkevinna.github.io/특강-기업리뷰-분석-3/) |순천향대학교 |
 

@@ -1,17 +1,17 @@
 ---
-title: "."
-output: 
+title: "서울R밋업 2018년"
+output:
   flexdashboard::flex_dashboard:
     logo: fig/hex-tidyverse.png
-    orientation: rows    
+    orientation: rows
     theme: readable
     vertical_layout: fill
     css: extra.css
     include:
       after_body: footer.html
       before_body: header.html
-mainfont: NanumGothic 
-editor_options: 
+mainfont: NanumGothic
+editor_options:
   chunk_output_type: console
 ---
 
@@ -26,14 +26,6 @@ options(knitr.duplicate.label = 'allow')
 
 library(flexdashboard)
 ```
-
-
-2018
-===============================================================================
-
-
-Column {.tabset}
------------------------------------------------------------------------------
 
 ### 2017-08 ~ 2018-02
 
@@ -80,4 +72,3 @@ Column {.tabset}
 |              |라이트닝 토크 - 뉴스기사 솔루션 (키워드, 문장요약, 분류기) 소개 |황문기|[발표자료](kaggle/Meetup_9/R%20Meetup%209%ED%9A%8C_%EC%84%B8%EC%85%985_%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%EB%89%B4%EC%8A%A4%EA%B8%B0%EC%82%AC%20%EB%B6%84%EC%84%9D%EC%BC%80%EC%9D%B4%EC%8A%A4_%ED%99%A9%EB%AC%B8%EA%B8%B0_20180425.pdf)|
 |2018.05.23(수)|R 패키지: 신규 패키지 소개 - dlookr|류충현|[발표자료](kaggle/Meetup_10/01_Understanding_dlookr.pdf)|
 |              |CRAN으로 거쳐가는 정거장 - Github suggetR 패키지|이광춘|[발표자료](https://statkclee.github.io/data-science/r-pkg-suggestK.html#)|
-

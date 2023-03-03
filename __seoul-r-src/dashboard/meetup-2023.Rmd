@@ -1,17 +1,17 @@
 ---
-title: "."
-output: 
+title: "서울R밋업 2023년"
+output:
   flexdashboard::flex_dashboard:
     logo: fig/hex-tidyverse.png
-    orientation: rows    
+    orientation: rows
     theme: readable
     vertical_layout: fill
     css: extra.css
     include:
       after_body: footer.html
       before_body: header.html
-mainfont: NanumGothic 
-editor_options: 
+mainfont: NanumGothic
+editor_options:
   chunk_output_type: console
 ---
 
@@ -27,15 +27,6 @@ options(knitr.duplicate.label = 'allow')
 library(flexdashboard)
 ```
 
-2023
-===============================================================================
-
-Column {.tabset}
------------------------------------------------------------------------------
-
 ### 2023년 4월 (April, 2024)
-
-<br>
-<br>
 
 2023년 4월 일정이 곧 업데이트됩니다.
