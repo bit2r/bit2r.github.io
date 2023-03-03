@@ -27,3 +27,19 @@ Rstudio Distill
 1. Rstudio로 bit2r-website.Rproj 파일을 오픈한다.
 2. 콘텐츠를 추가, 수정, 삭제한 후 Rstudio의 메뉴에서 Build - Install and Restart 또는 Build - Build All을 선택해서 웹사이트를 빌드한다.
 3. 생성된 콘텐츠를 커밋하고 Github에 push한다.
+
+## Seoul R meetup
+
+Seoul R meetup 콘텐츠는 Rmarkdown으로 제작했으며 빌드는 quarto로 할 수 있음
+
+### 빌드 방법
+
+이 레파지토리를 클론 받은 후에 __seoul-r-src 로 이동
+
+quarto로 빌드
+
+```sh
+quarto render
+```
+
+빌드 후에 생성된 콘텐츠는 ./docs/seoul-r 에 저장됨
