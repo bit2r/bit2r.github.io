@@ -33,25 +33,29 @@ library(flexdashboard)
 
 [발표자 모집](https://forms.gle/pcr8y54jRMBz3pDa9)
 
-## 2023년 5월 (May, 2023)
+## 2023년 4월 (April, 2023)
+
+### 일시 및 장소
 
 정확한 미트업 일시는 확정되는대로 업데이트할 예정입니다.
 
-### R을 이용한 기계 학습 간소화 방법
+### 발표 목록
+
+#### R을 이용한 기계 학습 간소화 방법
 
 - 제목: “R을 이용한 기계 학습 간소화 방법”
 - 영문 제목: “How to simplify machine learning using R”
 - 발표자: 유충현 (한국R사용자회)
 - 주줴: Binary Classification 모형 개발 과정에서의 생산성 제고를 위한 방법을 공유합니다.
 
-### chatGPT와 디지털 글쓰기
+#### chatGPT와 디지털 글쓰기
 
 - 제목: “chatGPT와 디지털 글쓰기”
 - 영문 제목: “Digital Writing Powered by chatGPT”
 - 발표자: 이광춘 (한국R사용자회)
 - 주줴: 데이터 사이언스 분야 기계(chatGPT)와 함께 디지털 글쓰기 경험을 공유합니다.
 
-### chatGPT를 만난 오픈 통계 패키지
+#### chatGPT를 만난 오픈 통계 패키지
 
 - 제목 “chatGPT를 만난 오픈 통계 패키지”
 - 영문 제목: “BitStat meets chatGPT”
