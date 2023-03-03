@@ -27,6 +27,6 @@ options(knitr.duplicate.label = 'allow')
 library(flexdashboard)
 ```
 
-### 2023년 4월 (April, 2024)
+### 2023년 4월 (April, 2023)
 
 2023년 4월 일정이 곧 업데이트됩니다.
