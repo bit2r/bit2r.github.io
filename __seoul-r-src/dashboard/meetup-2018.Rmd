@@ -29,8 +29,6 @@ library(flexdashboard)
 
 ### 2017-08 ~ 2018-02
 
-<br>
-
 | Date  |    Title  | Name |Link | Comment          |
 |-------|-------|---------|-----------|-------------------|
 |2017.08.23(수)|감성분석(Sentiment Analysis) - 깔끔한 텍스트 방식(tidytext)|이광춘|[발표자료](http://statkclee.github.io/ml/ml-sentiment.html) |
@@ -57,8 +55,6 @@ library(flexdashboard)
 |              |데이터 정규화를 통한 Feature Selection|장윤경|[발표자료](https://rpeople.github.io/r/2018/02/21/feature_selection)| 부존재 |
 
 ### 2018-03 ~ 2018-05
-
-<br>
 
 | Date  |    Title  | Name |Link | Comment          |
 |-------|-------|---------|-----------|-------------------|

@@ -62,9 +62,6 @@ library(flexdashboard)
 
 ### November (11월)
 
-<br>
-<br>
-
 - When: Saturday, November 05, 2022 13:00 to 17:00 AM GMT+9
 - Where: Sungkyunkwan University · Seoul / 성균관대학교 다산경제관 32211
 - [Seoul R Users: 2022 - November](https://www.meetup.com/seoul-r-meetup/events/288178926/)
@@ -100,9 +97,6 @@ library(flexdashboard)
 
 ### October (10월)
 
-<br>
-<br>
-
 - When: Saturday, October 22, 2022 13:00 to 17:00 AM GMT+9
 - Where: Sungkyunkwan University · Seoul / 성균관대학교 다산경제관 31406
 - [Seoul R Users: 2022 - October](https://www.meetup.com/seoul-r-meetup/events/287875293/)
@@ -137,9 +131,6 @@ library(flexdashboard)
 
 ### September (9월)
 
-<br>
-<br>
-
 - When: Saturday, September 24, 2022 13:00 to 17:00 AM GMT+9
 - Where: Sungkyunkwan University · Seoul / 성균관대학교 다산경제관 33221
 - [Seoul R Users: 2022 - September](https://www.meetup.com/seoul-r-meetup/events/287874898/)
@@ -169,9 +160,6 @@ library(flexdashboard)
 
 ### August (8월)
 
-<br>
-<br>
-
 - When: Saturday, August 13, 2022 10:00 AM to 12:00 AM GMT+9
 - Where: Konkuk University · Seoul / 건국대학교 상허연구관 320호
 - [Seoul R Users: 2022 - August](https://www.meetup.com/seoul-r-meetup/events/287301435/)
@@ -197,9 +185,6 @@ library(flexdashboard)
   - Abstract: 딥러닝 발전이 눈부시는 한편 이에 대한 R 진영의 대응도 빨라지고 있다. 이에 따라 최근 R에서 딥러닝을 활용하여 데이터 과학/통계 문제를 풀어나가는 엔지니어링 측면에서 살펴보고자 한다.
 
 ### July (7월)
-
-<br>
-<br>
 
 - When: Saturday, July 9, 2022 10:00 AM to 12:00 AM GMT+9
 - Where: Sungkyunkwan University · Seoul / 성균관대학교 퇴계인문관

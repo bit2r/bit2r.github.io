@@ -29,16 +29,10 @@ library(flexdashboard)
 
 ### Overview
 
-<br>
-<br>
-
 - When: **Friday, December 11, 2020 7:00 PM to 9:00 PM GMT+9**
   - RSVP opens **RSVP opens Friday, November 27, 2020 7:00 PM**
 - Where: Online Event - Link visible for attendees
 - [Seoul R Users: 2020 - December](https://www.meetup.com/seoul-r-meetup/events/ccqpbsybcqbmb/)
-
-<br>
-<br>
 
 - **Schedule**
   - 6:30 open zoom
@@ -47,21 +41,12 @@ library(flexdashboard)
   - 8:00-8:30 Presentation Talk 3
   - 8:30 ~ 9:00 Virtual Social
 
-<br>
-<br>
-
 ### September (9월)
-
-<br>
-<br>
 
 - When: **Wednesday, September 9, 2020 7:00 PM to 9:00 PM GMT+9**
   - RSVP opens **Wednesday, August 26, 2020** 7:00 PM
 - Where: Online Event - Link visible for attendees
 - [Seoul R Users: 2020-September](https://www.meetup.com/seoul-r-meetup/events/wpltwrybcmbmb/)
-
-<br>
-<br>
 
 - **Talk** (25min talk, 5min Q&A)
   - Title: Why Tidymodels
@@ -84,9 +69,6 @@ library(flexdashboard)
   - [slide deck](data/나영준-SeoulR.pdf)
 
 ### October (10월)
-
-<br>
-<br>
 
 - **Talk** (25min talk, 5min Q&A)
   - Title: Weather Report Automation - GitHub Actions
@@ -113,9 +95,6 @@ library(flexdashboard)
 
 ### November (11월)
 
-<br>
-<br>
-
 - **Talk** (25min talk, 5min Q&A)
   - Title: Almost All about Table
   - Korean Title: "표에 대한 거의 모든 것"
@@ -137,16 +116,10 @@ library(flexdashboard)
 
 ### December (12월)
 
-<br>
-<br>
-
 - When: **Friday, December 11, 2020 7:00 PM to 9:00 PM GMT+9**
   - RSVP opens **RSVP opens Friday, November 27, 2020 7:00 PM**
 - Where: Online Event - Link visible for attendees
 - [Seoul R Users: 2020 - December](https://www.meetup.com/seoul-r-meetup/events/ccqpbsybcqbmb/)
-
-<br>
-<br>
 
 - **Talk** (25min talk, 5min Q&A)
   - Title: "파워포인트를 넘어서 - `xaringan`"

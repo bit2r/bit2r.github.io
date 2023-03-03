@@ -29,17 +29,11 @@ library(flexdashboard)
 
 ### Overview
 
-<br>
-<br>
-
 - When: **Wednesday, January 13, 2021
 7:00 PM to 9:00 PM GMT+9**
   - RSVP opens Wednesday, December 30, 2020 7:00 PM**
 - Where: Online Event - Link visible for attendees
 - [Seoul R Users: 2021 - January](https://www.meetup.com/seoul-r-meetup/events/ccqpbsycccbrb/)
-
-<br>
-<br>
 
 - **Schedule**
   - 6:30 open zoom
@@ -48,13 +42,7 @@ library(flexdashboard)
   - 8:00-8:30 Presentation Talk 3
   - 8:30 ~ 9:00 Virtual Social
 
-<br>
-<br>
-
 ### January (1월)
-
-<br>
-<br>
 
 - **Talk** (25min talk, 5min Q&A)
   - Title: "Data Science with R and Python"
@@ -82,15 +70,9 @@ library(flexdashboard)
 
 ### February (2월)
 
-<br>
-<br>
-
 - When: **Wednesday, February 10, 2021 7:00 PM to 9:00 PM GMT+9
 - Where: Online Event - Link visible for attendees
 - [Seoul R Users: 2021 - February](https://www.meetup.com/seoul-r-meetup/events/ccqpbsyccdbnb/)
-
-<br>
-<br>
 
 - **Schedule**
   - 6:30 open zoom
@@ -98,9 +80,6 @@ library(flexdashboard)
   - 7:30-8:00 Presentation Talk 2
   - 8:00-8:30 Presentation Talk 3
   - 8:30 ~ 9:00 Virtual Social
-
-<br>
-<br>
 
 - **Talk** (25min talk, 5min Q&A)
   - Title: "Crawling the United States stock data"
@@ -125,15 +104,9 @@ library(flexdashboard)
 
 ### March (3월)
 
-<br>
-<br>
-
 - When: **Wednesday, March 10, 2021 7:00 PM to 9:00 PM GMT+9
 - Where: Online Event - Link visible for attendees
 - [Seoul R Users: 2021 - March](https://www.meetup.com/seoul-r-meetup/events/ccqpbsyccfbnb/)
-
-<br>
-<br>
 
 - **Talk** (25min talk, 5min Q&A)
   - Title: "Data Visualization Happening"
@@ -161,15 +134,9 @@ dlookr 패키지는 데이터가 분석을 수행할 품질을 만족하는지 �
 
 ### April (4월)
 
-<br>
-<br>
-
 - When: **Wednesday, April 14, 2021 7:00 PM to 9:00 PM GMT+9
 - Where: Online Event - Link visible for attendees
 - [Seoul R Users: 2021 - April](https://www.meetup.com/seoul-r-meetup/events/ccqpbsyccgbsb/)
-
-<br>
-<br>
 
 - **Talk** (25min talk, 5min Q&A)
   - Title: "데이터 과학 워드 프로세서"

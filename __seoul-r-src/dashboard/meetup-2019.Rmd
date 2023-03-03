@@ -29,8 +29,6 @@ library(flexdashboard)
 
 ### 2019-04 ~ 2019-09
 
-<br>
-
 |    Date      | Name |          Title              |     Link    |     Comment          |
 |--------------|------|-----------------------------|-------------|-------------------|
 |2019.09.18(수)|이광춘| "문서를 이해하는 AI" |[발표자료](https://statkclee.github.io/ds-authoring/ds-document-ai.html) |      |
@@ -59,8 +57,6 @@ library(flexdashboard)
 
 ### 2018-11 ~ 2019-03
 
-<br>
-
 |    Date      | Name |          Title              |     Link    |     Comment          |
 |--------------|------|-----------------------------|-------------|-------------------|
 |2019.03.20(수)|이광춘| 금융 빅데이터 시각화 - KOSPI ~~200~~ 50 |[발표자료](https://statkclee.github.io/finance/finance-trelliscope-advanced.html) |      |
@@ -79,5 +75,3 @@ library(flexdashboard)
 |              |최진영| AutoML과 머신러닝 툴 개발/사업화 과정의 어려움    |[발표자료](data/XBrain_Seminar_1220_RMeetUp.pdf) |
 |2018.11.22(목)|이광춘|설명가능한 기계학습          |[발표자료](https://www.slideshare.net/statkclee/cloudera-sessions-2018-datayanolja) |클라우데라 |
 |              |나성호|기업리뷰 분석 시리즈         |[1](https://mrkevinna.github.io/특강-기업리뷰-분석-1/) [2](https://mrkevinna.github.io/특강-기업리뷰-분석-2/) [3](https://mrkevinna.github.io/특강-기업리뷰-분석-3/) |순천향대학교 |
-
-
