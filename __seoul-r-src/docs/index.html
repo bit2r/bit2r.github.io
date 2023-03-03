@@ -1,0 +1,3653 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+<title>Seoul R Meetup</title>
+
+<meta property="og:title" content="Seoul R Meetup" />
+
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+
+<link rel="icon" href="data:image/x-icon;" type="image/x-icon">
+
+
+<script type="text/javascript">
+window.FlexDashboardComponents = [];
+</script>
+
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/stickytableheaders-0.1.19/jquery.stickytableheaders.min.js"></script>
+<link href="site_libs/value-box-accent-static-0.6.1/theme-readable-value-box.css" rel="stylesheet" />
+<link href="site_libs/flexdashboard-css-0.6.1/flexdashboard.min.css" rel="stylesheet" />
+<link href="site_libs/flexdashboard-css-0.6.1/theme-readable.css" rel="stylesheet" />
+<style type="text/css">
+/*
+  CSS for flexdashboard.js' use of Sly(). The sizing/position of this CSS needs to be
+  applied _before_ flexdashboard.js initializes, which is why this CSS has been pulled
+  out from flexdashboard.scss and inlined in the document's head.
+*/
+
+.storyboard-nav button {
+  background: transparent;
+  border: 0;
+  opacity: .3;
+  outline: none;
+  padding: 0;
+}
+
+.storyboard-nav button:hover,
+.storyboard-nav button:hover {
+  opacity: .5;
+}
+
+.storyboard-nav button:disabled,
+.storyboard-nav button:disabled {
+  opacity: .1;
+}
+
+.storyboard-nav .sbnext,
+.storyboard-nav .sbprev {
+  float: left;
+  width: 2%;
+  height: 120px;
+}
+
+.storyboard-nav .sbprev {
+  text-align: left;
+  width: 2%;
+}
+
+.storyboard-nav .sbnext {
+  float: right;
+  text-align: right;
+  margin-right: 8px;
+}
+
+.storyboard-nav .sbframelist {
+  margin: 0 auto;
+  width: 94%;
+  height: 120px;
+  overflow: hidden;
+  text-shadow: none;
+  margin-bottom: 8px;
+}
+
+.storyboard-nav .sbframelist ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.storyboard-nav .sbframelist ul li {
+  float: left;
+  width: 270px;
+  height: 100%;
+  padding: 10px 10px 10px 10px;
+  margin-right: 8px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.storyboard-nav .sbframelist ul li:last-child {
+  margin-right: 0px;
+}
+
+.sbframe-commentary {
+  width: 300px;
+}
+
+.sbframe-commentary ul {
+  padding-left: 22px;
+}
+
+.sbframe.active {
+  display: flex;
+}
+
+.sbframe:not(.active) {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+html, body {
+  height: 100%;
+}
+
+#dashboard-container {
+  height: 100%;
+}
+}
+</style>
+
+
+<link rel="stylesheet" href="extra.css" type="text/css" />
+
+</head>
+
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<div class="container-fluid">
+<div class="navbar-header">
+
+<span class="navbar-logo pull-left">
+  <img src="fig/hex-tidyverse.png" class="navbar-logo"/>
+</span>
+<span class="navbar-brand">
+  Seoul R Meetup
+  <span class="navbar-author">
+        </span>
+</span>
+
+<button id="navbar-button" type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+
+</div>
+<div id="navbar" class="navbar-collapse collapse">
+<ul class="nav navbar-nav navbar-left">
+</ul>
+<ul class="nav navbar-nav navbar-right">
+</ul>
+</div><!--/.nav-collapse-->
+</div><!--/.container-->
+</div><!--/.navbar-->
+
+<!-- <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-theme.css" />
+<link rel="stylesheet" type="text/css" href="css/swc.css" />  -->
+<link rel="alternate" type="application/rss+xml" title="Tidyverse Korea" href="https://www.facebook.com/groups/tidyverse/"/>
+<meta charset="UTF-8" />
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-59802572-23"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-59802572-23');
+</script>
+<script type="text/javascript">
+
+
+var FlexDashboard = (function () {
+
+  // initialize options
+  var _options = {};
+
+  var FlexDashboard = function() {
+
+    // default options
+    _options = $.extend(_options, {
+      theme: "cosmo",
+      fillPage: false,
+      orientation: 'columns',
+      storyboard: false,
+      defaultFigWidth: 576,
+      defaultFigHeight: 461,
+      defaultFigWidthMobile: 360,
+      defaultFigHeightMobile: 461,
+      isMobile: false,
+      isPortrait: false,
+      resize_reload: true
+    });
+  };
+
+  function init(options) {
+
+    // extend default options
+    $.extend(true, _options, options);
+
+    // add ids to sections that don't have them (pandoc won't assign ids
+    // to e.g. sections with titles consisting of only chinese characters)
+    var nextId = 1;
+    $('.level1:not([id]),.level2:not([id]),.level3:not([id])').each(function() {
+      $(this).attr('id', 'dashboard-' + nextId++);
+    });
+
+    // find navbar items
+    var navbarItems = $('#flexdashboard-navbar');
+    if (navbarItems.length)
+      navbarItems = JSON.parse(navbarItems.html());
+    addNavbarItems(navbarItems);
+
+    // find the main dashboard container
+    var dashboardContainer = $('#dashboard-container');
+
+    // resolve mobile classes
+    resolveMobileClasses(dashboardContainer);
+
+    // one time global initialization for components
+    componentsInit(dashboardContainer);
+
+    // look for a global sidebar
+    var globalSidebar = dashboardContainer.find(".section.level1.sidebar");
+    if (globalSidebar.length > 0) {
+
+      // global layout for fullscreen displays
+      if (!isMobilePhone()) {
+
+         // hoist it up to the top level
+         globalSidebar.insertBefore(dashboardContainer);
+
+         // lay it out (set width/positions)
+         layoutSidebar(globalSidebar, dashboardContainer);
+
+      // tuck sidebar into first page for mobile phones
+      } else {
+
+        // convert it into a level3 section
+        globalSidebar.removeClass('sidebar');
+        globalSidebar.removeClass('level1');
+        globalSidebar.addClass('level3');
+        var h1 = globalSidebar.children('h1');
+        var h3 = $('<h3></h3>');
+        h3.append(h1.contents());
+        h3.insertBefore(h1);
+        h1.detach();
+
+        // move it into the first page
+        var page = dashboardContainer.find('.section.level1').first();
+        if (page.length > 0)
+          page.prepend(globalSidebar);
+      }
+    }
+
+    // look for pages to layout
+    var pages = $('div.section.level1');
+    if (pages.length > 0) {
+
+        // find the navbar and collapse on clicked
+        var navbar = $('#navbar');
+        navbar.on("click", "a[data-toggle!=dropdown]", null, function () {
+           navbar.collapse('hide');
+        });
+
+        // envelop the dashboard container in a tab content div
+        dashboardContainer.wrapInner('<div class="tab-content"></div>');
+
+        pages.each(function(index) {
+
+          // lay it out
+          layoutDashboardPage($(this));
+
+          // add it to the navbar
+          addToNavbar($(this), index === 0);
+
+        });
+
+    } else {
+
+      // remove the navbar and navbar button if we don't
+      // have any navbuttons
+      if (navbarItems.length === 0) {
+        $('#navbar').remove();
+        $('#navbar-button').remove();
+      }
+
+      // add the storyboard class if requested
+      if (_options.storyboard)
+        dashboardContainer.addClass('storyboard');
+
+      // layout the entire page
+      layoutDashboardPage(dashboardContainer);
+    }
+
+    // if we are in shiny we need to trigger a window resize event to
+    // force correct layout of shiny-bound-output elements
+    if (isShinyDoc())
+      $(window).trigger('resize');
+
+    // make main components visible
+    $('.section.sidebar').css('visibility', 'visible');
+    dashboardContainer.css('visibility', 'visible');
+
+    // handle location hash
+    handleLocationHash();
+
+    // intialize prism highlighting
+    initPrismHighlighting();
+
+    // record mobile and orientation state then register a handler
+    // to refresh if resize_reload is set to true and it changes
+    _options.isMobile = isMobilePhone();
+    _options.isPortrait = isPortrait();
+    if (_options.resize_reload) {
+      $(window).on('resize', function() {
+        if (_options.isMobile !== isMobilePhone() ||
+            _options.isPortrait !== isPortrait()) {
+          window.location.reload();
+        }
+      });
+    } else {
+      // if in desktop mode and resizing to mobile, make sure the heights are 100%
+      // This enforces what `fillpage.css` does for "wider" pages.
+      // Since we are not reloading once the page becomes small, we need to force the height to 100%
+      // This is a new situation introduced when `_options.resize_reload` is `false`
+      if (! _options.isMobile) {
+        // only add if `fillpage.css` was added in the first place
+        if (_options.fillPage) {
+          // fillpage.css
+          $("html,body,#dashboard").css("height", "100%");
+        }
+      }
+    }
+    // trigger layoutcomplete event
+    dashboardContainer.trigger('flexdashboard:layoutcomplete');
+  }
+
+  function resolveMobileClasses(dashboardContainer) {
+     // add top level layout class
+    dashboardContainer.addClass(isMobilePhone() ? 'mobile-layout' :
+                                                  'desktop-layout');
+
+    // look for .mobile sections and add .no-mobile to their peers
+    var mobileSections = $('.section.mobile');
+    mobileSections.each(function() {
+       var id = $(this).attr('id');
+       var nomobileId = id.replace(/-\d+$/, '');
+       $('#' + nomobileId).addClass('no-mobile');
+    });
+  }
+
+  function addNavbarItems(navbarItems) {
+
+    var navbarLeft = $('ul.navbar-left');
+    var navbarRight = $('ul.navbar-right');
+
+    for (var i = 0; i<navbarItems.length; i++) {
+
+      // get the item
+      var item = navbarItems[i];
+
+      // determine the container
+      var container = null;
+      if (item.align === "left")
+        container = navbarLeft;
+      else
+        container = navbarRight;
+
+      // navbar menu if we have multiple items
+      if (item.items) {
+        var menu = navbarMenu(null, item.icon, item.title, container);
+        for (var j = 0; j<item.items.length; j++) {
+          var subItem = item.items[j];
+          var li = $('<li></li>');
+          var a = navbarLink(subItem.icon, subItem.title, subItem.href, subItem.target);
+          a.removeClass("nav-link").addClass("dropdown-item");
+          li.append(a);
+          menu.append(li);
+        }
+      } else {
+        var li = $('<li class="nav-item"></li>');
+        li.append(navbarLink(item.icon, item.title, item.href, item.target));
+        container.append(li);
+      }
+    }
+  }
+
+  // create or get a reference to an existing dropdown menu
+  function navbarMenu(id, icon, title, container) {
+    var existingMenu = [];
+    if (id)
+      existingMenu = container.children('#' + id);
+    if (existingMenu.length > 0) {
+      return existingMenu.children('ul');
+    } else {
+      var li = $('<li class="nav-item"></li>');
+      if (id)
+        li.attr('id', id);
+      li.addClass('dropdown');
+      // auto add "Share" title on mobile if necessary
+      if (!title && icon && (icon === "fa-share-alt") && isMobilePhone())
+        title = "Share";
+      if (title) {
+        title = title + ' <span class="caret"></span>';
+      }
+      var a = navbarLink(icon, title, "#");
+      a.addClass('dropdown-toggle');
+      a.attr('data-toggle', 'dropdown');
+      a.attr('data-bs-toggle', 'dropdown');
+      a.attr('role', 'button');
+      a.attr('aria-expanded', 'false');
+      li.append(a);
+      var ul = $('<ul class="dropdown-menu"></ul>');
+      ul.attr('role', 'menu');
+      li.append(ul);
+      container.append(li);
+      return ul;
+    }
+  }
+
+  function addToNavbar(page, active) {
+
+    // capture the id and data-icon attribute (if any)
+    var id = page.attr('id');
+    var icon = page.attr('data-icon');
+    var navmenu = page.attr('data-navmenu');
+
+    // get hidden state (transfer this to navbar)
+    var hidden = page.hasClass('hidden');
+    page.removeClass('hidden');
+
+    // sanitize the id for use with bootstrap tabs
+    id = id.replace(/[.\/?&!#<>]/g, '').replace(/\s/g, '_');
+    page.attr('id', id);
+
+    // get the wrapper
+    var wrapper = page.closest('.dashboard-page-wrapper');
+
+    // move the id to the wrapper
+    page.removeAttr('id');
+    wrapper.attr('id', id);
+
+    // add the tab-pane class to the wrapper
+    wrapper.addClass('tab-pane');
+    if (active)
+      wrapper.addClass('active');
+
+    // get a reference to the h1, discover its inner contens, then detach it
+    var h1 = wrapper.find('h1').first();
+    var title = h1.contents();
+    h1.detach();
+
+    // create a navbar item
+    var li = $('<li></li>');
+    var a = navbarLink(icon, title, '#' + id);
+    a.attr('data-toggle', 'tab');
+    li.append(a);
+
+    // add it to the navbar (or navbar menu if specified)
+    var container = $('ul.navbar-left');
+    if (navmenu) {
+      var menuId = navmenu.replace(/\s+/g, '');
+      var menu = navbarMenu(menuId, null, navmenu, container);
+      li.find("> a").removeClass("nav-link").addClass("dropdown-item");
+      menu.append(li);
+    } else {
+      li.addClass("nav-item")
+      container.append(li);
+    }
+
+    // hide it if requested
+    if (hidden)
+      li.addClass('hidden');
+  }
+
+  function navbarLink(icon, title, href, target) {
+
+    var a = $('<a class="nav-link"></a>');
+    if (icon) {
+
+      // get the name of the icon set and icon
+      var dashPos = icon.indexOf("-");
+      var iconSet = null;
+      var iconSplit = icon.split(" ");
+      if (iconSplit.length > 1) {
+        iconSet = iconSplit[0];
+        icon = iconSplit.slice(1).join(" ");
+      } else {
+        iconSet = icon.substring(0, dashPos);
+      }
+      var iconName = icon.substring(dashPos + 1);
+
+      // create the icon
+      var iconElement = $('<span class="' + iconSet + ' ' + icon + '"></span>');
+      if (title)
+        iconElement.css('margin-right', '7px');
+      a.append(iconElement);
+      // if href is null see if we can auto-generate based on icon (e.g. social)
+      if (!href)
+        maybeGenerateLinkFromIcon(iconName, a);
+    }
+    if (title)
+      a.append(title);
+
+    // add the href.
+    if (href) {
+      if (href === "source_embed") {
+        a.attr('href', '#');
+        a.attr('data-featherlight', "#flexdashboard-source-code");
+        a.featherlight({
+            beforeOpen: function(event){
+              $('body').addClass('unselectable');
+            },
+            afterClose: function(event){
+              $('body').removeClass('unselectable');
+            }
+        });
+      } else {
+        a.attr('href', href);
+      }
+    }
+
+    // add the arget
+    if (target)
+      a.attr('target', target);
+
+    return a;
+  }
+
+  // auto generate a link from an icon name (e.g. twitter) when possible
+  function maybeGenerateLinkFromIcon(iconName, a) {
+
+     var serviceLinks = {
+      "twitter": "https://twitter.com/share?text=" + encodeURIComponent(document.title) + "&url="+encodeURIComponent(location.href),
+      "facebook": "https://www.facebook.com/sharer/sharer.php?s=100&p[url]="+encodeURIComponent(location.href),
+      "linkedin": "https://www.linkedin.com/shareArticle?mini=true&url="+encodeURIComponent(location.href) + "&title=" + encodeURIComponent(document.title),
+      "pinterest": "https://pinterest.com/pin/create/link/?url="+encodeURIComponent(location.href) + "&description=" + encodeURIComponent(document.title)
+    };
+
+    var makeSocialLink = function(a, href) {
+      a.attr('href', '#');
+      a.on('click', function(e) {
+        e.preventDefault();
+        window.open(href);
+      });
+    };
+
+    $.each(serviceLinks, function(key, value) {
+      if (iconName.indexOf(key) !== -1)
+        makeSocialLink(a, value);
+    });
+  }
+
+  // layout a dashboard page
+  function layoutDashboardPage(page) {
+
+    // use a page wrapper so that free form content above the
+    // dashboard appears at the top rather than the side (as it
+    // would without the wrapper in a column orientation)
+    var wrapper = $('<div class="dashboard-page-wrapper"></div>');
+    page.wrap(wrapper);
+
+    // if there are no level2 or level3 headers synthesize a level3
+    // header to contain the (e.g. frame it, scroll container, etc.)
+    var headers = page.find('h2,h3');
+    if (headers.length === 0)
+      page.wrapInner('<div class="section level3"></div>');
+
+    // hoist up any content before level 2 or level 3 headers
+    var children = page.children();
+    children.each(function(index) {
+      if ($(this).hasClass('level2') || $(this).hasClass('level3'))
+        return false;
+      $(this).insertBefore(page);
+    });
+
+    // determine orientation and fillPage behavior for distinct media
+    var orientation, fillPage, storyboard;
+
+    // media: mobile phone
+    if (isMobilePhone()) {
+
+      // if there is a sidebar we need to ensure it's content
+      // is properly framed as an h3
+      var sidebar = page.find('.section.sidebar');
+      sidebar.removeClass('sidebar');
+      sidebar.wrapInner('<div class="section level3"></div>');
+      var h2 = sidebar.find('h2');
+      var h3 = $('<h3></h3>');
+      h3.append(h2.contents());
+      h3.insertBefore(h2);
+      h2.detach();
+
+      // wipeout h2 elements then enclose them in a single h2
+      var level2 = page.find('div.section.level2');
+      level2.each(function() {
+        level2.children('h2').remove();
+        level2.children().unwrap();
+      });
+      page.wrapInner('<div class="section level2"></div>');
+
+      // substitute mobile images
+      if (isPortrait()) {
+        var mobileFigures = $('img.mobile-figure');
+        mobileFigures.each(function() {
+          // get the src (might be base64 encoded)
+          var src = $(this).attr('src');
+
+          // find it's peer
+          var id = $(this).attr('data-mobile-figure-id');
+          var img = $('img[data-figure-id=' + id + "]");
+          img.attr('src', src)
+             .attr('width', _options.defaultFigWidthMobile)
+             .attr('height', _options.defaultFigHeightMobile);
+        });
+      }
+
+      // hoist storyboard commentary into it's own section
+      if (page.hasClass('storyboard')) {
+        var commentaryHR = page.find('div.section.level3 hr');
+        commentaryHR.each(function() {
+          var commentary = $(this).nextAll().detach();
+          var commentarySection = $('<div class="section level3"></div>');
+          commentarySection.append(commentary);
+          commentarySection.insertAfter($(this).closest('div.section.level3'));
+          $(this).remove();
+        });
+      }
+
+      // force a non full screen layout by columns
+      orientation = _options.orientation = 'columns';
+      fillPage = _options.fillPage = false;
+      storyboard = _options.storyboard = false;
+
+    // media: desktop
+    } else {
+
+      // determine orientation
+      orientation = page.attr('data-orientation');
+      if (orientation !== 'rows' && orientation != 'columns')
+        orientation = _options.orientation;
+
+      // determine storyboard mode
+      storyboard = page.hasClass('storyboard');
+
+      // fillPage based on options (force for storyboard)
+      fillPage = _options.fillPage || storyboard;
+
+      // handle sidebar
+      var sidebar = page.find('.section.level2.sidebar');
+      if (sidebar.length > 0)
+        layoutSidebar(sidebar, page);
+    }
+
+    // give it and it's parent divs height: 100% if we are in fillPage mode
+    if (fillPage) {
+      page.addClass('vertical-layout-fill');
+      page.css('height', '100%');
+      page.parents('div').css('height', '100%');
+    } else {
+      page.addClass('vertical-layout-scroll');
+    }
+
+    // perform the layout
+    if (storyboard)
+      layoutPageAsStoryboard(page);
+    else if (orientation === 'rows')
+      layoutPageByRows(page, fillPage);
+    else if (orientation === 'columns')
+      layoutPageByColumns(page, fillPage);
+  }
+
+  function layoutSidebar(sidebar, content) {
+
+    // get it out of the header hierarchy
+    sidebar = sidebar.first();
+    if (sidebar.hasClass('level1')) {
+      sidebar.removeClass('level1');
+      sidebar.children('h1').remove();
+    } else if (sidebar.hasClass('level2')) {
+      sidebar.removeClass('level2');
+      sidebar.children('h2').remove();
+    }
+
+    // determine width
+    var sidebarWidth = isTablet() ? 220 : 250;
+    var dataWidth = parseInt(sidebar.attr('data-width'));
+    if (dataWidth)
+      sidebarWidth = dataWidth;
+
+    // set the width and shift the page right to accomodate the sidebar
+    sidebar.css('width', sidebarWidth + 'px');
+    content.css('padding-left', sidebarWidth + 'px');
+
+    // wrap it's contents in a form
+    sidebar.wrapInner($('<form></form>'));
+  }
+
+  function layoutPageAsStoryboard(page) {
+
+    // create storyboard navigation
+    var nav = $('<div class="storyboard-nav"></div>');
+
+    // add navigation buttons
+    var prev = $('<button class="sbprev"><i class="fa fa-angle-left"></i></button>');
+    nav.append(prev);
+    var next= $('<button class="sbnext"><i class="fa fa-angle-right"></i></button>');
+    nav.append(next);
+
+    // add navigation frame
+    var frameList = $('<div class="sbframelist"></div>');
+    nav.append(frameList);
+    var ul = $('<ul></ul>');
+    frameList.append(ul);
+
+     // find all the level3 sections (those are the storyboard frames)
+    var frames = page.find('div.section.level3');
+    frames.each(function() {
+
+      // mark it
+      $(this).addClass('sbframe');
+
+      // divide it into chart content and (optional) commentary
+      $(this).addClass('dashboard-column-orientation');
+
+      // stuff the chart into it's own div w/ flex
+      $(this).wrapInner('<div class="sbframe-component"></div>');
+      setFlex($(this), 1);
+      var frame = $(this).children('.sbframe-component');
+
+      // extract the title from the h3
+      var li = $('<li></li>');
+      var h3 = frame.children('h3');
+      li.append(h3.contents());
+      h3.detach();
+      ul.append(li);
+
+      // extract commentary
+      var hr = frame.children('hr');
+      if (hr.length) {
+        var commentary = hr.nextAll().detach();
+        hr.remove();
+        var commentaryFrame = $('<div class="sbframe-commentary"></div>');
+        commentaryFrame.addClass('flowing-content-shim');
+        commentaryFrame.addClass('flowing-content-container');
+        commentaryFrame.append(commentary);
+        $(this).append(commentaryFrame);
+
+        // look for a data-commentary-width attribute
+        var commentaryWidth = $(this).attr('data-commentary-width');
+        if (commentaryWidth)
+          commentaryFrame.css('width', commentaryWidth + 'px');
+      }
+
+      // layout the chart (force flex)
+      var result = layoutChart(frame, true);
+
+      // ice the notes if there are none
+      if (!result.notes)
+        frame.find('.chart-notes').remove();
+
+      // set flex on chart
+      setFlex(frame, 1);
+    });
+
+    // create a div to hold all the frames
+    var frameContent = $('<div class="sbframe-content"></div>');
+    frameContent.addClass('dashboard-row-orientation');
+    frameContent.append(frames.detach());
+
+    // row orientation to stack nav and frame content
+    page.addClass('dashboard-row-orientation');
+    page.append(nav);
+    page.append(frameContent);
+    setFlex(frameContent, 1);
+
+    // initialize sly
+    var sly = new Sly(frameList, {
+    		horizontal: true,
+    		itemNav: 'basic',
+    		smart: true,
+    		activateOn: 'click',
+    		startAt: 0,
+    		scrollBy: 1,
+    		activatePageOn: 'click',
+    		speed: 200,
+    		moveBy: 600,
+    		dragHandle: true,
+    		dynamicHandle: true,
+    		clickBar: true,
+    		keyboardNavBy: 'items',
+    		next: next,
+    		prev: prev
+    	}).init();
+
+    // make first frame active
+    frames.removeClass('active');
+    frames.first().addClass('active');
+
+    // subscribe to frame changed events
+    sly.on('active', function (eventName, itemIndex) {
+      frames.removeClass('active');
+      frames.eq(itemIndex).addClass('active')
+                          .trigger('shown');
+    });
+  }
+
+  function layoutPageByRows(page, fillPage) {
+
+    // row orientation
+    page.addClass('dashboard-row-orientation');
+
+    // find all the level2 sections (those are the rows)
+    var rows = page.find('div.section.level2');
+
+    // if there are no level2 sections then treat the
+    // entire page as if it's a level 2 section
+    if (rows.length === 0) {
+      page.wrapInner('<div class="section level2"></div>');
+      rows = page.find('div.section.level2');
+    }
+
+    rows.each(function () {
+
+      // flags
+      var haveNotes = false;
+      var haveFlexHeight = true;
+
+      // remove the h2
+      $(this).children('h2').remove();
+
+      // check for a tabset
+      var isTabset = $(this).hasClass('tabset');
+      if (isTabset)
+        layoutTabset($(this));
+
+      // give it row layout semantics if it's not a tabset
+      if (!isTabset)
+        $(this).addClass('dashboard-row');
+
+      // find all of the level 3 subheads
+      var columns = $(this).find('div.section.level3');
+
+      // determine figureSizes sizes
+      var figureSizes = chartFigureSizes(columns);
+
+      // fixup the columns
+      columns.each(function(index) {
+
+        // layout the chart (force flex if we are in a tabset)
+        var result = layoutChart($(this), isTabset);
+
+        // update flexHeight state
+        if (!result.flex)
+          haveFlexHeight = false;
+
+        // update state
+        if (result.notes)
+          haveNotes = true;
+
+        // set the column flex based on the figure width
+        // (value boxes will just get the default figure width)
+        var chartWidth = figureSizes[index].width;
+        setFlex($(this), chartWidth + ' ' + chartWidth + ' 0px');
+
+      });
+
+      // remove empty chart note divs
+      if (isTabset)
+        $(this).find('.chart-notes').filter(function() {
+            return $(this).html() === "&nbsp;";
+        }).remove();
+      if (!haveNotes)
+        $(this).find('.chart-notes').remove();
+
+       // make it a flexbox row
+      if (haveFlexHeight)
+        $(this).addClass('dashboard-row-flex');
+
+      // now we can set the height on all the wrappers (based on maximum
+      // figure height + room for title and notes, or data-height on the
+      // container if specified). However, don't do this if there is
+      // no flex on any of the constituent columns
+      var flexHeight = null;
+      var dataHeight = parseInt($(this).attr('data-height'));
+      if (dataHeight)
+        flexHeight = adjustedHeight(dataHeight, columns.first());
+      else if (haveFlexHeight)
+        flexHeight = maxChartHeight(figureSizes, columns);
+      if (flexHeight) {
+        if (fillPage)
+          setFlex($(this), flexHeight + ' ' + flexHeight + ' 0px');
+        else {
+          $(this).css('height', flexHeight + 'px');
+          setFlex($(this), '0 0 ' + flexHeight + 'px');
+        }
+      }
+
+    });
+  }
+
+  function layoutPageByColumns(page, fillPage) {
+
+    // column orientation
+    page.addClass('dashboard-column-orientation');
+
+    // find all the level2 sections (those are the columns)
+    var columns = page.find('div.section.level2');
+
+    // if there are no level2 sections then treat the
+    // entire page as if it's a level 2 section
+    if (columns.length === 0) {
+      page.wrapInner('<div class="section level2"></div>');
+      columns = page.find('div.section.level2');
+    }
+
+    // layout each column
+    columns.each(function (index) {
+
+      // remove the h2
+      $(this).children('h2').remove();
+
+      // make it a flexbox column
+      $(this).addClass('dashboard-column');
+
+      // check for a tabset
+      var isTabset = $(this).hasClass('tabset');
+      if (isTabset)
+        layoutTabset($(this));
+
+      // find all the h3 elements
+      var rows = $(this).find('div.section.level3');
+
+      // get the figure sizes for the rows
+      var figureSizes = chartFigureSizes(rows);
+
+      // column flex is the max row width (or data-width if specified)
+      var flexWidth;
+      var dataWidth = parseInt($(this).attr('data-width'));
+      if (dataWidth)
+        flexWidth = dataWidth;
+      else
+        flexWidth = maxChartWidth(figureSizes);
+      setFlex($(this), flexWidth + ' ' + flexWidth + ' 0px');
+
+      // layout each chart
+      rows.each(function(index) {
+
+        // perform the layout
+        var result = layoutChart($(this), false);
+
+        // ice the notes if there are none
+        if (!result.notes)
+          $(this).find('.chart-notes').remove();
+
+        // set flex height based on figHeight, then adjust
+        if (result.flex) {
+          var chartHeight = figureSizes[index].height;
+          chartHeight = adjustedHeight(chartHeight, $(this));
+          if (fillPage)
+            setFlex($(this), chartHeight + ' ' + chartHeight + ' 0px');
+          else {
+            $(this).css('height', chartHeight + 'px');
+            setFlex($(this), chartHeight + ' ' + chartHeight + ' ' + chartHeight + 'px');
+          }
+        }
+      });
+    });
+  }
+
+  function chartFigureSizes(charts) {
+
+    // sizes
+    var figureSizes = new Array(charts.length);
+
+    // check each chart
+    charts.each(function(index) {
+
+      // start with default
+      figureSizes[index] = {
+        width: _options.defaultFigWidth,
+        height: _options.defaultFigHeight
+      };
+
+      // look for data-height or data-width then knit options
+      var dataWidth = parseInt($(this).attr('data-width'));
+      var dataHeight = parseInt($(this).attr('data-height'));
+      var knitrOptions = $(this).find('.knitr-options:first');
+      var knitrWidth, knitrHeight;
+      if (knitrOptions) {
+        knitrWidth = parseInt(knitrOptions.attr('data-fig-width'));
+        knitrHeight =  parseInt(knitrOptions.attr('data-fig-height'));
+      }
+
+      // width
+      if (dataWidth)
+        figureSizes[index].width = dataWidth;
+      else if (knitrWidth)
+        figureSizes[index].width = knitrWidth;
+
+      // height
+      if (dataHeight)
+        figureSizes[index].height = dataHeight;
+      else if (knitrHeight)
+        figureSizes[index].height = knitrHeight;
+    });
+
+    // return sizes
+    return figureSizes;
+  }
+
+  function maxChartHeight(figureSizes, charts) {
+
+    // first compute the maximum height
+    var maxHeight = _options.defaultFigHeight;
+    for (var i = 0; i<figureSizes.length; i++)
+      if (figureSizes[i].height > maxHeight)
+        maxHeight = figureSizes[i].height;
+
+    // now add offests for chart title and chart notes
+    if (charts.length)
+      maxHeight = adjustedHeight(maxHeight, charts.first());
+
+    return maxHeight;
+  }
+
+  function adjustedHeight(height, chart) {
+    if (chart.length > 0) {
+      var chartTitle = chart.find('.chart-title');
+      if (chartTitle.length)
+        height += chartTitle.first().outerHeight();
+      var chartNotes = chart.find('.chart-notes');
+      if (chartNotes.length)
+        height += chartNotes.first().outerHeight();
+    }
+    return height;
+  }
+
+  function maxChartWidth(figureSizes) {
+    var maxWidth = _options.defaultFigWidth;
+    for (var i = 0; i<figureSizes.length; i++)
+      if (figureSizes[i].width > maxWidth)
+        maxWidth = figureSizes[i].width;
+    return maxWidth;
+  }
+
+  // layout a chart
+  function layoutChart(chart, forceFlex) {
+
+    // state to return
+    var result = {
+      notes: false,
+      flex: false
+    };
+
+    // extract the title
+    var title = extractTitle(chart);
+
+    // find components that apply to this container
+    var components = componentsFind(chart);
+
+    // if it's a custom component then call it and return
+    var customComponents = componentsCustom(components);
+    if (customComponents.length) {
+      componentsLayout(customComponents, title, chart);
+      result.notes = false;
+      result.flex = forceFlex || componentsFlex(customComponents);
+      return result;
+    }
+
+    // put all the content in a chart wrapper div
+    chart.addClass('chart-wrapper');
+    chart.wrapInner('<div class="chart-stage"></div>');
+    var chartContent = chart.children('.chart-stage');
+
+    // flex the content if appropriate
+    result.flex = forceFlex || componentsFlex(components);
+    if (result.flex) {
+      // add flex classes
+      chart.addClass('chart-wrapper-flex');
+      chartContent.addClass('chart-stage-flex');
+
+      // additional shim to break out of flexbox sizing
+      chartContent.wrapInner('<div class="chart-shim"></div>');
+      chartContent = chartContent.children('.chart-shim');
+    }
+
+    // set custom data-padding attribute
+    var pad = chart.attr('data-padding');
+    if (pad) {
+      if (pad === "0")
+        chart.addClass('no-padding');
+      else {
+        pad = pad + 'px';
+        chartContent.css('left', pad)
+                    .css('top', pad)
+                    .css('right', pad)
+                    .css('bottom', pad)
+      }
+    }
+
+    // call compoents
+    componentsLayout(components, title, chartContent);
+
+    // also activate components on shiny output
+    findShinyOutput(chartContent).on('shiny:value',
+      function(event) {
+        var element = $(event.target);
+        setTimeout(function() {
+
+          // see if we opted out of flex based on our output (for shiny
+          // we can't tell what type of output we have until after the
+          // value is bound)
+          var components = componentsFind(element);
+          var flex = forceFlex || componentsFlex(components);
+          if (!flex) {
+            chart.css('height', "");
+            setFlex(chart, "");
+            chart.removeClass('chart-wrapper-flex');
+            chartContent.removeClass('chart-stage-flex');
+            chartContent.children().unwrap();
+          }
+
+          // perform layout
+          componentsLayout(components, title, element.parent());
+        }, 10);
+      });
+
+    // add the title
+    var chartTitle = $('<div class="chart-title"></div>');
+    chartTitle.append(title);
+    chart.prepend(chartTitle);
+
+    // add the notes section
+    var chartNotes = $('<div class="chart-notes"></div>');
+    chartNotes.html('&nbsp;');
+    chart.append(chartNotes);
+
+    // attempt to extract notes if we have a component
+    if (components.length)
+      result.notes = extractChartNotes(chartContent, chartNotes);
+
+    // return result
+    return result;
+  }
+
+  // build a tabset from a section div with the .tabset class
+  function layoutTabset(tabset) {
+
+    // check for fade option
+    var fade = tabset.hasClass("tabset-fade");
+    var pills = tabset.hasClass("tabset-pills");
+    var navClass = pills ? "nav-pills" : "nav-tabs";
+
+    // determine the heading level of the tabset and tabs
+    var match = tabset.attr('class').match(/level(\d) /);
+    if (match === null)
+      return;
+    var tabsetLevel = Number(match[1]);
+    var tabLevel = tabsetLevel + 1;
+
+    // find all subheadings immediately below
+    var tabs = tabset.find("div.section.level" + tabLevel);
+    if (!tabs.length)
+      return;
+
+    // create tablist and tab-content elements
+    var tabList = $('<ul class="nav ' + navClass + '" role="tablist"></ul>');
+    $(tabs[0]).before(tabList);
+    var tabContent = $('<div class="tab-content"></div>');
+    $(tabs[0]).before(tabContent);
+
+    // build the tabset
+    var activeTab = 0;
+    tabs.each(function(i) {
+
+      // get the tab div
+      var tab = $(tabs[i]);
+
+      // get the id then sanitize it for use with bootstrap tabs
+      var id = tab.attr('id');
+
+      // see if this is marked as the active tab
+      if (tab.hasClass('active'))
+        activeTab = i;
+
+      // sanitize the id for use with bootstrap tabs
+      id = id.replace(/[.\/?&!#<>]/g, '').replace(/\s/g, '_');
+      tab.attr('id', id);
+
+      // get the heading element within it and grab it's text
+      var heading = tab.find('h' + tabLevel + ':first');
+      var headingDom = heading.contents();
+
+      // build and append the tab list item
+      var a = $('<a role="tab" data-toggle="tab" class="nav-link"></a>');
+      a.append(headingDom);
+      a.attr('href', '#' + id);
+      a.attr('aria-controls', id);
+      var li = $('<li role="presentation" class="nav-item"></li>');
+      li.append(a);
+      tabList.append(li);
+
+      // set it's attributes
+      tab.attr('role', 'tabpanel');
+      tab.addClass('tab-pane');
+      tab.addClass('tabbed-pane');
+      tab.addClass('no-title');
+      if (fade)
+        tab.addClass('fade');
+
+      // move it into the tab content div
+      tab.detach().appendTo(tabContent);
+    });
+
+    // set active tab
+    $(tabList.children()[activeTab]).tab("show");
+    var active = $(tabContent.children('div.section')[activeTab]);
+    active.addClass('active');
+    if (fade)
+      active.addClass('in');
+
+    // add nav-tabs-custom
+    tabset.addClass('nav-tabs-custom');
+
+    // internal layout is dashboard-column with tab-content flexing
+    tabset.addClass('dashboard-column');
+    setFlex(tabContent, 1);
+  }
+
+  // one time global initialization for components
+  function componentsInit(dashboardContainer) {
+    for (var i=0; i<window.FlexDashboardComponents.length; i++) {
+      var component = window.FlexDashboardComponents[i];
+      if (component.init)
+        component.init(dashboardContainer);
+    }
+  }
+
+  // find components that apply within a container
+  function componentsFind(container) {
+
+    // look for components
+    var components = [];
+    for (var i=0; i<window.FlexDashboardComponents.length; i++) {
+      var component = window.FlexDashboardComponents[i];
+      if (component.find(container).length)
+        components.push(component);
+    }
+
+    // if there were none then use a special flowing content component
+    // that just adds a scrollbar in fillPage mode
+    if (components.length == 0) {
+      components.push({
+        find: function(container) {
+          return container;
+        },
+
+        flex: function(fillPage) {
+          return fillPage;
+        },
+
+        layout: function(title, container, element, fillPage) {
+          if (fillPage) {
+            container.addClass('flowing-content-shim');
+            container.addClass('flowing-content-container');
+          }
+        }
+      });
+    }
+
+    return components;
+  }
+
+  // if there is a custom component then pick it out
+  function componentsCustom(components) {
+    var customComponent = [];
+    for (var i=0; i<components.length; i++)
+      if (components[i].type === "custom") {
+        customComponent.push(components[i]);
+        break;
+      }
+    return customComponent;
+  }
+
+  // query all components for flex
+  function componentsFlex(components) {
+
+    // no components at all means no flex
+    if (components.length === 0)
+      return false;
+
+    // otherwise query components (assume true unless we see false)
+    var isMobile = isMobilePhone();
+    for (var i=0; i<components.length; i++)
+      if (components[i].flex && !components[i].flex(_options.fillPage))
+        return false;
+    return true;
+  }
+
+  // layout all components
+  function componentsLayout(components, title, container) {
+    var isMobile = isMobilePhone();
+    for (var i=0; i<components.length; i++) {
+      var element = components[i].find(container);
+      if (components[i].layout) {
+        // call layout (don't call other components if it returns false)
+        var result = components[i].layout(title, container, element, _options.fillPage);
+        if (result === false)
+          return;
+      }
+    }
+  }
+
+  // get a reference to the h3, discover it's inner html, and remove it
+  function extractTitle(container) {
+    var h3 = container.children('h3').first();
+    var title = '';
+    if (!container.hasClass('no-title'))
+      title = h3.contents();
+    h3.detach();
+    return title;
+  }
+
+  // extract chart notes
+  function extractChartNotes(chartContent, chartNotes) {
+    // look for a terminating blockquote or image caption
+    var blockquote = chartContent.children('blockquote:last-child');
+    var caption = chartContent.children('div.image-container')
+                              .children('p.caption');
+    if (blockquote.length) {
+      chartNotes.empty().append(blockquote.children('p:first-child').contents());
+      blockquote.remove();
+      return true;
+    } else if (caption.length) {
+      chartNotes.empty().append(caption.contents());
+      caption.remove();
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  function findShinyOutput(chartContent) {
+    return chartContent.find('.shiny-text-output, .shiny-html-output');
+  }
+
+  // safely detect rendering on a mobile phone
+  function isMobilePhone() {
+    try
+    {
+      return ! window.matchMedia("only screen and (min-width: 768px)").matches;
+    }
+    catch(e) {
+      return false;
+    }
+  }
+
+  function isFillPage() {
+    return _options.fillPage;
+  }
+
+  // detect portrait mode
+  function isPortrait() {
+    return ($(window).width() < $(window).height());
+  }
+
+  // safely detect rendering on a tablet
+  function isTablet() {
+    try
+    {
+      return window.matchMedia("only screen and (min-width: 769px) and (max-width: 992px)").matches;
+    }
+    catch(e) {
+      return false;
+    }
+  }
+
+  // test whether this is a shiny doc
+  function isShinyDoc() {
+    return (typeof(window.Shiny) !== "undefined" && !!window.Shiny.outputBindings);
+  }
+
+  // set flex using vendor specific prefixes
+  function setFlex(el, flex) {
+    el.css('-webkit-box-flex', flex)
+      .css('-webkit-flex', flex)
+      .css('-ms-flex', flex)
+      .css('flex', flex);
+  }
+
+  // support bookmarking of pages
+  function handleLocationHash() {
+
+    // restore tab/page from bookmark
+    var hash = window.decodeURIComponent(window.location.hash);
+    if (hash.length > 0)
+      $('ul.nav a[href="' + hash + '"]').tab('show');
+    FlexDashboardUtils.manageActiveNavbarMenu();
+
+    // navigate to a tab when the history changes
+    window.addEventListener("popstate", function(e) {
+      var hash = window.decodeURIComponent(window.location.hash);
+      var activeTab = $('ul.nav a[href="' + hash + '"]');
+      if (activeTab.length) {
+        activeTab.tab('show');
+      } else {
+        $('ul.nav a:first').tab('show');
+      }
+      FlexDashboardUtils.manageActiveNavbarMenu();
+    });
+
+    // add a hash to the URL when the user clicks on a tab/page
+    $('.navbar-nav a[data-toggle="tab"]').on('click', function(e) {
+      var baseUrl = FlexDashboardUtils.urlWithoutHash(window.location.href);
+      var hash = FlexDashboardUtils.urlHash($(this).attr('href'));
+      var href = baseUrl + hash;
+      FlexDashboardUtils.setLocation(href);
+    });
+
+    // handle clicks of other links that should activate pages
+    var navPages = $('ul.navbar-nav li a[data-toggle=tab]');
+    navPages.each(function() {
+      var href =  $(this).attr('href');
+      var links = $('a[href="' + href + '"][data-toggle!=tab]');
+      links.each(function() {
+        $(this).on('click', function(e) {
+          window.FlexDashboardUtils.showPage(href);
+        });
+      });
+    });
+  }
+
+  // tweak Prism highlighting
+  function initPrismHighlighting() {
+
+    if (window.Prism) {
+      Prism.languages.insertBefore('r', 'comment', {
+        'heading': [
+          {
+            // title 1
+        	  // =======
+
+        	  // title 2
+        	  // -------
+        	  pattern: /\w+.*(?:\r?\n|\r)(?:====+|----+)/,
+            alias: 'operator'
+          },
+          {
+            // ### title 3
+            pattern: /(^\s*)###[^#].+/m,
+            lookbehind: true,
+            alias: 'operator'
+          }
+        ]
+      });
+
+      // prism highlight
+      Prism.highlightAll();
+    }
+  }
+
+  FlexDashboard.prototype = {
+    constructor: FlexDashboard,
+    init: init,
+    isMobilePhone: isMobilePhone,
+    isFillPage: isFillPage
+  };
+
+  return FlexDashboard;
+
+})();
+
+// utils
+window.FlexDashboardUtils = {
+  resizableImage: function(img) {
+    var src = img.attr('src');
+    var url = 'url("' + src + '")';
+    img.parent().css('background', url)
+                .css('background-size', 'contain')
+                .css('background-repeat', 'no-repeat')
+                .css('background-position', 'center')
+                .addClass('image-container');
+  },
+  setLocation: function(href) {
+    if (history && history.pushState) {
+      history.pushState(null, null, href);
+    } else {
+      window.location.replace(href);
+    }
+    setTimeout(function() {
+        window.scrollTo(0, 0);
+    }, 10);
+    this.manageActiveNavbarMenu();
+  },
+  showPage: function(href) {
+    $('ul.navbar-nav li a[href="' + href + '"]').tab('show');
+    var baseUrl = this.urlWithoutHash(window.location.href);
+    var loc = baseUrl + href;
+    this.setLocation(loc);
+  },
+  showLinkedValue: function(href) {
+    // check for a page link
+    if ($('ul.navbar-nav li a[data-toggle=tab][href="' + href + '"]').length > 0)
+      this.showPage(href);
+    else
+      window.open(href);
+  },
+  urlWithoutHash: function(url) {
+    var hashLoc = url.indexOf('#');
+    if (hashLoc != -1)
+      return url.substring(0, hashLoc);
+    else
+      return url;
+  },
+  urlHash: function(url) {
+    var hashLoc = url.indexOf('#');
+    if (hashLoc != -1)
+      return url.substring(hashLoc);
+    else
+      return "";
+  },
+  manageActiveNavbarMenu: function () {
+    // remove active from currently active tabs
+    $('.navbar ul.nav .active').removeClass('active');
+    // find the active tab
+    var activeTab = $('.dashboard-page-wrapper.tab-pane.active');
+    if (activeTab.length > 0) {
+      var tabId = activeTab.attr('id');
+      if (tabId)
+        $(".navbar ul.nav a[href='#" + tabId + "']").tab("show");
+    }
+  }
+};
+
+window.FlexDashboard = new FlexDashboard();
+
+// empty content
+window.FlexDashboardComponents.push({
+  find: function(container) {
+    if (container.find('p').length == 0)
+      return container;
+    else
+      return $();
+  }
+})
+
+// plot image
+window.FlexDashboardComponents.push({
+
+  find: function(container) {
+    return container.children('p')
+                    .children('img:only-child');
+  },
+
+  layout: function(title, container, element, fillPage) {
+    FlexDashboardUtils.resizableImage(element);
+  }
+});
+
+// plot image (figure style)
+window.FlexDashboardComponents.push({
+
+  find: function(container) {
+    return container.children('div.figure').children('img');
+  },
+
+  layout: function(title, container, element, fillPage) {
+    FlexDashboardUtils.resizableImage(element);
+  }
+});
+
+// htmlwidget
+window.FlexDashboardComponents.push({
+
+  init: function(dashboardContainer) {
+    // trigger "shown" after initial layout to force static htmlwidgets
+    // in runtime: shiny to be resized after the dom has been transformed
+    dashboardContainer.on('flexdashboard:layoutcomplete', function(event) {
+      setTimeout(function() {
+        dashboardContainer.trigger('shown');
+      }, 200);
+    });
+  },
+
+  find: function(container) {
+    return container.children('div[id^="htmlwidget-"],div.html-widget');
+  }
+});
+
+// gauge
+window.FlexDashboardComponents.push({
+
+  find: function(container) {
+    return container.children('div.html-widget.gauge');
+  },
+
+  flex: function(fillPage) {
+    return false;
+  },
+
+  layout: function(title, container, element, fillPage) {
+
+
+  }
+
+});
+
+// shiny output
+window.FlexDashboardComponents.push({
+  find: function(container) {
+    return container.children('div[class^="shiny-"]');
+  }
+});
+
+// bootstrap table
+window.FlexDashboardComponents.push({
+
+  find: function(container) {
+    var bsTable = container.find('table.table');
+    if (bsTable.length !== 0)
+      return bsTable;
+    else
+      return container.find('tr.header').parent('thead').parent('table');
+  },
+
+  flex: function(fillPage) {
+    return fillPage;
+  },
+
+  layout: function(title, container, element, fillPage) {
+
+    // alias variables
+    var bsTable = element;
+
+    // fixup xtable generated tables with a proper thead
+    var headerRow = bsTable.find('tbody > tr:first-child > th').parent();
+    if (headerRow.length > 0) {
+      var thead = $('<thead></thead>');
+      bsTable.prepend(thead);
+      headerRow.detach().appendTo(thead);
+    }
+
+    // improve appearance
+    container.addClass('bootstrap-table');
+
+    // for fill page provide scrolling w/ sticky headers
+    if (fillPage) {
+      // force scrollbar on overflow
+      container.addClass('flowing-content-shim');
+
+      // stable table headers when scrolling
+      bsTable.stickyTableHeaders({
+        scrollableArea: container
+      });
+    }
+  }
+});
+
+// embedded shiny app
+window.FlexDashboardComponents.push({
+
+  find: function(container) {
+    return container.find('iframe.shiny-frame');
+  },
+
+  flex: function(fillPage) {
+    return fillPage;
+  },
+
+  layout: function(title, container, element, fillPage) {
+    if (fillPage) {
+      element.attr('height', '100%');
+    } else {
+      // provide default height if necessary
+      var height = element.get(0).style.height;
+      if (!height)
+        height = element.attr('height');
+      if (!height)
+        element.attr('height', 500);
+    }
+  }
+});
+
+// shiny fillRow or fillCol
+window.FlexDashboardComponents.push({
+
+  find: function(container) {
+    return container.find('.flexfill-container');
+  },
+
+  flex: function(fillPage) {
+    return fillPage;
+  },
+
+  layout: function(title, container, element, fillPage) {
+    if (fillPage)
+      element.css('height', '100%');
+    else {
+      // provide default height if necessary
+      var height = element.get(0).style.height;
+      if (height === "100%" || height === "auto" || height === "initial" ||
+          height === "inherit" || !height) {
+        element.css('height', 500);
+      }
+    }
+  }
+});
+
+// valueBox
+window.FlexDashboardComponents.push({
+
+  type: "custom",
+
+  find: function(container) {
+    if (container.find('span.value-output, .shiny-valuebox-output').length)
+      return container;
+    else
+      return $();
+  },
+
+  flex: function(fillPage) {
+    return false;
+  },
+
+  layout: function(title, container, element, fillPage) {
+
+    // alias variables
+    var chartTitle = title;
+    var valueBox = element;
+
+    // add value-box class to container
+    container.addClass('value-box');
+
+    // value paragraph
+    var value = $('<p class="value"></p>');
+
+    // if we have shiny-text-output then just move it in
+    var valueOutputSpan = [];
+    var shinyOutput = valueBox.find('.shiny-valuebox-output').detach();
+    if (shinyOutput.length) {
+      valueBox.children().remove();
+      shinyOutput.html("&mdash;");
+      value.append(shinyOutput);
+    } else {
+      // extract the value (remove leading vector index)
+      var chartValue = valueBox.text().trim();
+      chartValue = chartValue.replace("[1] ", "");
+      valueOutputSpan = valueBox.find('span.value-output').detach();
+      valueBox.children().remove();
+      value.text(chartValue);
+    }
+
+    // caption
+    var caption = $('<p class="caption"></p>');
+    caption.append(chartTitle);
+
+    // build inner div for value box and add it
+    var inner = $('<div class="inner"></div>');
+    inner.append(value);
+    inner.append(caption);
+    valueBox.append(inner);
+
+    // add icon if specified
+    var icon = $('<div class="icon"><i></i></div>');
+    valueBox.append(icon);
+    function setIcon(chartIcon) {
+      var iconLib = "";
+      var iconSplit = chartIcon.split(" ");
+      if (iconSplit.length > 1) {
+        iconLib = iconSplit[0];
+        chartIcon = iconSplit.slice(1).join(" ");
+      } else {
+        var components = chartIcon.split("-");
+        if (components.length > 1)
+          iconLib = components[0];
+      }
+      icon.children('i').attr('class', iconLib + ' ' + chartIcon);
+    }
+    var chartIcon = valueBox.attr('data-icon');
+    if (chartIcon)
+      setIcon(chartIcon);
+
+    // handle data attributes in valueOutputSpan
+    function handleValueOutput(valueOutput) {
+
+      // caption
+      var dataCaption = valueOutput.attr('data-caption');
+      if (dataCaption)
+        caption.html(dataCaption);
+
+      // icon
+      var dataIcon = valueOutput.attr('data-icon');
+      if (dataIcon)
+        setIcon(dataIcon);
+
+      // If valueBox(color=) was an accent color, this attr should
+      // be populated with the accent color and the relevant CSS comes
+      // in through HTML dependencies
+      var dataColorAccent = valueOutput.attr('data-color-accent');
+      var valueBoxClasses = "value-box-" + (["primary", "info", "danger", "warning", "success"].join(" value-box-"));
+      if (dataColorAccent) {
+        valueBox.removeClass(valueBoxClasses);
+        valueBox.addClass('value-box-' + dataColorAccent);
+      }
+
+      // If valueBox(color=) was a CSS color, these other data-color-*
+      // attrs will be populated
+      var dataColor = valueOutput.attr('data-color');
+      if (dataColor) {
+        valueBox.removeClass(valueBoxClasses);
+        valueBox.css('background-color', dataColor);
+      }
+      var dataColorText = valueOutput.attr('data-color-text');
+      if (dataColorText) {
+        valueBox.find(".inner").css('color', dataColorText);
+      }
+      var dataColorIcon = valueOutput.attr('data-color-icon');
+      if (dataColorIcon) {
+        valueBox.find(".icon").css('color', dataColorIcon);
+      }
+
+      // url
+      var dataHref = valueOutput.attr('data-href');
+      if (dataHref) {
+        valueBox.addClass('linked-value');
+        valueBox.off('click.value-box');
+        valueBox.on('click.value-box', function(e) {
+          window.FlexDashboardUtils.showLinkedValue(dataHref);
+        });
+      }
+    }
+
+    // check for a valueOutputSpan
+    if (valueOutputSpan.length > 0) {
+      handleValueOutput(valueOutputSpan);
+    }
+
+    // if we have a shinyOutput then bind a listener to handle
+    // new valueOutputSpan values
+    shinyOutput.on('shiny:value',
+      function(event) {
+        var element = $(event.target);
+        setTimeout(function() {
+          var valueOutputSpan = element.find('span.value-output');
+          if (valueOutputSpan.length > 0)
+            handleValueOutput(valueOutputSpan);
+        }, 10);
+      }
+    );
+  }
+});
+</script>
+
+<div id="dashboard-container">
+
+<div id="overview" class="section level1">
+<h1>Overview</h1>
+<p><br> <br></p>
+<p>R is an open source software and programming language for data
+ingestion, data processing, exploratory data analysis, statistical
+modeling, visualization and machine learning among other things.
+Recently, as the term <strong>“data science”</strong> has emerged to
+describe collectively these tasks, R has also become the primary tool of
+choice for data scientists. The <a
+href="https://www.meetup.com/seoul-r-meetup"><strong>Seoul R
+meetup</strong></a> brings together local users of R and featuring talks
+with world-class speakers while creating fruitful networking
+opportunities for its members.</p>
+<ul>
+<li><strong>Seoul R Meetup</strong>: <a
+href="https://www.meetup.com/seoul-r-meetup">link</a>
+<ul>
+<li>Seoul R Meetup Website: <a
+href="https://tidyverse-korea.github.io/seoul-R/">link</a></li>
+<li>Global R Meetup Dashboard: <a
+href="https://r-community.org/usergroups/">link</a><br />
+</li>
+</ul></li>
+<li>Korea R User Group: <a href="https://r2bit.com/">link</a></li>
+<li>Korea R Conference: <a href="https://use-r.kr/">link</a></li>
+<li>Youtube Channel: <a
+href="https://www.youtube.com/channel/UCW-epmIvjBEhhVXw_F0Nqbw">link</a></li>
+<li>Facebook Group: <a
+href="https://www.facebook.com/groups/tidyverse">link</a></li>
+</ul>
+<p><br></p>
+<div id="organizers" class="section level4">
+<h4>Organizers</h4>
+<ul>
+<li><a href="https://github.com/choonghyunryu">Choonghyun Ryu,
+유충현</a></li>
+<li><a href="https://github.com/statkclee">Kwangchun Lee,
+이광춘</a></li>
+<li><a href="https://github.com/cardiomoon">Keon-Woong Moon,
+문건웅</a></li>
+<li><a href="https://aidenhong.com/">Seonghak Hong, 홍성학</a></li>
+<li><a href="https://rcmdr.kr/">Jonghwa Shin, 신종화</a></li>
+</ul>
+<p><br></p>
+</div>
+<div id="sponsors" class="section level4">
+<h4>Sponsors</h4>
+<p><a href="https://www.oss.kr/"><img src="fig/openup_logo.png"
+style="width:10.0%" /></a> <a href="https://www.r-consortium.org/"><img
+src="fig/R_Consortium-logo-vertical-color.png"
+style="width:10.0%" /></a></p>
+</div>
+</div>
+<div id="section" class="section level1">
+<h1>2022</h1>
+<div id="column" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="december-12월" class="section level3">
+<h3>December (12월)</h3>
+<p><br> <br></p>
+<ul>
+<li><p>When: Saturday, December 10, 2022 13:00 to 17:00 AM
+GMT+9</p></li>
+<li><p>Where: Sungkyunkwan University · Seoul / 성균관대학교 다산경제관
+32211</p></li>
+<li><p><a
+href="https://www.meetup.com/seoul-r-meetup/events/288178926/">Seoul R
+Users: 2022 - November</a></p></li>
+<li><p>Talk/Hands-on (50min talk, 10min Q&amp;A): 32211호</p>
+<ul>
+<li>Title: “Introduction to Survival Analysisy with R”</li>
+<li>Korean Title: “R을 이용한 생존분석 기초”</li>
+<li>Speaker: 문건웅 (가톨릭 의대)</li>
+<li>Abstract: 최근 출간된 “의료인을 위한 R 생존분석” 책에 담긴 기본기
+충실한 내용을 함께 공유합니다.</li>
+<li><a
+href="https://github.com/cardiomoon/survivalWorkshop">발표자료</a></li>
+</ul></li>
+<li><p>Talk/Hands-on (50min talk, 10min Q&amp;A): 32211호</p>
+<ul>
+<li>Title: “Digital Writing with Quarto”</li>
+<li>Korean Title: “Quarto 로 디지털 글쓰기”</li>
+<li>Speaker: 한국R사용자회(Korea R User Group) 강사</li>
+<li>Abstract: 과학기술 디지털 글쓰기 절대반지로 급부상한 Quarto를 통해
+디지털 글쓰기 기본기 경험을 전달합니다.</li>
+<li><a
+href="https://r2bit.com/bitSlide/slideshow/202212-dreamtalk/">발표자료</a></li>
+</ul></li>
+<li><p>Hands-on Tutorial A (2 Hr): 31405호</p>
+<ul>
+<li>Title: “Document Automation with SQL and R(rmd,shiny)”</li>
+<li>Korean Title: “SQL과 R(rmd,shiny)를 이용한 문서자동화”</li>
+<li>Instructor(강사): 이현열 (두물머리)</li>
+<li>Abstract: 아래한글, MS 워드 워드프로세서가 아닌 방식으로 대량의
+문서를 자동화하는 방식을 소개합니다.</li>
+<li><a href="data/221220_r_meetup_shiny/index.html">발표자료</a>, <a
+href="data/221220_r_meetup_shiny/20221116.html">샘플 보고서</a></li>
+</ul></li>
+<li><p>Hands-on Tutorial A (2 Hr):</p>
+<ul>
+<li>Title: “Regression model prediction and regression analysis
+essence”</li>
+<li>Korean Title: “왜 같은 모델가지고 다른 이야기 하는거죠? -한번에
+끝내는 회귀모형 예측과 회귀분석 에센스”</li>
+<li>Instructor(강사): 안상선 (엠로보)</li>
+<li>Abstract: 사회과학의 대표적인 연구 방법인 회귀분석과 머신러닝의
+회귀모형의 주요 특징과 차이점을 소개합니다.</li>
+<li><a
+href="https://mrobo2016.notion.site/Seoul-R-Meetup-Tutorial-12-3a2f007dc73c40c1b131f947a52e6150">발표자료</a></li>
+</ul></li>
+</ul>
+</div>
+<div id="november-11월" class="section level3">
+<h3>November (11월)</h3>
+<p><br> <br></p>
+<ul>
+<li><p>When: Saturday, November 05, 2022 13:00 to 17:00 AM
+GMT+9</p></li>
+<li><p>Where: Sungkyunkwan University · Seoul / 성균관대학교 다산경제관
+32211</p></li>
+<li><p><a
+href="https://www.meetup.com/seoul-r-meetup/events/288178926/">Seoul R
+Users: 2022 - November</a></p></li>
+<li><p>Talk/Hands-on (30min talk, 10min Q&amp;A): 32211호</p>
+<ul>
+<li>Title: “Making Recommendation System with Shiny”</li>
+<li>Korean Title: “Shiny로 추천시스템 만들기”</li>
+<li>Speaker: 이영록 (Youngrok Lee)</li>
+<li>Abstract: 무비렌즈 데이터를 통해 Shiny로 영화 추천 시스템 제작
+경험을 공유합니다.</li>
+<li><a
+href="https://github.com/youngroklee-ml/movie-recommender">발표자료</a></li>
+</ul></li>
+<li><p>Talk/Hands-on (30min talk, 10min Q&amp;A): 32211호</p>
+<ul>
+<li>Title: “So many painful decisions until using R - R, Shiny, HWP
+experience dealing with Covid-19 at MoE”</li>
+<li>Korean Title: “R로 넘어온 험난한 시간들 - 교육부 코로나 부서에서 R,
+shiny, hwp 사용기”</li>
+<li>Speaker: 교육부 장명헌 사무관<br />
+</li>
+<li>Abstract: 교육부 코로나 부서에서 R, shiny, hwp 사용 경험을
+발표합니다.</li>
+<li><a href="data/covid_221105_meetup/ggplot_to_hwp.html">ggplot to
+hwp</a></li>
+</ul></li>
+<li><p>Talk/Hands-on (30min talk, 10min Q&amp;A) 32211호</p>
+<ul>
+<li>Title: “Low-Code Shiny Application Development”</li>
+<li>Korean Title: “로우코드 Shiny 앱 개발”</li>
+<li>Speaker: 한국R사용자회(Korea R User Group)</li>
+<li>Abstract: Shiny가 세상에 나온지 올해로 꼭 10년이 되었고 Shiny가
+개척한 영역에 Plotly Dash, 파이썬 Streamlit 이 등장하면서 가장 뜨거운
+영역으로 등장하고 있다. 최근 RPA를 넘어 새롭게 각광받고 있는
+노코드/로우코드 개발에 Shiny 생태계에 추가되고 있는 다양한 도구를 적극
+도입한 고교통계패키지 BitStat-HS 사례를 소개합니다.<br />
+</li>
+<li><a
+href="https://r2bit.com/bitSlide/slideshow/202211-meetup/">발표자료</a></li>
+</ul></li>
+<li><p>Hands-on Tutorial A (2 Hr): 31405호</p>
+<ul>
+<li>Title: “Low Code Shiny Tutorial”</li>
+<li>Korean Title: “로우 코드 Shiny 튜토리얼”</li>
+<li>Instructor(강사): 한국R사용자회(Korea R User Group) 강사</li>
+<li>Abstract: 나눔국민운동본부의 후원을 받아 R, 특히 Shiny 앱개발을
+차근차근 배우고자하는 분을 대상으로 디지털 불평등 해소와 데이터 문해력
+향상을 위한 무료 나눔 교육을 실시합니다.</li>
+</ul></li>
+<li><p>Hands-on Tutorial A (2 Hr):</p>
+<ul>
+<li>Title: “Shiny Tutorial”</li>
+<li>Korean Title: “Shiny 튜토리얼”</li>
+<li>Instructor(강사): 이준혁</li>
+<li>Abstract: 나눔국민운동본부의 후원을 받아 R, 특히 Shiny 앱개발을
+차근차근 배우고자하는 분을 대상으로 디지털 불평등 해소와 데이터 문해력
+향상을 위한 무료 나눔 교육을 실시합니다.</li>
+</ul></li>
+</ul>
+</div>
+<div id="october-10월" class="section level3">
+<h3>October (10월)</h3>
+<p><br> <br></p>
+<ul>
+<li><p>When: Saturday, October 22, 2022 13:00 to 17:00 AM GMT+9</p></li>
+<li><p>Where: Sungkyunkwan University · Seoul / 성균관대학교 다산경제관
+31406</p></li>
+<li><p><a
+href="https://www.meetup.com/seoul-r-meetup/events/287875293/">Seoul R
+Users: 2022 - October</a></p></li>
+<li><p>Talk/Hands-on (30min talk, 10min Q&amp;A): 31406호</p>
+<ul>
+<li>Title: “IFRS Valuation Report with Rmarkdown”</li>
+<li>Korean Title: “IFRS R마크다운 보고서”</li>
+<li>Speaker: 형환희 CPA (HwanHee Hyung)</li>
+<li>Abstract: IFRS 가치평가 보고서를 RMarkdown을 활용하여 자동화한
+경험을 공유합니다.</li>
+<li><a
+href="https://joy-hhh.github.io/seoul_R_meetup/">발표자료</a></li>
+</ul></li>
+<li><p>Talk/Hands-on (30min talk, 10min Q&amp;A): 31406호</p>
+<ul>
+<li>Title: “증권사의 API를 이용한 자동거래”</li>
+<li>Korean Title: “Automatic transactions using the API of securities
+firms”</li>
+<li>Speaker: 이현열 CFA (Hyunyul Lee)</li>
+<li>Abstract: 증권사 API를 이용한 시스템 자동거래에 대한 경험을
+공유합니다.</li>
+<li><a href="data/221022_r_meetup_api/index.html">발표자료</a></li>
+</ul></li>
+<li><p>Talk/Hands-on (30min talk, 10min Q&amp;A): 31406호</p>
+<ul>
+<li>Title: “Dynamic Pricing”</li>
+<li>Korean Title: “Dynamic Pricing”</li>
+<li>Instructor(강사): 한국R사용자회(Korea R User Group) 강사</li>
+<li><a href="https://statkclee.github.io/pricing">발표자료</a></li>
+</ul></li>
+<li><p>Hands-on Tutorial A (2 Hr): 31406호</p>
+<ul>
+<li>Title: “연식이냐 주행거리냐 그것이 문제로다”</li>
+<li>Instructor(강사): 나성호</li>
+<li>상세내용: 엔카 중고차 데이터를 바탕으로 차종별 (중형차/대형차)
+회귀모형 개발과 등급별 비교</li>
+<li><a
+href="https://github.com/hdsceokevin/R-Meetup">워크샵자료</a></li>
+</ul></li>
+<li><p>Hands-on Tutorial B (2 Hr): 31405호</p>
+<ul>
+<li>Title: “OS와 무관한 데이터 과학 개발 환경 구성”</li>
+<li>Instructor(강사): 김호성</li>
+<li>상세내용: 디지털 글쓰기 Shiny App 컨셉설명, 별도 구성한 환경을
+시연</li>
+<li><a href="https://github.com/joygram/bit-server">워크샵자료</a> <a
+href="http://r2bit.ddns.net/">디지털 글쓰기</a></li>
+</ul></li>
+</ul>
+</div>
+<div id="september-9월" class="section level3">
+<h3>September (9월)</h3>
+<p><br> <br></p>
+<ul>
+<li><p>When: Saturday, September 24, 2022 13:00 to 17:00 AM
+GMT+9</p></li>
+<li><p>Where: Sungkyunkwan University · Seoul / 성균관대학교 다산경제관
+33221</p></li>
+<li><p><a
+href="https://www.meetup.com/seoul-r-meetup/events/287874898/">Seoul R
+Users: 2022 - September</a></p></li>
+<li><p>Talk/Hands-on (50min talk, 10min Q&amp;A)</p>
+<ul>
+<li>Title: “R Data Journalism: Text Mining”</li>
+<li>Korean Title: “R기반 데이터저널리즘: 텍스트마이닝의 활용”</li>
+<li>Speaker: 안도현(Ahn Dohyun)</li>
+<li>Abstract: 데이터저널리즘에 왜 R을 이용해야 하는지, R프로그래밍은
+어느 정도 수준까지 필요한지, 텍스트마이닝을 데이터저널리즘에 어떻게
+활용하는지 경험을 공유합니다.</li>
+<li>발표자료: <a href="https://datajournalism.netlify.app/"
+class="uri">https://datajournalism.netlify.app/</a></li>
+</ul></li>
+<li><p>Talk/Hands-on (30min talk, 10min Q&amp;A)</p>
+<ul>
+<li>Title: “Korean R Text Mining Package; bitTA”</li>
+<li>Korean Title: “한글 R 텍스트 마이닝 패키지; bitTA”</li>
+<li>Speaker: 한국R사용자회(Korea R User Group)</li>
+<li>Abstract: 한글 텍스트 분석을 빠르고 정확하고 쉽게 작업하여 생산적인
+결과물을 뽑아내는데 축적된 지식과 경험을 담아낸 한글 텍스트 마이닝
+패키지 bitTA를 공유합니다.</li>
+<li>발표자료: <a href="https://github.com/bit2r/bitTA"
+class="uri">https://github.com/bit2r/bitTA</a></li>
+</ul></li>
+<li><p>Two Track Hands-on Tutorial (각 2hrs ):</p>
+<ul>
+<li>Advanced Track (홍성학)
+<ul>
+<li>Title: “한국어임베딩과 R언어(Korean Embedding and R Language)”</li>
+<li>Abstract: 전통적인 자연어처리와 텍스트마이닝부터 BERT와 같은 최신
+워드임베딩 방식의 텍스트마이닝 기법에 대한 장벽과 현황에 대해서 공유하고
+R을 이용한 여러가지 최신 워드임베딩 모델을 사용하는 패키지와 코드를
+소개합니다.</li>
+<li><a
+href="https://aidenhong.com/presentations/korean-embedding-with-r/korean-embedding-with-r.html">발표자료</a></li>
+</ul></li>
+<li>Learning Track (이광춘)
+<ul>
+<li>Title: “데이터 패키지(Data Packaging for Korean Context)”</li>
+<li>Abstract: 데이터 사이언스의 시작점이 되는 제대로된 한국 데이터셋에
+문제를 인식하고 bitData 를 소개하고 추가 데이터를 함께 만들어 기여하고
+이를 분석하여 가능하면 Vignette에 추가하는 것까지 짧은 시간 참여자와
+함께 합니다.</li>
+<li>발표자료: <a href="https://r2bit.com/bitData/">bitData</a>
+Vignette</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+<div id="august-8월" class="section level3">
+<h3>August (8월)</h3>
+<p><br> <br></p>
+<ul>
+<li><p>When: Saturday, August 13, 2022 10:00 AM to 12:00 AM
+GMT+9</p></li>
+<li><p>Where: Konkuk University · Seoul / 건국대학교 상허연구관
+320호</p></li>
+<li><p><a
+href="https://www.meetup.com/seoul-r-meetup/events/287301435/">Seoul R
+Users: 2022 - August</a></p></li>
+<li><p>Talk/Hands-on (30min talk, 10min Q&amp;A)</p>
+<ul>
+<li>Title: “ggplot2 coloring guide”</li>
+<li>Korean Title: “ggplot2 컬러링 가이드”</li>
+<li>Speaker: 방태모(BANG TaeMo)</li>
+<li>Abstract: 보다 적은 수의 컬러를 사용해 직관적인 시각화를 수행하는
+방법</li>
+<li><a
+href="https://be-favorite.github.io/Presentation_archive/coloring_guide/coloring_guide.html">발표자료</a></li>
+</ul></li>
+<li><p>Talk/Hands-on (30min talk, 10min Q&amp;A)</p>
+<ul>
+<li>Title: “Advanced ‘Rcmdr’ practice”</li>
+<li>Korean Title: “R Commander 99% 활용법”</li>
+<li>Speaker: 신종화(SHIN Jong-Hwa)</li>
+<li>Abstract: Rcmdr GUI 통계 툴이 있습니다. RStudio와 연계한 중급
+사용법, Plugin 패키지 활용과 개발 이야기를 나눕니다.</li>
+<li><a href="https://rcmdr.kr">참고자료1</a></li>
+<li><a href="https://modernity.tistory.com">참고자료2</a></li>
+</ul></li>
+<li><p>Talk/Hands-on (50min talk, 10min Q&amp;A)</p>
+<ul>
+<li>Title: “Deep Learning with R”</li>
+<li>Korean Title: “R 딥러닝”</li>
+<li>Speaker: 이광춘(Kwangchun Lee)</li>
+<li><a href="https://aispiration.com/united-states/">발표자료</a></li>
+<li>Abstract: 딥러닝 발전이 눈부시는 한편 이에 대한 R 진영의 대응도
+빨라지고 있다. 이에 따라 최근 R에서 딥러닝을 활용하여 데이터 과학/통계
+문제를 풀어나가는 엔지니어링 측면에서 살펴보고자 한다.</li>
+</ul></li>
+</ul>
+</div>
+<div id="july-7월" class="section level3">
+<h3>July (7월)</h3>
+<p><br> <br></p>
+<ul>
+<li><p>When: Saturday, July 9, 2022 10:00 AM to 12:00 AM GMT+9</p></li>
+<li><p>Where: Sungkyunkwan University · Seoul / 성균관대학교
+퇴계인문관</p></li>
+<li><p><a
+href="https://www.meetup.com/seoul-r-meetup/events/286541787/">Seoul R
+Users: 2022 - July</a></p></li>
+<li><p><strong>Talk/Hands-on</strong> (50min talk, 10min Q&amp;A)</p>
+<ul>
+<li>Title: “Tidyverse Meets Shiny”</li>
+<li>Korean Title: “Tidyverse Meets Shiny”</li>
+<li><strong>Speaker</strong>: 이광춘(Kwangchun Lee)</li>
+<li><a
+href="https://aispiration.com/ds-authoring/tidyverse-shiny.html#1">slidedeck</a></li>
+<li>Abstract: flexdashboard, crosstalk, shiny 도구를 사용해서 정적
+대쉬보드, Standalone 인터랙티브 기능 구현, 오픈 통계 교과서 기반이 되는
+Shiny 서버 기술을<br />
+통해 데이터 과학 웹앱 개발의 무한한 가능성을 탐구</li>
+</ul></li>
+<li><p><strong>Talk/Hands-on</strong> (50min talk, 10min Q&amp;A)</p>
+<ul>
+<li>Title: “Naver News with Shiny”</li>
+<li>Korean Title: “Shiny로 네이버 뉴스 검색하기”</li>
+<li><strong>Speaker</strong>: 유충현(Choonghyun Ryu)</li>
+<li><a
+href="https://choonghyunryu.github.io/tidyverse-meets-shiny/">slidedeck</a></li>
+<li>Abstract: Shiny 애플리케이션 개발의 ABC에서 시작하여 Shiny 앱의
+동작을 이해하고, 간단한 어플리케이션 개발을 위한 자신감을 통해 네이버
+뉴스 수집과 간단한 텍스트 분석 핸즈온 실습</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="section-1" class="section level1">
+<h1>2021</h1>
+<div id="column-1" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="overview-1" class="section level3">
+<h3>Overview</h3>
+<p><br> <br></p>
+<ul>
+<li>When: <strong>Wednesday, January 13, 2021 7:00 PM to 9:00 PM
+GMT+9</strong>
+<ul>
+<li>RSVP opens Wednesday, December 30, 2020 7:00 PM**</li>
+</ul></li>
+<li>Where: Online Event - Link visible for attendees</li>
+<li><a
+href="https://www.meetup.com/seoul-r-meetup/events/ccqpbsycccbrb/">Seoul
+R Users: 2021 - January</a></li>
+</ul>
+<p><br> <br></p>
+<ul>
+<li><strong>Schedule</strong>
+<ul>
+<li>6:30 open zoom</li>
+<li>7:00-7:30 Presentation Talk 1</li>
+<li>7:30-8:00 Presentation Talk 2</li>
+<li>8:00-8:30 Presentation Talk 3</li>
+<li>8:30 ~ 9:00 Virtual Social</li>
+</ul></li>
+</ul>
+<p><br> <br></p>
+</div>
+<div id="january-1월" class="section level3">
+<h3>January (1월)</h3>
+<p><br> <br></p>
+<ul>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: “Data Science with R and Python”</li>
+<li>Korean Title: “R과 파이썬 데이터 과학”</li>
+<li><strong>Speaker</strong>: 이광춘(Kwangchun Lee)</li>
+<li><a
+href="https://statkclee.github.io/data-science/ds-languages.html">slidedeck</a></li>
+<li>Abstract: R 혹은 파이썬이 데이터 과학에 더 적합하고 어떤 데이터 과학
+언어가 평정할 것이냐는 전쟁은 이제 새로운 세대를 맞고 있습니다. 데이터
+과학을 어떤 언어로 하느냐가 중요한 것이 아니냐 풀려고 하는 문제를 어떻게
+데이터 과학 문제로 정의하고 데이터 과학 언어로 문제를 풀면 되지 않느냐는
+주장이 설득력을 얻고 있으며 몇년전부터 개발되기 시작한
+<code>reticulate</code>가 두 진영을 이어주는 핵심 팩키지로 자리를
+잡아가고 있습니다.</li>
+</ul></li>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: “Medical Research Support with R/shiny”</li>
+<li>Korean Title: “Shiny 활용 의학연구지원”</li>
+<li><strong>Speaker</strong>: 김진섭(JinSeoup Kim)</li>
+<li><a
+href="https://jinseob2kim.github.io/lecture-general/tidyversekorea">slidedeck</a></li>
+<li>Abstract: 의과대학, 보건대학원, 삼성전자를 거치면서 다양한
+건강데이터를 다룬 경험을 바탕으로 연구지원법인 차라투를 설립, R/Shiny 로
+의학연구자들을 지원 중입니다. Shinykorea 의 진행과 후원을 맡아
+의료/축산/게임/반도체/신용평가/IPTV 등 다양한 분야의 사람들과 함께 Shiny
+를 알아가는 중입니다.</li>
+</ul></li>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: <del>Simple AutoML Starting with KubeFlow</del></li>
+<li>Korean Title: <del>“KubeFlow로 시작하는 간단한 AutoML”</del></li>
+<li><strong>Speaker</strong>: <del>이승우</del></li>
+</ul></li>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: “Data Analysis with KNIME”</li>
+<li>Korean Title: “KNIME을 이용한 데이터분석” + <span
+class="math inline">\(\alpha\)</span> “Shiny 이용 모바일앱 개발</li>
+<li><strong>Speaker</strong>: Nam-Hyeon Jee (지남현)</li>
+<li><a href="data/2.%20shinyMobile%20소개%20(지남현).pdf">shinyMobile
+소개</a>, <a href="data/1-1.%20KNME%20소개_엑셈%20(지남현).pdf">KNME
+소개</a>, <a
+href="data/1-3.%20knime_study_workflow%20(지남현).zip">knime_study_workflow</a>,
+<a href="https://www.knime.com/cheat-sheets">KNIME Cheatsheet</a></li>
+<li>Abstract 1 : KNIME Analytics Platform은 GUI workflow 기반으로 데이터
+선택부터 전처리, 변환, 분석, 모델링, 평가, 시각화 까지 일련의 분석
+과정을 손쉽게 작업할 수 있는 분석 플랫폼으로, 독일의 Konstanz
+University에서 Java로 2004년 부터 개발해 온 오픈소스 프로그램
+입니다.</li>
+<li>Abstract 2 : shinyMobile은 shiny용 대시보드 (shinydashboardplus,
+bs4Dash, argonDash 등) 패키지를 만든 RinteRface에서, Framework7 템플릿
+기반으로 만든 모바일용으로 shiny 대시보드 패키지 입니다.</li>
+</ul></li>
+</ul>
+</div>
+<div id="february-2월" class="section level3">
+<h3>February (2월)</h3>
+<p><br> <br></p>
+<ul>
+<li>When: **Wednesday, February 10, 2021 7:00 PM to 9:00 PM GMT+9</li>
+<li>Where: Online Event - Link visible for attendees</li>
+<li><a
+href="https://www.meetup.com/seoul-r-meetup/events/ccqpbsyccdbnb/">Seoul
+R Users: 2021 - February</a></li>
+</ul>
+<p><br> <br></p>
+<ul>
+<li><strong>Schedule</strong>
+<ul>
+<li>6:30 open zoom</li>
+<li>7:00-7:30 Presentation Talk 1</li>
+<li>7:30-8:00 Presentation Talk 2</li>
+<li>8:00-8:30 Presentation Talk 3</li>
+<li>8:30 ~ 9:00 Virtual Social</li>
+</ul></li>
+</ul>
+<p><br> <br></p>
+<ul>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: “Crawling the United States stock data”</li>
+<li>Korean Title: “미국주식 데이터 수집”</li>
+<li><strong>Speaker</strong>: 이현열</li>
+<li><a
+href="https://hyunyulhenry.github.io/lecture/210210_r_meetup/index.html">slidedeck</a></li>
+<li>초록: 투자를 하기 위해서는 우선 그 기업이 무엇을 하는지, 즉 데이터를
+수집해야 합니다. 데이터만 있다면 국내 뿐만 아니라 미국, 혹은 우리가
+한번도 들어보지 못했던 동유럽이나 동남아에도 투자가 가능합니다. 크롤링을
+이용한다고 이러한 데이터를 얼마든지 무료로 수집할 수 있습니다. 또한
+데이터를 기반으로 투자를 한다면 시장의 광끼과 공포에 휘둘리지 않는
+장점도 있습니다.</li>
+<li>Abstract: To invest, first, you have to collect what the company
+does: data. If you have data, you can invest not only in Korea but also
+in the United States, or in Eastern Europe or Southeast Asia, which we
+have never heard of. You can collect these data for free by using web
+crawling. And if you invest based on data, you have the advantage of not
+being overwhelmed by the market’s greed and fear.</li>
+</ul></li>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: “GIS Data Handling Using R”</li>
+<li>Korean Title: “R을 이용한 GIS 데이터 핸들링”</li>
+<li><strong>Speaker</strong>: 하헌철</li>
+<li>Abstract:GIS Data 전반에 대한 내용을 처음 접하는 데이터분석가를
+상정하여 소개하는 내용입니다. 기본적인 R 지식은 갖추고 있다는 전제 하에,
+더 깊은 내용을 구글링하고 이해하기 위한 기초적인 지식 그리고 실무
+예제들을 소개합니다.<br />
+</li>
+<li><a href="data/GIS_Data_Handling_Using_R.html">slidedeck</a></li>
+</ul></li>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: Case Study: Time Series Analysis with R</li>
+<li>Korean Title: “돈이 될지도 모르는 암호화폐의 변동성 분석”</li>
+<li><strong>Speaker</strong>: 안상선(SangSun Ahn)</li>
+<li><a href="data/안상선_2021.pdf">paper</a></li>
+<li>Abstract: 암호화폐의 가격정보가 금융시장에서 투자정보로서 역할을
+하기 위해서는 첫째, 암호화폐 가격정보가 우리의 연구 대상은 주식시장과
+관련이 있어야 한다. 이를 위해서 암호화폐의 가격 정보와 우리나라의
+종합주가지수(KOSPI지수)와의 관계를 살펴본다. 둘째, 사전 정보로서
+가능성을 검증하기 위해 과거 시점의 암호화폐가격정보와 현재 주식시장의
+가격변수와의 관계를 살펴본다. 이는 암호화폐 가격이 예측가능성 있는
+투자지 표로서 역할을 할 수 있는지를 검증한 것이다. 셋째, 불확실성이 높은
+상황에서도 암호화폐의 가격정보가 투자지표로서 역할을 할 수 있는지
+검증한다. 금융 연구에서는 1999년 동아시아의 금융위기, 2008년에 미국발
+금융위기 등과 같은 비일상적인 상황에서 금융 시장을 다룬 연구가 많다.
+여기서는 코로나19 팬데믹 선언을 한 2020년 1월 29일을 기점으로 그 이전과
+이후로 기간을 나눴으며, 2기간 간에 암호화폐 가격의 정보의 효율성을
+비교했다.</li>
+</ul></li>
+</ul>
+</div>
+<div id="march-3월" class="section level3">
+<h3>March (3월)</h3>
+<p><br> <br></p>
+<ul>
+<li>When: **Wednesday, March 10, 2021 7:00 PM to 9:00 PM GMT+9</li>
+<li>Where: Online Event - Link visible for attendees</li>
+<li><a
+href="https://www.meetup.com/seoul-r-meetup/events/ccqpbsyccfbnb/">Seoul
+R Users: 2021 - March</a></li>
+</ul>
+<p><br> <br></p>
+<ul>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: “Data Visualization Happening”</li>
+<li>Korean Title: “데이터 시각화 해프닝”</li>
+<li><strong>Speaker</strong>: 송효진(HyoJin Song)</li>
+<li>초록: 본 세션은 데이터를 시각화 할 때 일어나는 일들과 위험요소들이
+무엇이 있었는지 과거경험을 통해 이야기 합니다. 특히 최근데이터를
+이용하여 갱신되는 구조의 대시보드 형 리포트를 만들 때 일어날 수 있었던
+일(해프닝)들과, 이에 대한 견해를 공유합니다. 데이터 시각화시 일어날 수
+있는 사건들의 해프닝들을 반면교사 삼아 미리 대비하고 염두해두어야 할
+부분들이 무엇이 있는지 기초적인 10가지 주제를 요약정리하여 발표를 통해
+알려드립니다.</li>
+<li><a href="data/데이터시각화해프닝.pdf">slidedeck,
+<code>PDF</code></a>, <a
+href="data/데이터시각화해프닝.key"><code>keynote</code></a></li>
+</ul></li>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: Data analysis begins with data quality diagnosis and
+exploratory data analysis.</li>
+<li>Korean Title: 데이터 품질 진단과 EDA</li>
+<li><strong>Speaker</strong>: Choonghyun Ryu (유충현)</li>
+<li>초록: 데이터 분석의 시작은 데이터 품질 진단과 탐색적 데이터 분석부터
+시작합니다. dlookr 패키지는 데이터가 분석을 수행할 품질을 만족하는지
+진단하고, 개별 변수에 숨겨진 특징 이해하기 위한 EDA 작업을 도와줍니다.
+dlookr 패키지의 새로운 기능을 소개하고, tidyverse 패키지와 협업하는
+방법을 제시합니다.</li>
+<li>Abstract: The dlookr package diagnoses whether the data meets the
+quality to perform the analysis, and helps EDA work to understand the
+hidden features of individual variables. Introduces new features of the
+dlookr package and shows you how to collaborate with the tidyverse
+package.</li>
+<li><a href="data/20210310_Diagnosis_and%20EDA.pdf">slidedeck</a></li>
+</ul></li>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: “How to easily analyze text data”</li>
+<li>Korean Title: “텍스트를 쉽게 분석하는 방법”</li>
+<li><strong>Speaker</strong>: 김영우 (Young-Woo Kim)</li>
+<li>Abstract: Text data can also be analyzed easily in tidy way. From
+Tokenization, Morphological analysis, and calculating TF-IDF to creating
+network graphs, this talk introduces how to analyze text data in tidy
+way.</li>
+<li>초록: 텍스트 데이터도 tidy한 스타일로 다루면 쉽게 분석할 수
+있습니다. 토큰화, 형태소 분석, TF-IDF 계산부터 네트워크 그래프를 만드는
+작업까지, tidy한 방법으로 텍스트를 분석하는 방법을 소개합니다.</li>
+<li>“Do it! 쉽게 배우는 R 텍스트 마이닝” 이지스 퍼블리싱 출판사 책 2권
+증정</li>
+<li><a
+href="data/텍스트를%20쉽게%20분석하는%20방법_김영우.pdf">slidedeck</a></li>
+</ul></li>
+</ul>
+</div>
+<div id="april-4월" class="section level3">
+<h3>April (4월)</h3>
+<p><br> <br></p>
+<ul>
+<li>When: **Wednesday, April 14, 2021 7:00 PM to 9:00 PM GMT+9</li>
+<li>Where: Online Event - Link visible for attendees</li>
+<li><a
+href="https://www.meetup.com/seoul-r-meetup/events/ccqpbsyccgbsb/">Seoul
+R Users: 2021 - April</a></li>
+</ul>
+<p><br> <br></p>
+<ul>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: “데이터 과학 워드 프로세서”</li>
+<li>Korean Title: “Word Processor for Data Science”</li>
+<li><strong>Speaker</strong>: 이광춘(Kwangchun Lee)</li>
+<li>Abstract: RStudio announced that RStudio v1.4 has provided “Visual
+Markdown Editing”. With this feature data scientists can focus on
+technical writing itself such that they can improve documents quality.
+In this short talk, “Visual Markdown Editing” feature will be presented
+and Korean language supporting experiences will be shared.</li>
+<li>초록: Visual R Markdown 편집기능이 RStudio v1.4에 포함되면서
+글쓰기에 좀더 집중을 하면서 전반적인 데이터 과학 문서 품질향상에
+획기적인 변화가 생겨 새롭게 추가된 획기적인 Visual R Markdown 기능과
+한국어를 반영할 수 있는 방법을 함께 고민하고자 합니다.</li>
+<li><a
+href="https://statkclee.github.io/latex/document-ide.html">slidedeck</a></li>
+</ul></li>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: Propensity score analysis using R</li>
+<li>Korean Title: R기반 성향점수분석</li>
+<li><strong>Speaker</strong>: 박인서</li>
+<li>Abstract: Most social sciences data are collected through
+observational studies, without experimental manipulation. Under the
+circumstances, propensity score analysis allows us to make valid causal
+inferences. This talk will introduce main concepts and crucial steps in
+propensity score analysis.</li>
+<li>초록: 대부분의 사회과학 데이터는 실험설계를 따르지 않는 관측연구
+상황에서 얻어집니다. 이러한 관측연구 상황에서 타당하게 인과관계를 추론할
+수 있는 방법으로 성향점수분석 기법을 소개합니다. 성향점수분석에서
+등장하는 핵심 개념들을 알아보고, R에서 주요 진행 절차를
+실습해보겠습니다.</li>
+<li><a href="data/RMeetup_PSA_slide_210414.pdf">slidedeck</a></li>
+</ul></li>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: “DataRobot’s Location AI, ease of featurizing”</li>
+<li>Korean Title: “DataRobot의 위치정보를 활용한 모델링”</li>
+<li><strong>Speaker</strong>: 홍운표(WoonPyo Hong)</li>
+<li>Abstract: What and how are the available ways of feature engineering
+at location-relevant features in R? Review some cases in pure R
+scripting, we’ll consider DataRobot’s Location AI plus R API which is a
+good alternative to the existing approach as an enterprise AI
+platform.</li>
+<li>초록: 위치정보가 포함된 데이터를 활용하여 모델링할 때 R usage를
+살펴보고, 이의 대안으로 Enterprise AI Platform인 DataRobot의 Location AI
+기능과, R api를 활용하는 방법을 소개합니다.</li>
+<li><a
+href="data/DataRobot%20Location%20AI%20-%20R%20meetup.pdf">slidedeck</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="section-2" class="section level1">
+<h1>2020</h1>
+<div id="column-2" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="overview-2" class="section level3">
+<h3>Overview</h3>
+<p><br> <br></p>
+<ul>
+<li>When: <strong>Friday, December 11, 2020 7:00 PM to 9:00 PM
+GMT+9</strong>
+<ul>
+<li>RSVP opens <strong>RSVP opens Friday, November 27, 2020 7:00
+PM</strong></li>
+</ul></li>
+<li>Where: Online Event - Link visible for attendees</li>
+<li><a
+href="https://www.meetup.com/seoul-r-meetup/events/ccqpbsybcqbmb/">Seoul
+R Users: 2020 - December</a></li>
+</ul>
+<p><br> <br></p>
+<ul>
+<li><strong>Schedule</strong>
+<ul>
+<li>6:30 open zoom</li>
+<li>7:00-7:30 Presentation Talk 1</li>
+<li>7:30-8:00 Presentation Talk 2</li>
+<li>8:00-8:30 Presentation Talk 3</li>
+<li>8:30 ~ 9:00 Virtual Social</li>
+</ul></li>
+</ul>
+<p><br> <br></p>
+</div>
+<div id="september-9월-1" class="section level3">
+<h3>September (9월)</h3>
+<p><br> <br></p>
+<ul>
+<li>When: <strong>Wednesday, September 9, 2020 7:00 PM to 9:00 PM GMT+9
+</strong>
+<ul>
+<li>RSVP opens <strong>Wednesday, August 26, 2020</strong> 7:00 PM</li>
+</ul></li>
+<li>Where: Online Event - Link visible for attendees</li>
+<li><a
+href="https://www.meetup.com/seoul-r-meetup/events/wpltwrybcmbmb/">Seoul
+R Users: 2020-September</a></li>
+</ul>
+<p><br> <br></p>
+<ul>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: Why Tidymodels</li>
+<li>Korean Title: 왜 당근(caret)은 안되고 새로운 신상
+당근(Tidymodel)인가?</li>
+<li><strong>Speaker</strong>: Kwangchun Lee (이광춘)</li>
+<li><a
+href="https://statkclee.github.io/ds-authoring/ds-why-tidymodels.html#/">slide
+deck</a></li>
+<li>Abstract: Tidyverse is regareded as a new framework, ecosystem,
+thought leader for data science. Tidyverse also has a profound effect on
+models. When Max Kun moved to RStudio, perhaps the Tidymodels has begun.
+Now Tidymodels have become the standard of ML.</li>
+<li>초록: Tidyverse는 데이터 과학을 위한 새로운 프레임워크, 생태계,
+리더로 받아들여지고 있다. ML 분야도 Tidyverse 영향을 벗어날 수 없었다.
+Max Khun 박사가 RStudio로 자리를 옮기는 시점부터 아마도 Tidymodels의
+시작으로 볼 수 있고 몇년이 지나 Tidymodels는 ML 의 표준으로 자리잡아가고
+있다.</li>
+</ul></li>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: “MLOps with R: Collaboration of data scientists &amp;
+developers/engineers”</li>
+<li>Korean Title: “R에서 MLOps 시작하기: 데이터 과학자 &amp;
+개발자/엔지니어 협력”</li>
+<li><strong>Speaker</strong>: Ian Choi (최영락)</li>
+<li>Abstract: Machine Learning Operations (MLOps) process becomes
+critical for reliable and efficient deployment of applications that
+depend on R-based models. This talk explains and demonstrates MLOps from
+DevOps story by dividing into three R components: 1) data upload, 2)
+machine learning model training &amp; deployment, and 3) visualization
+with Shiny with Azure Machine Learning Service and GitHub Actions.</li>
+<li>초록: 한글: R 기반 모델로 만들어진 데이터 분석 &amp; 머신 러닝
+모델을 안정적이고 효율적으로 지속적인 배포를 위해서는 MLOps프로세스가
+필수일 것입니다. 본 발표에서는 DevOps에 대한 이야기를 시작으로, R로
+구현한 1) 데이터 업로드 2) 머신 러닝 모델 트레이닝 &amp; 배포 3) 시각화
+분석 활용 (Shiny) 이라는 3가지 파트가 Azure Machine Learning Service와
+GitHub Actions을 통해 MLOps를 데모와 함께 살펴봅니다.</li>
+<li><a href="https://aka.ms/ian-mlops-r">slide deck</a></li>
+</ul></li>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: The awesome way to buy a good calf with data science.</li>
+<li>Korean Title: 데이터 과학과 함께 좋은 송아지를 사는 방법</li>
+<li><strong>Speaker</strong>: Youngjun Na (나영준)</li>
+<li><a href="data/나영준-SeoulR.pdf">slide deck</a></li>
+</ul></li>
+</ul>
+</div>
+<div id="october-10월-1" class="section level3">
+<h3>October (10월)</h3>
+<p><br> <br></p>
+<ul>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: Weather Report Automation - GitHub Actions</li>
+<li>Korean Title: “날씨보고서 자동화 - GitHub Actions”</li>
+<li><strong>Speaker</strong>: Kwangchun Lee (이광춘)</li>
+<li><a
+href="https://statkclee.github.io/ds-authoring/ds-weather-github-actions.html">slide
+deck</a></li>
+<li>Abstract: Automation can a valuable asset for every data scientist.
+Through newly introduced GitHub Actions many repetitive data science
+works can be automated such that data scientists can spend more time on
+problem solvings. Motivated Python weather alerts app, automating
+weather report has been demonstrated. Meanwhile Xaringan and friends
+have shown new breakthrough for making slideshows impressive!!!</li>
+<li>초록: 자동화는 모든 데이터 과학자에게 정말 중요한 자산이 된다. 새로
+소개된 Github Actions을 통해 반복되는 많은 작업을 자동화시킴으로써
+본질적인 문제를 해결하는데 더 많은 시간을 쓸 수 있을 것으로 기대된다.
+파이썬 날씨 알리미 앱에 영감을 받아 날씨 보고서 자동생성 사례를
+시연한다. Xaringan과 친구들로 새로 제작된 발표자료는 감명깊은 발표자료를
+제작하는데 큰 영향을 줄 것으로도 기대된다.</li>
+</ul></li>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: “Tidy하게 그리고 Seamless하게”</li>
+<li>Korean Title: “Tidy하게 그리고 Seamless하게”</li>
+<li><strong>Speaker</strong>: Choonghyun Ryu (유충현)</li>
+<li><a
+href="https://github.com/choonghyunryu/R_Materials/tree/master/Meetup/Tidyverse_Korea/Seamless_in_R">slide
+deck</a></li>
+<li>초록: 통계학자에서 비롯된 R 생태계가 이제는 Software Engineer의
+합류로 더욱더 풍성해지고 있다. R의 태동과 진화의 역사로부터 tidy하고
+seamless한 데이터 분석 아키텍트의 진화에 대해 소개한다. 그리고 이를
+응용한 사례에 대한 소개와 tidy하고 seamless한 데이터분석 접근방법에
+대해서 논의한다.</li>
+</ul></li>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: A/B 테스트와 Multi-Armed Bandit</li>
+<li>Korean Title: A/B Testing &amp; Multi-Armed Bandit</li>
+<li><strong>Speaker</strong>: Sulgi Kim (김설기)</li>
+<li><a href="data/MAB_RMeetUp.pptx">slide deck</a></li>
+<li>초록: AI 와 ML 은 과거의 offline / history 데이터만 이용하는 경우가
+많지만, 이는 온라인 상에서 비교/확인을 하지 않는다는 점에서 한계가 있다.
+이를 극복하기 위해서 A/B 테스트로 대표되는 온라인 테스트와 함께 쓰여야
+한다. 한편, multi-armed bandit 이라는 방법은 A/B 테스트보다 유연한
+테스트와 실험을 할 수 있게 한다. 이번 발표에서는 multi-armed bandit 을
+소개하고, 활용가능성과 새로운 발견들에 대해 논의한다.</li>
+</ul></li>
+</ul>
+</div>
+<div id="november-11월-1" class="section level3">
+<h3>November (11월)</h3>
+<p><br> <br></p>
+<ul>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: Almost All about Table</li>
+<li>Korean Title: “표에 대한 거의 모든 것”</li>
+<li><strong>Speaker</strong>: Kwangchun Lee (이광춘)</li>
+<li><a
+href="https://statkclee.github.io/ds-authoring/seoul_r_table.html">slide
+deck</a></li>
+<li>Abstract: Categorical data is everywhere. We need to understand
+categorical data with different angles. In this talk, we will see many
+different aspects of categorical data ranging from table structure to
+ggplot-style table authoring. Also, all presentation slides are made of
+<code>xaringan</code> as a bonus.</li>
+</ul></li>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: “It’s just a magic!!!”</li>
+<li>Korean Title: “유튜브 데이터의 마술”</li>
+<li><strong>Speaker</strong>: Kevin Na (나성호)</li>
+<li><a href="https://github.com/MrKevinNa/YouTubeMagic">slide
+deck</a></li>
+<li>Abstract: 유튜브 크롤링으로 수집한 데이터를 sqlite3로 저장하고
+깃허브로 푸쉬할 때마다 자동으로 Shiny 대시보드에서 호출하여 시각화하는
+방법을 공유하는 자리입니다. YouTube Crawler + Sqlite DB + Github +
+RShiny + Crontab = Just Magic!!!</li>
+</ul></li>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: “Making serverless API with AWS Lambda and API Gateway in an
+easy way”</li>
+<li>Korean Title: “AWS Lamba 와 API Gateway로 가볍게 서버리스 API
+만들기”</li>
+<li><strong>Speaker</strong>: JungHwan Yun (윤정환)</li>
+<li><a
+href="https://www.notion.so/R-AWS-Lambda-REST-API-33d4231753b148a487b4ad26a232d9a4">slide
+deck</a></li>
+<li>Abstract: R로 작성된 스크립트를 구동할 수 있는 AWS Lambda 기반 API
+서버를 만드는 방법에 대해서 소개합니다. 20분만에 루틴한 전처리 작업을
+하거나 가벼운 분석 모형을 서빙할 수 있는 API를 만들 수 있습니다.</li>
+</ul></li>
+</ul>
+</div>
+<div id="december-12월-1" class="section level3">
+<h3>December (12월)</h3>
+<p><br> <br></p>
+<ul>
+<li>When: <strong>Friday, December 11, 2020 7:00 PM to 9:00 PM
+GMT+9</strong>
+<ul>
+<li>RSVP opens <strong>RSVP opens Friday, November 27, 2020 7:00
+PM</strong></li>
+</ul></li>
+<li>Where: Online Event - Link visible for attendees</li>
+<li><a
+href="https://www.meetup.com/seoul-r-meetup/events/ccqpbsybcqbmb/">Seoul
+R Users: 2020 - December</a></li>
+</ul>
+<p><br> <br></p>
+<ul>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: “파워포인트를 넘어서 - <code>xaringan</code>”</li>
+<li>Korean Title: “Beyond Powerpoint - <code>xaringan</code>”</li>
+<li><strong>Speaker</strong>: 이광춘(Kwangchun Lee)</li>
+<li><a
+href="https://statkclee.github.io/ds-authoring/seoul_r_xaringan.html#1">slide
+deck</a></li>
+<li>Abstract: So far, Microsoft Powerpoint has been a global standard in
+making slideshows. But due to the commercial software and lack of
+supporting reproducible data science slideshows, data science community
+has been looking for open slideshow tools. In response to this
+challenge, R community introduced the <code>xaringan</code> package
+several years ago. Like other tidyverse tools, <code>xaringan</code> has
+been successful in building slideshows ecosystem. Now, it’s a perfect
+time to make presentation materials with <code>xaringan</code>.</li>
+</ul></li>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: Data Journalism</li>
+<li>Korean Title: “데이터 저널리즘”</li>
+<li><strong>Speaker</strong>: 권오성</li>
+<li><a
+href="https://docs.google.com/presentation/d/1c5jHvnBOyV0-O4d1m2EFqlay-d_IAdPLIos6YexHSEg">slide
+deck</a></li>
+<li>Abstract: “데이터 폭발의 시대에 저널리즘도 변화하고 있습니다. 데이터
+저널리스트로서, 미디어 혁신 담당으로서, 데이터 분석 트레이너로서
+활동하고 있는 강연자가 자신의 경험과 동료의 이야기를 바탕으로 데이터
+활용 보도의 현재를 짚습니다. 그리고 데이터 분석과 인공지능 기술이 보도
+기법으로서 쓰이는 데서 한 발 더 나아가 저널리즘을 혁신하는 데까지
+확장되어 쓰여야 하는 이유에 대해 말씀 드립니다.”</li>
+</ul></li>
+<li><strong>Talk</strong> (25min talk, 5min Q&amp;A)
+<ul>
+<li>Title: “My experience: Release and maintain CRAN packages”</li>
+<li>Korean Title:</li>
+<li><strong>Speaker</strong>: 문건웅 (Keon-Woong Moon)</li>
+<li><a href="https://github.com/cardiomoon/LectureForRPackage">slide
+deck</a></li>
+<li>Abstract: 내가 만든 R 코드를 공유하는 가장 좋은 방법은 나의 코드를
+R패키지로 만들어 배포하는 것이다. R패키지를 만들 경우 문서화가 된
+R코드를 배포할 수 있기 때문에 R을 이용하여 사용자정의 함수를 만들어
+사용하는 사용자들이 R패키지를 만들어 본다면 나의 R코드를 이용하여 세상과
+소통하는 소중한 경험이 될 것이다. 이는 연구자들이 자기의 연구결과를
+논문으로 만들어 발표하는 것과 같다. 논문의 경우 제목과 초록이 중요하듯이
+R패키지를 만들어 배포할 때도 패키지의 title과 description이 중요하다. 본
+발표자는 2014년 CRAN에 패키지를 등록하면서 경험한 여러 가지 실수들을
+여러분들과 공유하고자 한다. 나의 짧은 경험이 CRAN에 패키지를 등록하고자
+하는 여러분들에게 조금이나마 도움이 되었으면 한다.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="section-3" class="section level1">
+<h1>2019</h1>
+<div id="column-3" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="section-4" class="section level3">
+<h3>2019-04 ~ 2019-09</h3>
+<p><br></p>
+<table>
+<colgroup>
+<col width="17%" />
+<col width="7%" />
+<col width="35%" />
+<col width="16%" />
+<col width="23%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Name</th>
+<th>Title</th>
+<th>Link</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2019.09.18(수)</td>
+<td>이광춘</td>
+<td>“문서를 이해하는 AI”</td>
+<td><a
+href="https://statkclee.github.io/ds-authoring/ds-document-ai.html">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>이재화</td>
+<td>“케라스를 활용한 RNN &amp; LSTM 자유로운 모델링 방법”</td>
+<td><a href="data/이재화.pdf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>나성호</td>
+<td>“R로 하는 RPA”</td>
+<td><a href="https://bit.ly/2kGtKqf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>윤정환</td>
+<td>“이스포츠에서의 데이터 분석”</td>
+<td><a href="data/4_안상선.pdf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>2019.08.21(수)</td>
+<td>이광춘</td>
+<td>“<code>tidyverse</code> 모형 <code>tidymodels</code>”</td>
+<td><a href="data/esports%20-%20DataScienceMeetUp.pdf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>한수미/남내현</td>
+<td>“사학 학술연구논문 빅데이터 분석-키워드와 토픽모델링 분석을
+중심으로”</td>
+<td><a href="http://tiny.cc/0lihbz">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>설현수</td>
+<td>“jamovi 통계 프로그램 소개”</td>
+<td><a href="data/meetup_설현수.ppt">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>안상선</td>
+<td>“위험하지 않은 마약 데이터 흡입 수기 : 마약으로 인한 사회적 비용
+모형 추계 사례”</td>
+<td><a href="data/4_안상선.pdf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>2019.07.24(수)</td>
+<td>이광춘</td>
+<td>“앙상블 모형: R vs. Python”</td>
+<td><a
+href="https://statkclee.github.io/model/model-ensemble.html">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>안중호</td>
+<td>“마케터를 위한 빅데이터”</td>
+<td><a
+href="data/190724_마케터를_위한_빅데이터_대홍기획_안중호.pdf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>이현열</td>
+<td>“데이터사이언스로 이해하는 퀀트”</td>
+<td><a
+href="https://docs.google.com/presentation/d/1pw0DIioZ2bc0pUOBWJKZZQuR3VTgiyeICq-s1Rqgxoc/">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>이민호</td>
+<td>“데이터분석가의 가벼운 개발환경 : Ipad로 작업해보기”</td>
+<td><a
+href="data/DS_meetup_analysis_env_using_ipad_190723.pdf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>2019.06.19(수)</td>
+<td>이광춘</td>
+<td>“데이터 과학자의 글쓰기 - 재현가능한 논문작성”</td>
+<td><a
+href="https://statkclee.github.io/author_carpentry_kr/">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>서희</td>
+<td>“Reactlog로 Shiny 쉽게 디버깅하기”</td>
+<td><a
+href="https://www.slideshare.net/HeeSeo/20190619-meetup-rshinyreactlogv01">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>문건웅</td>
+<td>“Conditional Process Analysis using R”</td>
+<td><a href="data/1.회귀에서_조절까지.pdf">1번</a>, <a
+href="data/2.회귀에서_매개모형으로.pdf">2번</a>, <a
+href="data/3.processR_패키지_소개.pdf">3번</a>, <a
+href="data/4.조건부_프로세스_분석_예제.pdf">4번</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2019.05.15(수)</td>
+<td>어수행</td>
+<td>“Python에서 EMR데이터 (생존)분석”</td>
+<td><a href="data/EMR_Analysis_Python_Public.pdf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>김지연</td>
+<td>“너의 기분 이모지(emoji)? - 감정기반 이모지 추천 시스템”</td>
+<td><a href="data/모지모지최종.pdf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>홍원준</td>
+<td>“의료데이터 기반의 데이터서비스 개발기”</td>
+<td><a
+href="https://speakerdeck.com/hongwonjun/yiryodeiteo-gibanyi-deiteoseobiseu-gaebalgi">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>송효진</td>
+<td>“Tidyverse Before and After”</td>
+<td><a href="data/송효진.pdf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2019.04.24(수)</td>
+<td>이광춘</td>
+<td>(한국) 데이터 과학자의 클라우드 서비스</td>
+<td><a
+href="https://statkclee.github.io/ds-authoring/ds_meetup_ds_on_cloud.html">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>정도현</td>
+<td>데이터 과학자를 위한 AWS 서비스 소개</td>
+<td><a
+href="https://www.slideshare.net/JulienSIMON5/aws-reinvent-2018-machine-learning-recap-december-2018">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>임상배</td>
+<td>Sparklyr을 활용한 R 코드 분산 처리</td>
+<td><a href="data/Sparklyr_R.pdf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>홍운표</td>
+<td>Changes and benefits of Automated ML by DataRobot</td>
+<td><a href="data/DS_meetup_20190424-DataRobot.pdf">발표자료</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="section-5" class="section level3">
+<h3>2018-11 ~ 2019-03</h3>
+<p><br></p>
+<table>
+<colgroup>
+<col width="17%" />
+<col width="7%" />
+<col width="35%" />
+<col width="16%" />
+<col width="23%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Name</th>
+<th>Title</th>
+<th>Link</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2019.03.20(수)</td>
+<td>이광춘</td>
+<td>금융 빅데이터 시각화 - KOSPI <del>200</del> 50</td>
+<td><a
+href="https://statkclee.github.io/finance/finance-trelliscope-advanced.html">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>유제성</td>
+<td>운영인력 최적화를 위한 HR Analytics</td>
+<td><a href="data/콜센터-인력-탐색분석.pptx">발표자료</a>, <a
+href="data/콜센터인력.r">R코드</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>이승준</td>
+<td>S&amp;P500 데이터 수집과 분석</td>
+<td><a
+href="https://nbviewer.jupyter.org/710b8f0a4bd9a8df91ae1be6c7e838b1">발표01</a>,<a
+href="https://nbviewer.jupyter.org/35a1b0d5248bc9b09513e53be437ac42">발표02</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>안상선</td>
+<td>이상하고 비정상적이고 괴랄한 금융 시계열 분석</td>
+<td><a href="data/발표_엠로보_안상선.pdf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>2019.02.20(수)</td>
+<td>이광춘</td>
+<td>자연어 처리는 R로 가능한가?</td>
+<td><a
+href="https://statkclee.github.io/text/langcon-2019-tutorial.html">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>나성호</td>
+<td>카카오 지도 API 핸즈온</td>
+<td><a href="https://bit.ly/2NdmhbI">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>어수행</td>
+<td>Self-supervised learning for surgical vision data</td>
+<td><a href="https://bit.ly/2Xe2IET">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2019.01.23(수)</td>
+<td>김설기</td>
+<td>R for Data Science</td>
+<td><a href="data/r4ds.pdf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>나영준</td>
+<td>R for animal science: project <code>adatalab</code></td>
+<td><a
+href="https://www.slideshare.net/YoungjunNa/r-for-animal-science">슬라이드쉐어</a>,
+<a
+href="https://github.com/YoungjunNa/2019DataSci_Meetup/blob/master/R%20for%20animal%20science.pdf">GitHub</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>김준혁</td>
+<td><code>RcppMeCab</code>은 왜 만들었나?</td>
+<td><a
+href="data/data-science-meetup-190123-RcppMeCab-JK.pdf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>차석근</td>
+<td>스마트공장 및 데이터 분석</td>
+<td><a
+href="data/데이터%20사이언스_스마트공장_차석근(발표자료).ppt">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2018.12.20(목)</td>
+<td>이광춘</td>
+<td>데이터 과학자가 바라본 사기 탐지(Fraud Detection)</td>
+<td><a
+href="https://statkclee.github.io/ds-authoring/r_meetup_outlier_anomaly.html">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>나성호</td>
+<td>2018 프로야구 기사로 살펴본 이모저모</td>
+<td><a href="https://bit.ly/2Ex487i">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>최진영</td>
+<td>AutoML과 머신러닝 툴 개발/사업화 과정의 어려움</td>
+<td><a href="data/XBrain_Seminar_1220_RMeetUp.pdf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>2018.11.22(목)</td>
+<td>이광춘</td>
+<td>설명가능한 기계학습</td>
+<td><a
+href="https://www.slideshare.net/statkclee/cloudera-sessions-2018-datayanolja">발표자료</a></td>
+<td>클라우데라</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>나성호</td>
+<td>기업리뷰 분석 시리즈</td>
+<td><a href="https://mrkevinna.github.io/특강-기업리뷰-분석-1/">1</a> <a
+href="https://mrkevinna.github.io/특강-기업리뷰-분석-2/">2</a> <a
+href="https://mrkevinna.github.io/특강-기업리뷰-분석-3/">3</a></td>
+<td>순천향대학교</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="section-6" class="section level1">
+<h1>2018</h1>
+<div id="column-4" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="section-7" class="section level3">
+<h3>2017-08 ~ 2018-02</h3>
+<p><br></p>
+<table>
+<colgroup>
+<col width="13%" />
+<col width="13%" />
+<col width="16%" />
+<col width="20%" />
+<col width="35%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Title</th>
+<th>Name</th>
+<th>Link</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2017.08.23(수)</td>
+<td>감성분석(Sentiment Analysis) - 깔끔한 텍스트 방식(tidytext)</td>
+<td>이광춘</td>
+<td><a
+href="http://statkclee.github.io/ml/ml-sentiment.html">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><code>modelr</code></td>
+<td>이상열</td>
+<td><a href="kaggle/Meetup_1/modelr/modelr_example.md">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>2017.09.20(수)</td>
+<td>쉽게 배우는 R 데이터분석</td>
+<td>김영우</td>
+<td><a
+href="kaggle/Meetup_2/Easy_R_write/EasyR_%EA%B9%80%EC%98%81%EC%9A%B0.pdf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>재현가능한 연구를 위한 데이터 과학 제품 개발</td>
+<td>이광춘</td>
+<td><a
+href="https://statkclee.github.io/viz/viz-low-birth-rate.html">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>한글 텍스트데이터 분석</td>
+<td>류충현</td>
+<td><a
+href="kaggle/Meetup_2/text_analytics/%EB%8C%80%ED%86%B5%EB%A0%B9%EC%97%B0%EC%84%A4%EB%AC%B8%EB%B6%84%EC%84%9D_%EC%9C%A0%EC%B6%A9%ED%98%84_20170920.pdf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2017.10.18(수)</td>
+<td>R 로 웹 데이터를 가져오는 4가지 방법(은 크롤링)</td>
+<td>박찬엽</td>
+<td><a href="kaggle/Meetup_3/crawling/getWebR.pdf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>데이터과학 블로그 10분 완성</td>
+<td>이광춘</td>
+<td><a
+href="https://statkclee.github.io/ds-authoring/ds-blogdown.html">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>테드(TED) 에듀데이터 분석</td>
+<td>한수미</td>
+<td><a
+href="kaggle/Meetup_3/ted/TED_Edu_Corpus_Analysis_%ED%95%9C%EC%88%98%EB%AF%B8.ipynb">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Shiny의 기본 원리와 이해</td>
+<td>김승욱</td>
+<td><a href="kaggle/Meetup_3/shiny/r_meetup_shiny.pdf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2017.11.15(수)</td>
+<td>통계모형 시각화</td>
+<td>이광춘</td>
+<td><a
+href="https://statkclee.github.io/statistics/stat-model-visualization.html">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>R언어 역사</td>
+<td>이광춘</td>
+<td><a
+href="https://statkclee.github.io/data-science/ds-r-lang.html">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>catboost 소개</td>
+<td>이상열</td>
+<td><a
+href="kaggle/Meetup_4/catboost_introduction.ipynb">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>2017.12.21(목)</td>
+<td>LASSO regresion을 이용한 Taxonomy</td>
+<td>류충현</td>
+<td><a
+href="kaggle/Meetup_5/taxonomy/02_Documents_Texonomy_Slide.pdf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>메타분석(Meta analysis)</td>
+<td>김가경</td>
+<td><a
+href="kaggle/Meetup_5/MetaAnalysis/20171221_MetaAnalysis.nb.html">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>시계열 데이터 예측</td>
+<td>이광춘</td>
+<td><a
+href="https://statkclee.github.io/statistics/stat-time-series-forecast.html">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2018.01.17(수)</td>
+<td>h2o 소개</td>
+<td>황문기</td>
+<td><a
+href="kaggle/Meetup_6/h2o_%EC%82%AC%EB%A1%80/XwMooc%20R%20Meetups%206%ED%9A%8C_%EC%84%B8%EC%85%981_%ED%99%A9%EB%AC%B8%EA%B8%B0_20180117.pdf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Spark R 소개</td>
+<td>지용기</td>
+<td><a
+href="kaggle/Meetup_6/SparkR%EC%86%8C%EA%B0%9C/SparkR%EC%86%8C%EA%B0%9C.pdf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Code Snippets: batch jobs in R(라이트닝 토크)</td>
+<td>어수행</td>
+<td><a
+href="https://github.com/sooheang/batch-jobs-R/blob/master/slide/BatchJobsR_xwMooc.pdf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Code Snippets:R 암호화폐</td>
+<td>이광춘</td>
+<td><a
+href="https://statkclee.github.io/finance/finance-blockchain.html">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2018.02.21(수)</td>
+<td>빅데이터는 디스크에 쓰고 R 메모리라고 읽는다</td>
+<td>이광춘</td>
+<td><a
+href="https://statkclee.github.io/bigdata/bigdata-bigmemeory.html">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>한국 영화배우 데이터로 만든 한국판 케빈 베이컨 놀이</td>
+<td>나성호</td>
+<td><a
+href="https://mrkevinna.github.io/SixDegreesOfKoreanActors/">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>데이터 정규화를 통한 Feature Selection</td>
+<td>장윤경</td>
+<td><a
+href="https://rpeople.github.io/r/2018/02/21/feature_selection">발표자료</a></td>
+<td>부존재</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="section-8" class="section level3">
+<h3>2018-03 ~ 2018-05</h3>
+<p><br></p>
+<table>
+<colgroup>
+<col width="13%" />
+<col width="13%" />
+<col width="16%" />
+<col width="20%" />
+<col width="35%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Title</th>
+<th>Name</th>
+<th>Link</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2018.03.21(수)</td>
+<td>R과 shiny를 이용한 web application 제작</td>
+<td>문건웅</td>
+<td><a
+href="https://github.com/cardiomoon/shinyLecture2">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Shiny Drill Down</td>
+<td>이희재</td>
+<td><a
+href="kaggle/Meetup_8/shiny_drilldown/presentation.html">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Rstudio 컨퍼런스 후기</td>
+<td>양승훈</td>
+<td><a
+href="https://drive.google.com/drive/folders/1aGzlXGjL-3AyYF85A08RoTkhNLft7bwv">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2018.04.25(수)</td>
+<td>언론사 데이터 저널리즘</td>
+<td>배여운</td>
+<td>비공개</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>데이터는 알고있다</td>
+<td>김영우</td>
+<td><a
+href="https://docs.google.com/document/d/1HpytnksNrW3SC2EsulL9CqQlpqddznuJmCDAMQZ_DU0/edit?usp=sharing">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>백 마디 말보다 그래프 하나 - ggplot</td>
+<td>이광춘</td>
+<td><a
+href="https://statkclee.github.io/data-product/data-journalism-working-pop.html">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>라이트닝 토크 - 에너지 데이터 분석</td>
+<td>김설기</td>
+<td><a href="https://akkou.github.io/public/#/">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>라이트닝 토크 - 뉴스기사 솔루션 (키워드, 문장요약, 분류기) 소개</td>
+<td>황문기</td>
+<td><a
+href="kaggle/Meetup_9/R%20Meetup%209%ED%9A%8C_%EC%84%B8%EC%85%985_%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%EB%89%B4%EC%8A%A4%EA%B8%B0%EC%82%AC%20%EB%B6%84%EC%84%9D%EC%BC%80%EC%9D%B4%EC%8A%A4_%ED%99%A9%EB%AC%B8%EA%B8%B0_20180425.pdf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>2018.05.23(수)</td>
+<td>R 패키지: 신규 패키지 소개 - dlookr</td>
+<td>류충현</td>
+<td><a
+href="kaggle/Meetup_10/01_Understanding_dlookr.pdf">발표자료</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>CRAN으로 거쳐가는 정거장 - Github suggetR 패키지</td>
+<td>이광춘</td>
+<td><a
+href="https://statkclee.github.io/data-science/r-pkg-suggestK.html#">발표자료</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="history" class="section level1">
+<h1>History</h1>
+<div id="column-5" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="r-meetup-season-ii" class="section level3">
+<h3>R Meetup Season II</h3>
+<p>R Meetup을 시작점으로 출발을 했지만, Meetup에 오시는 분들은 대부분
+데이터 사이언스 문제를 풀려고 하는 학생이나 실무에 계신 분들이 많아 이에
+부합되도록 Meetup 운영을 변경하게 되었습니다.</p>
+<p><a href="https://www.facebook.com/groups/tidyverse/">Tidyverse
+Korea</a>와 <a
+href="https://www.facebook.com/groups/1473988286034801/">PRESSer</a>
+공동으로 R Meetup 시즌2를 2018년 11월부터 시작했습니다. 2019년부터
+“데이터 사이언스” Meetup으로 출발하게 되는 이유는 크게 두 가지입니다.
+먼저 R 언어로 코딩하면서 발표하시는 분을 연사로 모시는 것이
+어려웠습니다. R Meetup 시즌1부터 같은 연사분이 계속 발표를 진행함으로써
+피로감이 깊어지는 것이 “데이터 사이언스 밋업”으로 확대하게된 직접적인
+이유입니다. 다른 한편으로는 R Meetup에 오시는 분들이 R보다는 “데이터
+사이언스” 문제를 갖고 계신 분이 많다는 것이 그동안 밋업을 운영하면서
+알게 되었습니다. “데이터 사이언스”에 대한 저변이 확대되어 사회적인
+호응도 있는 것으로 판단되고, 특히 <code>reticulate</code>,
+<code>keras</code>, <code>sparklyr</code> 등 다양한 R 팩키지가
+출현하면서 더 이상 R, 파이썬 등 언어중심으로 Meetup을 나눠 진행하는 것은
+무의미해졌기 때문입니다.</p>
+<p>데이터 분석가와 과학자들이 만나 피자와 가벼운 맥주를 마시면서 세미나
+듣는 방식으로 진행되었고, R 뿐만 아니라 파이썬을 비롯한 데이터 사이언스
+하시는 분들이 모이는 미트업이였습니다.</p>
+<ul>
+<li><p>기간 : 2018년 11월 22일 ~ 2019년 9월 18일</p></li>
+<li><p>시간 : 매월 세째주 (수요일) 저녁 19:00 ~</p></li>
+<li><p>장소 : <strong>스파크플러스 역삼점/선릉점</strong></p></li>
+<li><p>도서 후원</p>
+<ul>
+<li><a
+href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=195774023">우정훈
+(KPMG), AI 사람에게 배우다 - 인공지능이 만드는 기업의 미래</a>
+(2권)</li>
+<li><a href="https://bit.ly/2TzaSJa">Do it! 쉽게 배우는 R 데이터
+분석</a> (1권)</li>
+<li>제이펍 1권 - <a href="https://jpub.tistory.com/924">“R로 배우는
+텍스트 마이닝: tidytext 라이브러리를 활용하는 방법”</a></li>
+<li>이현열 - <a href="http://www.yes24.com/Product/Goods/78125551">R을
+이용한 퀀트 투자 포트폴리오 만들기</a>, 제이펍 2권</li>
+</ul></li>
+</ul>
+</div>
+<div id="r-meetup-season-i" class="section level3">
+<h3>R Meetup Season I</h3>
+<p>xwMOOC R Meetup은 KRUG 1,2대 회장을 역임한 유충현님을 모시고 xwMOOC
+이광춘, 캐글뽀개기 이상열이 십시일반 노력을 하여 2017년 8월 ~ 2018년
+5월까지 매월 총 10회 진행되었습니다. KossLab(공개SW 개발자센터)의
+공간지원을 받아 나름 쾌적한 환경에서 R 사용자들이 모여 즐거운 배움과
+네트워킹 시간을 갖게되었습니다.</p>
+<ul>
+<li>주관 : <a href="https://www.facebook.com/xwmooc/">xwMOOC</a></li>
+<li>운영 : <a
+href="https://www.facebook.com/groups/kagglebreak/">캐글뽀개기</a></li>
+<li>장소 : 토즈 강남점 / 선릉 패스트파이브</li>
+<li>매달 셋째주 수요일</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="code-of-conduct" class="section level1">
+<h1>Code of Conduct</h1>
+<p><strong>행동 강령 (Code of Conduct)</strong>:</p>
+<p><br></p>
+<p>네트워킹과 협업 그리고 학습을 위해서 공동체 행사의 일환으로 서울 R
+미트업이 기획되었다. 과학 공동체에 속한 모든 구성원의 참여를 중시하고,
+참석자 모두가 즐겁고 성취감을 얻어갔으면 합니다. 따라서, 모든 참여자는
+워크샵 동안에 다른 참석자에 대한 존경과 예의를 보여주셔야 합니다.</p>
+<p><br></p>
+<p>좀더 명확히 하기 위해서, 서울 R 미트업와 토론에 참여한 모든 사람 -
+강사, 조교, 학습자, 주최자 - 은 다음 행동 강령(code of conduct)을 지켜야
+합니다. 미트업 주최측에서는 행사동안에 행동 강령을 적용해야 합니다.</p>
+<p><br></p>
+<p>성별, 동성애, 장애, 외모, 신체 크기, 인종, 국적, 종교 혹은 텍스트
+편집기 선택에 관계없이, 괴롭힘 없는 학습 경험을 제공하는데 최선을 다하고
+있습니다. 어떤 형태로 참가자를 괴롭히거나 희롱하는 것을 용납하지 않을
+것입니다.</p>
+<p><br></p>
+<p>괴롭힘과 희롱에는 성별, 동성애, 장애, 외모, 신체 크기, 인종, 국적,
+종교와 관계된 공격적인 언급 및 공공 장소에서 성적 이미지, 고의적인 위협,
+스토킹, 희롱하는 사진이나 녹음, 지속적인 대화나 행사 중단, 부적절한 신체
+접촉, 불쾌한 성적 관심도 포함합니다. 다양한 배경의 사람들을 포함하는
+전문 참가자에게 모든 의사소통이 적절해야 한다. 성적 언어와 이미지는 어떤
+경우에도 적절하지 않습니다. 다른 사람들에게 친절해야 합니다. 다른
+참석자를 모욕하거나 폄하하지 마세요. 전문가 프로처럼 행동하세요.
+성희롱과 성차별, 인종차별, 배제하는 농담은 적절하지 않습니다. 괴롭히거나
+희롱하는 행동을 멈추도록 주의받은 참여자는 즉시 행동강령을 준수해야
+합니다. 이러한 규칙을 위반한 참가자는 돌려받을 수도 있는 학습비의
+환불없이 주최측의 재량에 따라 행사를 떠나도록 요청받을 수도
+있습니다.</p>
+<p><br></p>
+<p>모든 사람을 위해서 따뜻하고 친목을 도모할 수 있는 미트업을 만들수
+있도록 도와주셔서 감사합니다.</p>
+</div>
+
+</div>
+
+<script>
+$(document).ready(function() {
+  // add bootstrap table styles to pandoc tables
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed table-sm');
+
+  // initialize mathjax
+  var script = document.createElement("script");
+  script.type = "text/javascript";
+  script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+  document.getElementsByTagName("head")[0].appendChild(script);
+
+});
+</script>
+
+&nbsp;
+<hr />
+<p style="text-align: center;"> Data Scientist <a href="https://github.com/statkclee/">Kwangchun Lee</a> </p>
+<p style="text-align: center;">
+    <span style="color: #808080;"><em>kwangchun.lee.7@gmail.com</em></span>
+</p>
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<!-- Add font awesome icons -->
+<p style="text-align: center;">
+    <a href="https://education.rstudio.com/trainers/people/lee+kwangchun/" class="fa fa-registered"></a>
+    <a href="https://www.facebook.com/groups/tidyverse/" class="fa fa-facebook"></a>
+    <a href="https://www.linkedin.com/in/kwangchunlee/" class="fa fa-linkedin"></a>
+    <a href="https://github.com/statkclee/" class="fa fa-github"></a>
+</p>
+&nbsp;
+<script type="text/javascript">
+$(document).ready(function () {
+  FlexDashboard.init({
+    fillPage: true,
+    orientation: "rows",
+    storyboard: false,
+    defaultFigWidth: 576,
+    defaultFigHeight: 460,
+    defaultFigWidthMobile: 360,
+    defaultFigHeightMobile: 460,
+    resize_reload: true
+  });
+  var navbar = $(".navbar").first();
+  var body = $("body").first();
+  var sidebar = $(".section.sidebar").first();
+  function addNavbarPadding() {
+    var navHeight = navbar.outerHeight();
+    body.css("padding-top", (navHeight + 8) + "px");
+    sidebar.css("top", navHeight + "px");
+    var resizeEvent = window.document.createEvent("UIEvents");
+    resizeEvent.initUIEvent("resize", true, false, window, 0);
+    window.dispatchEvent(resizeEvent);
+  }
+  if (!window.Shiny) setTimeout(addNavbarPadding, 100);
+  $(document).on("shiny:idle", function() {
+    setTimeout(addNavbarPadding, 50);
+  });
+});
+</script>
+
+</body>
+</html>
