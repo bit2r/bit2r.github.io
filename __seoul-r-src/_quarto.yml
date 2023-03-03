@@ -8,7 +8,7 @@ website:
     search: true
     left:
       - text: 소개
-        href: dashboard/overview.Rmd
+        href: index.Rmd
       - text: 2023년
         file: dashboard/meetup-2023.Rmd
       - text: 2022년
@@ -25,6 +25,18 @@ website:
         file: dashboard/history.Rmd
       - text: 행동강령
         file: dashboard/coc.Rmd
+
+  body-header: |
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59802572-23"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-59802572-23');
+    </script>
+
+  body-footer: |
+    <div id="copyright">Copyright by R사용자회 <https://r2bit.com>. all rights reserved.</div>
 
 format:
   html:

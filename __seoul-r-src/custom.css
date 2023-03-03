@@ -5,6 +5,10 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+#copyright {
+    border-top: 1px solid #ccc;
+}
+
 .html-widget.gauge {
     height: 320px;
     /*or try sth like 320px instead of 100%, whatever you prefer*/
