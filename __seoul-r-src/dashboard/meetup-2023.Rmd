@@ -27,10 +27,11 @@ options(knitr.duplicate.label = 'allow')
 library(flexdashboard)
 ```
 
+## 2023년 서울R미트업 발표자 모집
 
-### 서울 R 미트업 발표자 모집
+2023년 발표자를 모집하고 있습니다. 소정의 강사료가 지급되므로 관심있는 분들은 아래 링크를 통해 신청해 주시기 바랍니다.
 
-https://forms.gle/pcr8y54jRMBz3pDa9
+[발표자 모집](https://forms.gle/pcr8y54jRMBz3pDa9)
 
 ### 2023년 5월 (May, 2023)
 

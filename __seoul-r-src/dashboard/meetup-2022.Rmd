@@ -1,5 +1,5 @@
 ---
-title: "서울R밋업 2022년"
+title: "서울R미트업 2022년"
 output:
   flexdashboard::flex_dashboard:
     logo: fig/hex-tidyverse.png
