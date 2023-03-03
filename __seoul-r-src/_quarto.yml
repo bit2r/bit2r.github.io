@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: ../docs/seoul-r
+  output-dir: ../docs/seoul-R
 
 website:
   title: "서울R밋업"

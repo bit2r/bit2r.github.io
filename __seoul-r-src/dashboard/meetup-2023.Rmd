@@ -27,6 +27,25 @@ options(knitr.duplicate.label = 'allow')
 library(flexdashboard)
 ```
 
-### 2023년 4월 (April, 2023)
 
-2023년 4월 일정이 곧 업데이트됩니다.
+### 서울 R 미트업 발표자 모집
+
+https://forms.gle/pcr8y54jRMBz3pDa9
+
+### 2023년 5월 (May, 2023)
+
+- Title: “How to simplify machine learning using R”
+- Korean Title: “R을 이용한 기계 학습 간소화 방법”
+- Speaker: 유충현 (한국R사용자회)
+- Abstract: Binary Classification 모형 개발 과정에서의 생산성 제고를 위한 방법을 공유합니다.
+
+- Title: “Digital Writing Powered by chatGPT”
+- Korean Title: “chatGPT와 디지털 글쓰기”
+- Speaker: 이광춘 (한국R사용자회)
+- Abstract: 데이터 사이언스 분야 기계(chatGPT)와 함께 디지털 글쓰기 경험을 공유합니다.
+
+- Title: “BitStat meets chatGPT”
+- Korean Title: “chatGPT를 만난 오픈 통계 패키지”
+- Speaker: 김호성 (한국R사용자회)
+- Abstract: 우리아이 BitStat 오픈 통계패키지가 chatGPT를 만나 이렇게 바뀌었어요
+

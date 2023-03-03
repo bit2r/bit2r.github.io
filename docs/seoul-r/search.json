@@ -53,14 +53,21 @@
     "href": "dashboard/meetup-2023.html",
     "title": "서울R밋업 2023년",
     "section": "",
-    "text": "Copyright by R사용자회 https://r2bit.com. all rights reserved."
+    "text": "2023년 5월 (May, 2023)\n\nTitle: “How to simplify machine learning using R”\nKorean Title: “R을 이용한 기계 학습 간소화 방법”\nSpeaker: 유충현 (한국R사용자회)\nAbstract: Binary Classification 모형 개발 과정에서의 생산성 제고를 위한 방법을 공유합니다.\nTitle: “Digital Writing Powered by chatGPT”\nKorean Title: “chatGPT와 디지털 글쓰기”\nSpeaker: 이광춘 (한국R사용자회)\nAbstract: 데이터 사이언스 분야 기계(chatGPT)와 함께 디지털 글쓰기 경험을 공유합니다.\nTitle: “BitStat meets chatGPT”\nKorean Title: “chatGPT를 만난 오픈 통계 패키지”\nSpeaker: 김호성 (한국R사용자회)\nAbstract: 우리아이 BitStat 오픈 통계패키지가 chatGPT를 만나 이렇게 바뀌었어요\n\n\n\n\n\n\nCopyright by R사용자회 https://r2bit.com. all rights reserved."
   },
   {
     "objectID": "dashboard/overview.html",
     "href": "dashboard/overview.html",
     "title": "서울R밋업 소개",
     "section": "",
-    "text": "Seoul R Meetup: link\n\nSeoul R Meetup Website: link\nGlobal R Meetup Dashboard: link\n\nKorea R User Group: link\nKorea R Conference: link\nYoutube Channel: link\nFacebook Group: link\n\n\n운영진 Organizers\n\nChoonghyun Ryu, 유충현\nKwangchun Lee, 이광춘\nSeonghak Hong, 홍성학\n\n\n\n스폰서 Sponsors\n \n\n\n\n\n\nCopyright by R사용자회 https://r2bit.com. all rights reserved."
+    "text": "R은 데이터 수집, 데이터 처리, 탐색적 데이터 분석, 통계 모델링, 시각화 및 기계 학습 등을 위한 오픈 소스 소프트웨어이자 프로그래밍 언어입니다. 최근에는 이러한 작업을 총칭하는 ’데이터 사이언스’라는 용어가 등장하면서 데이터 사이언티스트들이 주로 사용하는 도구로 자리 잡았습니다. 서울 R 밋업은 국내 R 사용자를 한자리에 모아 세계적인 연사와의 강연을 통해 회원들에게 유익한 네트워킹 기회를 제공합니다.\n서울R밋업은 현재 meetup.com을 통해서 모임 관리를 하고 있습니다.\n기타 커뮤니티 관련 링크는 아래와 같습니다."
+  },
+  {
+    "objectID": "dashboard/overview.html#수정-요청-request-for-modification",
+    "href": "dashboard/overview.html#수정-요청-request-for-modification",
+    "title": "서울R밋업 소개",
+    "section": "수정 요청 (Request for Modification)",
+    "text": "수정 요청 (Request for Modification)\n서울R밋업 페이지는 현재는 한국R사용자회의 깃헙 저장소에서 함께 관리하고 있습니다. 수정 요청은 아래의 링크를 통해 할 수 있습니다.\n깃헙 이슈"
   },
   {
     "objectID": "data/221022_r_meetup_api/index.html",
@@ -368,6 +375,13 @@
     "href": "index.html",
     "title": "서울R밋업 - Seoul R Meetup",
     "section": "",
-    "text": "Seoul R Meetup: link\n\nSeoul R Meetup Website: link\nGlobal R Meetup Dashboard: link\n\nKorea R User Group: link\nKorea R Conference: link\nYoutube Channel: link\nFacebook Group: link\n\n\n운영진 Organizers\n\nChoonghyun Ryu, 유충현\nKwangchun Lee, 이광춘\nSeonghak Hong, 홍성학\n\n\n\n스폰서 Sponsors\n \n\n\n\n\n\n\n\nCopyright by R사용자회 https://r2bit.com. all rights reserved."
+    "text": "R은 데이터 수집, 데이터 처리, 탐색적 데이터 분석, 통계 모델링, 시각화 및 기계 학습 등을 위한 오픈 소스 소프트웨어이자 프로그래밍 언어입니다. 최근에는 이러한 작업을 총칭하는 ’데이터 사이언스’라는 용어가 등장하면서 데이터 사이언티스트들이 주로 사용하는 도구로 자리 잡았습니다. 서울 R 밋업은 국내 R 사용자를 한자리에 모아 세계적인 연사와의 강연을 통해 회원들에게 유익한 네트워킹 기회를 제공합니다.\n서울R밋업은 현재 meetup.com을 통해서 모임 관리를 하고 있습니다.\n기타 커뮤니티 관련 링크는 아래와 같습니다."
+  },
+  {
+    "objectID": "index.html#수정-요청-request-for-modification",
+    "href": "index.html#수정-요청-request-for-modification",
+    "title": "서울R밋업 - Seoul R Meetup",
+    "section": "수정 요청 (Request for Modification)",
+    "text": "수정 요청 (Request for Modification)\n서울R밋업 페이지는 현재는 한국R사용자회의 깃헙 저장소에서 함께 관리하고 있습니다. 수정 요청은 아래의 링크를 통해 할 수 있습니다.\n깃헙 이슈"
   }
 ]
