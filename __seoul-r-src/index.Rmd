@@ -46,7 +46,7 @@ R Consortium R User Groups에 등록된 Seoul R Meetup은 매월 개최되는 �
 
 2017년부터 시작된 데이터 사이언스 미트업은 특정 주제를 갖고 심화된 주제를 가지고 미트업을 진행하기로 하면서 2021년은 오픈통계패키지(BitStat), 2022년은 디지털 글쓰기(Quarto)를 가지고 진행했으며 2023년은 chatGPT와 데이터 사이언스를 주제로 진행됩니다. chatGPT가 아니더라도 전통적인 통계, 데이터 사이언스, 딥러닝 등 연관 주제로 지식나눔을 해주실 발표자분들을 기다리고 있습니다.
 
-[발표자 모집](https://forms.gle/pcr8y54jRMBz3pDa9)
+[발표자 모집 등록](https://forms.gle/pcr8y54jRMBz3pDa9)
 
 ## 서울R미트업 자료
 
@@ -85,7 +85,6 @@ R Consortium R User Groups에 등록된 Seoul R Meetup은 매월 개최되는 �
 - [Choonghyun Ryu, 유충현](https://github.com/choonghyunryu)
 - [Kwangchun Lee, 이광춘](https://github.com/statkclee)
 - [Seonghak Hong, 홍성학](https://github.com/euriion/)
-
 
 <!-- ```{r child="dashboard/meetup-2022.Rmd", encoding="UTF-8"}
 ```

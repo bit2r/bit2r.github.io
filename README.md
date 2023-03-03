@@ -6,9 +6,9 @@
 
 ### 도메인
 
-https://r2bit.com
+<https://r2bit.com>
 
-https://bit2r.github.io
+<https://bit2r.github.io>
 
 ### 호스팅
 
@@ -28,9 +28,13 @@ Rstudio Distill
 2. 콘텐츠를 추가, 수정, 삭제한 후 Rstudio의 메뉴에서 Build - Install and Restart 또는 Build - Build All을 선택해서 웹사이트를 빌드한다.
 3. 생성된 콘텐츠를 커밋하고 Github에 push한다.
 
-## Seoul R meetup
+## 서울R미트업 Seoul R meetup
 
 Seoul R meetup 콘텐츠는 Rmarkdown으로 제작했으며 빌드는 quarto로 할 수 있음
+
+### 테마
+
+cosmo + custom.css
 
 ### 빌드 방법
 
@@ -42,4 +46,4 @@ quarto로 빌드
 quarto render
 ```
 
-빌드 후에 생성된 콘텐츠는 ./docs/seoul-r 에 저장됨
+빌드 후에 생성된 콘텐츠는 ./docs/seoul-R 에 저장됨
