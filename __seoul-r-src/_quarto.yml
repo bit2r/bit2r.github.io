@@ -26,17 +26,15 @@ website:
       - text: 행동강령
         file: dashboard/coc.Rmd
 
-  include-in-header:
-    - _includes/google-analytics.html
-
-  body-footer: |
-    <div id="copyright">Copyright by R사용자회 <https://r2bit.com>. all rights reserved.</div>
-
 format:
   html:
     theme: cosmo
     css: custom.css
     toc: true
+    include-in-header:
+      - google-analytics.html
+    include-after-body:
+      - footer.html
 
 theme:
   light: cosmo

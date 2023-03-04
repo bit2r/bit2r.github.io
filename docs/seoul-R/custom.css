@@ -4,6 +4,16 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
 
+/* 나눔스퀘어 네오 */
+
+@font-face {
+  font-family: "NanumSquareNeo-Variable";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* 리디바탕 */
 
 @font-face {
@@ -87,6 +97,10 @@ p {
   font-family: "RIDIBatang";
 }
 
+li {
+  font-family: "NanumSquareNeo-Variable";
+}
+
 span.navbar-title {
   font-family: "GongGothicMedium";
 }
@@ -99,6 +113,7 @@ ul.navbar-nav > li {
   font-family: "GongGothicMedium", sans-serif;
   font-size: 10pt;
   border-top: 1px solid #ccc;
+  text-align: center;
 }
 
 .html-widget.gauge {
