@@ -9,6 +9,7 @@ website:
   title: "한국 R 사용자회"
   site-url: https://r2bit.com
   image: "fig/koRea_logo.png"
+  google-analytics: "UA-229551680-1"
   page-footer:
     left: "사단법인 한국 R 사용자회 [Quarto](https://quarto.org/) 로 제작"
   navbar:
