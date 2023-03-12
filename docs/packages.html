@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.280">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="외산 패키지가 아닌 R 개발자와 사용자의 시간을 절약해줄 수 있는 핵심 패키지를 분야별로 개발하고 있습니다. 데이터 과학 데이터가 텍스트인 경우 bitNLP, 공간지도인 경우 bitSpatial 그외 다양한 패키지가 CRAN 및 관련 사이트에 공개되어 있으며 최근 chatGPT를 쉽게 사용할 수 있게 bitGPT도 개발되어 점차 범위와 깊이를 더해가고 있습니다.">
+
+<title>한국 R 사용자회 - R 패키지</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+<script type="text/javascript">
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-229551680-1', 'auto');
+
+ga('send', {
+  hitType: 'pageview',
+  'anonymizeIp': true,
+});
+</script>
+
+
+<link rel="stylesheet" href="strapless.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">한국 R 사용자회</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">
+ <span class="menu-text">소개</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://r2bit.com/chatGPT/">
+ <span class="menu-text"><strong>chatGPT</strong></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./bitstat.html">
+ <span class="menu-text">통계 패키지</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./packages.html" aria-current="page">
+ <span class="menu-text">R 패키지</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./book.html">
+ <span class="menu-text">콘텐츠</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./data.html">
+ <span class="menu-text">데이터</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">에듀테크</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-">    
+        <li>
+    <a class="dropdown-item" href="./edutech.html">
+ <span class="dropdown-text">개요</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./swc.html">
+ <span class="dropdown-text">데이터 카펜트리</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./learnr.html">
+ <span class="dropdown-text">자기주도학습</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./training.html">
+ <span class="dropdown-text">교육</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./blog.html">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu--1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">관련 정보</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu--1">    
+        <li>
+    <a class="dropdown-item" href="./contest.html">
+ <span class="dropdown-text">경진대회</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://use-r.kr/">
+ <span class="dropdown-text">한국 R 컨퍼런스</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.meetup.com/seoul-r-meetup">
+ <span class="dropdown-text">서울 R Meetup</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://tidyverse-korea.github.io/seoul-R/">
+ <span class="dropdown-text">서울 R Meetup Archive</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://r-community.org/usergroups/">
+ <span class="dropdown-text">글로벌 R Meetup</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://quarto.org/">
+ <span class="dropdown-text">Quarto</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://r2bit.com">
+ <span class="menu-text">R사용자회</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/channel/UCW-epmIvjBEhhVXw_F0Nqbw"><i class="bi bi-youtube" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/bit2r/quarto"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.facebook.com/groups/tidyverse"><i class="bi bi-facebook" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">R 패키지</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">발표자료</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://r2bit.com/bitSlide/slideshow/202210-hongik-v2" class="sidebar-item-text sidebar-link">홍익대 특강</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://aispiration.com/ds-authoring/ds-world-student.html" class="sidebar-item-text sidebar-link">데이터 과학자 세계</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">워크샵</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://www.sharingkorea.net/gboard/" class="sidebar-item-text sidebar-link">나눔국민운동본부</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://r2bit.com/sen" class="sidebar-item-text sidebar-link">서울교육청 - 혁신교육</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://choonghyunryu.github.io/workshop_lecture/" class="sidebar-item-text sidebar-link">HCI 2024 (준비중)</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">R 패키지</h1>
+</div>
+
+<div>
+  <div class="description">
+    <p>외산 패키지가 아닌 R 개발자와 사용자의 시간을 절약해줄 수 있는 핵심 패키지를 분야별로 개발하고 있습니다. 데이터 과학 데이터가 텍스트인 경우 <code>bitNLP</code>, 공간지도인 경우 <code>bitSpatial</code> 그외 다양한 패키지가 CRAN 및 관련 사이트에 공개되어 있으며 최근 <code>chatGPT</code>를 쉽게 사용할 수 있게 <code>bitGPT</code>도 개발되어 점차 범위와 깊이를 더해가고 있습니다.</p>
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<div class="row p-0 row-cols-1 row-cols-md-2 row-cols-lg-3" style="margin-left: -.2rem; margin-right: -.2rem; margin-top: 1rem; margin-bottom: 1rem; ">
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
+<div class="card-body m-0 p-0 col-12" style="visibility: visible; border-style:solid; border-color:inherits; border-width:1px; background-color: inherits;border-radius: .6rem .6rem 0 0 ;">
+<div class="row no-gutters h-100 border-0" style="border-radius: .6rem .6rem 0 0 ;">
+<div class="col-7 h-100">
+<a href="https://github.com/bit2r/bitGPT">
+<h5 class="card-title my-auto px-3 pt-3 pb-1 anchored">bitGPT</h5>
+</a>
+<p class="card-text my-auto px-3 pb-3 pt-1">chatGPT를 보다 쉽게 사용할 수 있는, 그리고 한국어를 지원하는 bitGPT</p>
+</div>
+<div class="col-5" style="border-radius: 0 .6rem 0 0 ;">
+<a href="https://github.com/bit2r/bitGPT" style="color: inherit;">
+<img src="fig/bitGPT.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:1px; margin-left: 1px;margin-right: -1px;margin-top: -1px;margin-bottom: -1px;border-radius: 0 .6rem 0 0 ;">
+</a>
+</div>
+</div>
+</div>
+<div class="card-footer small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:0 1px 1px 1px; border-radius: 0 0 .6rem .6rem ;">2023-02-28</div>
+</div>
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
+<div class="card-body m-0 p-0 col-12" style="visibility: visible; border-style:solid; border-color:inherits; border-width:1px; background-color: inherits;border-radius: .6rem .6rem 0 0 ;">
+<div class="row no-gutters h-100 border-0" style="border-radius: .6rem .6rem 0 0 ;">
+<div class="col-7 h-100">
+<a href="https://github.com/bit2r/bitNLP">
+<h5 class="card-title my-auto px-3 pt-3 pb-1 anchored">bitNLP</h5>
+</a>
+<p class="card-text my-auto px-3 pb-3 pt-1">텍스트 데이터를 탐색하고, 자연어 처리 및 형태소분석, 감성분석을 수행하는, 한글 텍스트 분석 도구모음</p>
+</div>
+<div class="col-5" style="border-radius: 0 .6rem 0 0 ;">
+<a href="https://github.com/bit2r/bitNLP" style="color: inherit;">
+<img src="fig/bitNLP_logo.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:1px; margin-left: 1px;margin-right: -1px;margin-top: -1px;margin-bottom: -1px;border-radius: 0 .6rem 0 0 ;">
+</a>
+</div>
+</div>
+</div>
+<div class="card-footer small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:0 1px 1px 1px; border-radius: 0 0 .6rem .6rem ;">2022-12-18</div>
+</div>
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
+<div class="card-body m-0 p-0 col-12" style="visibility: visible; border-style:solid; border-color:inherits; border-width:1px; background-color: inherits;border-radius: .6rem .6rem 0 0 ;">
+<div class="row no-gutters h-100 border-0" style="border-radius: .6rem .6rem 0 0 ;">
+<div class="col-7 h-100">
+<a href="https://github.com/bit2r/bitSpatial">
+<h5 class="card-title my-auto px-3 pt-3 pb-1 anchored">bitSpatial</h5>
+</a>
+<p class="card-text my-auto px-3 pb-3 pt-1">공간정보 데이터를 지탱하는 기본 패키지</p>
+</div>
+<div class="col-5" style="border-radius: 0 .6rem 0 0 ;">
+<a href="https://github.com/bit2r/bitSpatial" style="color: inherit;">
+<img src="fig/bitSpatial_logo.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:1px; margin-left: 1px;margin-right: -1px;margin-top: -1px;margin-bottom: -1px;border-radius: 0 .6rem 0 0 ;">
+</a>
+</div>
+</div>
+</div>
+<div class="card-footer small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:0 1px 1px 1px; border-radius: 0 0 .6rem .6rem ;">2023-01-23</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">사단법인 한국 R 사용자회 <a href="https://quarto.org/">Quarto</a> 로 제작</div>   
+  </div>
+</footer>
+
+
+
+</body></html>

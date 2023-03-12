@@ -1,0 +1,67 @@
+---
+title: "R 패키지"
+description: |
+  외산 패키지가 아닌 R 개발자와 사용자의 시간을 절약해줄 수 있는 핵심 패키지를 분야별로 개발하고 있습니다.
+  데이터 과학 데이터가 텍스트인 경우 `bitNLP`, 공간지도인 경우 `bitSpatial` 그외 다양한 패키지가 CRAN 및 
+  관련 사이트에 공개되어 있으며 최근 `chatGPT`를 쉽게 사용할 수 있게 `bitGPT`도 개발되어 점차 범위와 깊이를 더해가고 있습니다. 
+format:
+  html:
+    css: "strapless.css"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE,
+                      comment = "#>", 
+                      digits = 3, tidy = FALSE, prompt = FALSE, fig.align = 'center')
+```
+
+
+
+```{r card-groups}
+#| echo: false
+
+library(bs4cards)
+library(tidyverse)
+
+package_list <- list(
+  tibble(
+    title = "bitGPT",
+    image = "fig/bitGPT.png",
+    text = "chatGPT를 보다 쉽게 사용할 수 있는, 그리고 한국어를 지원하는 bitGPT",
+    link = "https://github.com/bit2r/bitGPT",
+    footer = "2023-02-28"
+  ),
+  tibble(
+    title = "bitNLP",
+    image = "fig/bitNLP_logo.png",
+    text = "텍스트 데이터를 탐색하고, 자연어 처리 및 형태소분석, 감성분석을 수행하는, 한글 텍스트 분석 도구모음",
+    link = "https://github.com/bit2r/bitNLP",
+    footer = "2022-12-18"
+  ),
+  tibble(
+    title = "bitSpatial",
+    image = "fig/bitSpatial_logo.png",
+    text = "공간정보 데이터를 지탱하는 기본 패키지",
+    link = "https://github.com/bit2r/bitSpatial",
+    footer = "2023-01-23"
+  )
+)
+
+
+
+package_tbl <- package_list %>% 
+  enframe() %>% 
+  unnest(value)
+
+package_tbl %>% 
+  cards(
+    title = title,
+    text = text,
+    link = link,
+    image = image,
+    footer = footer,
+    layout = "label-left", 
+    width = 3
+  )
+
+```

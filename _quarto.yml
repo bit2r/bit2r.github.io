@@ -23,6 +23,8 @@ website:
         href: https://r2bit.com/chatGPT/
       - text: "통계 패키지"
         href: bitstat.qmd
+      - text: "R 패키지"
+        href: packages.qmd
       - text: "콘텐츠"
         href: book.qmd
       - text: "데이터"
