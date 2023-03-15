@@ -2,7 +2,7 @@
 title: "R 패키지"
 description: |
   외산 패키지가 아닌 R 개발자와 사용자의 시간을 절약해줄 수 있는 핵심 패키지를 분야별로 개발하고 있습니다.
-  데이터 과학 데이터가 텍스트인 경우 `bitNLP`, 공간지도인 경우 `bitSpatial` 그외 다양한 패키지가 CRAN 및 
+  데이터 과학 데이터가 분류모형을 위한 데이터셋인 경우에는 `dlookr`과 `alookr `,  텍스트인 경우 `bitNLP`, 공간지도인 경우 `bitSpatial` 그외 다양한 패키지가 CRAN 및 
   관련 사이트에 공개되어 있으며 최근 `chatGPT`를 쉽게 사용할 수 있게 `bitGPT`도 개발되어 점차 범위와 깊이를 더해가고 있습니다. 
 format:
   html:
@@ -44,7 +44,21 @@ package_list <- list(
     text = "공간정보 데이터를 지탱하는 기본 패키지",
     link = "https://github.com/bit2r/bitSpatial",
     footer = "2023-01-23"
-  )
+  ),
+  tibble(
+    title = "dlookr",
+    image = "fig/dlookr_logo.png",
+    text = "데이터셋의 품질 진단, 탐색적 데이터 분석(EDA) 및 데이터의 변환을 지원하는 데이터분석 도구",
+    link = "https://cran.r-project.org/web/packages/dlookr/index.html",
+    footer = "2018-04-27"
+  ),
+  tibble(
+    title = "alookr",
+    image = "fig/alookr_logo.png",
+    text = "이진 분류 모델 개발의 전체 프로세스를 지원하는 데이터분석 도구",
+    link = "https://cran.r-project.org/web/packages/alookr/index.html",
+    footer = "2020-03-20"
+  )  
 )
 
 
