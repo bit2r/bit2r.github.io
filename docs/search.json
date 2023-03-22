@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "한국 알(R) 사용자회 소개",
     "section": "",
-    "text": "한국 알(R) 사용자회: link\n한국 알 사용자회 페이스북: link\nSeoul R Meetup: link\n\nSeoul R Meetup: link\nAsia R Community link\nGlobal R Meetup: link\n\nAISpiration: link\nKorea R Conference: link\nYoutube Channel: link"
+    "text": "한국 알(R) 사용자회: link\n한국 알 사용자회 페이스북: link\nSeoul R Meetup: link\n\nSeoul R Meetup (Repo.): link\nAsia R Community link\nGlobal R Meetup: link\n\nKorea R Conference: link\nYoutube: link\nSlack: link"
   },
   {
     "objectID": "about.html#한국-r-사용자회",
@@ -39,7 +39,7 @@
     "href": "book.html",
     "title": "콘텐츠",
     "section": "",
-    "text": "bitGPT\n\nchatGPT를 보다 쉽게 사용할 수 있는, 그리고 한국어를 지원하는 bitGPT\n\n\n\n\n\n\n\n\n2023-02-28\n\n\n\n\n\n\nbitNLP\n\n텍스트 데이터를 탐색(Explore Documents)하고, 자연어 처리(Natural Language Processing) 및 형태소분석, 감성분석을 수행하는, 한글 텍스트 데이터 분석 도구들의 모음\n\n\n\n\n\n\n\n\n2022-12-18\n\n\n\n\n\n\nbitSpatial\n\n공간정보 데이터를 지탱하는 기본 패키지\n\n\n\n\n\n\n\n\n2023-01-23"
+    "text": "데이터 과학 프로그래밍\n\n데이터 과학자로 성장하기 위한 프로그래밍 개념\n\n\n\n\n\n\n\n\n2022-06-17\n\n\n\n\n\n\n데이터 시각화\n\n데이터 시각화에 대한 개념과 실무\n\n\n\n\n\n\n\n\n2022-06-03\n\n\n\n\n\n\n데이터 과학 기본기\n\n데이터 과학을 지탱하는 기본기\n\n\n\n\n\n\n\n\n2022-06-04\n\n\n\n\n\n\n오픈 통계 패키지\n\n설치형 오픈 통계 패키지 - Rcmdr\n\n\n\n\n\n\n\n\n2022-06-05\n\n\n\n\n\n\n데이터 과학 언플러그드\n\n종이와 연필로 데이터 과학 개념 설명\n\n\n\n\n\n\n\n\n2022-06-10\n\n\n\n\n\n\n문서 콘텐츠 제작 실무\n\n집필중\n\n\n\n\n\n\n\n\n2022-XX-XX\n\n\n\n\n\n\nR 텍스트 마이닝\n\nbitTA 패키지로 한글 텍스트 분석\n\n\n\n\n\n\n\n\n2022-08-15"
   },
   {
     "objectID": "contest.html",
@@ -439,5 +439,19 @@
     "title": "한국 R 사용자회",
     "section": "",
     "text": "데이터 사이언스와 디자인"
+  },
+  {
+    "objectID": "index.html#서울-r-미트업",
+    "href": "index.html#서울-r-미트업",
+    "title": "한국 R 사용자회",
+    "section": "서울 R 미트업",
+    "text": "서울 R 미트업\nR Consortium R User Groups에 등록된 Seoul R Meetup은 매월 개최되는 데이터 사이언스 R / Tidyverse 미트업으로 chatGPT, Data Analytics, Tidyverse, Tidymodels, Shiny, Dashboard, Machine Learning, Digital Writing, Quarto/RMarkdown, Deep Learning 등 통계, AI/ML/DL, 데이터 사이언스, 시각화, 제품개발 등을 실제 현장에서 직접 데이터를 다루고 학교와 연구소에서 연구개발을 하시는 분들 뿐만 아니라 관심있는 분들이 함께 모여 교류하고 지식을 나누는 미트업입니다.\n\n서울 R 미트업 meetup.com: link\n\n기타 커뮤니티 관련 링크는 아래와 같습니다.\n\n세계 R 미트업 현황 (Global R Meetup Dashboard): link\n한국 R 사용자회 (Korea R User Group): link\n한국 R 컨퍼런스 (Korea R Conference): link\n서울 R 미트업 (Seoul R Meetup): link\n유튜브 채널 (Youtube Channel): link\n페이스북 그룹 (Facebook Group): link\n한국 R 사용자회 슬랙 (Slack): link"
+  },
+  {
+    "objectID": "index.html#r-사용자회-회원-가입",
+    "href": "index.html#r-사용자회-회원-가입",
+    "title": "한국 R 사용자회",
+    "section": "R 사용자회 회원 가입",
+    "text": "R 사용자회 회원 가입\n사단법인 한국 R 사용자회(이하 R 사용자회)는 2022년 2월 28일 설립되어 창립 1년이 되었습니다. R 사용자회는 R Consortium R User Groups에 등록된 Seoul R Meetup은 매월 개최되는 데이터 사이언스 R / Tidyverse 미트업을 2017년부터 운영하며 R 지식 나눔과 커뮤니티 멤버들 간의 사랑방 역할도 수행하고 있습니다.\nR사용자회는 2022년부터 오픈 통계 패키지(BitStat) 패키지를 개발하여 보급하였을 뿐만 아니라 BitNLP, BitSpatial, BitReport 패키지를 개발하여 공개하였을 뿐만 아니라, “디지털 글쓰기”, “데이터 과학 프로그래밍”, “데이터 시각화”, “데이터 과학 기본기”, “오픈 통계 패키지”, “R 텍스트 마이닝”, “데이터 과학 언플러그드” 등 전자책을 집필하여 무료로 대중에 공개하였습니다.\n회원가입을 원하시는 분은 아래의 계좌로 연회비를 입금하시고 관련 정보를 입력해주시면 검토 후 회원이 될 수 있도록 하겠습니다.\n\n회원가입 신청: https://forms.gle/ByJy34PkFdMJXHbe6\n\n입금계좌: 하나은행 448-910057-06204 / 사단법인 한국알사용자회 회비: 연 2만원 이상"
   }
 ]

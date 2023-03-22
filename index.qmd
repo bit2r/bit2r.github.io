@@ -11,3 +11,33 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ![](fig/hex-stickers.png){width="100%"}
+
+## 서울 R 미트업 
+
+R Consortium R User Groups에 등록된 Seoul R Meetup은 매월 개최되는 데이터 사이언스 R / Tidyverse 미트업으로 chatGPT, Data Analytics, Tidyverse, Tidymodels, Shiny, Dashboard, Machine Learning, Digital Writing, Quarto/RMarkdown, Deep Learning 등 통계, AI/ML/DL, 데이터 사이언스, 시각화, 제품개발 등을 실제 현장에서 직접 데이터를 다루고 학교와 연구소에서 연구개발을 하시는 분들 뿐만 아니라 관심있는 분들이 함께 모여 교류하고 지식을 나누는 미트업입니다. 
+
+- **서울 R 미트업 meetup.com**: [link](https://www.meetup.com/seoul-r-meetup)
+
+기타 커뮤니티 관련 링크는 아래와 같습니다.
+
+- 세계 R 미트업 현황 (Global R Meetup Dashboard): [link](https://r-community.org/usergroups/)
+- 한국 R 사용자회 (Korea R User Group): [link](https://r2bit.com/)
+- 한국 R 컨퍼런스 (Korea R Conference): [link](https://use-r.kr/)
+- 서울 R 미트업 (Seoul R Meetup): [link](https://r2bit.com/seoul-r)
+- 유튜브 채널 (Youtube Channel): [link](https://www.youtube.com/channel/UCW-epmIvjBEhhVXw_F0Nqbw)
+- 페이스북 그룹 (Facebook Group): [link](https://www.facebook.com/groups/tidyverse)
+- 한국 R 사용자회 슬랙 (Slack): [link](https://korea-r-user-group.slack.com)
+
+## R 사용자회 회원 가입
+
+사단법인 한국 R 사용자회(이하 R 사용자회)는 2022년 2월 28일 설립되어 창립 1년이 되었습니다. R 사용자회는 R Consortium R User Groups에 등록된 Seoul R Meetup은 매월 개최되는 데이터 사이언스 R / Tidyverse 미트업을 2017년부터 운영하며 R 지식 나눔과 커뮤니티 멤버들 간의 사랑방 역할도 수행하고 있습니다.
+
+R사용자회는 2022년부터 오픈 통계 패키지(BitStat) 패키지를 개발하여 보급하였을 뿐만 아니라 BitNLP, BitSpatial, BitReport 패키지를 개발하여 공개하였을 뿐만 아니라, "디지털 글쓰기", "데이터 과학 프로그래밍", "데이터 시각화", "데이터 과학 기본기", "오픈 통계 패키지", "R 텍스트 마이닝", "데이터 과학 언플러그드" 등 전자책을 집필하여 무료로 대중에 공개하였습니다.
+
+회원가입을 원하시는 분은 아래의 계좌로 연회비를 입금하시고 관련 정보를 입력해주시면 검토 후 회원이 될 수 있도록 하겠습니다.
+
+- 회원가입 신청: [https://forms.gle/ByJy34PkFdMJXHbe6](https://forms.gle/ByJy34PkFdMJXHbe6)
+
+입금계좌: 하나은행 448-910057-06204 / 사단법인 한국알사용자회
+회비: 연 2만원 이상
+
