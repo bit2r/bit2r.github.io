@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://r2bit.com/about.html</loc>
-    <lastmod>2023-03-22T01:29:02.531Z</lastmod>
+    <lastmod>2023-04-29T23:49:50.260Z</lastmod>
   </url>
   <url>
     <loc>https://r2bit.com/bitstat.html</loc>
@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://r2bit.com/book.html</loc>
-    <lastmod>2023-03-22T01:18:19.233Z</lastmod>
+    <lastmod>2023-03-22T01:30:02.787Z</lastmod>
   </url>
   <url>
     <loc>https://r2bit.com/contest.html</loc>
@@ -78,10 +78,14 @@
   </url>
   <url>
     <loc>https://r2bit.com/index.html</loc>
-    <lastmod>2023-03-22T01:29:19.881Z</lastmod>
+    <lastmod>2023-04-29T23:41:36.381Z</lastmod>
   </url>
   <url>
     <loc>https://r2bit.com/packages.html</loc>
-    <lastmod>2023-03-22T01:18:26.991Z</lastmod>
+    <lastmod>2023-03-22T01:29:59.622Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r2bit.com/donation.html</loc>
+    <lastmod>2023-04-29T23:50:25.489Z</lastmod>
   </url>
 </urlset>
