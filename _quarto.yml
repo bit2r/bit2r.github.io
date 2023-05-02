@@ -21,8 +21,8 @@ website:
         menu:
         - text: "한국 R 사용자회"
           href: about.qmd
-        - text: "기부금 모금/활용실적"
-          href: donation.qmd
+        # - text: "기부금 모금/활용실적"
+        #   href: donation.qmd
       - text: "**chatGPT**"
         href: https://r2bit.com/chatGPT/
       - text: "통계 패키지"
