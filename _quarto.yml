@@ -75,7 +75,7 @@ website:
         contents:
           - href: https://r2bit.com/bitSlide/slideshow/202210-hongik-v2
             text: "홍익대 특강"
-          - href: https://aispiration.com/ds-authoring/ds-world-student.html
+          - href: https://statkclee.github.io/ds-authoring/ds-world-student.html
             text: "데이터 과학자 세계"
       - section: "워크샵"
         contents:
