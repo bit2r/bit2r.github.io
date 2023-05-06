@@ -28,7 +28,7 @@ description: |
 
 ![](fig/organization.png) 
 
-## 연락처
+## 연락처 
 
 다음 전자우편으로 연락주세요. <a href="mainto:admin@bit2r.com">admin\@bit2r.com</a>
 
