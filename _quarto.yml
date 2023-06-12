@@ -47,9 +47,6 @@ website:
         text: "Blog"
       - text: 관련 정보
         menu: 
-          - href: https://www.msit.go.kr/
-            text: "과학기술정보통신부"
-          - text: "----------------"        
           - href: https://use-r.kr/
             text: "한국 R 컨퍼런스"
           - href: https://www.meetup.com/seoul-r-meetup
@@ -89,6 +86,10 @@ website:
             text: "서울교육청 - 혁신교육"            
           - href: https://choonghyunryu.github.io/workshop_lecture/
             text: "HCI 2024 (준비중)"
+      - section: "공익법인"
+        contents:
+          - href: https://www.msit.go.kr/
+            text: "과학기술정보통신부"
 format:
   html:
     theme: 
