@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko-KR" xml:lang="ko-KR"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.280">
+<meta name="generator" content="quarto-1.4.288">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="외산 패키지가 아닌 R 개발자와 사용자의 시간을 절약해줄 수 있는 핵심 패키지를 분야별로 개발하고 있습니다. 데이터 과학 데이터가 분류모형을 위한 데이터셋인 경우에는 dlookr과 alookr, 텍스트인 경우 bitNLP, 공간지도인 경우 bitSpatial 그외 다양한 패키지가 CRAN 및 관련 사이트에 공개되어 있으며 최근 chatGPT를 쉽게 사용할 수 있게 bitGPT도 개발되어 점차 범위와 깊이를 더해가고 있습니다.">
+<meta name="description" content="외산 패키지에 의존하지 않고 R 개발자와 사용자의 작업 효율을 극대화하려는 목표 하에 다양한 분야별 핵심 패키지를 개발하고 있습니다. 데이터 과학 분야에서 CRAN에 등록된 dlookr과 alookr 패키지를 비롯하여, 오픈 통계 패키지 bitStat, 텍스트 자연어처리 bitNLP, 공간 데이터 bitSpatial, 보고서 자동화 bitReport, 출판 bitPublish 패키지가 특화된 기능을 제공하고 있다. 또한, 최근에 인기를 얻고 있는 생성형 AI 챗GPT를 손쉽게 활용할 수 있도록 bitGPT 패키지도 출시하하여 지속적 기여를 하고 있습니다.">
 
-<title>한국 R 사용자회 - R 패키지</title>
+<title>한국 R 사용자회 - 공개 패키지</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -18,7 +18,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -47,16 +47,22 @@ ul.task-list li input[type="checkbox"] {
   "panel-placement": "end",
   "type": "overlay",
   "limit": 20,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-no-results-text": "일치 없음",
+    "search-matching-documents-text": "일치된 문서",
+    "search-copy-link-title": "검색 링크 복사",
+    "search-hide-matches-text": "추가 검색 결과 숨기기",
+    "search-more-match-text": "추가 검색결과",
+    "search-more-matches-text": "추가 검색결과",
+    "search-clear-button-title": "제거",
+    "search-detached-cancel-button-title": "취소",
+    "search-submit-button-title": "검색",
+    "search-label": "검색"
   }
 }</script>
 
@@ -84,184 +90,208 @@ ga('send', {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">한국 R 사용자회</span>
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="검색"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="탐색 전환" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html">
- <span class="menu-text">소개</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://r2bit.com/chatGPT/">
- <span class="menu-text"><strong>chatGPT</strong></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./bitstat.html">
- <span class="menu-text">통계 패키지</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./packages.html" aria-current="page">
- <span class="menu-text">R 패키지</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./book.html">
- <span class="menu-text">콘텐츠</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./data.html">
- <span class="menu-text">데이터</span></a>
-  </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">에듀테크</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">소개</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-">    
         <li>
-    <a class="dropdown-item" href="./edutech.html">
- <span class="dropdown-text">개요</span></a>
+    <a class="dropdown-item" href="./about.html" rel="" target="">
+ <span class="dropdown-text">한국 R 사용자회</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./swc.html">
- <span class="dropdown-text">데이터 카펜트리</span></a>
+    <a class="dropdown-item" href="https://r2bit.com/chatGPT/" rel="" target="">
+ <span class="dropdown-text"><strong>chatGPT</strong></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./learnr.html">
- <span class="dropdown-text">자기주도학습</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./training.html">
- <span class="dropdown-text">교육</span></a>
+    <a class="dropdown-item" href="./bitstat.html" rel="" target="">
+ <span class="dropdown-text">통계 패키지</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html">
+    <a class="nav-link active" href="./packages.html" rel="" target="" aria-current="page">
+ <span class="menu-text">(공개)패키지</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./book.html" rel="" target="">
+ <span class="menu-text">(전자)책</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./data.html" rel="" target="">
+ <span class="menu-text">데이터</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu--1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">관련 정보</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu--1" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">관련정보</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu--1">    
         <li>
-    <a class="dropdown-item" href="./contest.html">
- <span class="dropdown-text">경진대회</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://use-r.kr/">
+    <a class="dropdown-item" href="https://use-r.kr/" rel="" target="">
  <span class="dropdown-text">한국 R 컨퍼런스</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://www.meetup.com/seoul-r-meetup">
+    <a class="dropdown-item" href="https://www.meetup.com/seoul-r-meetup" rel="" target="">
  <span class="dropdown-text">서울 R Meetup</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://tidyverse-korea.github.io/seoul-R/">
+    <a class="dropdown-item" href="https://tidyverse-korea.github.io/seoul-R/" rel="" target="">
  <span class="dropdown-text">서울 R Meetup Archive</span></a>
   </li>  
+        <li><hr class="dropdown-divider"></li>
         <li>
-    <a class="dropdown-item" href="https://r-community.org/usergroups/">
+    <a class="dropdown-item" href="https://r2bit.com/seoul-r/" rel="" target="">
  <span class="dropdown-text">글로벌 R Meetup</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://quarto.org/">
- <span class="dropdown-text">Quarto</span></a>
+    <a class="dropdown-item" href="https://quarto.org/" rel="" target="">
+ <span class="dropdown-text">쿼토(Quarto)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./contest.html" rel="" target="">
+ <span class="dropdown-text">경진대회</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="./edutech.html" rel="" target="">
+ <span class="dropdown-text">에듀테크 개요</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./swc.html" rel="" target="">
+ <span class="dropdown-text">데이터 카펜트리</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./learnr.html" rel="" target="">
+ <span class="dropdown-text">자기주도학습</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./training.html" rel="" target="">
+ <span class="dropdown-text">교육</span></a>
   </li>  
     </ul>
   </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="https://r2bit.com">
+    <a class="nav-link" href="https://r2bit.com" rel="" target="">
  <span class="menu-text">R사용자회</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.youtube.com/channel/UCW-epmIvjBEhhVXw_F0Nqbw"><i class="bi bi-youtube" role="img">
+    <a class="nav-link" href="https://www.youtube.com/channel/UCW-epmIvjBEhhVXw_F0Nqbw" rel="" target=""><i class="bi bi-youtube" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/bit2r/quarto"><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/bit2r/quarto" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.facebook.com/groups/tidyverse"><i class="bi bi-facebook" role="img">
+    <a class="nav-link" href="https://www.facebook.com/groups/tidyverse" rel="" target=""><i class="bi bi-facebook" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">R 패키지</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="사이드바 전환" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">공개 패키지</li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="사이드바 전환" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">발표자료</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">발표자료</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="토글 섹션">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://r2bit.com/bitSlide/slideshow/202210-hongik-v2" class="sidebar-item-text sidebar-link">홍익대 특강</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="https://aispiration.com/ds-authoring/ds-world-student.html" class="sidebar-item-text sidebar-link">데이터 과학자 세계</a>
+  <a href="https://r2bit.com/bitSlide/" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">챗GPT 발표자료</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">워크샵</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">워크샵</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="토글 섹션">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://www.sharingkorea.net/gboard/" class="sidebar-item-text sidebar-link">나눔국민운동본부</a>
+  <a href="https://www.sharingkorea.net/gboard/" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">나눔국민운동본부</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://r2bit.com/sen" class="sidebar-item-text sidebar-link">서울교육청 - 혁신교육</a>
+  <a href="https://r2bit.com/sen" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">서울교육청 - 혁신교육</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://choonghyunryu.github.io/workshop_lecture/" class="sidebar-item-text sidebar-link">HCI 2024 (준비중)</a>
+  <a href="https://choonghyunryu.github.io/workshop_lecture/" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HCI 2024 (준비중)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">공익법인</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="토글 섹션">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://www.msit.go.kr/" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">과학기술정보통신부</span></a>
   </div>
 </li>
       </ul>
@@ -269,6 +299,7 @@ ga('send', {
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
@@ -278,12 +309,12 @@ ga('send', {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">R 패키지</h1>
+<h1 class="title">공개 패키지</h1>
 </div>
 
 <div>
   <div class="description">
-    <p>외산 패키지가 아닌 R 개발자와 사용자의 시간을 절약해줄 수 있는 핵심 패키지를 분야별로 개발하고 있습니다. 데이터 과학 데이터가 분류모형을 위한 데이터셋인 경우에는 <code>dlookr</code>과 <code>alookr</code>, 텍스트인 경우 <code>bitNLP</code>, 공간지도인 경우 <code>bitSpatial</code> 그외 다양한 패키지가 CRAN 및 관련 사이트에 공개되어 있으며 최근 <code>chatGPT</code>를 쉽게 사용할 수 있게 <code>bitGPT</code>도 개발되어 점차 범위와 깊이를 더해가고 있습니다.</p>
+    <p>외산 패키지에 의존하지 않고 R 개발자와 사용자의 작업 효율을 극대화하려는 목표 하에 다양한 분야별 핵심 패키지를 개발하고 있습니다. 데이터 과학 분야에서 CRAN에 등록된 <code>dlookr</code>과 <code>alookr</code> 패키지를 비롯하여, 오픈 통계 패키지 <code>bitStat</code>, 텍스트 자연어처리 <code>bitNLP</code>, 공간 데이터 <code>bitSpatial</code>, 보고서 자동화 <code>bitReport</code>, 출판 <code>bitPublish</code> 패키지가 특화된 기능을 제공하고 있다. 또한, 최근에 인기를 얻고 있는 생성형 AI 챗GPT를 손쉽게 활용할 수 있도록 <code>bitGPT</code> 패키지도 출시하하여 지속적 기여를 하고 있습니다.</p>
   </div>
 </div>
 
@@ -296,6 +327,7 @@ ga('send', {
   </div>
   
 
+
 </header>
 
 <div class="cell" data-layout-align="center">
@@ -306,10 +338,46 @@ ga('send', {
 <div class="card-body m-0 p-0 col-12" style="visibility: visible; border-style:solid; border-color:inherits; border-width:1px; background-color: inherits;border-radius: .6rem .6rem 0 0 ;">
 <div class="row no-gutters h-100 border-0" style="border-radius: .6rem .6rem 0 0 ;">
 <div class="col-7 h-100">
+<a href="https://github.com/bit2r/bitReport">
+<h5 class="card-title my-auto px-3 pt-3 pb-1 anchored">bitReport</h5>
+</a>
+<p class="card-text my-auto px-3 pb-3 pt-1">휴먼 리소스 낭비를 없애는 보고서 자동화 도구</p>
+</div>
+<div class="col-5" style="border-radius: 0 .6rem 0 0 ;">
+<a href="https://github.com/bit2r/bitReport" style="color: inherit;">
+<img src="fig/bitReport_logo.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:1px; margin-left: 1px;margin-right: -1px;margin-top: -1px;margin-bottom: -1px;border-radius: 0 .6rem 0 0 ;">
+</a>
+</div>
+</div>
+</div>
+<div class="card-footer small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:0 1px 1px 1px; border-radius: 0 0 .6rem .6rem ;">2023-04-25</div>
+</div>
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
+<div class="card-body m-0 p-0 col-12" style="visibility: visible; border-style:solid; border-color:inherits; border-width:1px; background-color: inherits;border-radius: .6rem .6rem 0 0 ;">
+<div class="row no-gutters h-100 border-0" style="border-radius: .6rem .6rem 0 0 ;">
+<div class="col-7 h-100">
+<a href="https://github.com/bit2r/bitPublish">
+<h5 class="card-title my-auto px-3 pt-3 pb-1 anchored">bitPublish</h5>
+</a>
+<p class="card-text my-auto px-3 pb-3 pt-1">XeLaTeX 기반으로 한글 책을 PDF 파일로 조판</p>
+</div>
+<div class="col-5" style="border-radius: 0 .6rem 0 0 ;">
+<a href="https://github.com/bit2r/bitPublish" style="color: inherit;">
+<img src="fig/bitPublish_logo.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:1px; margin-left: 1px;margin-right: -1px;margin-top: -1px;margin-bottom: -1px;border-radius: 0 .6rem 0 0 ;">
+</a>
+</div>
+</div>
+</div>
+<div class="card-footer small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:0 1px 1px 1px; border-radius: 0 0 .6rem .6rem ;">2023-04-25</div>
+</div>
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
+<div class="card-body m-0 p-0 col-12" style="visibility: visible; border-style:solid; border-color:inherits; border-width:1px; background-color: inherits;border-radius: .6rem .6rem 0 0 ;">
+<div class="row no-gutters h-100 border-0" style="border-radius: .6rem .6rem 0 0 ;">
+<div class="col-7 h-100">
 <a href="https://github.com/bit2r/bitGPT">
 <h5 class="card-title my-auto px-3 pt-3 pb-1 anchored">bitGPT</h5>
 </a>
-<p class="card-text my-auto px-3 pb-3 pt-1">chatGPT를 보다 쉽게 사용할 수 있는, 그리고 한국어를 지원하는 bitGPT</p>
+<p class="card-text my-auto px-3 pb-3 pt-1">챗GPT를 보다 쉽게 사용할 수 있는, 그리고 한국어를 지원하는 bitGPT</p>
 </div>
 <div class="col-5" style="border-radius: 0 .6rem 0 0 ;">
 <a href="https://github.com/bit2r/bitGPT" style="color: inherit;">
@@ -392,6 +460,24 @@ ga('send', {
 </div>
 <div class="card-footer small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:0 1px 1px 1px; border-radius: 0 0 .6rem .6rem ;">2020-03-20</div>
 </div>
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
+<div class="card-body m-0 p-0 col-12" style="visibility: visible; border-style:solid; border-color:inherits; border-width:1px; background-color: inherits;border-radius: .6rem .6rem 0 0 ;">
+<div class="row no-gutters h-100 border-0" style="border-radius: .6rem .6rem 0 0 ;">
+<div class="col-7 h-100">
+<a href="https://github.com/bit2r/BitStat">
+<h5 class="card-title my-auto px-3 pt-3 pb-1 anchored">bitStat</h5>
+</a>
+<p class="card-text my-auto px-3 pb-3 pt-1">오픈 통계 패키지(BitStat)</p>
+</div>
+<div class="col-5" style="border-radius: 0 .6rem 0 0 ;">
+<a href="https://github.com/bit2r/BitStat" style="color: inherit;">
+<img src="fig/bitstat.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:1px; margin-left: 1px;margin-right: -1px;margin-top: -1px;margin-bottom: -1px;border-radius: 0 .6rem 0 0 ;">
+</a>
+</div>
+</div>
+</div>
+<div class="card-footer small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:0 1px 1px 1px; border-radius: 0 0 .6rem .6rem ;">2021-09-18</div>
+</div>
 </div>
 </div>
 </div>
@@ -427,9 +513,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -440,12 +540,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "복사완료!");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "복사완료!");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
@@ -465,10 +565,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -478,8 +577,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -494,6 +602,168 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        return container.innerHTML
+      } else {
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -536,9 +806,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">사단법인 한국 R 사용자회 <a href="https://quarto.org/">Quarto</a> 로 제작</div>   
+    <div class="nav-footer-left">
+<p>사단법인 한국 R 사용자회 <a href="https://quarto.org/">Quarto</a> 로 제작</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
   </div>
 </footer>
+
 
 
 

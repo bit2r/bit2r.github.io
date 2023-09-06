@@ -1,9 +1,11 @@
 ---
-title: "데이터"
+title: "공개 데이터"
 description: |
-  통계 대중화와 디지털 불평등 해소를 위해 데이터를 R 데이터 패키지로 공개하고 있습니다. 
+  통계 대중화와 디지털 불평등 해소를 위한 노력으로, 한국 R 사용자회는 다양한 오픈 데이터 패키지를 제작하여 제공하고 있습니다. 공개 패키지들은 교육, 연구, 그리고 현업에서 신속하고 효과적인 데이터 분석의 토대가 될 것으로 기대됩니다.
 date: "`r Sys.Date()`"
 format: html
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
@@ -12,10 +14,64 @@ knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE,
                       digits = 3, tidy = FALSE, prompt = FALSE, fig.align = 'center')
 ```
 
-## 한국 R 사용자회 제작 오픈 데이터 패키지
+## 한국 R 사용자회 제작 공개 데이터 패키지
 
-|                     패키지명                     |                                                                            데이터 패키지 설명                                                                            |                                  로고                                  |
-|:--------------:|:-------------------------------------:|:--------------:|
-|      [`hsData`](https://r2bit.com/hsData/)       |                                                         통계청 통계교육원에서 발간한 "고등학교 실용통계" 교과서                                                          |                  ![](fig/logo_hsData.png){width="73"}                  |
-| [krvote](https://ai-carpentry.github.io/krvote/) | [중앙선거관리위원회](https://www.nec.go.kr/site/nec/main.do) [선거통계시스템](http://info.nec.go.kr/main/main_load.xhtml)에 공개된 역대 선거관련 투표와 득표 공공 데이터 |                  ![](fig/logo_krvote.png){width="73"}                  |
-|      [bitData](https://r2bit.com/bitData/)       |           통계(데이터 과학) 교육과 신속한 현업 적용에 필요한 대한민국 데이터셋: 파머 펭귄, 국방부 남녀 신체측정, 강남 강수량, 인구, 대기오염물질, 온실가스 등            | [![](fig/favicon_bitData.png){width="73"}](https://r2bit.com/bitData/) |
+```{r}
+library(gt)
+library(gtExtras)
+library(tidyverse)
+
+# Create a data frame with the table data
+table_data <- data.frame(
+  패키지명 = c(
+    "bitTomato", 
+    "hsData", 
+    "krvote", 
+    "bitData"
+  ),
+  패키지URL = c(
+    "https://github.com/bit2r/bitTomato",
+    "https://r2bit.com/hsData/",
+    "https://ai-carpentry.github.io/krvote/",
+    "https://r2bit.com/bitData/"
+  ),
+  데이터_패키지_설명 = c(
+    "bitTomato는 '한글 텍스트 데이터 분석의 학습을 위한 실 데이터를 오픈소스로 제공'한다는 목적에 공감하는 [뉴스토마토](https://www.newstomato.com/)가 제공한 뉴스 기사를, 한국 R 사용자회가 저작 배포하는 R 패키지입니다.",
+    "통계청 통계교육원에서 발간한 '고등학교 실용통계' 교과서",
+    "[중앙선거관리위원회](https://www.nec.go.kr/site/nec/main.do) [선거통계시스템](http://info.nec.go.kr/main/main_load.xhtml)에 공개된 역대 선거관련 투표와 득표 공공 데이터",
+    "통계(데이터 과학) 교육과 신속한 현업 적용에 필요한 대한민국 데이터셋: 파머 펭귄, 국방부 남녀 신체측정, 강남 강수량, 인구, 대기오염물질, 온실가스 등"
+  ),
+  로고 = c(
+    "fig/bitTomato_logo.png",
+    "fig/logo_hsData.png",
+    "fig/logo_krvote.png",
+    "fig/favicon_bitData.png"
+  )
+)
+
+table_data$패키지명 <- sprintf('<a href="%s">%s</a>', table_data$패키지URL, table_data$패키지명)
+
+# Create the gt table
+table_data |> 
+  select(-패키지URL) |> 
+  gt() %>%
+    cols_label(
+      패키지명 = "패키지명",
+      로고 = "로고",
+      데이터_패키지_설명 = "데이터 패키지 설명"
+    ) |> 
+     # gt_img_rows(columns = 로고, height = 25) 
+    text_transform(
+      locations = cells_body(columns = 로고),
+      fn = function(x) {
+        map_chr(x, ~ local_image(
+          filename = .x,
+          height = 100
+      ))
+      }
+    ) |> 
+    fmt_markdown(columns = c(패키지명, 데이터_패키지_설명)) |> 
+    gt_theme_538() |> 
+    cols_align(align = "center")
+```
+

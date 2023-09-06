@@ -26,7 +26,7 @@ format:
     number-sections: true
     highlight-style: github    
     self-contained: true
-link-citations: yes
+link-citations: true
 filters:
    - lightbox      
 lightbox: auto

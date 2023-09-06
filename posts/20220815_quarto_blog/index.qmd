@@ -25,7 +25,7 @@ format:
     number-sections: true
     highlight-style: github    
     self-contained: true
-link-citations: yes
+link-citations: true
 ---
 
 # 블로그를 하는 이유

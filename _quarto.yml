@@ -5,6 +5,10 @@ project:
     - "*.qmd"
     - "!materials/workshop/"
 
+lang: ko-KR
+date-format: "YYYY년 MM월 DD일"
+
+
 website:
   title: "한국 R 사용자회"
   site-url: https://r2bit.com
@@ -23,30 +27,20 @@ website:
           href: about.qmd
         # - text: "기부금 모금/활용실적"
         #   href: donation.qmd
-      - text: "**chatGPT**"
-        href: https://r2bit.com/chatGPT/
-      - text: "통계 패키지"
-        href: bitstat.qmd
-      - text: "R 패키지"
+        - text: "**chatGPT**"
+          href: https://r2bit.com/chatGPT/
+        - text: "통계 패키지"
+          href: bitstat.qmd
+      - text: "(공개)패키지"
         href: packages.qmd
-      - text: "콘텐츠"
+      - text: "(전자)책"
         href: book.qmd
       - text: "데이터"
         href: data.qmd
-      - text: "에듀테크"
-        menu:
-        - text: "개요"
-          href: edutech.qmd
-        - text: "데이터 카펜트리"
-          href: swc.qmd
-        - text: "자기주도학습"
-          href: learnr.qmd
-        - text: "교육"
-          href: training.qmd
       - href: blog.qmd     
         text: "Blog"
-      - text: 관련 정보
-        menu: 
+      - text: "관련정보"
+        menu:
           - href: https://use-r.kr/
             text: "한국 R 컨퍼런스"
           - href: https://www.meetup.com/seoul-r-meetup
@@ -60,6 +54,16 @@ website:
             text: "쿼토(Quarto)"
           - text: "경진대회"
             href: contest.qmd
+          - text: "----------------"
+          - text: "에듀테크 개요"
+            href: edutech.qmd
+          - text: "데이터 카펜트리"
+            href: swc.qmd
+          - text: "자기주도학습"
+            href: learnr.qmd
+          - text: "교육"
+            href: training.qmd
+            
     right: 
       - href: https://r2bit.com
         text: "R사용자회"
@@ -74,10 +78,8 @@ website:
     contents: 
       - section: "발표자료"
         contents:
-          - href: https://r2bit.com/bitSlide/slideshow/202210-hongik-v2
-            text: "홍익대 특강"
-          - href: https://statkclee.github.io/ds-authoring/ds-world-student.html
-            text: "데이터 과학자 세계"
+          - href: https://r2bit.com/bitSlide/
+            text: "챗GPT 발표자료"
       - section: "워크샵"
         contents:
           - href: https://www.sharingkorea.net/gboard/
@@ -96,6 +98,12 @@ format:
       - litera
       - css/quarto.scss
     toc: true
+
+filters:
+  - lightbox
+  - parse-latex
+lightbox: auto
+
     
 execute:
-  freeze: true
+  freeze: false

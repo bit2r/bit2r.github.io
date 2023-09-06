@@ -1,7 +1,7 @@
 ---
-title: "콘텐츠"
+title: "(전자)책"
 description: |
-  통계 대중화와 불평등 해소를 위해 전세계적으로 검증된 콘텐츠를 한국 알 사용자회에서 선별하여 크리에이티브 커먼즈 라이선스에 준용하여 번역 및 우리나라 상황을 반영하여 콘텐츠를 추가하였습니다. 디지털 콘텐츠도 재현성과 추적성이 강조되는 세계적인 현상을 감안하여 소프트웨어 개발 방법론을 적극 채용하여 지속적인 업그레이드와 개발이 이뤄지고 있습니다. 
+  통계 대중화와 사회적 불평등 해소를 목표로 한국 R 사용자회는 전세계적으로 검증된 콘텐츠를 선별하고 크리에이티브 커먼즈 라이선스를 준용하여 한국어로 번역하는 것을 넘어, 국내 상황을 고려하여 챗GPT 연속간행물을 발간하고 있습니다. 이렇게 저작된 디지털 콘텐츠는 재현성과 추적성이 중요한 현대의 데이터 환경을 반영하고 있을 뿐만 아니라 체계적인 소프트웨어 개발 방법론을 적극 채용하고 있습니다. 지속적인 업그레이드와 개발을 통해 사용자에게 신뢰성과 지속성을 약속합니다. 공개 전자책은 이러한 철학과 방법론 아래, 누구나 자유롭게 접근할 수 있는 지식의 저장소로서의 역할을 충실히 하고 있습니다.
 format:
   html:
     css: "strapless.css"
@@ -13,7 +13,83 @@ knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE,
                       digits = 3, tidy = FALSE, prompt = FALSE, fig.align = 'center')
 ```
 
+## 출판 도서
 
+```{r publish-groups}
+#| echo: false
+
+library(bs4cards)
+library(tidyverse)
+
+kyobo_list <- list(
+  tibble(
+    title = "챗GPT 유닉스 쉘: 데이터 과학 자동화 도구",
+    image = "fig/챗GPT_유닉스쉘.jpg",
+    text = "<챗GPT 유닉스 쉘>은 쉘 프로그래밍부터 GPT 데이터 과학까지 다양한 주제를 체계적으로 다루고 있다.",
+    link = "https://github.com/bit2r/gpt-shell",
+    footer = "2023-08-15"
+  ),
+  tibble(
+    title = "챗GPT 데이터 과학",
+    image = "fig/챗GPT_템플릿.png",
+    text = "출간예정",
+    link = "https://github.com/bit2r/gpt-ds",
+    footer = "2023-09-15"
+  ),
+  tibble(
+    title = "챗GPT 데이터 통계",
+    image = "fig/챗GPT_템플릿.png",
+    text = "출간예정",
+    link = "https://github.com/bit2r/gpt-stat",
+    footer = "2023-10-15"
+  ),
+  tibble(
+    title = "챗GPT 데이터 디지털 글쓰기",
+    image = "fig/챗GPT_템플릿.png",
+    text = "출간예정",
+    link = "https://github.com/bit2r/gpt-writing",
+    footer = "2023-11-15"
+  ),
+  tibble(
+    title = "챗GPT 데이터베이스(SQL)",
+    image = "fig/챗GPT_템플릿.png",
+    text = "출간예정",
+    link = "https://github.com/bit2r/gpt-sql",
+    footer = "2023-12-15"
+  ),
+  tibble(
+    title = "챗GPT 프로그래밍",
+    image = "fig/챗GPT_템플릿.png",
+    text = "출간예정",
+    link = "https://github.com/bit2r/gpt-programming",
+    footer = "2024-01-15"
+  )  
+)
+
+kyobo_tbl <- kyobo_list %>% 
+  enframe() %>% 
+  unnest(value)
+
+kyobo_tbl %>% 
+  cards(
+    title = title,
+    text = text,
+    link = link,
+    image = image,
+    footer = footer,
+    layout = "label-left", 
+    width = 3
+  )
+
+```
+
+
+- "챗GPT 유닉스 쉘: 데이터 과학 자동화 도구"
+  - 📚 종이책: [교보문고 구매](https://product.kyobobook.co.kr/detail/S000208801484)
+  - 📱 전자책: [교보문고 구매](https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000005358063)
+  - 뉴스기사: [챗GPT가 던진 새 가능성, 데이터 과학 분야 통해 미리 살펴보기](https://omn.kr/25f0i)
+
+## 오픈 전자책
 
 ```{r card-groups}
 #| echo: false

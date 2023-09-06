@@ -1,9 +1,7 @@
 ---
-title: "R 패키지"
+title: "공개 패키지"
 description: |
-  외산 패키지가 아닌 R 개발자와 사용자의 시간을 절약해줄 수 있는 핵심 패키지를 분야별로 개발하고 있습니다.
-  데이터 과학 데이터가 분류모형을 위한 데이터셋인 경우에는 `dlookr`과 `alookr `,  텍스트인 경우 `bitNLP`, 공간지도인 경우 `bitSpatial` 그외 다양한 패키지가 CRAN 및 
-  관련 사이트에 공개되어 있으며 최근 `chatGPT`를 쉽게 사용할 수 있게 `bitGPT`도 개발되어 점차 범위와 깊이를 더해가고 있습니다. 
+  외산 패키지에 의존하지 않고 R 개발자와 사용자의 작업 효율을 극대화하려는 목표 하에 다양한 분야별 핵심 패키지를 개발하고 있습니다. 데이터 과학 분야에서 CRAN에 등록된 `dlookr`과 `alookr` 패키지를 비롯하여, 오픈 통계 패키지 `bitStat`, 텍스트 자연어처리 `bitNLP`, 공간 데이터 `bitSpatial`, 보고서 자동화 `bitReport`, 출판 `bitPublish` 패키지가 특화된 기능을 제공하고 있다. 또한, 최근에 인기를 얻고 있는 생성형 AI 챗GPT를 손쉽게 활용할 수 있도록 `bitGPT` 패키지도 출시하하여 지속적 기여를 하고 있습니다.
 format:
   html:
     css: "strapless.css"
@@ -25,9 +23,23 @@ library(tidyverse)
 
 package_list <- list(
   tibble(
+    title = "bitReport",
+    image = "fig/bitReport_logo.png",
+    text = "휴먼 리소스 낭비를 없애는 보고서 자동화 도구",
+    link = "https://github.com/bit2r/bitReport",
+    footer = "2023-04-25"
+  ),  
+  tibble(
+    title = "bitPublish",
+    image = "fig/bitPublish_logo.png",
+    text = "XeLaTeX 기반으로 한글 책을 PDF 파일로 조판",
+    link = "https://github.com/bit2r/bitPublish",
+    footer = "2023-04-25"
+  ),  
+  tibble(
     title = "bitGPT",
     image = "fig/bitGPT.png",
-    text = "chatGPT를 보다 쉽게 사용할 수 있는, 그리고 한국어를 지원하는 bitGPT",
+    text = "챗GPT를 보다 쉽게 사용할 수 있는, 그리고 한국어를 지원하는 bitGPT",
     link = "https://github.com/bit2r/bitGPT",
     footer = "2023-02-28"
   ),
@@ -58,7 +70,14 @@ package_list <- list(
     text = "이진 분류 모델 개발의 전체 프로세스를 지원하는 데이터분석 도구",
     link = "https://cran.r-project.org/web/packages/alookr/index.html",
     footer = "2020-03-20"
-  )  
+  ),
+  tibble(
+    title = "bitStat",
+    image = "fig/bitstat.png",
+    text = "오픈 통계 패키지(BitStat)",
+    link = "https://github.com/bit2r/BitStat",
+    footer = "2021-09-18"
+  )    
 )
 
 

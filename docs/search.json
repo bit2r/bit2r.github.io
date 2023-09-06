@@ -1,122 +1,80 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "한국 알(R) 사용자회 소개",
+    "objectID": "training.html",
+    "href": "training.html",
+    "title": "교육",
     "section": "",
-    "text": "한국 알(R) 사용자회: link\n한국 알 사용자회 페이스북: link\nSeoul R Meetup: link\n\nSeoul R Meetup (Repo.): link\nAsia R Community link\nGlobal R Meetup: link\n\nKorea R Conference: link\nYoutube: link\nSlack: link"
+    "text": "참여대학과 기관\n\n성균관대 (확정)\n한밭대 (확정)\n서울대\n건국대\n\n\n\n교육 내용 - Tidyverse Meets Shiny\n\n공공데이터 수집\n데이터 분석\n대쉬보드 제작\n대쉬보드 배포\n\n\n\n교육 일정 및 신청방법\n\n2022년 7월 9일\n2022년 7월15일\n2022년 8월19일\n\n신청방법은 Seoul R Meetup 웹사이틀 통해 추후 공지될 예정입니다.\n\n\n강사\n\n비영리법인 한국 R 사용자회 소속 강사\n\n\n\n행동강령 (CoC)\n한국 R 컨퍼런스 (이하 R 컨퍼런스)는 비영리 개발자를 위해 “R 사용자회”를 비롯한 다양한 R 커뮤니티가 주관하여 진행하는 행사입니다. R 컨퍼런스 주요 취지는 오픈소스 프로그래밍 언어인 R 활용 방법 공유, Tidyverse 패키지 활용 확대, R 이용자간 활발한 소통과 교류 등입니다.\nR 컨퍼런스 행동규범은 R 컨퍼런스에 참여하는 모든 참석자와 기관이 준수해야 하는 최소한의 기준과 가치입니다. R 커뮤니티와 참석자는 R 컨퍼런스 행동규범을 지키고, 컨퍼런스 주최자는 행동규범을 적용합니다.\nR 컨퍼런스는 행사에 참여하는 R 커뮤니티를 소중하게 여깁니다. R 컨퍼런스는 참석자 모두가 유익한 시간을 보내고, 만족스러운 경험을 쌓고 나누기를 희망합니다. R 컨퍼런스 성과물은 행사 기간 내내 벌어지는 공식, 비공식 모든 활동(예를 들어 행사, 모임, 의견 나눔, 토론 등)에서 다른 분을 존중하고, 예의있게 대해야 생기고 커집니다. 참석자는 행사 기간 동안 다른 참석자에게 존경과 예의를 보여야 합니다.\nR 컨퍼런스는 “누구든지 성별, 종교 또는 사회적 신분에 의하여 정치적, 경제적, 사회적, 문화적 생활의 모든 영역에 있어서 차별을 받지 아니한다”는 헌법 제11조를 지킵니다. R 컨퍼런스는 “합리적인 이유 없이 성별, 장애, 나이, 언어, 출신국가, 출신민족, 인종, 국적, 피부색, 출신지역, 용모 등 신체조건, 혼인여부, 임신 또는 출산, 가족 및 가구의 형태와 상황, 종교, 사상 또는 정치적 의견, 형의 효력이 실효된 전과, 성적지향, 성별정체성, 학력, 고용형태, 병력 또는 건강상태, 사회적 신분”에 따라 “특정 개인, 집단, 법인을 분리·구별·제한·배제·거부하거나 불리하게 대우하는 행위”(이하 ‘차별행위’)를 반대합니다.\nR 컨퍼런스는 “지위를 이용하거나 업무 등과 관련하여 성적 언동 또는 성적 요구 등으로 상대방에게 성적 굴욕감이나 혐오감을 느끼게 하는 행위”와 상대방이 성적 언동 또는 요구에 대한 불응을 이유로 불이익을 주거나 그에 따르는 것을 조건으로 이익 공여의 의사표시를 하는 행위”(이하 ‘성희롱’)을 거부합니다. R 컨퍼런스는 ‘차별행위’와 ’성희롱’ 예방을 위해 노력을 다합니다. R 컨퍼런스는 ‘차별행위’와 ’성희롱’을 안 시점에 ’차별행위’와 ’성희롱’을 한 참여자에게 중단을 요구하며, 바로 관계 기관에 신고합니다. R 컨퍼런스는 ’차별행위’와 ’성희롱’ 피해자 보호를 위해 노력합니다.\n따뜻하고 친목을 도모할 수 있는 행사를 만들수 있도록 도와 준 참석자 여러분에게 감사합니다.\n\n\n후원\n이 프로그램은 과학기술진흥기금 및 복권기금의 재원으로 운영되고,과학기술정보통신부와 한국과학창의재단의 지원을 받아 수행된 성과물로 우리나라의 과학기술 발전과 사회적 가치 증진에 기여하고 있습니다. 성균관대학교 경제학과, 한밭대학교 창업경영학과에서 장소를 지원해 주셨으며, 대전과학문화거점센터 지원도 받았음을 밝혀둡니다."
   },
   {
-    "objectID": "about.html#한국-r-사용자회",
-    "href": "about.html#한국-r-사용자회",
-    "title": "한국 알(R) 사용자회 소개",
-    "section": "한국 R 사용자회",
-    "text": "한국 R 사용자회\n한국 R 사용자회는 오픈 통계 패키지 개발, 오픈 데이터 패키지 개발, 오픈 콘텐츠 제작과 오픈 교육/컨설팅 등 통해 과학기술 발전과 디지털 불평등 해소를 위해 많은 분들이 함께 하시고 계십니다.\n한국 R 사용자회는 데이터 저널리즘과 데이터 경제 분과를 중심으로 운영되고 있으며 법무법인 평안 소속 김형주 변호사님이 한국 R 사용자회 고문 변호사로 함께 하시고 계십니다."
-  },
-  {
-    "objectID": "about.html#연락처",
-    "href": "about.html#연락처",
-    "title": "한국 알(R) 사용자회 소개",
-    "section": "연락처",
-    "text": "연락처\n다음 전자우편으로 연락주세요. admin@bit2r.com"
-  },
-  {
-    "objectID": "bitstat.html",
-    "href": "bitstat.html",
-    "title": "오픈 통계 패키지",
+    "objectID": "slideshow/202210-hongik/title-slide.html",
+    "href": "slideshow/202210-hongik/title-slide.html",
+    "title": "\n데이터 사이언스와 디자인\n",
     "section": "",
-    "text": "프로젝트 개요\n코로나19로 인해 심화된 디지털 불평등과 디지털 전환(Digital Transformation)으로 인해 시민의 필수 역량이 된 Data Literacy 역량 강화와 통계 대중화를 위해 오픈 통계 패키지 - 빛스탯(BitStat) - 를 개발하게 되었습니다. 데이터 리터러시 역량은 결국 디지털 불평등과 맥이 닿아 있고 이후 교육불평등, 취업불평등, 소득불평등, 자산불평등으로 이어져 사회 양극화를 심화시키는 주범으로 지목되고 있다.\n\n\n\n기대 효과\n\n기술적 측면\n\n기하급수적으로 증가하는 데이터를 분석하여 가치를 창출하는 데이터 경제가 급부상하고 있으나, 인력 육성이나 도구는 선형적 증가 상황을 타개할 수 있는 혁신적인 기술이 요구됨\n폭발적으로 늘어나는 데이터를 일반국민도 활용할 수 있도록 하는 공개SW 통계 패키지는 다분야에서도 활용 가능한 Auto-X 기술을 기반으로 통계분석 생산성과 품질을 큰 폭을 높일 수 있는 혁신적인 기술임\n\n경제적, 산업적 측면\n\n’22년 글로벌 빅데이터, 분석시장 규모는 전년 대비 27% 성장한 $2,740억 달러 규모 전망\n\nIDC, “Revenue from big data and business analytics worldwide from 2015 to 2022”, 2021년 9월\n\n오픈 통계 패키지에 내장된 Auto-X 기술을 포함하여 공개SW로 개방하여 중소기업 및 데이터 기반 의사결정을 지원하고, 공개SW 활용 스타트업을 통한 신규 부가가치 창출\n\n사회적 측면\n\n지속적인 공공데이터 확대, 데이터3법 통과에 따라 데이터가 늘어나고 데이터 경제가 급속도로 커짐에 따라 데이터 리터러시(Data Literacy) 능력과 디지털 불평등의 양극화가 확대됨에 따라 오픈통계 패키지 SW를 공급하고 서비스로 제공함으로써 사회통합과 통계 대중화에 기여할 수 있음\n\n\n\n\nBitStat 아키텍처\n데이터 통계 분석의 대중화를 위해서는 통계 비전공자 및 일반인이 쉽게 사용할 수 있는 통계 패키지 소프트웨어 개발 취지에 맞춰 데이터를 입력하면 이를 인식하여 통계 분석 후 산출물을 자동 생성할 수 있는 오픈소스 기반의 클라우드 통계 패키지 소프트웨어.\n\n\n\nBitStat 시연\nBitStat 통계 패키지는 지속적으로 개발을 이어나가고 있으며 2021년 12월 기준 개발버전을 업그레이드하여 2022년 7월 대대적인 업그레이드가 예정되어 있다.\n\n\n\n참고자료\n\n\n한국 R 컨퍼런스 발표 - Digital Divide Solution - 오픈 통계 팩키지\n국산 오픈 통계 팩키지\n2021 오픈소스 컨트리뷰션 아카데미 - Tidyverse Korea 데이터 과학\n오픈 통계 팩키지 개발 안내서\ntidyblocks\n\nTidy Blocks 한글화 지원 : https://github.com/tidyblocks/tidyblocks/\nTidy Blocks 블록 통계 프로그래밍 안내서 한글 번역: https://tidyblocks.tech/en/guide/\n한글 사례(Example) 추가 및 확대 : https://tidyblocks.tech/en/examples/\n\n통그라미"
+    "text": "데이터 사이언스와 디자인\n\n\n디자인과 아키텍쳐의 중요성\n\n\n\n이광춘, 한국 R 사용자회\n\n\n2022-10-11\n\n\n\nr fontawesome::fa(\"github\", \"black\")   github.com/bit2r/quarto"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Quarto 데이터 과학",
+    "objectID": "slideshow/202210-hongik/problem.html",
+    "href": "slideshow/202210-hongik/problem.html",
+    "title": "한국 R 사용자회",
     "section": "",
-    "text": "로우코드 Shiny 앱 개발\n\n\n\n\n\n\n\nQuarto\n\n\nLow code\n\n\nshiny\n\n\n앱개발\n\n\nshinyuieditor\n\n\n데이터 패키지\n\n\nbslib\n\n\n구글 폰트\n\n\ndashboard-builder\n\n\n\n\nShiny 앱개발에 Shiny 생태계를 구성하는 로우코드(Low Code)를 적극 도입하여 개발시간을 단축하고 생산성을 높이는 방법을 소개한다.\n\n\n\n\n\n\nAug 31, 2022\n\n\n이광춘\n\n\n\n\n\n\n  \n\n\n\n\n재현가능 글쓰기\n\n\n\n\n\n\n\nQuarto\n\n\n재현가능 글쓰기\n\n\nCompendium\n\n\n\n\n과학기술에서 중요성을 더해가고 있는 재현성 위기에 대해 재현가능한 글쓰기에 대한 이론적인 토대와 관련 기술 사항을 살펴본다.\n\n\n\n\n\n\nAug 16, 2022\n\n\n이광춘\n\n\n\n\n\n\n  \n\n\n\n\nQuarto 블로그\n\n\n\n\n\n\n\nQuarto\n\n\n블로그\n\n\n\n\nQuarto 블로그 제작방법\n\n\n\n\n\n\nAug 15, 2022\n\n\n이광춘\n\n\n\n\n\n\nNo matching items"
+    "text": "데이터 과학 문제"
   },
   {
-    "objectID": "book.html",
-    "href": "book.html",
-    "title": "콘텐츠",
+    "objectID": "slideshow/202210-hongik/problem.html#section",
+    "href": "slideshow/202210-hongik/problem.html#section",
+    "title": "한국 R 사용자회",
     "section": "",
-    "text": "데이터 과학 프로그래밍\n\n데이터 과학자로 성장하기 위한 프로그래밍 개념\n\n\n\n\n\n\n\n\n2022-06-17\n\n\n\n\n\n\n데이터 시각화\n\n데이터 시각화에 대한 개념과 실무\n\n\n\n\n\n\n\n\n2022-06-03\n\n\n\n\n\n\n데이터 과학 기본기\n\n데이터 과학을 지탱하는 기본기\n\n\n\n\n\n\n\n\n2022-06-04\n\n\n\n\n\n\n오픈 통계 패키지\n\n설치형 오픈 통계 패키지 - Rcmdr\n\n\n\n\n\n\n\n\n2022-06-05\n\n\n\n\n\n\n데이터 과학 언플러그드\n\n종이와 연필로 데이터 과학 개념 설명\n\n\n\n\n\n\n\n\n2022-06-10\n\n\n\n\n\n\n문서 콘텐츠 제작 실무\n\n집필중\n\n\n\n\n\n\n\n\n2022-XX-XX\n\n\n\n\n\n\nR 텍스트 마이닝\n\nbitTA 패키지로 한글 텍스트 분석\n\n\n\n\n\n\n\n\n2022-08-15"
+    "text": "데이터 과학 문제"
   },
   {
-    "objectID": "contest.html",
-    "href": "contest.html",
-    "title": "경진대회",
+    "objectID": "slideshow/202210-hongik/problem.html#section-1",
+    "href": "slideshow/202210-hongik/problem.html#section-1",
+    "title": "한국 R 사용자회",
     "section": "",
-    "text": "Shiny\n\n1회: 2019년 4월 05일\n2회: 2020년 7월 13일\n3회: 2021년 6월 24일\n\n\n\nGT\n\n2020년\n2021년"
+    "text": "데이터 과학 문제"
   },
   {
-    "objectID": "data.html",
-    "href": "data.html",
-    "title": "데이터",
-    "section": "",
-    "text": "패키지명\n데이터 패키지 설명\n로고\n\n\n\n\nhsData\n통계청 통계교육원에서 발간한 “고등학교 실용통계” 교과서\n\n\n\nkrvote\n중앙선거관리위원회 선거통계시스템에 공개된 역대 선거관련 투표와 득표 공공 데이터\n\n\n\nbitData\n통계(데이터 과학) 교육과 신속한 현업 적용에 필요한 대한민국 데이터셋"
+    "objectID": "slideshow/202210-hongik/problem.html#데이터-사이언스---출판",
+    "href": "slideshow/202210-hongik/problem.html#데이터-사이언스---출판",
+    "title": "한국 R 사용자회",
+    "section": "데이터 사이언스 - 출판",
+    "text": "데이터 사이언스 - 출판\n\n문제점개념Single Sourcing Multi-Use\n\n\n\n\n\n그림 1: 문제점\n\n\n\n\n\n\n\n그림 2: Single Sourcing 개념\n\n\n\n\n\n\n\n그림 3: Single Sourcing Multi-Use"
   },
   {
-    "objectID": "learnr.html",
-    "href": "learnr.html",
-    "title": "자기주도 학습 - learnr",
-    "section": "",
-    "text": "# 자기주도학습 콘텐츠 저작\n데이터 과학 자기주도학습 학습 콘텐츠 저작은 기본적으로 rmarkdown으로 데이터 과학 언어는 R, 문서는 마크다운으로 하여 저작한다. 이를 인터랙티브 학습 콘텐츠로 제작하는 방식은 learnr 팩키지를 사용해서 개발한다."
+    "objectID": "slideshow/202210-hongik/problem.html#복잡성",
+    "href": "slideshow/202210-hongik/problem.html#복잡성",
+    "title": "한국 R 사용자회",
+    "section": "복잡성",
+    "text": "복잡성\n\n엑셀 1아래한글 2"
   },
   {
-    "objectID": "learnr.html#shinyapps.io",
-    "href": "learnr.html#shinyapps.io",
-    "title": "자기주도 학습 - learnr",
-    "section": "shinyapps.io",
-    "text": "shinyapps.io\n가장 단순한 방법은 shinyapps.io를 통해 바로 배포하는 것이다. shinyapps.io 는 10~20명정도 적은 인원이 자기주도 학습을 할 경우 적합한 것으로 알려져 있다. - shinyaps 사례"
+    "objectID": "slideshow/202210-hongik/problem.html#시각화---그래프-문법-problem-3",
+    "href": "slideshow/202210-hongik/problem.html#시각화---그래프-문법-problem-3",
+    "title": "한국 R 사용자회",
+    "section": "시각화 - 그래프 문법 3",
+    "text": "시각화 - 그래프 문법 3"
   },
   {
-    "objectID": "learnr.html#mybinder.org",
-    "href": "learnr.html#mybinder.org",
-    "title": "자기주도 학습 - learnr",
-    "section": "mybinder.org",
-    "text": "mybinder.org\n두번째 방식은 binder 서비스를 활용하는 것으로 도커 컨테이너를 처음 띄울 때 시간이 다소 소요되지는 이슈가 있지만 자기주도 학습을 원하는 분들이 많은 경우 원활한 서비스를 제공한다는 점에서 큰 장점이 있다. 방식은 Github 저장소를 binder 에 연결시켜 도커 이미지를 컨테이너를 만들어 두어 자기주도 학습 사용자가 붙을 때마다 이를 동일한 학습환경으로 띄워주는 개념이다."
+    "objectID": "slideshow/202210-hongik/problem.html#디자인---코드",
+    "href": "slideshow/202210-hongik/problem.html#디자인---코드",
+    "title": "한국 R 사용자회",
+    "section": "디자인 - 코드",
+    "text": "디자인 - 코드\n\n데이터 가공dplyr RBase RSQL파이썬\n\n\n\n날짜와 시간별로 총 빈도수와 출발연착 평균 시간을 구한다. 단, 총빈도수가 10 회 미만인 것은 제외하고 출발연착 시간의 결측값을 제거하고 계산한다.\n\n\nflights 데이터프레임에서\n출발 연착시간(dep_delay) 칼럼에서 결측값이 없는 (!is.na()) 행을 필터링 하고\n날짜별(date), 시간별(hour) 그룹을 묶어\n평균 출발 연착시간을 계산하고 총빈도수 총계를 내고\n총빈도수가 10회 이상인 날짜와 시간을 찾아내시오\n\n\n\n\nhourly_delay &lt;- flights %&gt;%  \n  filter(!is.na(dep_delay)) %&gt;% \n  group_by(date, hour) %&gt;% \n  summarise(delay = mean(dep_delay), n = n()) %&gt;%  \n  filter(n &gt; 10) \n\n\n\n\nhourly_delay &lt;- filter(   \n    summarise(   \n        group_by(   \n             filter(   \n                 flights,    \n                 !is.na(dep_delay)   \n             ),    \n             date, hour   \n        ),    \n    delay = mean(dep_delay),    \n         n = n()   \n    ),    \n    n &gt; 10   \n)\n\n\n\n\nSELECT \"date\", \"hour\", \"delay\", \"n\"\nFROM (\n    SELECT \"date\", \"hour\",\n        AVG(\"dep_delay\") AS \"delay\",\n        COUNT() AS \"n\"\n    FROM \"flights\"\n    WHERE NOT(\"dep_delay\" IS NULL)\n    GROUP BY \"date\", \"hour\"\n) AS \"_W1\"\nWHERE \"n\" &gt; 10.0\n\n\n\n\nflights[['date','hour','dep_delay']]\n..."
   },
   {
-    "objectID": "posts/20220815_quarto_blog/index.html",
-    "href": "posts/20220815_quarto_blog/index.html",
-    "title": "Quarto 블로그",
-    "section": "",
-    "text": "블로그를 작성하고 운영하는 이유를 다음과 같이 들 수 있다.\n\n학습: 강의를 듣거나 무언가 읽어 독서를 통해 학습되는 지식보다 글쓰기를 통해 축적되는 지식이 어떻게 보면 학습 효과가 더 크다. 특히, 학습한 내용을 코드로 작성하여 돌려볼 경우 학습효과를 배가시킨다.\n지식나눔: 구글 검색엔진을 통해 검색된 블로그 게시글을 통해 짧은 시간 학습에 도움을 받지만, 마찬가지로 본인이 작성한 블로그 게시글이 다른 사람에게 도움을 주는 것도 사실이다. 한가지 명심할 사항은 본인 실력보다 한두단계 앞선 사람으로 배우는 것이 실질적으로 큰 도움이 된다. 그래서 눈높이 교육이라는 얘기도 있지 않나 싶다.\n구인구직, 포트폴리오: 차곡차곡 누적된 블로그 게시물은 그 자체로 포트폴리오가 되고 헤드헌터를 통해 채용 인터뷰 요청을 받게 된다."
+    "objectID": "slideshow/202210-hongik/problem.html#디자인---데이터",
+    "href": "slideshow/202210-hongik/problem.html#디자인---데이터",
+    "title": "한국 R 사용자회",
+    "section": "디자인 - 데이터",
+    "text": "디자인 - 데이터\n\n정돈된 데이터사례 - 결핵 데이터사례 - Messy 데이터사례 - 코드사례 - Tidy 데이터\n\n\n\n\n\n\n\n\nWHO 결핵 원데이터\nWHO 에서 년도별, 국가별, 연령별, 성별, 진단방법별 결핵 발병사례 조사 통계 데이터\n진단방법\n\nrel stands for cases of relapse\nep stands for cases of extrapulmonary TB\nsn stands for cases of pulmonary TB that could not be diagnosed by a pulmonary smear (smear negative)\nsp stands for cases of pulmonary TB that could be diagnosed by a pulmonary smear (smear positive)\n\n연령\n\n014 = 0 – 14 years old\n1524 = 15 – 24 years old\n2534 = 25 – 34 years old\n3544 = 35 – 44 years old\n4554 = 45 – 54 years old\n5564 = 55 – 64 years old\n65 = 65 or older\n\n성별\n\nmales (m)\nfemales (f)\n\n\n\n\n\nlibrary(tidyverse)\ntidyr::who \n\n# A tibble: 7,240 × 60\n   country  iso2  iso3   year new_sp_m014 new_sp_m1524 new_sp_m2534 new_sp_m3544\n   &lt;chr&gt;    &lt;chr&gt; &lt;chr&gt; &lt;dbl&gt;       &lt;dbl&gt;        &lt;dbl&gt;        &lt;dbl&gt;        &lt;dbl&gt;\n 1 Afghani… AF    AFG    1980          NA           NA           NA           NA\n 2 Afghani… AF    AFG    1981          NA           NA           NA           NA\n 3 Afghani… AF    AFG    1982          NA           NA           NA           NA\n 4 Afghani… AF    AFG    1983          NA           NA           NA           NA\n 5 Afghani… AF    AFG    1984          NA           NA           NA           NA\n 6 Afghani… AF    AFG    1985          NA           NA           NA           NA\n 7 Afghani… AF    AFG    1986          NA           NA           NA           NA\n 8 Afghani… AF    AFG    1987          NA           NA           NA           NA\n 9 Afghani… AF    AFG    1988          NA           NA           NA           NA\n10 Afghani… AF    AFG    1989          NA           NA           NA           NA\n# ℹ 7,230 more rows\n# ℹ 52 more variables: new_sp_m4554 &lt;dbl&gt;, new_sp_m5564 &lt;dbl&gt;,\n#   new_sp_m65 &lt;dbl&gt;, new_sp_f014 &lt;dbl&gt;, new_sp_f1524 &lt;dbl&gt;,\n#   new_sp_f2534 &lt;dbl&gt;, new_sp_f3544 &lt;dbl&gt;, new_sp_f4554 &lt;dbl&gt;,\n#   new_sp_f5564 &lt;dbl&gt;, new_sp_f65 &lt;dbl&gt;, new_sn_m014 &lt;dbl&gt;,\n#   new_sn_m1524 &lt;dbl&gt;, new_sn_m2534 &lt;dbl&gt;, new_sn_m3544 &lt;dbl&gt;,\n#   new_sn_m4554 &lt;dbl&gt;, new_sn_m5564 &lt;dbl&gt;, new_sn_m65 &lt;dbl&gt;, …\n\n\n\n\n\nwho %&gt;%\n  pivot_longer(\n    cols = new_sp_m014:newrel_f65, \n    names_to = \"key\", \n    values_to = \"cases\", \n    values_drop_na = TRUE\n  ) %&gt;% \n  mutate(\n    key = stringr::str_replace(key, \"newrel\", \"new_rel\")\n  ) %&gt;%\n  separate(key, c(\"new\", \"var\", \"sexage\")) %&gt;% \n  select(-new, -iso2, -iso3) %&gt;% \n  separate(sexage, c(\"sex\", \"age\"), sep = 1)\n\n\n\n\n\n# A tibble: 76,046 × 6\n   country      year var   sex   age   cases\n   &lt;chr&gt;       &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;dbl&gt;\n 1 Afghanistan  1997 sp    m     014       0\n 2 Afghanistan  1997 sp    m     1524     10\n 3 Afghanistan  1997 sp    m     2534      6\n 4 Afghanistan  1997 sp    m     3544      3\n 5 Afghanistan  1997 sp    m     4554      5\n 6 Afghanistan  1997 sp    m     5564      2\n 7 Afghanistan  1997 sp    m     65        0\n 8 Afghanistan  1997 sp    f     014       5\n 9 Afghanistan  1997 sp    f     1524     38\n10 Afghanistan  1997 sp    f     2534     36\n# ℹ 76,036 more rows"
   },
   {
-    "objectID": "posts/20220815_quarto_blog/index.html#quarto_blog.qmd",
-    "href": "posts/20220815_quarto_blog/index.html#quarto_blog.qmd",
-    "title": "Quarto 블로그",
-    "section": "4.1 quarto_blog.qmd",
-    "text": "4.1 quarto_blog.qmd\n_quarto.yml 파일에 지정된 웹사이트에서 블로그로 들어가는 메뉴에 들어간 파일명이 quarto_blog.qmd 이라 해당 파일에 블로그 설정을 담아낸다.\n---\ntitle: \"Quarto 데이터 과학\"\nlisting:\n  contents: posts\n  sort: \"date desc\"\n  type: default\n  categories: true\n  sort-ui: false\n  filter-ui: false\npage-layout: full\ntitle-block-banner: false\n---"
-  },
-  {
-    "objectID": "posts/20220816_quarto_rr/index.html",
-    "href": "posts/20220816_quarto_rr/index.html",
-    "title": "재현가능 글쓰기",
-    "section": "",
-    "text": "Warning\n\n\n\n이광춘 (2019-12-28), “Computational Documents - 개요서(Compendium) 시작하며” 내용을 토대로 작성된 것임을 밝혀둡니다."
-  },
-  {
-    "objectID": "posts/20220816_quarto_rr/index.html#start-small",
-    "href": "posts/20220816_quarto_rr/index.html#start-small",
-    "title": "재현가능 글쓰기",
-    "section": "3.1 시작이 반이다",
-    "text": "3.1 시작이 반이다\n\n시작이 반이다 - start small\n\n\n\nCode\nproject\n|- DESCRIPTION\n|- README.md  \n|- Metadata.txt\n|\n|- data/                \n|   +- 2014ParasiteSurveyJustBrood.csv\n|   +- CedarBPLifeTable2014.csv\n|   +- NorthBPLifeTable2013.txt\n|   +- NorthBPLifeTable2014.csv|\n|- analysis/\n|   +- CodeforBPpaper.R"
-  },
-  {
-    "objectID": "posts/20220816_quarto_rr/index.html#pkg-development",
-    "href": "posts/20220816_quarto_rr/index.html#pkg-development",
-    "title": "재현가능 글쓰기",
-    "section": "3.2 팩키지 개발",
-    "text": "3.2 팩키지 개발\n\n팩키지 개발\n\n\n\nCode\nproject\n|- DESCRIPTION\n|- NAMESPACE\n|- README.md\n|- LakeTrophicModelling.Rproj\n|\n|- R/\n|   +- LakeTrophicModelling-package.r\n|   +- class_prob_rf.R\n|   +- condAccuracy.R\n|   +- crossval_rf.R\n|   +- density_plot.R\n|   +- ecdf_ks_ci.R\n|   +- ecor_map.R\n|   +- getCyanoAbund.R\n|   +- getLakeIDs.R\n|   +- importancePlot.R\n|\n|- man/\n|   +- class_prob_rf.Rd\n|   +- condAccuracy.Rd\n|   +- crossval_rf.Rd\n|   +- density_plot.Rd\n|   +- ecdf_ks_ci.Rd\n|   +- ecor_map.Rd\n|   +- getCyanoAbund.Rd\n|   +- getLakeIDs.Rd\n|   +- importancePlot.Rd\n|\n|- data/                \n|   +- LakeTrophicModelling.rda\n|\n|- vignettes/\n|\n|- inst/\n|   +- doc/\n|      +- manuscript.pdf\n|   +- extdata/\n|      +- ltmData.csv\n|      +- data_def.csv"
-  },
-  {
-    "objectID": "posts/20220816_quarto_rr/index.html#cicd-docker",
-    "href": "posts/20220816_quarto_rr/index.html#cicd-docker",
-    "title": "재현가능 글쓰기",
-    "section": "3.3 CI/CD와 도커",
-    "text": "3.3 CI/CD와 도커\nDockerfile 파일을 추가하여 환경도 재현가능하게 만들 수 있고, .travis.yml을 추가하여 CI/CD 환경도 구축할 수 있다. tests/를 추가하여 테스트 주도 개발(test-driven development, TDD)를 시도할 수 있고, 이를 통해 수작업 검증을 자동화하여 생산성과 품질을 대폭 향상시킬 수도 있다.\n\n\nCode\nproject\n|- DESCRIPTION          # project metadata and dependencies \n|- README.md            # top-level description of content and guide to users\n|- NAMESPACE            # exports R functions in the package for repeated use\n|- LICENSE              # specify the conditions of use and reuse of the code, data & text\n|- .travis.yml          # continuous integration service hook for auto-testing at each commit\n|- Dockerfile           # makes a custom isolated computational environment for the project\n|\n|- data/                # raw data, not changed once created\n|  +- my_data.csv       # data files in open formats such as TXT, CSV, TSV, etc.\n|\n|- analysis/            # any programmatic code\n|  +- my_report.Rmd     # R markdown file with narrative text interwoven with code chunks \n|  +- makefile          # builds a PDF/HTML/DOCX file from the Rmd, code, and data files\n|  +- scripts/          # code files (R, shell, etc.) used for data cleaning, analysis and visualisation \n|\n|- R/                     \n|  +- my_functions.R    # custom R functions that are used more than once throughout the project\n|\n|- man/\n|  +- my_functions.Rd   # documentation for the R functions (auto-generated when using devtools)\n|\n|- tests/\n|  +- testthat.R        # unit tests of R functions to ensure they perform as expected"
+    "objectID": "slideshow/202210-hongik/problem.html#디자인---사람-대-기계",
+    "href": "slideshow/202210-hongik/problem.html#디자인---사람-대-기계",
+    "title": "한국 R 사용자회",
+    "section": "디자인 - 사람 대 기계",
+    "text": "디자인 - 사람 대 기계\n\n전체 개발 시간사람 &lt; 기계사람 &gt; 기계"
   },
   {
     "objectID": "posts/20220831_low_code_shiny/index.html",
@@ -189,8 +147,225 @@
     "text": "3.5 실행화면"
   },
   {
+    "objectID": "posts/20220815_quarto_blog/index.html",
+    "href": "posts/20220815_quarto_blog/index.html",
+    "title": "Quarto 블로그",
+    "section": "",
+    "text": "블로그를 작성하고 운영하는 이유를 다음과 같이 들 수 있다.\n\n학습: 강의를 듣거나 무언가 읽어 독서를 통해 학습되는 지식보다 글쓰기를 통해 축적되는 지식이 어떻게 보면 학습 효과가 더 크다. 특히, 학습한 내용을 코드로 작성하여 돌려볼 경우 학습효과를 배가시킨다.\n지식나눔: 구글 검색엔진을 통해 검색된 블로그 게시글을 통해 짧은 시간 학습에 도움을 받지만, 마찬가지로 본인이 작성한 블로그 게시글이 다른 사람에게 도움을 주는 것도 사실이다. 한가지 명심할 사항은 본인 실력보다 한두단계 앞선 사람으로 배우는 것이 실질적으로 큰 도움이 된다. 그래서 눈높이 교육이라는 얘기도 있지 않나 싶다.\n구인구직, 포트폴리오: 차곡차곡 누적된 블로그 게시물은 그 자체로 포트폴리오가 되고 헤드헌터를 통해 채용 인터뷰 요청을 받게 된다."
+  },
+  {
+    "objectID": "posts/20220815_quarto_blog/index.html#quarto_blog.qmd",
+    "href": "posts/20220815_quarto_blog/index.html#quarto_blog.qmd",
+    "title": "Quarto 블로그",
+    "section": "4.1 quarto_blog.qmd",
+    "text": "4.1 quarto_blog.qmd\n_quarto.yml 파일에 지정된 웹사이트에서 블로그로 들어가는 메뉴에 들어간 파일명이 quarto_blog.qmd 이라 해당 파일에 블로그 설정을 담아낸다.\n---\ntitle: \"Quarto 데이터 과학\"\nlisting:\n  contents: posts\n  sort: \"date desc\"\n  type: default\n  categories: true\n  sort-ui: false\n  filter-ui: false\npage-layout: full\ntitle-block-banner: false\n---"
+  },
+  {
+    "objectID": "learnr.html",
+    "href": "learnr.html",
+    "title": "자기주도 학습 - learnr",
+    "section": "",
+    "text": "# 자기주도학습 콘텐츠 저작\n데이터 과학 자기주도학습 학습 콘텐츠 저작은 기본적으로 rmarkdown으로 데이터 과학 언어는 R, 문서는 마크다운으로 하여 저작한다. 이를 인터랙티브 학습 콘텐츠로 제작하는 방식은 learnr 팩키지를 사용해서 개발한다."
+  },
+  {
+    "objectID": "learnr.html#shinyapps.io",
+    "href": "learnr.html#shinyapps.io",
+    "title": "자기주도 학습 - learnr",
+    "section": "shinyapps.io",
+    "text": "shinyapps.io\n가장 단순한 방법은 shinyapps.io를 통해 바로 배포하는 것이다. shinyapps.io 는 10~20명정도 적은 인원이 자기주도 학습을 할 경우 적합한 것으로 알려져 있다. - shinyaps 사례"
+  },
+  {
+    "objectID": "learnr.html#mybinder.org",
+    "href": "learnr.html#mybinder.org",
+    "title": "자기주도 학습 - learnr",
+    "section": "mybinder.org",
+    "text": "mybinder.org\n두번째 방식은 binder 서비스를 활용하는 것으로 도커 컨테이너를 처음 띄울 때 시간이 다소 소요되지는 이슈가 있지만 자기주도 학습을 원하는 분들이 많은 경우 원활한 서비스를 제공한다는 점에서 큰 장점이 있다. 방식은 Github 저장소를 binder 에 연결시켜 도커 이미지를 컨테이너를 만들어 두어 자기주도 학습 사용자가 붙을 때마다 이를 동일한 학습환경으로 띄워주는 개념이다."
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "공개 데이터",
+    "section": "",
+    "text": "패키지명\n      데이터 패키지 설명\n      로고\n    \n  \n  \n    bitTomato\n\nbitTomato는 ‘한글 텍스트 데이터 분석의 학습을 위한 실 데이터를 오픈소스로 제공’한다는 목적에 공감하는 뉴스토마토가 제공한 뉴스 기사를, 한국 R 사용자회가 저작 배포하는 R 패키지입니다.\n\n\n    hsData\n\n통계청 통계교육원에서 발간한 ‘고등학교 실용통계’ 교과서\n\n\n    krvote\n\n중앙선거관리위원회 선거통계시스템에 공개된 역대 선거관련 투표와 득표 공공 데이터\n\n\n    bitData\n\n통계(데이터 과학) 교육과 신속한 현업 적용에 필요한 대한민국 데이터셋: 파머 펭귄, 국방부 남녀 신체측정, 강남 강수량, 인구, 대기오염물질, 온실가스 등"
+  },
+  {
+    "objectID": "data.html#한국-r-사용자회-제작-공개-데이터-패키지",
+    "href": "data.html#한국-r-사용자회-제작-공개-데이터-패키지",
+    "title": "공개 데이터",
+    "section": "",
+    "text": "패키지명\n      데이터 패키지 설명\n      로고\n    \n  \n  \n    bitTomato\n\nbitTomato는 ‘한글 텍스트 데이터 분석의 학습을 위한 실 데이터를 오픈소스로 제공’한다는 목적에 공감하는 뉴스토마토가 제공한 뉴스 기사를, 한국 R 사용자회가 저작 배포하는 R 패키지입니다.\n\n\n    hsData\n\n통계청 통계교육원에서 발간한 ‘고등학교 실용통계’ 교과서\n\n\n    krvote\n\n중앙선거관리위원회 선거통계시스템에 공개된 역대 선거관련 투표와 득표 공공 데이터\n\n\n    bitData\n\n통계(데이터 과학) 교육과 신속한 현업 적용에 필요한 대한민국 데이터셋: 파머 펭귄, 국방부 남녀 신체측정, 강남 강수량, 인구, 대기오염물질, 온실가스 등"
+  },
+  {
+    "objectID": "book.html",
+    "href": "book.html",
+    "title": "(전자)책",
+    "section": "",
+    "text": "&lt;챗GPT 유닉스 쉘&gt;은 쉘 프로그래밍부터 GPT 데이터 과학까지 다양한 주제를 체계적으로 다루고 있다.\n\n\n\n\n\n\n\n\n2023-08-15\n\n\n\n\n\n\n\n\n출간예정\n\n\n\n\n\n\n\n\n2023-09-15\n\n\n\n\n\n\n\n\n출간예정\n\n\n\n\n\n\n\n\n2023-10-15\n\n\n\n\n\n\n\n\n출간예정\n\n\n\n\n\n\n\n\n2023-11-15\n\n\n\n\n\n\n\n\n출간예정\n\n\n\n\n\n\n\n\n2023-12-15\n\n\n\n\n\n\n\n\n출간예정\n\n\n\n\n\n\n\n\n2024-01-15\n\n\n\n\n\n\n“챗GPT 유닉스 쉘: 데이터 과학 자동화 도구”\n\n📚 종이책: 교보문고 구매\n📱 전자책: 교보문고 구매\n뉴스기사: 챗GPT가 던진 새 가능성, 데이터 과학 분야 통해 미리 살펴보기"
+  },
+  {
+    "objectID": "book.html#출판-도서",
+    "href": "book.html#출판-도서",
+    "title": "(전자)책",
+    "section": "",
+    "text": "&lt;챗GPT 유닉스 쉘&gt;은 쉘 프로그래밍부터 GPT 데이터 과학까지 다양한 주제를 체계적으로 다루고 있다.\n\n\n\n\n\n\n\n\n2023-08-15\n\n\n\n\n\n\n\n\n출간예정\n\n\n\n\n\n\n\n\n2023-09-15\n\n\n\n\n\n\n\n\n출간예정\n\n\n\n\n\n\n\n\n2023-10-15\n\n\n\n\n\n\n\n\n출간예정\n\n\n\n\n\n\n\n\n2023-11-15\n\n\n\n\n\n\n\n\n출간예정\n\n\n\n\n\n\n\n\n2023-12-15\n\n\n\n\n\n\n\n\n출간예정\n\n\n\n\n\n\n\n\n2024-01-15\n\n\n\n\n\n\n“챗GPT 유닉스 쉘: 데이터 과학 자동화 도구”\n\n📚 종이책: 교보문고 구매\n📱 전자책: 교보문고 구매\n뉴스기사: 챗GPT가 던진 새 가능성, 데이터 과학 분야 통해 미리 살펴보기"
+  },
+  {
+    "objectID": "book.html#오픈-전자책",
+    "href": "book.html#오픈-전자책",
+    "title": "(전자)책",
+    "section": "오픈 전자책",
+    "text": "오픈 전자책\n\n\n\n\n\n\n\n\n\n데이터 과학 프로그래밍\n\n데이터 과학자로 성장하기 위한 프로그래밍 개념\n\n\n\n\n\n\n\n\n2022-06-17\n\n\n\n\n\n\n데이터 시각화\n\n데이터 시각화에 대한 개념과 실무\n\n\n\n\n\n\n\n\n2022-06-03\n\n\n\n\n\n\n데이터 과학 기본기\n\n데이터 과학을 지탱하는 기본기\n\n\n\n\n\n\n\n\n2022-06-04\n\n\n\n\n\n\n오픈 통계 패키지\n\n설치형 오픈 통계 패키지 - Rcmdr\n\n\n\n\n\n\n\n\n2022-06-05\n\n\n\n\n\n\n데이터 과학 언플러그드\n\n종이와 연필로 데이터 과학 개념 설명\n\n\n\n\n\n\n\n\n2022-06-10\n\n\n\n\n\n\n문서 콘텐츠 제작 실무\n\n집필중\n\n\n\n\n\n\n\n\n2022-XX-XX\n\n\n\n\n\n\nR 텍스트 마이닝\n\nbitTA 패키지로 한글 텍스트 분석\n\n\n\n\n\n\n\n\n2022-08-15"
+  },
+  {
+    "objectID": "bitstat.html",
+    "href": "bitstat.html",
+    "title": "오픈 통계 패키지",
+    "section": "",
+    "text": "프로젝트 개요\n코로나19로 인해 심화된 디지털 불평등과 디지털 전환(Digital Transformation)으로 인해 시민의 필수 역량이 된 Data Literacy 역량 강화와 통계 대중화를 위해 오픈 통계 패키지 - 빛스탯(BitStat) - 를 개발하게 되었습니다. 데이터 리터러시 역량은 결국 디지털 불평등과 맥이 닿아 있고 이후 교육불평등, 취업불평등, 소득불평등, 자산불평등으로 이어져 사회 양극화를 심화시키는 주범으로 지목되고 있다.\n\n\n\n\n\n\n\n기대 효과\n\n기술적 측면\n\n기하급수적으로 증가하는 데이터를 분석하여 가치를 창출하는 데이터 경제가 급부상하고 있으나, 인력 육성이나 도구는 선형적 증가 상황을 타개할 수 있는 혁신적인 기술이 요구됨\n폭발적으로 늘어나는 데이터를 일반국민도 활용할 수 있도록 하는 공개SW 통계 패키지는 다분야에서도 활용 가능한 Auto-X 기술을 기반으로 통계분석 생산성과 품질을 큰 폭을 높일 수 있는 혁신적인 기술임\n\n경제적, 산업적 측면\n\n’22년 글로벌 빅데이터, 분석시장 규모는 전년 대비 27% 성장한 $2,740억 달러 규모 전망\n\nIDC, “Revenue from big data and business analytics worldwide from 2015 to 2022”, 2021년 9월\n\n오픈 통계 패키지에 내장된 Auto-X 기술을 포함하여 공개SW로 개방하여 중소기업 및 데이터 기반 의사결정을 지원하고, 공개SW 활용 스타트업을 통한 신규 부가가치 창출\n\n사회적 측면\n\n지속적인 공공데이터 확대, 데이터3법 통과에 따라 데이터가 늘어나고 데이터 경제가 급속도로 커짐에 따라 데이터 리터러시(Data Literacy) 능력과 디지털 불평등의 양극화가 확대됨에 따라 오픈통계 패키지 SW를 공급하고 서비스로 제공함으로써 사회통합과 통계 대중화에 기여할 수 있음\n\n\n\n\nBitStat 아키텍처\n데이터 통계 분석의 대중화를 위해서는 통계 비전공자 및 일반인이 쉽게 사용할 수 있는 통계 패키지 소프트웨어 개발 취지에 맞춰 데이터를 입력하면 이를 인식하여 통계 분석 후 산출물을 자동 생성할 수 있는 오픈소스 기반의 클라우드 통계 패키지 소프트웨어.\n\n\n\n\n\n\n\nBitStat 시연\nBitStat 통계 패키지는 지속적으로 개발을 이어나가고 있으며 2021년 12월 기준 개발버전을 업그레이드하여 2022년 7월 대대적인 업그레이드가 예정되어 있다.\n\n\n\n\n\n\n\n참고자료\n\n\n\n\n\n\n한국 R 컨퍼런스 발표 - Digital Divide Solution - 오픈 통계 팩키지\n국산 오픈 통계 팩키지\n2021 오픈소스 컨트리뷰션 아카데미 - Tidyverse Korea 데이터 과학\n오픈 통계 팩키지 개발 안내서\ntidyblocks\n\nTidy Blocks 한글화 지원 : https://github.com/tidyblocks/tidyblocks/\nTidy Blocks 블록 통계 프로그래밍 안내서 한글 번역: https://tidyblocks.tech/en/guide/\n한글 사례(Example) 추가 및 확대 : https://tidyblocks.tech/en/examples/\n\n통그라미"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "한국 알(R) 사용자회 소개",
+    "section": "",
+    "text": "과거 통계 및 데이터 분석에는 SPSS, STATA, SAS, 미니탭 등 GUI 통계 패키지가 주류를 이뤘으나 빅데이터에 이어 데이터 사이언스, 챗GPT 인공지능이 부상하면서 R과 파이썬이 많이 사용되고 있다. R 역사는 1992년 처음 뉴질랜드 오클랜드에서 Robert Gentleman, Ross Ihaka 교수가 개발을 시작한 후에 GPL 라이선스를 장착하여 소스코드를 공개한 후에 R 코어 그룹이 만들어지고, 팩키지 배포 CRAN이 순차적으로 공개되고 나서, R 웹사이트가 만들어지고, 처음으로 2000년에 R 1.0.0 으로 배포되고 R 저널, UseR! 컨퍼런스, R 재단, R 컨소시엄이 전세계 수많은 재능있고 열정있는 수많은 사람에 의해서 만들어다. 1\n한국에서도 R Meetup을 2017년부터 시작되었고, 2021년 한국 R 컨퍼런스가 개최되었으며, 2022년 사단법인 한국 R 사용자회가 설립되어 활발한 활동을 이어오고 있다. 2"
+  },
+  {
+    "objectID": "about.html#r",
+    "href": "about.html#r",
+    "title": "한국 알(R) 사용자회 소개",
+    "section": "",
+    "text": "과거 통계 및 데이터 분석에는 SPSS, STATA, SAS, 미니탭 등 GUI 통계 패키지가 주류를 이뤘으나 빅데이터에 이어 데이터 사이언스, 챗GPT 인공지능이 부상하면서 R과 파이썬이 많이 사용되고 있다. R 역사는 1992년 처음 뉴질랜드 오클랜드에서 Robert Gentleman, Ross Ihaka 교수가 개발을 시작한 후에 GPL 라이선스를 장착하여 소스코드를 공개한 후에 R 코어 그룹이 만들어지고, 팩키지 배포 CRAN이 순차적으로 공개되고 나서, R 웹사이트가 만들어지고, 처음으로 2000년에 R 1.0.0 으로 배포되고 R 저널, UseR! 컨퍼런스, R 재단, R 컨소시엄이 전세계 수많은 재능있고 열정있는 수많은 사람에 의해서 만들어다. 1\n한국에서도 R Meetup을 2017년부터 시작되었고, 2021년 한국 R 컨퍼런스가 개최되었으며, 2022년 사단법인 한국 R 사용자회가 설립되어 활발한 활동을 이어오고 있다. 2"
+  },
+  {
+    "objectID": "about.html#r-장점",
+    "href": "about.html#r-장점",
+    "title": "한국 알(R) 사용자회 소개",
+    "section": "R 장점",
+    "text": "R 장점\n\n통계 분석 최적화: R은 다양한 통계 모형(회귀, 시계열, 다변량, 공간, 기계학습, 딥러닝 등)를 지원하며, 이로 인해 통계 계산에 대해 뛰어난 성능을 보임.\n데이터 시각화: R은 다양한 패키지(예: ggplot2, plotly)를 통해 고급 데이터 시각화를 구현.\n다양한 패키지 지원: R은 사용자 커뮤니티에서 제공하는 공식적으로 제공되는 수 천개의 패키지를 활용할 수 있다. 이러한 패키지들은 복잡한 분석 작업을 단순화하고, 데이터 처리, 분석, 시각화, 모형개발 등을 효과적으로 수행하는 데 도움을 준다.\n커뮤니티 지원: R은 한국을 포함한 전 세계적으로 활성화된 사용자 커뮤니티를 가지고 있어, 다양한 문제 해결에 큰 도움을 제공."
+  },
+  {
+    "objectID": "about.html#왜-r에-대한-학술연구가-필요한가",
+    "href": "about.html#왜-r에-대한-학술연구가-필요한가",
+    "title": "한국 알(R) 사용자회 소개",
+    "section": "왜 R에 대한 학술연구가 필요한가",
+    "text": "왜 R에 대한 학술연구가 필요한가\n\n통계적 방법론 개선: R은 다양한 통계적 방법론을 제공한다. 이러한 방법론에 대한 연구를 통해 연구 결과의 정확성과 신뢰성을 높일 수 있다.\n효율적인 도구 활용: R은 강력한 데이터 처리 및 분석 도구다. 이 도구를 어떻게 더 효율적이고 효과적으로 사용할 수 있는지에 대한 연구는 다양한 분야에서 매우 중요한다. 특히, 영어기반으로 되어 있어 한글번역, 매뉴얼 제공, 사용경험 공유 등 과학기술 발전을 위한 추가적인 노력이 필요하다.\n언어 효율성과 사용성 향상: R 프로그래밍 언어 자체에 대한 연구는 이 언어의 효율성과 사용성을 향상시키는 데 중요하다. 이를 통해 R 언어를 더 쉽게 사용하고 이해할 수 있는 방법을 개발하는 데 도움이 된다."
+  },
+  {
+    "objectID": "about.html#커뮤니티-네트워크",
+    "href": "about.html#커뮤니티-네트워크",
+    "title": "한국 알(R) 사용자회 소개",
+    "section": "커뮤니티 네트워크",
+    "text": "커뮤니티 네트워크\n\n\n\n\n\n\n한국 알(R) 사용자회: link\n한국 알 사용자회 페이스북: link\nSeoul R Meetup: link\n\nSeoul R Meetup (Repo.): link\nAsia R Community link\nGlobal R Meetup: link\n\nKorea R Conference: link\nYoutube: link\nSlack: link"
+  },
+  {
+    "objectID": "about.html#한국-r-사용자회",
+    "href": "about.html#한국-r-사용자회",
+    "title": "한국 알(R) 사용자회 소개",
+    "section": "한국 R 사용자회",
+    "text": "한국 R 사용자회\n한국 R 사용자회는 오픈 통계 패키지 개발, 오픈 데이터 패키지 개발, 오픈 콘텐츠 제작과 오픈 교육/컨설팅 등 통해 과학기술 발전과 디지털 불평등 해소를 위해 많은 분들이 함께 하시고 계십니다.\n한국 R 사용자회는 데이터 저널리즘과 데이터 경제 분과를 중심으로 운영되고 있으며 법무법인 평안 소속 김형주 변호사님이 한국 R 사용자회 고문 변호사로 함께 하시고 계십니다."
+  },
+  {
+    "objectID": "about.html#연락처",
+    "href": "about.html#연락처",
+    "title": "한국 알(R) 사용자회 소개",
+    "section": "연락처",
+    "text": "연락처\n다음 전자우편으로 연락주세요. admin@bit2r.com"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Quarto 데이터 과학",
+    "section": "",
+    "text": "로우코드 Shiny 앱 개발\n\n\n\n\n\n\n\nQuarto\n\n\nLow code\n\n\nshiny\n\n\n앱개발\n\n\nshinyuieditor\n\n\n데이터 패키지\n\n\nbslib\n\n\n구글 폰트\n\n\ndashboard-builder\n\n\n\n\nShiny 앱개발에 Shiny 생태계를 구성하는 로우코드(Low Code)를 적극 도입하여 개발시간을 단축하고 생산성을 높이는 방법을 소개한다.\n\n\n\n\n\n\n2022년 08월 31일\n\n\n이광춘\n\n\n\n\n\n\n  \n\n\n\n\n재현가능 글쓰기\n\n\n\n\n\n\n\nQuarto\n\n\n재현가능 글쓰기\n\n\nCompendium\n\n\n\n\n과학기술에서 중요성을 더해가고 있는 재현성 위기에 대해 재현가능한 글쓰기에 대한 이론적인 토대와 관련 기술 사항을 살펴본다.\n\n\n\n\n\n\n2022년 08월 16일\n\n\n이광춘\n\n\n\n\n\n\n  \n\n\n\n\nQuarto 블로그\n\n\n\n\n\n\n\nQuarto\n\n\n블로그\n\n\n\n\nQuarto 블로그 제작방법\n\n\n\n\n\n\n2022년 08월 15일\n\n\n이광춘\n\n\n\n\n\n\n일치 없음"
+  },
+  {
+    "objectID": "contest.html",
+    "href": "contest.html",
+    "title": "경진대회",
+    "section": "",
+    "text": "Shiny\n\n1회: 2019년 4월 05일\n2회: 2020년 7월 13일\n3회: 2021년 6월 24일\n\n\n\nGT\n\n2020년\n2021년"
+  },
+  {
+    "objectID": "donation.html",
+    "href": "donation.html",
+    "title": "기부금 모금/활용실적",
+    "section": "",
+    "text": "연도\n기부금 모금 활용실적\n파일 다운로드\n\n\n\n\n2022년\n2022년 자료 다운\n다운로드"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "한국 R 사용자회",
+    "section": "",
+    "text": "“챗GPT 유닉스 쉘: 데이터 과학 자동화 도구”\n\n📚 종이책: 교보문고 종이책 구매\n📱 전자책: 교보문고 전자책 구매\n뉴스기사: 챗GPT가 던진 새 가능성, 데이터 과학 분야 통해 미리 살펴보기"
+  },
+  {
+    "objectID": "index.html#챗gpt-출판",
+    "href": "index.html#챗gpt-출판",
+    "title": "한국 R 사용자회",
+    "section": "",
+    "text": "“챗GPT 유닉스 쉘: 데이터 과학 자동화 도구”\n\n📚 종이책: 교보문고 종이책 구매\n📱 전자책: 교보문고 전자책 구매\n뉴스기사: 챗GPT가 던진 새 가능성, 데이터 과학 분야 통해 미리 살펴보기"
+  },
+  {
+    "objectID": "index.html#서울-r-미트업",
+    "href": "index.html#서울-r-미트업",
+    "title": "한국 R 사용자회",
+    "section": "서울 R 미트업",
+    "text": "서울 R 미트업\nR Consortium R User Groups에 등록된 Seoul R Meetup은 매월 개최되는 데이터 사이언스 R / Tidyverse 미트업으로 chatGPT, Data Analytics, Tidyverse, Tidymodels, Shiny, Dashboard, Machine Learning, Digital Writing, Quarto/RMarkdown, Deep Learning 등 통계, AI/ML/DL, 데이터 사이언스, 시각화, 제품개발 등을 실제 현장에서 직접 데이터를 다루고 학교와 연구소에서 연구개발을 하시는 분들 뿐만 아니라 관심있는 분들이 함께 모여 교류하고 지식을 나누는 미트업입니다.\n\n서울 R 미트업 meetup.com: link\n\n기타 커뮤니티 관련 링크는 아래와 같습니다.\n\n세계 R 미트업 현황 (Global R Meetup Dashboard): link\n한국 R 사용자회 (Korea R User Group): link\n한국 R 컨퍼런스 (Korea R Conference): link\n서울 R 미트업 (Seoul R Meetup): link\n유튜브 채널 (Youtube Channel): link\n페이스북 그룹 (Facebook Group): link\n한국 R 사용자회 슬랙 (Slack): link"
+  },
+  {
+    "objectID": "index.html#r-사용자회-회원-가입",
+    "href": "index.html#r-사용자회-회원-가입",
+    "title": "한국 R 사용자회",
+    "section": "R 사용자회 회원 가입",
+    "text": "R 사용자회 회원 가입\n사단법인 한국 R 사용자회(이하 R 사용자회)는 2022년 2월 28일 설립되어 창립 1년이 되었습니다. R 사용자회는 R Consortium R User Groups에 등록된 Seoul R Meetup은 매월 개최되는 데이터 사이언스 R / Tidyverse 미트업을 2017년부터 운영하며 R 지식 나눔과 커뮤니티 멤버들 간의 사랑방 역할도 수행하고 있습니다.\nR사용자회는 2022년부터 오픈 통계 패키지(BitStat) 패키지를 개발하여 보급하였을 뿐만 아니라 BitNLP, BitSpatial, BitReport 패키지를 개발하여 공개하였을 뿐만 아니라, “디지털 글쓰기”, “데이터 과학 프로그래밍”, “데이터 시각화”, “데이터 과학 기본기”, “오픈 통계 패키지”, “R 텍스트 마이닝”, “데이터 과학 언플러그드” 등 전자책을 집필하여 무료로 대중에 공개하였습니다.\n회원가입을 원하시는 분은 아래의 계좌로 연회비를 입금하시고 관련 정보를 입력해주시면 검토 후 회원이 될 수 있도록 하겠습니다.\n\n회원가입 신청: https://forms.gle/ByJy34PkFdMJXHbe6\n\n입금계좌: 하나은행 448-910057-06204 / 사단법인 한국알사용자회 회비: 연 2만원 이상"
+  },
+  {
+    "objectID": "packages.html",
+    "href": "packages.html",
+    "title": "공개 패키지",
+    "section": "",
+    "text": "bitReport\n\n휴먼 리소스 낭비를 없애는 보고서 자동화 도구\n\n\n\n\n\n\n\n\n2023-04-25\n\n\n\n\n\n\nbitPublish\n\nXeLaTeX 기반으로 한글 책을 PDF 파일로 조판\n\n\n\n\n\n\n\n\n2023-04-25\n\n\n\n\n\n\nbitGPT\n\n챗GPT를 보다 쉽게 사용할 수 있는, 그리고 한국어를 지원하는 bitGPT\n\n\n\n\n\n\n\n\n2023-02-28\n\n\n\n\n\n\nbitNLP\n\n텍스트 데이터를 탐색하고, 자연어 처리 및 형태소분석, 감성분석을 수행하는, 한글 텍스트 분석 도구모음\n\n\n\n\n\n\n\n\n2022-12-18\n\n\n\n\n\n\nbitSpatial\n\n공간정보 데이터를 지탱하는 기본 패키지\n\n\n\n\n\n\n\n\n2023-01-23\n\n\n\n\n\n\ndlookr\n\n데이터셋의 품질 진단, 탐색적 데이터 분석(EDA) 및 데이터의 변환을 지원하는 데이터분석 도구\n\n\n\n\n\n\n\n\n2018-04-27\n\n\n\n\n\n\nalookr\n\n이진 분류 모델 개발의 전체 프로세스를 지원하는 데이터분석 도구\n\n\n\n\n\n\n\n\n2020-03-20\n\n\n\n\n\n\nbitStat\n\n오픈 통계 패키지(BitStat)\n\n\n\n\n\n\n\n\n2021-09-18"
+  },
+  {
+    "objectID": "posts/20220816_quarto_rr/index.html",
+    "href": "posts/20220816_quarto_rr/index.html",
+    "title": "재현가능 글쓰기",
+    "section": "",
+    "text": "경고\n\n\n\n이광춘 (2019-12-28), “Computational Documents - 개요서(Compendium) 시작하며” 내용을 토대로 작성된 것임을 밝혀둡니다."
+  },
+  {
+    "objectID": "posts/20220816_quarto_rr/index.html#start-small",
+    "href": "posts/20220816_quarto_rr/index.html#start-small",
+    "title": "재현가능 글쓰기",
+    "section": "3.1 시작이 반이다",
+    "text": "3.1 시작이 반이다\n\n시작이 반이다 - start small\n\n\n\n코드\nproject\n|- DESCRIPTION\n|- README.md  \n|- Metadata.txt\n|\n|- data/                \n|   +- 2014ParasiteSurveyJustBrood.csv\n|   +- CedarBPLifeTable2014.csv\n|   +- NorthBPLifeTable2013.txt\n|   +- NorthBPLifeTable2014.csv|\n|- analysis/\n|   +- CodeforBPpaper.R"
+  },
+  {
+    "objectID": "posts/20220816_quarto_rr/index.html#pkg-development",
+    "href": "posts/20220816_quarto_rr/index.html#pkg-development",
+    "title": "재현가능 글쓰기",
+    "section": "3.2 팩키지 개발",
+    "text": "3.2 팩키지 개발\n\n팩키지 개발\n\n\n\n코드\nproject\n|- DESCRIPTION\n|- NAMESPACE\n|- README.md\n|- LakeTrophicModelling.Rproj\n|\n|- R/\n|   +- LakeTrophicModelling-package.r\n|   +- class_prob_rf.R\n|   +- condAccuracy.R\n|   +- crossval_rf.R\n|   +- density_plot.R\n|   +- ecdf_ks_ci.R\n|   +- ecor_map.R\n|   +- getCyanoAbund.R\n|   +- getLakeIDs.R\n|   +- importancePlot.R\n|\n|- man/\n|   +- class_prob_rf.Rd\n|   +- condAccuracy.Rd\n|   +- crossval_rf.Rd\n|   +- density_plot.Rd\n|   +- ecdf_ks_ci.Rd\n|   +- ecor_map.Rd\n|   +- getCyanoAbund.Rd\n|   +- getLakeIDs.Rd\n|   +- importancePlot.Rd\n|\n|- data/                \n|   +- LakeTrophicModelling.rda\n|\n|- vignettes/\n|\n|- inst/\n|   +- doc/\n|      +- manuscript.pdf\n|   +- extdata/\n|      +- ltmData.csv\n|      +- data_def.csv"
+  },
+  {
+    "objectID": "posts/20220816_quarto_rr/index.html#cicd-docker",
+    "href": "posts/20220816_quarto_rr/index.html#cicd-docker",
+    "title": "재현가능 글쓰기",
+    "section": "3.3 CI/CD와 도커",
+    "text": "3.3 CI/CD와 도커\nDockerfile 파일을 추가하여 환경도 재현가능하게 만들 수 있고, .travis.yml을 추가하여 CI/CD 환경도 구축할 수 있다. tests/를 추가하여 테스트 주도 개발(test-driven development, TDD)를 시도할 수 있고, 이를 통해 수작업 검증을 자동화하여 생산성과 품질을 대폭 향상시킬 수도 있다.\n\n\n코드\nproject\n|- DESCRIPTION          # project metadata and dependencies \n|- README.md            # top-level description of content and guide to users\n|- NAMESPACE            # exports R functions in the package for repeated use\n|- LICENSE              # specify the conditions of use and reuse of the code, data & text\n|- .travis.yml          # continuous integration service hook for auto-testing at each commit\n|- Dockerfile           # makes a custom isolated computational environment for the project\n|\n|- data/                # raw data, not changed once created\n|  +- my_data.csv       # data files in open formats such as TXT, CSV, TSV, etc.\n|\n|- analysis/            # any programmatic code\n|  +- my_report.Rmd     # R markdown file with narrative text interwoven with code chunks \n|  +- makefile          # builds a PDF/HTML/DOCX file from the Rmd, code, and data files\n|  +- scripts/          # code files (R, shell, etc.) used for data cleaning, analysis and visualisation \n|\n|- R/                     \n|  +- my_functions.R    # custom R functions that are used more than once throughout the project\n|\n|- man/\n|  +- my_functions.Rd   # documentation for the R functions (auto-generated when using devtools)\n|\n|- tests/\n|  +- testthat.R        # unit tests of R functions to ensure they perform as expected"
+  },
+  {
     "objectID": "slideshow/202210-hongik/data-science.html",
     "href": "slideshow/202210-hongik/data-science.html",
+    "title": "한국 R 사용자회",
+    "section": "",
+    "text": "데이터 사이언스"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/data-science.html#section",
+    "href": "slideshow/202210-hongik/data-science.html#section",
     "title": "한국 R 사용자회",
     "section": "",
     "text": "데이터 사이언스"
@@ -242,7 +417,7 @@
     "href": "slideshow/202210-hongik/index.html#데이터-과학-욕구단계설",
     "title": "한국 R 사용자회",
     "section": "데이터 과학 욕구단계설",
-    "text": "데이터 과학 욕구단계설\n\n매슬로 욕구단계설가치 피라미드"
+    "text": "데이터 과학 욕구단계설\n\n\n매슬로 욕구단계설\n가치 피라미드"
   },
   {
     "objectID": "slideshow/202210-hongik/index.html#section-2",
@@ -263,42 +438,42 @@
     "href": "slideshow/202210-hongik/index.html#데이터-사이언스---출판",
     "title": "한국 R 사용자회",
     "section": "데이터 사이언스 - 출판",
-    "text": "데이터 사이언스 - 출판\n\n문제점개념Single Sourcing Multi-Use\n\n\n\n\n\nFigure 1: 문제점\n\n\n\n\n\n\n\nFigure 2: Single Sourcing 개념\n\n\n\n\n\n\n\nFigure 3: Single Sourcing Multi-Use"
+    "text": "데이터 사이언스 - 출판\n\n\n문제점\n개념\nSingle Sourcing Multi-Use\n\n\n\n\n\n그림 1: 문제점\n\n\n\n\n\n그림 2: Single Sourcing 개념\n\n\n\n\n\n그림 3: Single Sourcing Multi-Use"
   },
   {
     "objectID": "slideshow/202210-hongik/index.html#복잡성",
     "href": "slideshow/202210-hongik/index.html#복잡성",
     "title": "한국 R 사용자회",
     "section": "복잡성",
-    "text": "복잡성\n\n엑셀 1아래한글 2"
+    "text": "복잡성\n\n\n\n엑셀 1\n\n\n아래한글 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nXKCD 1667: AlgorithmsWriting Technical Papers with Markdown and Pandoc"
   },
   {
     "objectID": "slideshow/202210-hongik/index.html#시각화---그래프-문법-problem-3",
     "href": "slideshow/202210-hongik/index.html#시각화---그래프-문법-problem-3",
     "title": "한국 R 사용자회",
-    "section": "시각화 - 그래프 문법 3",
-    "text": "시각화 - 그래프 문법 3\n\n\n\n\n\nR 코드\n\nlibrary(tidyverse)\nbill_df <- data.frame(\n  sex = factor(c(\"여성\",\"여성\",\"남성\",\"남성\")),\n  time = factor(c(\"점심\",\"저녁\",\"점심\",\"저녁\"), levels=c(\"점심\",\"저녁\")),\n  total_bill = c(13.53, 16.81, 16.24, 17.42)\n)\n\n\n\n\n실행결과\n\nbill_df\n\n   sex time total_bill\n1 여성 점심      13.53\n2 여성 저녁      16.81\n3 남성 점심      16.24\n4 남성 저녁      17.42\n\n\n\n\n\n\n\n\n\nR 코드\n\nbill_df %>% \n  ggplot(aes(x=time, y=total_bill, group=sex, shape=sex, colour=sex)) +\n    geom_line(aes(linetype=sex), size=1) +    \n    geom_point(size=3, fill=\"white\") +        \n    expand_limits(y=0) +                      \n    scale_colour_hue(name=\"결재자 성별\", l=30) +\n    scale_shape_manual(name=\"결재자 성별\", values=c(22,21)) +\n    scale_linetype_discrete(name=\"결재자 성별\") +\n    xlab(\"점심, 석식\") + ylab(\"팁(Tip)\") +\n    ggtitle(\"식사 결재 평균 팁\") +    \n    theme_bw() +\n    theme(legend.position=c(.7, .4))\n\n\n\n\n실행결과\n\n\n\n\n\n\n\n\n\n\n\n\nR 코드\n\nbill_mat <- matrix( bill_df$total_bill,\n                   nrow = 2,\n                   byrow=TRUE,\n                   dimnames = list(c(\"여성\", \"남성\"), c(\"점심\", \"저녁\"))\n                   )\n\nmf_col <- c(\"#3CC3BD\", \"#FD8210\")\nbarplot(bill_mat, beside = TRUE, border=NA, col=mf_col)\nlegend(\"topleft\", row.names(bill_mat), pch=15, col=mf_col)\n\n\npar(cex=1.2, cex.axis=1.1)\nmatplot(bill_mat, type=\"b\", lty=1, pch=19, col=mf_col,\n    cex=1.5, lwd=3, las=1, bty=\"n\", xaxt=\"n\",\n    xlim=c(0.7, 2.2), ylim=c(12,18), ylab=\"\",\n    main=\"식사 결재 평균 팁\", yaxt=\"n\")\naxis(2, at=axTicks(2), labels=sprintf(\"$%s\", axTicks(2)),\n    las=1, cex.axis=0.8, col=NA, line = -0.5)\ngrid(NA, NULL, lty=3, lwd=1, col=\"#000000\")\nabline(v=c(1,2), lty=3, lwd=1, col=\"#000000\")\nmtext(\"점심\", side=1, at=1)\nmtext(\"저녁\", side=1, at=2)\ntext(1.5, 17.3, \"남성\", srt=8, font=3)\ntext(1.5, 15.1, \"여성\", srt=33, font=3)\n\n\n\n\n실행결과"
+    "section": "시각화 - 그래프 문법 1\n",
+    "text": "시각화 - 그래프 문법 1\n\n\n\n\n\n\n\nComparing ggplot2 and R Base Graphics By Nathan Yau"
   },
   {
     "objectID": "slideshow/202210-hongik/index.html#디자인---코드",
     "href": "slideshow/202210-hongik/index.html#디자인---코드",
     "title": "한국 R 사용자회",
     "section": "디자인 - 코드",
-    "text": "디자인 - 코드\n\n데이터 가공dplyr RBase RSQL파이썬\n\n\n\n날짜와 시간별로 총 빈도수와 출발연착 평균 시간을 구한다. 단, 총빈도수가 10 회 미만인 것은 제외하고 출발연착 시간의 결측값을 제거하고 계산한다.\n\n\nflights 데이터프레임에서\n출발 연착시간(dep_delay) 칼럼에서 결측값이 없는 (!is.na()) 행을 필터링 하고\n날짜별(date), 시간별(hour) 그룹을 묶어\n평균 출발 연착시간을 계산하고 총빈도수 총계를 내고\n총빈도수가 10회 이상인 날짜와 시간을 찾아내시오\n\n\n\n\nhourly_delay <- flights %>%  \n  filter(!is.na(dep_delay)) %>% \n  group_by(date, hour) %>% \n  summarise(delay = mean(dep_delay), n = n()) %>%  \n  filter(n > 10) \n\n\n\n\nhourly_delay <- filter(   \n    summarise(   \n        group_by(   \n             filter(   \n                 flights,    \n                 !is.na(dep_delay)   \n             ),    \n             date, hour   \n        ),    \n    delay = mean(dep_delay),    \n         n = n()   \n    ),    \n    n > 10   \n)\n\n\n\n\nSELECT \"date\", \"hour\", \"delay\", \"n\"\nFROM (\n    SELECT \"date\", \"hour\",\n        AVG(\"dep_delay\") AS \"delay\",\n        COUNT() AS \"n\"\n    FROM \"flights\"\n    WHERE NOT(\"dep_delay\" IS NULL)\n    GROUP BY \"date\", \"hour\"\n) AS \"_W1\"\nWHERE \"n\" > 10.0\n\n\n\n\nflights[['date','hour','dep_delay']]\n..."
+    "text": "디자인 - 코드\n\n\n데이터 가공\ndplyr R\nBase R\nSQL\n파이썬\n\n\n\n\n날짜와 시간별로 총 빈도수와 출발연착 평균 시간을 구한다. 단, 총빈도수가 10 회 미만인 것은 제외하고 출발연착 시간의 결측값을 제거하고 계산한다.\n\n\n\nflights 데이터프레임에서\n출발 연착시간(dep_delay) 칼럼에서 결측값이 없는 (!is.na()) 행을 필터링 하고\n날짜별(date), 시간별(hour) 그룹을 묶어\n평균 출발 연착시간을 계산하고 총빈도수 총계를 내고\n총빈도수가 10회 이상인 날짜와 시간을 찾아내시오\n\n\n\n\nhourly_delay &lt;- flights %&gt;%  \n  filter(!is.na(dep_delay)) %&gt;% \n  group_by(date, hour) %&gt;% \n  summarise(delay = mean(dep_delay), n = n()) %&gt;%  \n  filter(n &gt; 10) \n\n\n\n\nhourly_delay &lt;- filter(   \n    summarise(   \n        group_by(   \n             filter(   \n                 flights,    \n                 !is.na(dep_delay)   \n             ),    \n             date, hour   \n        ),    \n    delay = mean(dep_delay),    \n         n = n()   \n    ),    \n    n &gt; 10   \n)\n\n\n\n\nSELECT \"date\", \"hour\", \"delay\", \"n\"\nFROM (\n    SELECT \"date\", \"hour\",\n        AVG(\"dep_delay\") AS \"delay\",\n        COUNT() AS \"n\"\n    FROM \"flights\"\n    WHERE NOT(\"dep_delay\" IS NULL)\n    GROUP BY \"date\", \"hour\"\n) AS \"_W1\"\nWHERE \"n\" &gt; 10.0\n\n\n\n\nflights[['date','hour','dep_delay']]\n..."
   },
   {
     "objectID": "slideshow/202210-hongik/index.html#디자인---데이터",
     "href": "slideshow/202210-hongik/index.html#디자인---데이터",
     "title": "한국 R 사용자회",
     "section": "디자인 - 데이터",
-    "text": "디자인 - 데이터\n\n정돈된 데이터사례 - 결핵 데이터사례 - Messy 데이터사례 - 코드사례 - Tidy 데이터\n\n\n\n\n\n\n\n\nWHO 결핵 원데이터\nWHO 에서 년도별, 국가별, 연령별, 성별, 진단방법별 결핵 발병사례 조사 통계 데이터\n진단방법\n\nrel stands for cases of relapse\nep stands for cases of extrapulmonary TB\nsn stands for cases of pulmonary TB that could not be diagnosed by a pulmonary smear (smear negative)\nsp stands for cases of pulmonary TB that could be diagnosed by a pulmonary smear (smear positive)\n\n연령\n\n014 = 0 – 14 years old\n1524 = 15 – 24 years old\n2534 = 25 – 34 years old\n3544 = 35 – 44 years old\n4554 = 45 – 54 years old\n5564 = 55 – 64 years old\n65 = 65 or older\n\n성별\n\nmales (m)\nfemales (f)\n\n\n\n\n\nlibrary(tidyverse)\ntidyr::who \n\n# A tibble: 7,240 × 60\n   country  iso2  iso3   year new_sp_m014 new_sp_m1524 new_sp_m2534 new_sp_m3544\n   <chr>    <chr> <chr> <int>       <int>        <int>        <int>        <int>\n 1 Afghani… AF    AFG    1980          NA           NA           NA           NA\n 2 Afghani… AF    AFG    1981          NA           NA           NA           NA\n 3 Afghani… AF    AFG    1982          NA           NA           NA           NA\n 4 Afghani… AF    AFG    1983          NA           NA           NA           NA\n 5 Afghani… AF    AFG    1984          NA           NA           NA           NA\n 6 Afghani… AF    AFG    1985          NA           NA           NA           NA\n 7 Afghani… AF    AFG    1986          NA           NA           NA           NA\n 8 Afghani… AF    AFG    1987          NA           NA           NA           NA\n 9 Afghani… AF    AFG    1988          NA           NA           NA           NA\n10 Afghani… AF    AFG    1989          NA           NA           NA           NA\n# … with 7,230 more rows, and 52 more variables: new_sp_m4554 <int>,\n#   new_sp_m5564 <int>, new_sp_m65 <int>, new_sp_f014 <int>,\n#   new_sp_f1524 <int>, new_sp_f2534 <int>, new_sp_f3544 <int>,\n#   new_sp_f4554 <int>, new_sp_f5564 <int>, new_sp_f65 <int>,\n#   new_sn_m014 <int>, new_sn_m1524 <int>, new_sn_m2534 <int>,\n#   new_sn_m3544 <int>, new_sn_m4554 <int>, new_sn_m5564 <int>,\n#   new_sn_m65 <int>, new_sn_f014 <int>, new_sn_f1524 <int>, …\n\n\n\n\n\nwho %>%\n  pivot_longer(\n    cols = new_sp_m014:newrel_f65, \n    names_to = \"key\", \n    values_to = \"cases\", \n    values_drop_na = TRUE\n  ) %>% \n  mutate(\n    key = stringr::str_replace(key, \"newrel\", \"new_rel\")\n  ) %>%\n  separate(key, c(\"new\", \"var\", \"sexage\")) %>% \n  select(-new, -iso2, -iso3) %>% \n  separate(sexage, c(\"sex\", \"age\"), sep = 1)\n\n\n\n\n\n# A tibble: 76,046 × 6\n   country      year var   sex   age   cases\n   <chr>       <int> <chr> <chr> <chr> <int>\n 1 Afghanistan  1997 sp    m     014       0\n 2 Afghanistan  1997 sp    m     1524     10\n 3 Afghanistan  1997 sp    m     2534      6\n 4 Afghanistan  1997 sp    m     3544      3\n 5 Afghanistan  1997 sp    m     4554      5\n 6 Afghanistan  1997 sp    m     5564      2\n 7 Afghanistan  1997 sp    m     65        0\n 8 Afghanistan  1997 sp    f     014       5\n 9 Afghanistan  1997 sp    f     1524     38\n10 Afghanistan  1997 sp    f     2534     36\n# … with 76,036 more rows"
+    "text": "디자인 - 데이터\n\n\n정돈된 데이터\n사례 - 결핵 데이터\n사례 - Messy 데이터\n사례 - 코드\n사례 - Tidy 데이터\n\n\n\n\n\n\n\n\n\nWHO 결핵 원데이터\n\nWHO 에서 년도별, 국가별, 연령별, 성별, 진단방법별 결핵 발병사례 조사 통계 데이터\n진단방법\n\n\nrel stands for cases of relapse\n\nep stands for cases of extrapulmonary TB\n\nsn stands for cases of pulmonary TB that could not be diagnosed by a pulmonary smear (smear negative)\n\nsp stands for cases of pulmonary TB that could be diagnosed by a pulmonary smear (smear positive)\n\n\n연령\n\n014 = 0 – 14 years old\n1524 = 15 – 24 years old\n2534 = 25 – 34 years old\n3544 = 35 – 44 years old\n4554 = 45 – 54 years old\n5564 = 55 – 64 years old\n65 = 65 or older\n\n\n성별\n\nmales (m)\nfemales (f)\n\n\n\n\n\n\nlibrary(tidyverse)\ntidyr::who \n\n# A tibble: 7,240 × 60\n   country  iso2  iso3   year new_sp_m014 new_sp_m1524 new_sp_m2534 new_sp_m3544\n   &lt;chr&gt;    &lt;chr&gt; &lt;chr&gt; &lt;int&gt;       &lt;int&gt;        &lt;int&gt;        &lt;int&gt;        &lt;int&gt;\n 1 Afghani… AF    AFG    1980          NA           NA           NA           NA\n 2 Afghani… AF    AFG    1981          NA           NA           NA           NA\n 3 Afghani… AF    AFG    1982          NA           NA           NA           NA\n 4 Afghani… AF    AFG    1983          NA           NA           NA           NA\n 5 Afghani… AF    AFG    1984          NA           NA           NA           NA\n 6 Afghani… AF    AFG    1985          NA           NA           NA           NA\n 7 Afghani… AF    AFG    1986          NA           NA           NA           NA\n 8 Afghani… AF    AFG    1987          NA           NA           NA           NA\n 9 Afghani… AF    AFG    1988          NA           NA           NA           NA\n10 Afghani… AF    AFG    1989          NA           NA           NA           NA\n# … with 7,230 more rows, and 52 more variables: new_sp_m4554 &lt;int&gt;,\n#   new_sp_m5564 &lt;int&gt;, new_sp_m65 &lt;int&gt;, new_sp_f014 &lt;int&gt;,\n#   new_sp_f1524 &lt;int&gt;, new_sp_f2534 &lt;int&gt;, new_sp_f3544 &lt;int&gt;,\n#   new_sp_f4554 &lt;int&gt;, new_sp_f5564 &lt;int&gt;, new_sp_f65 &lt;int&gt;,\n#   new_sn_m014 &lt;int&gt;, new_sn_m1524 &lt;int&gt;, new_sn_m2534 &lt;int&gt;,\n#   new_sn_m3544 &lt;int&gt;, new_sn_m4554 &lt;int&gt;, new_sn_m5564 &lt;int&gt;,\n#   new_sn_m65 &lt;int&gt;, new_sn_f014 &lt;int&gt;, new_sn_f1524 &lt;int&gt;, …\n\n\n\n\n\nwho %&gt;%\n  pivot_longer(\n    cols = new_sp_m014:newrel_f65, \n    names_to = \"key\", \n    values_to = \"cases\", \n    values_drop_na = TRUE\n  ) %&gt;% \n  mutate(\n    key = stringr::str_replace(key, \"newrel\", \"new_rel\")\n  ) %&gt;%\n  separate(key, c(\"new\", \"var\", \"sexage\")) %&gt;% \n  select(-new, -iso2, -iso3) %&gt;% \n  separate(sexage, c(\"sex\", \"age\"), sep = 1)\n\n\n\n\n\n# A tibble: 76,046 × 6\n   country      year var   sex   age   cases\n   &lt;chr&gt;       &lt;int&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;int&gt;\n 1 Afghanistan  1997 sp    m     014       0\n 2 Afghanistan  1997 sp    m     1524     10\n 3 Afghanistan  1997 sp    m     2534      6\n 4 Afghanistan  1997 sp    m     3544      3\n 5 Afghanistan  1997 sp    m     4554      5\n 6 Afghanistan  1997 sp    m     5564      2\n 7 Afghanistan  1997 sp    m     65        0\n 8 Afghanistan  1997 sp    f     014       5\n 9 Afghanistan  1997 sp    f     1524     38\n10 Afghanistan  1997 sp    f     2534     36\n# … with 76,036 more rows"
   },
   {
     "objectID": "slideshow/202210-hongik/index.html#디자인---사람-대-기계",
     "href": "slideshow/202210-hongik/index.html#디자인---사람-대-기계",
     "title": "한국 R 사용자회",
     "section": "디자인 - 사람 대 기계",
-    "text": "디자인 - 사람 대 기계\n\n전체 개발 시간사람 < 기계사람 > 기계"
+    "text": "디자인 - 사람 대 기계\n\n\n전체 개발 시간\n사람 &lt; 기계\n사람 &gt; 기계"
   },
   {
     "objectID": "slideshow/202210-hongik/index.html#section-4",
@@ -319,7 +494,7 @@
     "href": "slideshow/202210-hongik/index.html#quarto",
     "title": "한국 R 사용자회",
     "section": "Quarto",
-    "text": "Quarto\n\nR파이썬Quarto: RQuarto: 파이썬"
+    "text": "Quarto\n\n\nR\n파이썬\nQuarto: R\nQuarto: 파이썬"
   },
   {
     "objectID": "slideshow/202210-hongik/index.html#section-6",
@@ -329,64 +504,15 @@
     "text": "한국 R 사용자회"
   },
   {
-    "objectID": "slideshow/202210-hongik/problem.html",
-    "href": "slideshow/202210-hongik/problem.html",
-    "title": "한국 R 사용자회",
-    "section": "",
-    "text": "데이터 과학 문제"
-  },
-  {
-    "objectID": "slideshow/202210-hongik/problem.html#section-1",
-    "href": "slideshow/202210-hongik/problem.html#section-1",
-    "title": "한국 R 사용자회",
-    "section": "",
-    "text": "데이터 과학 문제"
-  },
-  {
-    "objectID": "slideshow/202210-hongik/problem.html#데이터-사이언스---출판",
-    "href": "slideshow/202210-hongik/problem.html#데이터-사이언스---출판",
-    "title": "한국 R 사용자회",
-    "section": "데이터 사이언스 - 출판",
-    "text": "데이터 사이언스 - 출판\n\n문제점개념Single Sourcing Multi-Use\n\n\n\n\n\nFigure 1: 문제점\n\n\n\n\n\n\n\nFigure 2: Single Sourcing 개념\n\n\n\n\n\n\n\nFigure 3: Single Sourcing Multi-Use"
-  },
-  {
-    "objectID": "slideshow/202210-hongik/problem.html#복잡성",
-    "href": "slideshow/202210-hongik/problem.html#복잡성",
-    "title": "한국 R 사용자회",
-    "section": "복잡성",
-    "text": "복잡성\n\n엑셀 1아래한글 2"
-  },
-  {
-    "objectID": "slideshow/202210-hongik/problem.html#시각화---그래프-문법-problem-3",
-    "href": "slideshow/202210-hongik/problem.html#시각화---그래프-문법-problem-3",
-    "title": "한국 R 사용자회",
-    "section": "시각화 - 그래프 문법 3",
-    "text": "시각화 - 그래프 문법 3\n\n\n\n\n\nR 코드\n\nlibrary(tidyverse)\n\n── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──\n\n\n✔ ggplot2 3.3.6     ✔ purrr   0.3.4\n✔ tibble  3.1.7     ✔ dplyr   1.0.9\n✔ tidyr   1.2.0     ✔ stringr 1.4.0\n✔ readr   2.1.2     ✔ forcats 0.5.1\n\n\n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n\nbill_df <- data.frame(\n  sex = factor(c(\"여성\",\"여성\",\"남성\",\"남성\")),\n  time = factor(c(\"점심\",\"저녁\",\"점심\",\"저녁\"), levels=c(\"점심\",\"저녁\")),\n  total_bill = c(13.53, 16.81, 16.24, 17.42)\n)\n\n\n\n\n실행결과\n\nbill_df\n\n   sex time total_bill\n1 여성 점심      13.53\n2 여성 저녁      16.81\n3 남성 점심      16.24\n4 남성 저녁      17.42\n\n\n\n\n\n\n\n\n\nR 코드\n\nbill_df %>% \n  ggplot(aes(x=time, y=total_bill, group=sex, shape=sex, colour=sex)) +\n    geom_line(aes(linetype=sex), size=1) +    \n    geom_point(size=3, fill=\"white\") +        \n    expand_limits(y=0) +                      \n    scale_colour_hue(name=\"결재자 성별\", l=30) +\n    scale_shape_manual(name=\"결재자 성별\", values=c(22,21)) +\n    scale_linetype_discrete(name=\"결재자 성별\") +\n    xlab(\"점심, 석식\") + ylab(\"팁(Tip)\") +\n    ggtitle(\"식사 결재 평균 팁\") +    \n    theme_bw() +\n    theme(legend.position=c(.7, .4))\n\n\n\n\n실행결과\n\n\n\n\n\n\n\n\n\n\n\n\nR 코드\n\nbill_mat <- matrix( bill_df$total_bill,\n                   nrow = 2,\n                   byrow=TRUE,\n                   dimnames = list(c(\"여성\", \"남성\"), c(\"점심\", \"저녁\"))\n                   )\n\nmf_col <- c(\"#3CC3BD\", \"#FD8210\")\nbarplot(bill_mat, beside = TRUE, border=NA, col=mf_col)\nlegend(\"topleft\", row.names(bill_mat), pch=15, col=mf_col)\n\n\npar(cex=1.2, cex.axis=1.1)\nmatplot(bill_mat, type=\"b\", lty=1, pch=19, col=mf_col,\n    cex=1.5, lwd=3, las=1, bty=\"n\", xaxt=\"n\",\n    xlim=c(0.7, 2.2), ylim=c(12,18), ylab=\"\",\n    main=\"식사 결재 평균 팁\", yaxt=\"n\")\naxis(2, at=axTicks(2), labels=sprintf(\"$%s\", axTicks(2)),\n    las=1, cex.axis=0.8, col=NA, line = -0.5)\ngrid(NA, NULL, lty=3, lwd=1, col=\"#000000\")\nabline(v=c(1,2), lty=3, lwd=1, col=\"#000000\")\nmtext(\"점심\", side=1, at=1)\nmtext(\"저녁\", side=1, at=2)\ntext(1.5, 17.3, \"남성\", srt=8, font=3)\ntext(1.5, 15.1, \"여성\", srt=33, font=3)\n\n\n\n\n실행결과"
-  },
-  {
-    "objectID": "slideshow/202210-hongik/problem.html#디자인---코드",
-    "href": "slideshow/202210-hongik/problem.html#디자인---코드",
-    "title": "한국 R 사용자회",
-    "section": "디자인 - 코드",
-    "text": "디자인 - 코드\n\n데이터 가공dplyr RBase RSQL파이썬\n\n\n\n날짜와 시간별로 총 빈도수와 출발연착 평균 시간을 구한다. 단, 총빈도수가 10 회 미만인 것은 제외하고 출발연착 시간의 결측값을 제거하고 계산한다.\n\n\nflights 데이터프레임에서\n출발 연착시간(dep_delay) 칼럼에서 결측값이 없는 (!is.na()) 행을 필터링 하고\n날짜별(date), 시간별(hour) 그룹을 묶어\n평균 출발 연착시간을 계산하고 총빈도수 총계를 내고\n총빈도수가 10회 이상인 날짜와 시간을 찾아내시오\n\n\n\n\nhourly_delay <- flights %>%  \n  filter(!is.na(dep_delay)) %>% \n  group_by(date, hour) %>% \n  summarise(delay = mean(dep_delay), n = n()) %>%  \n  filter(n > 10) \n\n\n\n\nhourly_delay <- filter(   \n    summarise(   \n        group_by(   \n             filter(   \n                 flights,    \n                 !is.na(dep_delay)   \n             ),    \n             date, hour   \n        ),    \n    delay = mean(dep_delay),    \n         n = n()   \n    ),    \n    n > 10   \n)\n\n\n\n\nSELECT \"date\", \"hour\", \"delay\", \"n\"\nFROM (\n    SELECT \"date\", \"hour\",\n        AVG(\"dep_delay\") AS \"delay\",\n        COUNT() AS \"n\"\n    FROM \"flights\"\n    WHERE NOT(\"dep_delay\" IS NULL)\n    GROUP BY \"date\", \"hour\"\n) AS \"_W1\"\nWHERE \"n\" > 10.0\n\n\n\n\nflights[['date','hour','dep_delay']]\n..."
-  },
-  {
-    "objectID": "slideshow/202210-hongik/problem.html#디자인---데이터",
-    "href": "slideshow/202210-hongik/problem.html#디자인---데이터",
-    "title": "한국 R 사용자회",
-    "section": "디자인 - 데이터",
-    "text": "디자인 - 데이터\n\n정돈된 데이터사례 - 결핵 데이터사례 - Messy 데이터사례 - 코드사례 - Tidy 데이터\n\n\n\n\n\n\n\n\nWHO 결핵 원데이터\nWHO 에서 년도별, 국가별, 연령별, 성별, 진단방법별 결핵 발병사례 조사 통계 데이터\n진단방법\n\nrel stands for cases of relapse\nep stands for cases of extrapulmonary TB\nsn stands for cases of pulmonary TB that could not be diagnosed by a pulmonary smear (smear negative)\nsp stands for cases of pulmonary TB that could be diagnosed by a pulmonary smear (smear positive)\n\n연령\n\n014 = 0 – 14 years old\n1524 = 15 – 24 years old\n2534 = 25 – 34 years old\n3544 = 35 – 44 years old\n4554 = 45 – 54 years old\n5564 = 55 – 64 years old\n65 = 65 or older\n\n성별\n\nmales (m)\nfemales (f)\n\n\n\n\n\nlibrary(tidyverse)\ntidyr::who \n\n# A tibble: 7,240 × 60\n   country  iso2  iso3   year new_sp_m014 new_sp_m1524 new_sp_m2534 new_sp_m3544\n   <chr>    <chr> <chr> <int>       <int>        <int>        <int>        <int>\n 1 Afghani… AF    AFG    1980          NA           NA           NA           NA\n 2 Afghani… AF    AFG    1981          NA           NA           NA           NA\n 3 Afghani… AF    AFG    1982          NA           NA           NA           NA\n 4 Afghani… AF    AFG    1983          NA           NA           NA           NA\n 5 Afghani… AF    AFG    1984          NA           NA           NA           NA\n 6 Afghani… AF    AFG    1985          NA           NA           NA           NA\n 7 Afghani… AF    AFG    1986          NA           NA           NA           NA\n 8 Afghani… AF    AFG    1987          NA           NA           NA           NA\n 9 Afghani… AF    AFG    1988          NA           NA           NA           NA\n10 Afghani… AF    AFG    1989          NA           NA           NA           NA\n# … with 7,230 more rows, and 52 more variables: new_sp_m4554 <int>,\n#   new_sp_m5564 <int>, new_sp_m65 <int>, new_sp_f014 <int>,\n#   new_sp_f1524 <int>, new_sp_f2534 <int>, new_sp_f3544 <int>,\n#   new_sp_f4554 <int>, new_sp_f5564 <int>, new_sp_f65 <int>,\n#   new_sn_m014 <int>, new_sn_m1524 <int>, new_sn_m2534 <int>,\n#   new_sn_m3544 <int>, new_sn_m4554 <int>, new_sn_m5564 <int>,\n#   new_sn_m65 <int>, new_sn_f014 <int>, new_sn_f1524 <int>, …\n\n\n\n\n\nwho %>%\n  pivot_longer(\n    cols = new_sp_m014:newrel_f65, \n    names_to = \"key\", \n    values_to = \"cases\", \n    values_drop_na = TRUE\n  ) %>% \n  mutate(\n    key = stringr::str_replace(key, \"newrel\", \"new_rel\")\n  ) %>%\n  separate(key, c(\"new\", \"var\", \"sexage\")) %>% \n  select(-new, -iso2, -iso3) %>% \n  separate(sexage, c(\"sex\", \"age\"), sep = 1)\n\n\n\n\n\n# A tibble: 76,046 × 6\n   country      year var   sex   age   cases\n   <chr>       <int> <chr> <chr> <chr> <int>\n 1 Afghanistan  1997 sp    m     014       0\n 2 Afghanistan  1997 sp    m     1524     10\n 3 Afghanistan  1997 sp    m     2534      6\n 4 Afghanistan  1997 sp    m     3544      3\n 5 Afghanistan  1997 sp    m     4554      5\n 6 Afghanistan  1997 sp    m     5564      2\n 7 Afghanistan  1997 sp    m     65        0\n 8 Afghanistan  1997 sp    f     014       5\n 9 Afghanistan  1997 sp    f     1524     38\n10 Afghanistan  1997 sp    f     2534     36\n# … with 76,036 more rows"
-  },
-  {
-    "objectID": "slideshow/202210-hongik/problem.html#디자인---사람-대-기계",
-    "href": "slideshow/202210-hongik/problem.html#디자인---사람-대-기계",
-    "title": "한국 R 사용자회",
-    "section": "디자인 - 사람 대 기계",
-    "text": "디자인 - 사람 대 기계\n\n전체 개발 시간사람 < 기계사람 > 기계"
-  },
-  {
     "objectID": "slideshow/202210-hongik/solution.html",
     "href": "slideshow/202210-hongik/solution.html",
+    "title": "한국 R 사용자회",
+    "section": "",
+    "text": "데이터 과학 노력들"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/solution.html#section",
+    "href": "slideshow/202210-hongik/solution.html#section",
     "title": "한국 R 사용자회",
     "section": "",
     "text": "데이터 과학 노력들"
@@ -406,94 +532,10 @@
     "text": "Quarto\n\nR파이썬Quarto: RQuarto: 파이썬"
   },
   {
-    "objectID": "slideshow/202210-hongik/title-slide.html",
-    "href": "slideshow/202210-hongik/title-slide.html",
-    "title": "한국 R 사용자회",
-    "section": "",
-    "text": "데이터 사이언스와 디자인\n\n\n디자인과 아키텍쳐의 중요성\n\n\n\n이광춘, 한국 R 사용자회\n\n\n2022-10-11\n\n\n\n   github.com/bit2r/quarto"
-  },
-  {
     "objectID": "swc.html",
     "href": "swc.html",
     "title": "소프트웨어 카펜트리",
     "section": "",
-    "text": "한국 소프트웨어 카펜트리는 소프트웨어 카펜트리 버젼 5.3 한국어로 번역이 되어 있으며 카펜트리 사단법인으로부터 자격증을 취득한 공인강사가 워크샵을 진행합니다. 2012년 1월 18일 이후 현재 시점 기준(2021-12-09) 한국을 비롯한 52개국에서 1,913회 워크샵이 있었습니다.\n\n소프트웨어 카펜트리에 대한 자세한 사항은 다음 웹사이트를 참고 바랍니다.\n\n소프트웨어 카펜트리\nThe Carpentries\n\nSoftware Carpentry\nData Carpentry\nLibrary Carpentry"
-  },
-  {
-    "objectID": "training.html",
-    "href": "training.html",
-    "title": "교육",
-    "section": "",
-    "text": "참여대학과 기관\n\n성균관대 (확정)\n한밭대 (확정)\n서울대\n건국대\n\n\n\n교육 내용 - Tidyverse Meets Shiny\n\n공공데이터 수집\n데이터 분석\n대쉬보드 제작\n대쉬보드 배포\n\n\n\n교육 일정 및 신청방법\n\n2022년 7월 9일\n2022년 7월15일\n2022년 8월19일\n\n신청방법은 Seoul R Meetup 웹사이틀 통해 추후 공지될 예정입니다.\n\n\n강사\n\n비영리법인 한국 R 사용자회 소속 강사\n\n\n\n행동강령 (CoC)\n한국 R 컨퍼런스 (이하 R 컨퍼런스)는 비영리 개발자를 위해 “R 사용자회”를 비롯한 다양한 R 커뮤니티가 주관하여 진행하는 행사입니다. R 컨퍼런스 주요 취지는 오픈소스 프로그래밍 언어인 R 활용 방법 공유, Tidyverse 패키지 활용 확대, R 이용자간 활발한 소통과 교류 등입니다.\nR 컨퍼런스 행동규범은 R 컨퍼런스에 참여하는 모든 참석자와 기관이 준수해야 하는 최소한의 기준과 가치입니다. R 커뮤니티와 참석자는 R 컨퍼런스 행동규범을 지키고, 컨퍼런스 주최자는 행동규범을 적용합니다.\nR 컨퍼런스는 행사에 참여하는 R 커뮤니티를 소중하게 여깁니다. R 컨퍼런스는 참석자 모두가 유익한 시간을 보내고, 만족스러운 경험을 쌓고 나누기를 희망합니다. R 컨퍼런스 성과물은 행사 기간 내내 벌어지는 공식, 비공식 모든 활동(예를 들어 행사, 모임, 의견 나눔, 토론 등)에서 다른 분을 존중하고, 예의있게 대해야 생기고 커집니다. 참석자는 행사 기간 동안 다른 참석자에게 존경과 예의를 보여야 합니다.\nR 컨퍼런스는 “누구든지 성별, 종교 또는 사회적 신분에 의하여 정치적, 경제적, 사회적, 문화적 생활의 모든 영역에 있어서 차별을 받지 아니한다”는 헌법 제11조를 지킵니다. R 컨퍼런스는 “합리적인 이유 없이 성별, 장애, 나이, 언어, 출신국가, 출신민족, 인종, 국적, 피부색, 출신지역, 용모 등 신체조건, 혼인여부, 임신 또는 출산, 가족 및 가구의 형태와 상황, 종교, 사상 또는 정치적 의견, 형의 효력이 실효된 전과, 성적지향, 성별정체성, 학력, 고용형태, 병력 또는 건강상태, 사회적 신분”에 따라 “특정 개인, 집단, 법인을 분리·구별·제한·배제·거부하거나 불리하게 대우하는 행위”(이하 ‘차별행위’)를 반대합니다.\nR 컨퍼런스는 “지위를 이용하거나 업무 등과 관련하여 성적 언동 또는 성적 요구 등으로 상대방에게 성적 굴욕감이나 혐오감을 느끼게 하는 행위”와 상대방이 성적 언동 또는 요구에 대한 불응을 이유로 불이익을 주거나 그에 따르는 것을 조건으로 이익 공여의 의사표시를 하는 행위”(이하 ‘성희롱’)을 거부합니다. R 컨퍼런스는 ‘차별행위’와 ’성희롱’ 예방을 위해 노력을 다합니다. R 컨퍼런스는 ‘차별행위’와 ’성희롱’을 안 시점에 ’차별행위’와 ’성희롱’을 한 참여자에게 중단을 요구하며, 바로 관계 기관에 신고합니다. R 컨퍼런스는 ’차별행위’와 ’성희롱’ 피해자 보호를 위해 노력합니다.\n따뜻하고 친목을 도모할 수 있는 행사를 만들수 있도록 도와 준 참석자 여러분에게 감사합니다.\n\n\n후원\n이 프로그램은 과학기술진흥기금 및 복권기금의 재원으로 운영되고,과학기술정보통신부와 한국과학창의재단의 지원을 받아 수행된 성과물로 우리나라의 과학기술 발전과 사회적 가치 증진에 기여하고 있습니다. 성균관대학교 경제학과, 한밭대학교 창업경영학과에서 장소를 지원해 주셨으며, 대전과학문화거점센터 지원도 받았음을 밝혀둡니다."
-  },
-  {
-    "objectID": "packages.html",
-    "href": "packages.html",
-    "title": "R 패키지",
-    "section": "",
-    "text": "bitGPT\n\nchatGPT를 보다 쉽게 사용할 수 있는, 그리고 한국어를 지원하는 bitGPT\n\n\n\n\n\n\n\n\n2023-02-28\n\n\n\n\n\n\nbitNLP\n\n텍스트 데이터를 탐색하고, 자연어 처리 및 형태소분석, 감성분석을 수행하는, 한글 텍스트 분석 도구모음\n\n\n\n\n\n\n\n\n2022-12-18\n\n\n\n\n\n\nbitSpatial\n\n공간정보 데이터를 지탱하는 기본 패키지\n\n\n\n\n\n\n\n\n2023-01-23\n\n\n\n\n\n\ndlookr\n\n데이터셋의 품질 진단, 탐색적 데이터 분석(EDA) 및 데이터의 변환을 지원하는 데이터분석 도구\n\n\n\n\n\n\n\n\n2018-04-27\n\n\n\n\n\n\nalookr\n\n이진 분류 모델 개발의 전체 프로세스를 지원하는 데이터분석 도구\n\n\n\n\n\n\n\n\n2020-03-20"
-  },
-  {
-    "objectID": "slideshow/202210-hongik/index.html",
-    "href": "slideshow/202210-hongik/index.html",
-    "title": "한국 R 사용자회",
-    "section": "",
-    "text": "데이터 사이언스와 디자인"
-  },
-  {
-    "objectID": "index.html#서울-r-미트업",
-    "href": "index.html#서울-r-미트업",
-    "title": "한국 R 사용자회",
-    "section": "서울 R 미트업",
-    "text": "서울 R 미트업\nR Consortium R User Groups에 등록된 Seoul R Meetup은 매월 개최되는 데이터 사이언스 R / Tidyverse 미트업으로 chatGPT, Data Analytics, Tidyverse, Tidymodels, Shiny, Dashboard, Machine Learning, Digital Writing, Quarto/RMarkdown, Deep Learning 등 통계, AI/ML/DL, 데이터 사이언스, 시각화, 제품개발 등을 실제 현장에서 직접 데이터를 다루고 학교와 연구소에서 연구개발을 하시는 분들 뿐만 아니라 관심있는 분들이 함께 모여 교류하고 지식을 나누는 미트업입니다.\n\n서울 R 미트업 meetup.com: link\n\n기타 커뮤니티 관련 링크는 아래와 같습니다.\n\n세계 R 미트업 현황 (Global R Meetup Dashboard): link\n한국 R 사용자회 (Korea R User Group): link\n한국 R 컨퍼런스 (Korea R Conference): link\n서울 R 미트업 (Seoul R Meetup): link\n유튜브 채널 (Youtube Channel): link\n페이스북 그룹 (Facebook Group): link\n한국 R 사용자회 슬랙 (Slack): link"
-  },
-  {
-    "objectID": "index.html#r-사용자회-회원-가입",
-    "href": "index.html#r-사용자회-회원-가입",
-    "title": "한국 R 사용자회",
-    "section": "R 사용자회 회원 가입",
-    "text": "R 사용자회 회원 가입\n사단법인 한국 R 사용자회(이하 R 사용자회)는 2022년 2월 28일 설립되어 창립 1년이 되었습니다. R 사용자회는 R Consortium R User Groups에 등록된 Seoul R Meetup은 매월 개최되는 데이터 사이언스 R / Tidyverse 미트업을 2017년부터 운영하며 R 지식 나눔과 커뮤니티 멤버들 간의 사랑방 역할도 수행하고 있습니다.\nR사용자회는 2022년부터 오픈 통계 패키지(BitStat) 패키지를 개발하여 보급하였을 뿐만 아니라 BitNLP, BitSpatial, BitReport 패키지를 개발하여 공개하였을 뿐만 아니라, “디지털 글쓰기”, “데이터 과학 프로그래밍”, “데이터 시각화”, “데이터 과학 기본기”, “오픈 통계 패키지”, “R 텍스트 마이닝”, “데이터 과학 언플러그드” 등 전자책을 집필하여 무료로 대중에 공개하였습니다.\n회원가입을 원하시는 분은 아래의 계좌로 연회비를 입금하시고 관련 정보를 입력해주시면 검토 후 회원이 될 수 있도록 하겠습니다.\n\n회원가입 신청: https://forms.gle/ByJy34PkFdMJXHbe6\n\n입금계좌: 하나은행 448-910057-06204 / 사단법인 한국알사용자회 회비: 연 2만원 이상"
-  },
-  {
-    "objectID": "donation.html",
-    "href": "donation.html",
-    "title": "기부금 모금/활용실적",
-    "section": "",
-    "text": "연도\n기부금 모금 활용실적\n파일 다운로드\n\n\n\n\n2022년\n2022년 자료 다운\n다운로드"
-  },
-  {
-    "objectID": "about.html#커뮤니티-네트워크",
-    "href": "about.html#커뮤니티-네트워크",
-    "title": "한국 알(R) 사용자회 소개",
-    "section": "",
-    "text": "한국 알(R) 사용자회: link\n한국 알 사용자회 페이스북: link\nSeoul R Meetup: link\n\nSeoul R Meetup (Repo.): link\nAsia R Community link\nGlobal R Meetup: link\n\nKorea R Conference: link\nYoutube: link\nSlack: link"
-  },
-  {
-    "objectID": "index.html#r",
-    "href": "index.html#r",
-    "title": "한국 R 사용자회",
-    "section": "R",
-    "text": "R\n과거 통계 및 데이터 분석에는 SPSS, STATA, SAS, 미니탭 등 GUI 통계 패키지가 주류를 이뤘으나 빅데이터에 이어 데이터 사이언스, 챗GPT 인공지능이 부상하면서 R과 파이썬이 많이 사용되고 있다. R 역사는 1992년 처음 뉴질랜드 오클랜드에서 Robert Gentleman, Ross Ihaka 교수가 개발을 시작한 후에 GPL 라이선스를 장착하여 소스코드를 공개한 후에 R 코어 그룹이 만들어지고, 팩키지 배포 CRAN이 순차적으로 공개되고 나서, R 웹사이트가 만들어지고, 처음으로 2000년에 R 1.0.0 으로 배포되고 R 저널, UseR! 컨퍼런스, R 재단, R 컨소시엄이 전세계 수많은 재능있고 열정있는 수많은 사람에 의해서 만들어다. 1\n한국에서도 R Meetup을 2017년부터 시작되었고, 2021년 한국 R 컨퍼런스가 개최되었으며, 2022년 사단법인 한국 R 사용자회가 설립되어 활발한 활동을 이어오고 있다. 2"
-  },
-  {
-    "objectID": "index.html#r-장점",
-    "href": "index.html#r-장점",
-    "title": "한국 R 사용자회",
-    "section": "R 장점",
-    "text": "R 장점\n\n통계 분석 최적화: R은 다양한 통계 모형(회귀, 시계열, 다변량, 공간, 기계학습, 딥러닝 등)를 지원하며, 이로 인해 통계 계산에 대해 뛰어난 성능을 보임.\n데이터 시각화: R은 다양한 패키지(예: ggplot2, plotly)를 통해 고급 데이터 시각화를 구현.\n다양한 패키지 지원: R은 사용자 커뮤니티에서 제공하는 공식적으로 제공되는 수 천개의 패키지를 활용할 수 있다. 이러한 패키지들은 복잡한 분석 작업을 단순화하고, 데이터 처리, 분석, 시각화, 모형개발 등을 효과적으로 수행하는 데 도움을 준다.\n커뮤니티 지원: R은 한국을 포함한 전 세계적으로 활성화된 사용자 커뮤니티를 가지고 있어, 다양한 문제 해결에 큰 도움을 제공."
-  },
-  {
-    "objectID": "index.html#왜-r에-대한-학술연구가-필요한가",
-    "href": "index.html#왜-r에-대한-학술연구가-필요한가",
-    "title": "한국 R 사용자회",
-    "section": "왜 R에 대한 학술연구가 필요한가",
-    "text": "왜 R에 대한 학술연구가 필요한가\n\n통계적 방법론 개선: R은 다양한 통계적 방법론을 제공한다. 이러한 방법론에 대한 연구를 통해 연구 결과의 정확성과 신뢰성을 높일 수 있다.\n효율적인 도구 활용: R은 강력한 데이터 처리 및 분석 도구다. 이 도구를 어떻게 더 효율적이고 효과적으로 사용할 수 있는지에 대한 연구는 다양한 분야에서 매우 중요한다. 특히, 영어기반으로 되어 있어 한글번역, 매뉴얼 제공, 사용경험 공유 등 과학기술 발전을 위한 추가적인 노력이 필요하다.\n언어 효율성과 사용성 향상: R 프로그래밍 언어 자체에 대한 연구는 이 언어의 효율성과 사용성을 향상시키는 데 중요하다. 이를 통해 R 언어를 더 쉽게 사용하고 이해할 수 있는 방법을 개발하는 데 도움이 된다."
-  },
-  {
-    "objectID": "index.html#footnotes",
-    "href": "index.html#footnotes",
-    "title": "한국 R 사용자회",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nR (programming language)↩︎\n데이터 과학과 R 언어↩︎"
+    "text": "한국 소프트웨어 카펜트리는 소프트웨어 카펜트리 버젼 5.3 한국어로 번역이 되어 있으며 카펜트리 사단법인으로부터 자격증을 취득한 공인강사가 워크샵을 진행합니다. 2012년 1월 18일 이후 현재 시점 기준(2021-12-09) 한국을 비롯한 52개국에서 1,913회 워크샵이 있었습니다.\n\n\n\n\n\n소프트웨어 카펜트리에 대한 자세한 사항은 다음 웹사이트를 참고 바랍니다.\n\n소프트웨어 카펜트리\nThe Carpentries\n\nSoftware Carpentry\nData Carpentry\nLibrary Carpentry"
   }
 ]
