@@ -23,13 +23,13 @@ library(tidyverse)
 
 # Create a data frame with the table data
 table_data <- data.frame(
-  패키지명 = c(
+  pkg_name = c(
     "bitTomato", 
     "hsData", 
     "krvote", 
     "bitData"
   ),
-  패키지URL = c(
+  pkg_url = c(
     "https://github.com/bit2r/bitTomato",
     "https://r2bit.com/hsData/",
     "https://ai-carpentry.github.io/krvote/",
@@ -49,14 +49,14 @@ table_data <- data.frame(
   )
 )
 
-table_data$패키지명 <- sprintf('<a href="%s">%s</a>', table_data$패키지URL, table_data$패키지명)
+table_data$pkg_name <- str_glue("<a href={table_data$pkg_url}>{table_data$pkg_name}</a>")
 
 # Create the gt table
-table_data |> 
-  select(-패키지URL) |> 
+pkg_gt <- table_data |> 
+  select(-pkg_url) |> 
   gt() %>%
     cols_label(
-      패키지명 = "패키지명",
+      pkg_name = "패키지명",
       로고 = "로고",
       데이터_패키지_설명 = "데이터 패키지 설명"
     ) |> 
@@ -70,8 +70,10 @@ table_data |>
       ))
       }
     ) |> 
-    fmt_markdown(columns = c(패키지명, 데이터_패키지_설명)) |> 
+    fmt_markdown(columns = c(pkg_name, 데이터_패키지_설명)) |> 
     gt_theme_538() |> 
     cols_align(align = "center")
+
+pkg_gt
 ```
 

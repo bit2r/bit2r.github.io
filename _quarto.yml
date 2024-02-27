@@ -15,22 +15,19 @@ website:
   image: "fig/koRea_logo.png"
   google-analytics: "UA-229551680-1"
   page-footer:
-    left: "사단법인 한국 R 사용자회 [Quarto](https://quarto.org/) 로 제작"
+    left: |
+      사업자 등록번호: 735-82-003300 <br>
+      대표: 형환희, 전자우편: <a href="mailto:admin@r2bit.com">admin@r2bit.com</a> <br>
+      주소: 서울특별시 서초구 법원로3길 15, 4층 <br>
+      &copy; 2024 BitStat. All rights reserved.
+    right: |
+      본 웹사이트는 <a href="https://quarto.org/">쿼토(Quarto)</a>로 제작되었습니다.
+    
   navbar:
     background: "#447099"
     left:
       - href: index.qmd
         text: "Home"
-      - text: "소개"
-        menu:
-        - text: "한국 R 사용자회"
-          href: about.qmd
-        # - text: "기부금 모금/활용실적"
-        #   href: donation.qmd
-        - text: "**chatGPT**"
-          href: https://r2bit.com/chatGPT/
-        - text: "통계 패키지"
-          href: bitstat.qmd
       - text: "(공개)패키지"
         href: packages.qmd
       - text: "(전자)책"
@@ -39,59 +36,65 @@ website:
         href: data.qmd
       - href: blog.qmd     
         text: "Blog"
-      - text: "관련정보"
+      - text: "워크샵/발표자료"
         menu:
-          - href: https://use-r.kr/
-            text: "한국 R 컨퍼런스"
-          - href: https://www.meetup.com/seoul-r-meetup
-            text: "서울 R Meetup"
-          - href: https://tidyverse-korea.github.io/seoul-R/
-            text: "서울 R Meetup Archive"
-          - text: "----------------"
-          - href: https://r2bit.com/seoul-r/
-            text: "글로벌 R Meetup"
-          - href: https://quarto.org/
-            text: "쿼토(Quarto)"
-          - text: "경진대회"
-            href: contest.qmd
-          - text: "----------------"
-          - text: "에듀테크 개요"
-            href: edutech.qmd
-          - text: "데이터 카펜트리"
-            href: swc.qmd
-          - text: "자기주도학습"
-            href: learnr.qmd
-          - text: "교육"
-            href: training.qmd
-            
-    right: 
-      - href: https://r2bit.com
-        text: "R사용자회"
-      - icon: youtube
-        href: https://www.youtube.com/channel/UCW-epmIvjBEhhVXw_F0Nqbw
-      - icon: github
-        href:  https://github.com/bit2r/quarto
-      - icon: facebook
-        href: https://www.facebook.com/groups/tidyverse
-  sidebar: 
-    style: docked
-    contents: 
-      - section: "발표자료"
-        contents:
-          - href: https://r2bit.com/bitSlide/
-            text: "챗GPT 발표자료"
-      - section: "워크샵"
-        contents:
           - href: https://www.sharingkorea.net/gboard/
             text: "나눔국민운동본부"
           - href: https://r2bit.com/sen
             text: "서울교육청 - 혁신교육"            
           - href: https://choonghyunryu.github.io/workshop_lecture/
             text: "HCI 2024 (준비중)"
+          - text: "----------------"
+          - text: "챗GPT 발표자료"
+            href: https://r2bit.com/bitSlide/
+          - text: "**챗GPT**"
+            href: https://r2bit.com/chatGPT/
+
+      - text: "관련정보"
+        menu:
+          - text: "한국 R 컨퍼런스"
+            href: https://use-r.kr/
+          - text: "서울 R Meetup"
+            href: https://www.meetup.com/seoul-r-meetup
+          - text: "서울 R Meetup Archive"
+            href: https://tidyverse-korea.github.io/seoul-R/
+          - text: "----------------"
+          - text: "글로벌 R Meetup"
+            href: https://r2bit.com/seoul-r/
+          - text: "쿼토(Quarto)"
+            href: https://quarto.org/
+          - text: "경진대회"
+            href: contest.qmd
+          - text: "----------------"
+          - text: "소프트웨어 카펜트리"
+            href: swc.qmd
+          - text: "자기주도학습"
+            href: learnr.qmd
+
+    right: 
+      - icon: discord
+        href: https://discord.gg/2etGFvfk
+      - icon: github
+        href: https://github.com/bit2r
+      - icon: facebook
+        href: https://www.facebook.com/groups/tidyverse
+      - icon: youtube
+        href: https://www.youtube.com/channel/UCW-epmIvjBEhhVXw_F0Nqbw
+        
+  sidebar: 
+    style: docked
+    contents: 
       - section: "공익법인"
         contents:
-          - href: https://www.msit.go.kr/
-            text: "과학기술정보통신부"
+          - text: "한국 R 사용자회"
+            href: about.qmd
+          - text: "행동강령(CoC)"
+            href: coc.qmd
+          - text: "기부금 모금/활용실적"
+            href: donation.qmd            
+          - text: "과학기술정보통신부"
+            href: https://www.msit.go.kr/
+                
 format:
   html:
     theme: 

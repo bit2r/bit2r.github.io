@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ko-KR" xml:lang="ko-KR"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.288">
+<meta name="generator" content="quarto-1.5.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="description" content="외산 패키지에 의존하지 않고 R 개발자와 사용자의 작업 효율을 극대화하려는 목표 하에 다양한 분야별 핵심 패키지를 개발하고 있습니다. 데이터 과학 분야에서 CRAN에 등록된 dlookr과 alookr 패키지를 비롯하여, 오픈 통계 패키지 bitStat, 텍스트 자연어처리 bitNLP, 공간 데이터 bitSpatial, 보고서 자동화 bitReport, 출판 bitPublish 패키지가 특화된 기능을 제공하고 있다. 또한, 최근에 인기를 얻고 있는 생성형 AI 챗GPT를 손쉽게 활용할 수 있도록 bitGPT 패키지도 출시하하여 지속적 기여를 하고 있습니다.">
 
-<title>한국 R 사용자회 - 공개 패키지</title>
+<title>한국 R 사용자회 – 공개 패키지</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,18 +40,22 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
     "s"
   ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "일치 없음",
     "search-matching-documents-text": "일치된 문서",
@@ -60,6 +64,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "추가 검색결과",
     "search-more-matches-text": "추가 검색결과",
     "search-clear-button-title": "제거",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "취소",
     "search-submit-button-title": "검색",
     "search-label": "검색"
@@ -88,7 +93,7 @@ ga('send', {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
@@ -102,113 +107,115 @@ ga('send', {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./packages.html" aria-current="page"> 
+<span class="menu-text">(공개)패키지</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./book.html"> 
+<span class="menu-text">(전자)책</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./data.html"> 
+<span class="menu-text">데이터</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog.html"> 
+<span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">소개</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">워크샵/발표자료</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-">    
         <li>
-    <a class="dropdown-item" href="./about.html" rel="" target="">
- <span class="dropdown-text">한국 R 사용자회</span></a>
+    <a class="dropdown-item" href="https://www.sharingkorea.net/gboard/">
+ <span class="dropdown-text">나눔국민운동본부</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://r2bit.com/chatGPT/" rel="" target="">
- <span class="dropdown-text"><strong>chatGPT</strong></span></a>
+    <a class="dropdown-item" href="https://r2bit.com/sen">
+ <span class="dropdown-text">서울교육청 - 혁신교육</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./bitstat.html" rel="" target="">
- <span class="dropdown-text">통계 패키지</span></a>
+    <a class="dropdown-item" href="https://choonghyunryu.github.io/workshop_lecture/">
+ <span class="dropdown-text">HCI 2024 (준비중)</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="https://r2bit.com/bitSlide/">
+ <span class="dropdown-text">챗GPT 발표자료</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://r2bit.com/chatGPT/">
+ <span class="dropdown-text"><strong>챗GPT</strong></span></a>
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link active" href="./packages.html" rel="" target="" aria-current="page">
- <span class="menu-text">(공개)패키지</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./book.html" rel="" target="">
- <span class="menu-text">(전자)책</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./data.html" rel="" target="">
- <span class="menu-text">데이터</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./blog.html" rel="" target="">
- <span class="menu-text">Blog</span></a>
-  </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu--1" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu--1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">관련정보</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu--1">    
         <li>
-    <a class="dropdown-item" href="https://use-r.kr/" rel="" target="">
+    <a class="dropdown-item" href="https://use-r.kr/">
  <span class="dropdown-text">한국 R 컨퍼런스</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://www.meetup.com/seoul-r-meetup" rel="" target="">
+    <a class="dropdown-item" href="https://www.meetup.com/seoul-r-meetup">
  <span class="dropdown-text">서울 R Meetup</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://tidyverse-korea.github.io/seoul-R/" rel="" target="">
+    <a class="dropdown-item" href="https://tidyverse-korea.github.io/seoul-R/">
  <span class="dropdown-text">서울 R Meetup Archive</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
-    <a class="dropdown-item" href="https://r2bit.com/seoul-r/" rel="" target="">
+    <a class="dropdown-item" href="https://r2bit.com/seoul-r/">
  <span class="dropdown-text">글로벌 R Meetup</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://quarto.org/" rel="" target="">
+    <a class="dropdown-item" href="https://quarto.org/">
  <span class="dropdown-text">쿼토(Quarto)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./contest.html" rel="" target="">
+    <a class="dropdown-item" href="./contest.html">
  <span class="dropdown-text">경진대회</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
-    <a class="dropdown-item" href="./edutech.html" rel="" target="">
- <span class="dropdown-text">에듀테크 개요</span></a>
+    <a class="dropdown-item" href="./swc.html">
+ <span class="dropdown-text">소프트웨어 카펜트리</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./swc.html" rel="" target="">
- <span class="dropdown-text">데이터 카펜트리</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./learnr.html" rel="" target="">
+    <a class="dropdown-item" href="./learnr.html">
  <span class="dropdown-text">자기주도학습</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./training.html" rel="" target="">
- <span class="dropdown-text">교육</span></a>
   </li>  
     </ul>
   </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="https://r2bit.com" rel="" target="">
- <span class="menu-text">R사용자회</span></a>
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://discord.gg/2etGFvfk"> <i class="bi bi-discord" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.youtube.com/channel/UCW-epmIvjBEhhVXw_F0Nqbw" rel="" target=""><i class="bi bi-youtube" role="img">
+    <a class="nav-link" href="https://github.com/bit2r"> <i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/bit2r/quarto" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://www.facebook.com/groups/tidyverse"> <i class="bi bi-facebook" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.facebook.com/groups/tidyverse" rel="" target=""><i class="bi bi-facebook" role="img">
+    <a class="nav-link" href="https://www.youtube.com/channel/UCW-epmIvjBEhhVXw_F0Nqbw"> <i class="bi bi-youtube" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -218,11 +225,11 @@ ga('send', {
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="사이드바 전환" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="사이드바 전환" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">공개 패키지</li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="사이드바 전환" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="사이드바 전환" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
@@ -230,13 +237,13 @@ ga('send', {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text">발표자료</span></a>
+ <span class="menu-text">공익법인</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="토글 섹션">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -244,50 +251,22 @@ ga('send', {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://r2bit.com/bitSlide/" class="sidebar-item-text sidebar-link">
- <span class="menu-text">챗GPT 발표자료</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
- <span class="menu-text">워크샵</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="토글 섹션">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="https://www.sharingkorea.net/gboard/" class="sidebar-item-text sidebar-link">
- <span class="menu-text">나눔국민운동본부</span></a>
+  <a href="./about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">한국 R 사용자회</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://r2bit.com/sen" class="sidebar-item-text sidebar-link">
- <span class="menu-text">서울교육청 - 혁신교육</span></a>
+  <a href="./coc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">행동강령(CoC)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://choonghyunryu.github.io/workshop_lecture/" class="sidebar-item-text sidebar-link">
- <span class="menu-text">HCI 2024 (준비중)</span></a>
+  <a href="./donation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">기부금 모금/활용실적</span></a>
   </div>
 </li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
- <span class="menu-text">공익법인</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="토글 섹션">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://www.msit.go.kr/" class="sidebar-item-text sidebar-link">
@@ -299,10 +278,23 @@ ga('send', {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">목차</h2>
+   
+  <ul>
+  <li><a href="#오픈-통계-패키지" id="toc-오픈-통계-패키지" class="nav-link active" data-scroll-target="#오픈-통계-패키지">오픈 통계 패키지</a>
+  <ul class="collapse">
+  <li><a href="#프로젝트-개요" id="toc-프로젝트-개요" class="nav-link" data-scroll-target="#프로젝트-개요">프로젝트 개요</a></li>
+  <li><a href="#기대-효과" id="toc-기대-효과" class="nav-link" data-scroll-target="#기대-효과">기대 효과</a></li>
+  <li><a href="#bitstat-아키텍처" id="toc-bitstat-아키텍처" class="nav-link" data-scroll-target="#bitstat-아키텍처"><code>BitStat</code> 아키텍처</a></li>
+  <li><a href="#bitstat-시연" id="toc-bitstat-시연" class="nav-link" data-scroll-target="#bitstat-시연">BitStat 시연</a></li>
+  <li><a href="#참고자료" id="toc-참고자료" class="nav-link" data-scroll-target="#참고자료">참고자료</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -329,6 +321,7 @@ ga('send', {
 
 
 </header>
+
 
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
@@ -482,8 +475,75 @@ ga('send', {
 </div>
 </div>
 </div>
+<section id="오픈-통계-패키지" class="level1">
+<h1>오픈 통계 패키지</h1>
+<p>Data Literacy 역량 강화를 위해 컴퓨터를 처음 접하거나 데이터 작업이 처음인 대한민국 국민 누구나 쉽게 통계 패키지를 접할 수 있도록 하고 데이터 프로그래밍 역량도 수준별로 강화할 수 있도록 새로운 형태의 블록 통계 분석을 포함한 오픈 통계 패키지 개발을 목표로 합니다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="fig/bitstat.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="fig/bitstat.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="857"></a></p>
+</figure>
+</div>
+<section id="프로젝트-개요" class="level2">
+<h2 class="anchored" data-anchor-id="프로젝트-개요">프로젝트 개요</h2>
+<p>코로나19로 인해 심화된 <strong>디지털 불평등</strong>과 <strong>디지털 전환(Digital Transformation)</strong>으로 인해 시민의 필수 역량이 된 <strong>Data Literacy 역량 강화</strong>와 통계 대중화를 위해 오픈 통계 패키지 - 빛스탯(<code>BitStat</code>) - 를 개발하게 되었습니다. 데이터 리터러시 역량은 결국 디지털 불평등과 맥이 닿아 있고 이후 교육불평등, 취업불평등, 소득불평등, 자산불평등으로 이어져 사회 양극화를 심화시키는 주범으로 지목되고 있다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="fig/inequality.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="fig/inequality.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="457"></a></p>
+</figure>
+</div>
+</section>
+<section id="기대-효과" class="level2">
+<h2 class="anchored" data-anchor-id="기대-효과">기대 효과</h2>
+<ul>
+<li>기술적 측면
+<ul>
+<li>기하급수적으로 증가하는 데이터를 분석하여 가치를 창출하는 데이터 경제가 급부상하고 있으나, 인력 육성이나 도구는 선형적 증가 상황을 타개할 수 있는 혁신적인 기술이 요구됨</li>
+<li>폭발적으로 늘어나는 데이터를 일반국민도 활용할 수 있도록 하는 공개SW 통계 패키지는 다분야에서도 활용 가능한 Auto-X 기술을 기반으로 통계분석 생산성과 품질을 큰 폭을 높일 수 있는 혁신적인 기술임</li>
+</ul></li>
+<li>경제적, 산업적 측면
+<ul>
+<li>’22년 글로벌 빅데이터, 분석시장 규모는 전년 대비 27% 성장한 $2,740억 달러 규모 전망
+<ul>
+<li>IDC, “Revenue from big data and business analytics worldwide from 2015 to 2022”, 2021년 9월</li>
+</ul></li>
+<li>오픈 통계 패키지에 내장된 Auto-X 기술을 포함하여 공개SW로 개방하여 중소기업 및 데이터 기반 의사결정을 지원하고, 공개SW 활용 스타트업을 통한 신규 부가가치 창출</li>
+</ul></li>
+<li>사회적 측면
+<ul>
+<li>지속적인 공공데이터 확대, 데이터3법 통과에 따라 데이터가 늘어나고 데이터 경제가 급속도로 커짐에 따라 데이터 리터러시(Data Literacy) 능력과 디지털 불평등의 양극화가 확대됨에 따라 오픈통계 패키지 SW를 공급하고 서비스로 제공함으로써 사회통합과 통계 대중화에 기여할 수 있음</li>
+</ul></li>
+</ul>
+</section>
+<section id="bitstat-아키텍처" class="level2">
+<h2 class="anchored" data-anchor-id="bitstat-아키텍처"><code>BitStat</code> 아키텍처</h2>
+<p>데이터 통계 분석의 대중화를 위해서는 통계 비전공자 및 일반인이 쉽게 사용할 수 있는 통계 패키지 소프트웨어 개발 취지에 맞춰 데이터를 입력하면 이를 인식하여 통계 분석 후 산출물을 자동 생성할 수 있는 오픈소스 기반의 클라우드 통계 패키지 소프트웨어.</p>
+<p><a href="fig/bitstat_architecture.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="fig/bitstat_architecture.png" class="img-fluid"></a></p>
+</section>
+<section id="bitstat-시연" class="level2">
+<h2 class="anchored" data-anchor-id="bitstat-시연">BitStat 시연</h2>
+<p><code>BitStat</code> 통계 패키지는 지속적으로 개발을 이어나가고 있으며 2021년 12월 기준 개발버전을 업그레이드하여 2022년 7월 대대적인 업그레이드가 예정되어 있다.</p>
+<p><a href="fig/openStat_quick.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="fig/openStat_quick.gif" class="img-fluid"></a></p>
+</section>
+<section id="참고자료" class="level2">
+<h2 class="anchored" data-anchor-id="참고자료">참고자료</h2>
+<p><a href="fig/statistics-pkg.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="fig/statistics-pkg.jpeg" class="img-fluid" style="width:100.0%"></a></p>
+<ul>
+<li><a href="https://use-r.kr/">한국 R 컨퍼런스</a> 발표 - <a href="https://www.youtube.com/watch?v=XtGFpZJML2s">Digital Divide Solution - 오픈 통계 팩키지</a></li>
+<li><a href="https://docs.google.com/presentation/d/1v5gu8pTHMcRUei8II4eGB5367fGRZJlRzML9v0U9QdE/edit?usp=sharing">국산 오픈 통계 팩키지</a></li>
+<li><a href="https://contributionacademy.oopy.io/">2021 오픈소스 컨트리뷰션 아카데미 - Tidyverse Korea 데이터 과학</a></li>
+<li><a href="https://docs.google.com/presentation/d/1xXQ_DzjSaS24Kr7c_rqiaAr5GqP5gsEKujq5fQNy-MA/edit?usp=sharing">오픈 통계 팩키지 개발 안내서</a></li>
+<li><code>tidyblocks</code>
+<ul>
+<li>Tidy Blocks 한글화 지원 : <a href="https://github.com/tidyblocks/tidyblocks/" class="uri">https://github.com/tidyblocks/tidyblocks/</a></li>
+<li>Tidy Blocks 블록 통계 프로그래밍 안내서 한글 번역: <a href="https://tidyblocks.tech/en/guide/" class="uri">https://tidyblocks.tech/en/guide/</a></li>
+<li>한글 사례(Example) 추가 및 확대 : <a href="https://tidyblocks.tech/en/examples/" class="uri">https://tidyblocks.tech/en/examples/</a></li>
+</ul></li>
+<li><a href="https://mdis.kostat.go.kr/tong/index.html">통그라미</a></li>
+</ul>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -614,15 +674,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    if (id.startsWith('sec-')) {
+    if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        for (let i = 0; i < 2; i++) {
-          container.appendChild(note.children[i].cloneNode(true));
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
         }
         return container.innerHTML
       } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -631,7 +704,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      return note.innerHTML;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {
@@ -673,6 +754,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
       }
     }, function(instance) {
     });
@@ -744,6 +848,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -807,16 +937,41 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>사단법인 한국 R 사용자회 <a href="https://quarto.org/">Quarto</a> 로 제작</p>
+<p>사업자 등록번호: 735-82-003300 <br> 대표: 형환희, 전자우편: <a href="mailto:admin@r2bit.com">admin@r2bit.com</a> <br> 주소: 서울특별시 서초구 법원로3길 15, 4층 <br> © 2024 BitStat. All rights reserved.</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
-      &nbsp;
-    </div>
+<p>본 웹사이트는 <a href="https://quarto.org/">쿼토(Quarto)</a>로 제작되었습니다.</p>
+</div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","selector":".lightbox","descPosition":"bottom","openEffect":"zoom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 
