@@ -23,25 +23,25 @@ library(tidyverse)
 
 kyobo_list <- list(
   tibble(
-    title = "챗GPT 유닉스 쉘: 데이터 과학 자동화 도구",
+    title = "챗GPT 유닉스 쉘",
     image = "fig/챗GPT_유닉스쉘.jpg",
-    text = "<챗GPT 유닉스 쉘>은 쉘 프로그래밍부터 GPT 데이터 과학까지 다양한 주제를 체계적으로 다루고 있다.",
-    link = "https://github.com/bit2r/gpt-shell",
+    text = "<챗GPT 유닉스 쉘>은 생산성 자동화 도구를 다루고 있습니다.",
+    link = "https://r2bit.com/gpt-shell/",
     footer = "2023-08-15"
   ),
   tibble(
-    title = "챗GPT 데이터 과학",
-    image = "fig/챗GPT_템플릿.png",
-    text = "출간예정",
-    link = "https://github.com/bit2r/gpt-ds",
-    footer = "2023-09-15"
+    title = "챗GPT SQL",
+    image = "fig/sql_cover.jpg",
+    text = "<챗GPT SQL>은 SQL을 넘어 챗GPT와 떠나는 데이터 과학 여정을 담고 있습니다.",
+    link = "https://r2bit.com/gpt-sql",
+    footer = "2024-02-17"
   ),
   tibble(
-    title = "챗GPT 데이터 통계",
-    image = "fig/챗GPT_템플릿.png",
-    text = "출간예정",
-    link = "https://github.com/bit2r/gpt-stat",
-    footer = "2023-10-15"
+    title = "챗GPT 쿼토",
+    image = "fig/cover_quarto.jpg",
+    text = "인공지능 시대 과학기술 저작 도구를 다루고 있습니다",
+    link = "https://r2bit.com/gpt-quarto/",
+    footer = "2024-03-01"
   ),
   tibble(
     title = "챗GPT 데이터 디지털 글쓰기",
@@ -51,10 +51,10 @@ kyobo_list <- list(
     footer = "2023-11-15"
   ),
   tibble(
-    title = "챗GPT 데이터베이스(SQL)",
+    title = "챗GPT 확률통계",
     image = "fig/챗GPT_템플릿.png",
     text = "출간예정",
-    link = "https://github.com/bit2r/gpt-sql",
+    link = "https://github.com/bit2r/gpt-stat",
     footer = "2023-12-15"
   ),
   tibble(
@@ -83,10 +83,9 @@ kyobo_tbl %>%
 
 ```
 
+<br>
 
 - "챗GPT 유닉스 쉘: 데이터 과학 자동화 도구"
-  - 📚 종이책: [교보문고 구매](https://product.kyobobook.co.kr/detail/S000208801484)
-  - 📱 전자책: [교보문고 구매](https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000005358063)
   - 뉴스기사: [챗GPT가 던진 새 가능성, 데이터 과학 분야 통해 미리 살펴보기](https://omn.kr/25f0i)
 
 ## 오픈 전자책
