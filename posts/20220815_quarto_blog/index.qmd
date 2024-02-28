@@ -3,29 +3,12 @@ title: "Quarto 블로그"
 date: "2022-08-15" # 날짜 설정: now, last-modified
 categories: ['Quarto', '블로그']
 description: 'Quarto 블로그 제작방법'
-execute: 
-  message: false
-  warning: false
-editor_options: 
-  chunk_output_type: console
 author:
   - name: 이광춘
     url: https://www.linkedin.com/in/kwangchunlee/
     affiliation: 한국 R 사용자회
     affiliation-url: https://github.com/bit2r
 title-block-banner: true
-#title-block-banner: "#562457"
-format:
-  html:
-    theme: flatly
-    code-fold: true
-    toc: true
-    toc-depth: 2
-    toc-title: 목차
-    number-sections: true
-    highlight-style: github    
-    self-contained: true
-link-citations: true
 ---
 
 # 블로그를 하는 이유

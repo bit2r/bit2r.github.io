@@ -15,7 +15,7 @@ toc-depth: 3
 
 page-layout: article
 
-listing:
-  contents: posts
-  sort: "date desc"
-  type: table
+# listing:
+#   contents: posts
+#   sort: "date desc"
+#   type: table

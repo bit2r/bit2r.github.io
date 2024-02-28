@@ -12,7 +12,12 @@ knitr::opts_chunk$set(echo = FALSE)
 ## 챗GPT 출판
 
 :::{.panel-tabset}
-### 챗GPT 유닉스 쉘
+### 챗GPT 시리즈
+
+![](fig/chatGPT_series.png)
+
+
+### 유닉스 쉘
 
 ::: {#chatGPT-shell layout-ncol="2"}
 ![](fig/챗GPT_유닉스쉘.jpg){fig-align="center" width="250"}
@@ -31,7 +36,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 📰  뉴스기사: [챗GPT가 던진 새 가능성, 데이터 과학 분야 통해 미리 살펴보기](https://omn.kr/25f0i)
 
-### 챗GPT SQL
+### SQL
 
 ::: {#chatGPT-sql layout-ncol="2"}
 ![](fig/sql_cover.jpg){fig-align="center" width="250"}
@@ -48,7 +53,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 💻 소스코드: <https://bit.ly/3wrgeuP>
 
-### 챗GPT 쿼토
+### 쿼토
 
 ::: {#chatGPT-sql layout-ncol="2"}
 ![](fig/cover_quarto.jpg){fig-align="center" width="250"}
