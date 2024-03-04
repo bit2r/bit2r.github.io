@@ -90,8 +90,10 @@ website:
             href: about.qmd
           - text: "행동강령(CoC)"
             href: coc.qmd
-          - text: "기부금 모금/활용실적"
+          - text: "후원 참여 및 기부 안내"
             href: donation.qmd            
+          - text: "기부금 모금/활용실적"
+            href: records.qmd
           - text: "과학기술정보통신부"
             href: https://www.msit.go.kr/
                 

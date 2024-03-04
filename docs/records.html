@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="외산 패키지에 의존하지 않고 R 개발자와 사용자의 작업 효율을 극대화하려는 목표 하에 다양한 분야별 핵심 패키지를 개발하고 있습니다. 데이터 과학 분야에서 CRAN에 등록된 dlookr과 alookr 패키지를 비롯하여, 오픈 통계 패키지 bitStat, 텍스트 자연어처리 bitNLP, 공간 데이터 bitSpatial, 보고서 자동화 bitReport, 출판 bitPublish 패키지가 특화된 기능을 제공하고 있다. 또한, 최근에 인기를 얻고 있는 생성형 AI 챗GPT를 손쉽게 활용할 수 있도록 bitGPT 패키지도 출시하하여 지속적 기여를 하고 있습니다.">
+<meta name="description" content=" 한국 알(R) 사용자회 2022년 이후 기부금 모금 및 활용실적을 공개합니다.">
 
-<title>한국 R 사용자회 – 공개 패키지</title>
+<title>한국 R 사용자회 – 기부금 모금/활용실적</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,9 +40,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -86,7 +83,6 @@ ga('send', {
 </script>
 
 
-<link rel="stylesheet" href="strapless.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -111,7 +107,7 @@ ga('send', {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./packages.html" aria-current="page"> 
+    <a class="nav-link" href="./packages.html"> 
 <span class="menu-text">(공개)패키지</span></a>
   </li>  
   <li class="nav-item">
@@ -228,7 +224,7 @@ ga('send', {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="사이드바 전환" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">공개 패키지</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./about.html">공익법인</a></li><li class="breadcrumb-item"><a href="./records.html">기부금 모금/활용실적</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="사이드바 전환" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -264,6 +260,12 @@ ga('send', {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./donation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">후원 참여 및 기부 안내</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./records.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">기부금 모금/활용실적</span></a>
   </div>
 </li>
@@ -280,33 +282,20 @@ ga('send', {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">목차</h2>
-   
-  <ul>
-  <li><a href="#오픈-통계-패키지" id="toc-오픈-통계-패키지" class="nav-link active" data-scroll-target="#오픈-통계-패키지">오픈 통계 패키지</a>
-  <ul class="collapse">
-  <li><a href="#프로젝트-개요" id="toc-프로젝트-개요" class="nav-link" data-scroll-target="#프로젝트-개요">프로젝트 개요</a></li>
-  <li><a href="#기대-효과" id="toc-기대-효과" class="nav-link" data-scroll-target="#기대-효과">기대 효과</a></li>
-  <li><a href="#bitstat-아키텍처" id="toc-bitstat-아키텍처" class="nav-link" data-scroll-target="#bitstat-아키텍처"><code>BitStat</code> 아키텍처</a></li>
-  <li><a href="#bitstat-시연" id="toc-bitstat-시연" class="nav-link" data-scroll-target="#bitstat-시연">BitStat 시연</a></li>
-  <li><a href="#참고자료" id="toc-참고자료" class="nav-link" data-scroll-target="#참고자료">참고자료</a></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./about.html">공익법인</a></li><li class="breadcrumb-item"><a href="./records.html">기부금 모금/활용실적</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">공개 패키지</h1>
+<h1 class="title">기부금 모금/활용실적</h1>
 </div>
 
 <div>
   <div class="description">
-    <p>외산 패키지에 의존하지 않고 R 개발자와 사용자의 작업 효율을 극대화하려는 목표 하에 다양한 분야별 핵심 패키지를 개발하고 있습니다. 데이터 과학 분야에서 CRAN에 등록된 <code>dlookr</code>과 <code>alookr</code> 패키지를 비롯하여, 오픈 통계 패키지 <code>bitStat</code>, 텍스트 자연어처리 <code>bitNLP</code>, 공간 데이터 <code>bitSpatial</code>, 보고서 자동화 <code>bitReport</code>, 출판 <code>bitPublish</code> 패키지가 특화된 기능을 제공하고 있다. 또한, 최근에 인기를 얻고 있는 생성형 AI 챗GPT를 손쉽게 활용할 수 있도록 <code>bitGPT</code> 패키지도 출시하하여 지속적 기여를 하고 있습니다.</p>
+    <p><br>한국 알(R) 사용자회 2022년 이후 기부금 모금 및 활용실적을 공개합니다.</p>
   </div>
 </div>
 
@@ -323,228 +312,30 @@ ga('send', {
 </header>
 
 
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div>
-<div class="row p-0 row-cols-1 row-cols-md-2 row-cols-lg-3" style="margin-left: -.2rem; margin-right: -.2rem; margin-top: 1rem; margin-bottom: 1rem; ">
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
-<div class="card-body m-0 p-0 col-12" style="visibility: visible; border-style:solid; border-color:inherits; border-width:1px; background-color: inherits;border-radius: .6rem .6rem 0 0 ;">
-<div class="row no-gutters h-100 border-0" style="border-radius: .6rem .6rem 0 0 ;">
-<div class="col-7 h-100">
-<a href="https://github.com/bit2r/bitReport">
-<h5 class="card-title my-auto px-3 pt-3 pb-1 anchored">bitReport</h5>
-</a>
-<p class="card-text my-auto px-3 pb-3 pt-1">휴먼 리소스 낭비를 없애는 보고서 자동화 도구</p>
-</div>
-<div class="col-5" style="border-radius: 0 .6rem 0 0 ;">
-<a href="https://github.com/bit2r/bitReport" style="color: inherit;">
-<img src="fig/bitReport_logo.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:1px; margin-left: 1px;margin-right: -1px;margin-top: -1px;margin-bottom: -1px;border-radius: 0 .6rem 0 0 ;">
-</a>
-</div>
-</div>
-</div>
-<div class="card-footer small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:0 1px 1px 1px; border-radius: 0 0 .6rem .6rem ;">2023-04-25</div>
-</div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
-<div class="card-body m-0 p-0 col-12" style="visibility: visible; border-style:solid; border-color:inherits; border-width:1px; background-color: inherits;border-radius: .6rem .6rem 0 0 ;">
-<div class="row no-gutters h-100 border-0" style="border-radius: .6rem .6rem 0 0 ;">
-<div class="col-7 h-100">
-<a href="https://github.com/bit2r/bitPublish">
-<h5 class="card-title my-auto px-3 pt-3 pb-1 anchored">bitPublish</h5>
-</a>
-<p class="card-text my-auto px-3 pb-3 pt-1">XeLaTeX 기반으로 한글 책을 PDF 파일로 조판</p>
-</div>
-<div class="col-5" style="border-radius: 0 .6rem 0 0 ;">
-<a href="https://github.com/bit2r/bitPublish" style="color: inherit;">
-<img src="fig/bitPublish_logo.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:1px; margin-left: 1px;margin-right: -1px;margin-top: -1px;margin-bottom: -1px;border-radius: 0 .6rem 0 0 ;">
-</a>
-</div>
-</div>
-</div>
-<div class="card-footer small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:0 1px 1px 1px; border-radius: 0 0 .6rem .6rem ;">2023-04-25</div>
-</div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
-<div class="card-body m-0 p-0 col-12" style="visibility: visible; border-style:solid; border-color:inherits; border-width:1px; background-color: inherits;border-radius: .6rem .6rem 0 0 ;">
-<div class="row no-gutters h-100 border-0" style="border-radius: .6rem .6rem 0 0 ;">
-<div class="col-7 h-100">
-<a href="https://github.com/bit2r/bitGPT">
-<h5 class="card-title my-auto px-3 pt-3 pb-1 anchored">bitGPT</h5>
-</a>
-<p class="card-text my-auto px-3 pb-3 pt-1">챗GPT를 보다 쉽게 사용할 수 있는, 그리고 한국어를 지원하는 bitGPT</p>
-</div>
-<div class="col-5" style="border-radius: 0 .6rem 0 0 ;">
-<a href="https://github.com/bit2r/bitGPT" style="color: inherit;">
-<img src="fig/bitGPT.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:1px; margin-left: 1px;margin-right: -1px;margin-top: -1px;margin-bottom: -1px;border-radius: 0 .6rem 0 0 ;">
-</a>
-</div>
-</div>
-</div>
-<div class="card-footer small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:0 1px 1px 1px; border-radius: 0 0 .6rem .6rem ;">2023-02-28</div>
-</div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
-<div class="card-body m-0 p-0 col-12" style="visibility: visible; border-style:solid; border-color:inherits; border-width:1px; background-color: inherits;border-radius: .6rem .6rem 0 0 ;">
-<div class="row no-gutters h-100 border-0" style="border-radius: .6rem .6rem 0 0 ;">
-<div class="col-7 h-100">
-<a href="https://github.com/bit2r/bitNLP">
-<h5 class="card-title my-auto px-3 pt-3 pb-1 anchored">bitNLP</h5>
-</a>
-<p class="card-text my-auto px-3 pb-3 pt-1">텍스트 데이터를 탐색하고, 자연어 처리 및 형태소분석, 감성분석을 수행하는, 한글 텍스트 분석 도구모음</p>
-</div>
-<div class="col-5" style="border-radius: 0 .6rem 0 0 ;">
-<a href="https://github.com/bit2r/bitNLP" style="color: inherit;">
-<img src="fig/bitNLP_logo.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:1px; margin-left: 1px;margin-right: -1px;margin-top: -1px;margin-bottom: -1px;border-radius: 0 .6rem 0 0 ;">
-</a>
-</div>
-</div>
-</div>
-<div class="card-footer small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:0 1px 1px 1px; border-radius: 0 0 .6rem .6rem ;">2022-12-18</div>
-</div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
-<div class="card-body m-0 p-0 col-12" style="visibility: visible; border-style:solid; border-color:inherits; border-width:1px; background-color: inherits;border-radius: .6rem .6rem 0 0 ;">
-<div class="row no-gutters h-100 border-0" style="border-radius: .6rem .6rem 0 0 ;">
-<div class="col-7 h-100">
-<a href="https://github.com/bit2r/bitSpatial">
-<h5 class="card-title my-auto px-3 pt-3 pb-1 anchored">bitSpatial</h5>
-</a>
-<p class="card-text my-auto px-3 pb-3 pt-1">공간정보 데이터를 지탱하는 기본 패키지</p>
-</div>
-<div class="col-5" style="border-radius: 0 .6rem 0 0 ;">
-<a href="https://github.com/bit2r/bitSpatial" style="color: inherit;">
-<img src="fig/bitSpatial_logo.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:1px; margin-left: 1px;margin-right: -1px;margin-top: -1px;margin-bottom: -1px;border-radius: 0 .6rem 0 0 ;">
-</a>
-</div>
-</div>
-</div>
-<div class="card-footer small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:0 1px 1px 1px; border-radius: 0 0 .6rem .6rem ;">2023-01-23</div>
-</div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
-<div class="card-body m-0 p-0 col-12" style="visibility: visible; border-style:solid; border-color:inherits; border-width:1px; background-color: inherits;border-radius: .6rem .6rem 0 0 ;">
-<div class="row no-gutters h-100 border-0" style="border-radius: .6rem .6rem 0 0 ;">
-<div class="col-7 h-100">
-<a href="https://cran.r-project.org/web/packages/dlookr/index.html">
-<h5 class="card-title my-auto px-3 pt-3 pb-1 anchored">dlookr</h5>
-</a>
-<p class="card-text my-auto px-3 pb-3 pt-1">데이터셋의 품질 진단, 탐색적 데이터 분석(EDA) 및 데이터의 변환을 지원하는 데이터분석 도구</p>
-</div>
-<div class="col-5" style="border-radius: 0 .6rem 0 0 ;">
-<a href="https://cran.r-project.org/web/packages/dlookr/index.html" style="color: inherit;">
-<img src="fig/dlookr_logo.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:1px; margin-left: 1px;margin-right: -1px;margin-top: -1px;margin-bottom: -1px;border-radius: 0 .6rem 0 0 ;">
-</a>
-</div>
-</div>
-</div>
-<div class="card-footer small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:0 1px 1px 1px; border-radius: 0 0 .6rem .6rem ;">2018-04-27</div>
-</div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
-<div class="card-body m-0 p-0 col-12" style="visibility: visible; border-style:solid; border-color:inherits; border-width:1px; background-color: inherits;border-radius: .6rem .6rem 0 0 ;">
-<div class="row no-gutters h-100 border-0" style="border-radius: .6rem .6rem 0 0 ;">
-<div class="col-7 h-100">
-<a href="https://cran.r-project.org/web/packages/alookr/index.html">
-<h5 class="card-title my-auto px-3 pt-3 pb-1 anchored">alookr</h5>
-</a>
-<p class="card-text my-auto px-3 pb-3 pt-1">이진 분류 모델 개발의 전체 프로세스를 지원하는 데이터분석 도구</p>
-</div>
-<div class="col-5" style="border-radius: 0 .6rem 0 0 ;">
-<a href="https://cran.r-project.org/web/packages/alookr/index.html" style="color: inherit;">
-<img src="fig/alookr_logo.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:1px; margin-left: 1px;margin-right: -1px;margin-top: -1px;margin-bottom: -1px;border-radius: 0 .6rem 0 0 ;">
-</a>
-</div>
-</div>
-</div>
-<div class="card-footer small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:0 1px 1px 1px; border-radius: 0 0 .6rem .6rem ;">2020-03-20</div>
-</div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
-<div class="card-body m-0 p-0 col-12" style="visibility: visible; border-style:solid; border-color:inherits; border-width:1px; background-color: inherits;border-radius: .6rem .6rem 0 0 ;">
-<div class="row no-gutters h-100 border-0" style="border-radius: .6rem .6rem 0 0 ;">
-<div class="col-7 h-100">
-<a href="https://github.com/bit2r/BitStat">
-<h5 class="card-title my-auto px-3 pt-3 pb-1 anchored">bitStat</h5>
-</a>
-<p class="card-text my-auto px-3 pb-3 pt-1">오픈 통계 패키지(BitStat)</p>
-</div>
-<div class="col-5" style="border-radius: 0 .6rem 0 0 ;">
-<a href="https://github.com/bit2r/BitStat" style="color: inherit;">
-<img src="fig/bitstat.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:1px; margin-left: 1px;margin-right: -1px;margin-top: -1px;margin-bottom: -1px;border-radius: 0 .6rem 0 0 ;">
-</a>
-</div>
-</div>
-</div>
-<div class="card-footer small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:0 1px 1px 1px; border-radius: 0 0 .6rem .6rem ;">2021-09-18</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<p><br></p>
-<section id="오픈-통계-패키지" class="level1">
-<h1>오픈 통계 패키지</h1>
-<p>Data Literacy 역량 강화를 위해 컴퓨터를 처음 접하거나 데이터 작업이 처음인 대한민국 국민 누구나 쉽게 통계 패키지를 접할 수 있도록 하고 데이터 프로그래밍 역량도 수준별로 강화할 수 있도록 새로운 형태의 블록 통계 분석을 포함한 오픈 통계 패키지 개발을 목표로 합니다.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="fig/bitstat.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="fig/bitstat.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="857"></a></p>
-</figure>
-</div>
-<section id="프로젝트-개요" class="level2">
-<h2 class="anchored" data-anchor-id="프로젝트-개요">프로젝트 개요</h2>
-<p>코로나19로 인해 심화된 <strong>디지털 불평등</strong>과 <strong>디지털 전환(Digital Transformation)</strong>으로 인해 시민의 필수 역량이 된 <strong>Data Literacy 역량 강화</strong>와 통계 대중화를 위해 오픈 통계 패키지 - 빛스탯(<code>BitStat</code>) - 를 개발하게 되었습니다. 데이터 리터러시 역량은 결국 디지털 불평등과 맥이 닿아 있고 이후 교육불평등, 취업불평등, 소득불평등, 자산불평등으로 이어져 사회 양극화를 심화시키는 주범으로 지목되고 있다.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="fig/inequality.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="fig/inequality.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="457"></a></p>
-</figure>
-</div>
-</section>
-<section id="기대-효과" class="level2">
-<h2 class="anchored" data-anchor-id="기대-효과">기대 효과</h2>
-<ul>
-<li>기술적 측면
-<ul>
-<li>기하급수적으로 증가하는 데이터를 분석하여 가치를 창출하는 데이터 경제가 급부상하고 있으나, 인력 육성이나 도구는 선형적 증가 상황을 타개할 수 있는 혁신적인 기술이 요구됨</li>
-<li>폭발적으로 늘어나는 데이터를 일반국민도 활용할 수 있도록 하는 공개SW 통계 패키지는 다분야에서도 활용 가능한 Auto-X 기술을 기반으로 통계분석 생산성과 품질을 큰 폭을 높일 수 있는 혁신적인 기술임</li>
-</ul></li>
-<li>경제적, 산업적 측면
-<ul>
-<li>’22년 글로벌 빅데이터, 분석시장 규모는 전년 대비 27% 성장한 $2,740억 달러 규모 전망
-<ul>
-<li>IDC, “Revenue from big data and business analytics worldwide from 2015 to 2022”, 2021년 9월</li>
-</ul></li>
-<li>오픈 통계 패키지에 내장된 Auto-X 기술을 포함하여 공개SW로 개방하여 중소기업 및 데이터 기반 의사결정을 지원하고, 공개SW 활용 스타트업을 통한 신규 부가가치 창출</li>
-</ul></li>
-<li>사회적 측면
-<ul>
-<li>지속적인 공공데이터 확대, 데이터3법 통과에 따라 데이터가 늘어나고 데이터 경제가 급속도로 커짐에 따라 데이터 리터러시(Data Literacy) 능력과 디지털 불평등의 양극화가 확대됨에 따라 오픈통계 패키지 SW를 공급하고 서비스로 제공함으로써 사회통합과 통계 대중화에 기여할 수 있음</li>
-</ul></li>
-</ul>
-</section>
-<section id="bitstat-아키텍처" class="level2">
-<h2 class="anchored" data-anchor-id="bitstat-아키텍처"><code>BitStat</code> 아키텍처</h2>
-<p>데이터 통계 분석의 대중화를 위해서는 통계 비전공자 및 일반인이 쉽게 사용할 수 있는 통계 패키지 소프트웨어 개발 취지에 맞춰 데이터를 입력하면 이를 인식하여 통계 분석 후 산출물을 자동 생성할 수 있는 오픈소스 기반의 클라우드 통계 패키지 소프트웨어.</p>
-<p><a href="fig/bitstat_architecture.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="fig/bitstat_architecture.png" class="img-fluid"></a></p>
-</section>
-<section id="bitstat-시연" class="level2">
-<h2 class="anchored" data-anchor-id="bitstat-시연">BitStat 시연</h2>
-<p><code>BitStat</code> 통계 패키지는 지속적으로 개발을 이어나가고 있으며 2021년 12월 기준 개발버전을 업그레이드하여 2022년 7월 대대적인 업그레이드가 예정되어 있다.</p>
-<p><a href="fig/openStat_quick.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="fig/openStat_quick.gif" class="img-fluid"></a></p>
-</section>
-<section id="참고자료" class="level2">
-<h2 class="anchored" data-anchor-id="참고자료">참고자료</h2>
-<p><a href="fig/statistics-pkg.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="fig/statistics-pkg.jpeg" class="img-fluid" style="width:100.0%"></a></p>
-<ul>
-<li><a href="https://use-r.kr/">한국 R 컨퍼런스</a> 발표 - <a href="https://www.youtube.com/watch?v=XtGFpZJML2s">Digital Divide Solution - 오픈 통계 팩키지</a></li>
-<li><a href="https://docs.google.com/presentation/d/1v5gu8pTHMcRUei8II4eGB5367fGRZJlRzML9v0U9QdE/edit?usp=sharing">국산 오픈 통계 팩키지</a></li>
-<li><a href="https://contributionacademy.oopy.io/">2021 오픈소스 컨트리뷰션 아카데미 - Tidyverse Korea 데이터 과학</a></li>
-<li><a href="https://docs.google.com/presentation/d/1xXQ_DzjSaS24Kr7c_rqiaAr5GqP5gsEKujq5fQNy-MA/edit?usp=sharing">오픈 통계 팩키지 개발 안내서</a></li>
-<li><code>tidyblocks</code>
-<ul>
-<li>Tidy Blocks 한글화 지원 : <a href="https://github.com/tidyblocks/tidyblocks/" class="uri">https://github.com/tidyblocks/tidyblocks/</a></li>
-<li>Tidy Blocks 블록 통계 프로그래밍 안내서 한글 번역: <a href="https://tidyblocks.tech/en/guide/" class="uri">https://tidyblocks.tech/en/guide/</a></li>
-<li>한글 사례(Example) 추가 및 확대 : <a href="https://tidyblocks.tech/en/examples/" class="uri">https://tidyblocks.tech/en/examples/</a></li>
-</ul></li>
-<li><a href="https://mdis.kostat.go.kr/tong/index.html">통그라미</a></li>
-</ul>
+<p><br> <br></p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">연도</th>
+<th style="text-align: center;">기부금 모금 활용실적</th>
+<th style="text-align: center;">파일 다운로드</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">2022년</td>
+<td style="text-align: center;">2022년 자료 다운</td>
+<td style="text-align: center;"><a href="data/[2022] 기부금 모금액 및 활용실적.pdf">다운로드</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2023년</td>
+<td style="text-align: center;">2023년 자료 다운</td>
+<td style="text-align: center;">준비중</td>
+</tr>
+</tbody>
+</table>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -948,31 +739,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","loop":false});
-window.onload = () => {
-  lightboxQuarto.on('slide_before_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    const href = trigger.getAttribute('href');
-    if (href !== null) {
-      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-      if (imgEl !== null) {
-        const srcAttr = imgEl.getAttribute("src");
-        if (srcAttr && srcAttr.startsWith("data:")) {
-          slideConfig.href = srcAttr;
-        }
-      }
-    } 
-  });
-
-  lightboxQuarto.on('slide_after_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    if (window.Quarto?.typesetMath) {
-      window.Quarto.typesetMath(slideNode);
-    }
-  });
-
-};
-          </script>
 
 
 
