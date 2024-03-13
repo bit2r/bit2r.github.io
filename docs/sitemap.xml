@@ -1,55 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://r2bit.com/donation.html</loc>
-    <lastmod>2024-03-04T04:13:02.044Z</lastmod>
+    <loc>https://r2bit.com/swc.html</loc>
+    <lastmod>2023-02-17T13:38:02.675Z</lastmod>
   </url>
   <url>
-    <loc>https://r2bit.com/about.html</loc>
-    <lastmod>2023-11-23T13:01:22.438Z</lastmod>
-  </url>
-  <url>
-    <loc>https://r2bit.com/index.html</loc>
-    <lastmod>2024-03-04T04:07:07.102Z</lastmod>
-  </url>
-  <url>
-    <loc>https://r2bit.com/data.html</loc>
-    <lastmod>2024-02-27T02:07:34.878Z</lastmod>
-  </url>
-  <url>
-    <loc>https://r2bit.com/packages.html</loc>
-    <lastmod>2024-03-04T03:46:57.302Z</lastmod>
-  </url>
-  <url>
-    <loc>https://r2bit.com/blog.html</loc>
-    <lastmod>2023-02-17T13:38:02.118Z</lastmod>
-  </url>
-  <url>
-    <loc>https://r2bit.com/posts/20220815_quarto_blog/index.html</loc>
-    <lastmod>2024-02-28T06:24:21.162Z</lastmod>
-  </url>
-  <url>
-    <loc>https://r2bit.com/slideshow/202210-hongik/title-slide.html</loc>
-    <lastmod>2023-02-17T13:38:02.674Z</lastmod>
-  </url>
-  <url>
-    <loc>https://r2bit.com/slideshow/202210-hongik/problem.html</loc>
-    <lastmod>2023-02-17T13:38:02.673Z</lastmod>
-  </url>
-  <url>
-    <loc>https://r2bit.com/slideshow/202210-hongik/end-slide.html</loc>
-    <lastmod>2023-02-17T13:38:02.673Z</lastmod>
-  </url>
-  <url>
-    <loc>https://r2bit.com/posts/20220831_low_code_shiny/index.html</loc>
-    <lastmod>2023-09-06T08:25:26.614Z</lastmod>
-  </url>
-  <url>
-    <loc>https://r2bit.com/posts/20220816_quarto_rr/index.html</loc>
-    <lastmod>2023-09-06T08:25:18.389Z</lastmod>
-  </url>
-  <url>
-    <loc>https://r2bit.com/slideshow/202210-hongik/data-science.html</loc>
+    <loc>https://r2bit.com/slideshow/202210-hongik/solution.html</loc>
     <lastmod>2023-02-17T13:38:02.673Z</lastmod>
   </url>
   <url>
@@ -57,19 +13,75 @@
     <lastmod>2023-02-17T13:38:02.673Z</lastmod>
   </url>
   <url>
-    <loc>https://r2bit.com/slideshow/202210-hongik/solution.html</loc>
+    <loc>https://r2bit.com/slideshow/202210-hongik/data-science.html</loc>
     <lastmod>2023-02-17T13:38:02.673Z</lastmod>
   </url>
   <url>
-    <loc>https://r2bit.com/swc.html</loc>
-    <lastmod>2023-02-17T13:38:02.675Z</lastmod>
+    <loc>https://r2bit.com/posts/20220831_low_code_shiny/index.html</loc>
+    <lastmod>2023-09-06T08:25:26.614Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r2bit.com/posts/20220815_quarto_blog/index.html</loc>
+    <lastmod>2024-02-28T06:24:21.162Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r2bit.com/learnr.html</loc>
+    <lastmod>2023-02-17T13:38:02.668Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r2bit.com/donation.html</loc>
+    <lastmod>2024-03-04T04:13:02.044Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r2bit.com/contest.html</loc>
+    <lastmod>2023-02-17T13:38:02.118Z</lastmod>
   </url>
   <url>
     <loc>https://r2bit.com/book.html</loc>
     <lastmod>2024-02-28T07:06:07.455Z</lastmod>
   </url>
   <url>
+    <loc>https://r2bit.com/about.html</loc>
+    <lastmod>2023-11-23T13:01:22.438Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r2bit.com/blog.html</loc>
+    <lastmod>2023-02-17T13:38:02.118Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r2bit.com/coc.html</loc>
+    <lastmod>2024-02-27T01:45:47.595Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r2bit.com/data.html</loc>
+    <lastmod>2024-02-27T02:07:34.878Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r2bit.com/index.html</loc>
+    <lastmod>2024-03-13T05:47:04.724Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r2bit.com/packages.html</loc>
+    <lastmod>2024-03-04T03:46:57.302Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r2bit.com/posts/20220816_quarto_rr/index.html</loc>
+    <lastmod>2023-09-06T08:25:18.389Z</lastmod>
+  </url>
+  <url>
     <loc>https://r2bit.com/records.html</loc>
     <lastmod>2024-03-04T04:09:37.468Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r2bit.com/slideshow/202210-hongik/end-slide.html</loc>
+    <lastmod>2023-02-17T13:38:02.673Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r2bit.com/slideshow/202210-hongik/problem.html</loc>
+    <lastmod>2023-02-17T13:38:02.673Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r2bit.com/slideshow/202210-hongik/title-slide.html</loc>
+    <lastmod>2023-02-17T13:38:02.674Z</lastmod>
   </url>
 </urlset>
