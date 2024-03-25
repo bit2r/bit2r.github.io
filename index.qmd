@@ -12,9 +12,9 @@ knitr::opts_chunk$set(echo = FALSE)
 ## 챗GPT 출판
 
 :::{.panel-tabset}
-### 챗GPT 시리즈
+### 챗GPT 시리즈 
 
-![](fig/chatGPT_series.png)
+![](fig/chatGPT_series2.png)
 
 ### **코딩**
 
@@ -26,9 +26,9 @@ knitr::opts_chunk$set(echo = FALSE)
 :::
 
 
-📘 교보 POD 종이책: 공개 예정
+📘 교보 POD 종이책: [https://bit.ly/4a8v1JS](https://bit.ly/4a8v1JS)
 
-📗 교보 전자책: 공개 예정
+📗 교보 전자책: [https://bit.ly/4auasHU](https://bit.ly/4auasHU) 
 
 🌐 웹사이트: [https://bit.ly/48V8u1T](https://bit.ly/48V8u1T)
 
