@@ -14,15 +14,34 @@ knitr::opts_chunk$set(echo = FALSE)
 :::{.panel-tabset}
 ### 챗GPT 시리즈 
 
-![](fig/chatGPT_series2.png)
+![](fig/chatGPT_series3.png){fig-align="center"}
 
-### **코딩**
+### **데이터 과학**
+
+::: {#chatGPT-ds layout-ncol="2"}
+
+![](fig/cover_ds.jpg){fig-align="center" width="250"}
+
+![](fig/ds_logo.png){fig-align="center" width="300"}
+:::
+
+
+📘 교보 POD 종이책: [https://bit.ly/4cVDxxL](https://bit.ly/4cVDxxL)
+
+📗 교보 전자책: [https://bit.ly/4dccQ8n](https://bit.ly/4dccQ8n)
+
+🌐 웹사이트: [https://bit.ly/4909pOB](https://bit.ly/4909pOB)
+
+💻 소스코드: [https://bit.ly/3wXugES](https://bit.ly/3wXugES)
+
+
+### 코딩
 
 ::: {#chatGPT-coding layout-ncol="2"}
 
 ![](fig/cover_coding.jpg){fig-align="center" width="250"}
 
-![](fig/coding_logo){fig-align="center" width="300"}
+![](fig/coding_logo.png){fig-align="center" width="300"}
 :::
 
 
