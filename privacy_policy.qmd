@@ -1,0 +1,110 @@
+---
+title: "Privacy Policy"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    theme: cosmo
+date: "March 1, 2024"
+---
+
+# Privacy Policy
+
+BitStat (hereinafter referred to as the "Company") has established the following privacy policy to protect users' personal information and rights in accordance with the Personal Information Protection Act and to handle user grievances related to personal information smoothly.
+
+## 1. Purpose of Processing Personal Information
+
+The Company processes personal information for the following purposes. The personal information being processed will not be used for purposes other than the following, and if the purpose of use changes, necessary measures will be taken, such as obtaining separate consent in accordance with Article 18 of the Personal Information Protection Act.
+
+- Provision of services and fulfillment of contracts
+- Member registration and management
+- Marketing and advertising utilization
+
+## 2. Processing and Retention Period of Personal Information
+
+The Company processes and retains personal information within the personal information retention and usage period stipulated by law or the personal information retention and usage period agreed upon by the information subject when collecting personal information.
+
+## 3. Provision of Personal Information to Third Parties
+
+The Company provides personal information to third parties only in cases corresponding to Article 17 and Article 18 of the Personal Information Protection Act, such as the consent of the information subject or special provisions of the law.
+
+## 4. Rights and Obligations of the Information Subject and Methods of Exercise
+
+The information subject may exercise the following rights against the Company at any time:
+- Right to view personal information
+- Right to correct personal information
+- Right to delete personal information
+- Right to suspend processing of personal information
+
+## 5. Personal Information Security Measures
+
+The Company takes the following measures to ensure the security of personal information:
+
+### Administrative Measures
+- Establishment and implementation of internal management plans
+- Regular employee training
+- Regular inspections
+
+### Technical Measures
+- Management of access rights to personal information processing systems
+- Installation of access control systems
+- Encryption of unique identification information
+- Installation and operation of intrusion prevention systems
+
+### Physical Measures
+- Access control of computer rooms and data storage rooms
+- Management of access rights to areas handling personal information
+
+## 6. Changes to Privacy Policy
+
+This privacy policy is effective from March 1, 2024, and any additions, deletions, or corrections made in accordance with laws and policies will be notified through announcements on the website.
+
+## 7. Privacy Officer
+
+The Company has designated the following privacy officer to handle complaints and inquiries related to personal information protection:
+
+- Privacy Officer
+  - Name: Victor Lee
+  - Position: Director
+  - Email: victor@r2bit.com
+
+## 8. Additional Privacy Protection Measures
+
+1. Encryption of Personal Information
+   - Encryption of users' personal information during transmission
+   - Secure storage of encrypted personal information
+
+2. Regular Security Updates
+   - Regular updates of security systems
+   - Periodic security assessments
+
+3. Employee Training
+   - Regular privacy protection training for employees
+   - Implementation of privacy protection protocols
+
+## 9. User Rights
+
+Users have the following rights regarding their personal information:
+
+1. Right to Access
+   - Users can request access to their personal information
+   - Access requests will be processed within reasonable time
+
+2. Right to Rectification
+   - Users can request correction of inaccurate personal information
+   - Corrections will be made promptly upon verification
+
+3. Right to Erasure
+   - Users can request deletion of their personal information
+   - Deletion requests will be processed unless there are legal grounds for retention
+
+4. Right to Data Portability
+   - Users can request their personal information in a structured format
+   - Users can request transfer of their information to another service provider
+
+---
+
+::: {.footer}
+Effective Date: March 1, 2024  
+Last Updated: March 1, 2024
+:::

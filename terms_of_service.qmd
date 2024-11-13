@@ -1,0 +1,100 @@
+---
+title: "Terms of Service"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    theme: cosmo
+date: "March 1, 2024"
+---
+
+# Terms of Service
+
+## Article 1 (Purpose)
+
+These Terms of Service (hereinafter referred to as "Terms") establish the conditions and procedures for using the services provided by BitStat (hereinafter referred to as "Company"), as well as the rights, obligations, and responsibilities between the Company and its members, and other necessary matters.
+
+## Article 2 (Definitions)
+
+The terms used in these Terms are defined as follows:
+
+1. "Service" refers to all services provided by the Company.
+2. "Member" refers to a person who has entered into a service usage contract with the Company and uses the services provided by the Company.
+3. "ID" refers to a combination of letters and numbers set by the member and approved by the Company for member identification and service use.
+4. "Password" refers to the combination of letters and numbers set by the member to confirm their identity and protect their information.
+
+## Article 3 (Posting and Revision of Terms)
+
+1. The Company shall post these Terms on the initial screen of the service so that members can easily understand the contents.
+2. The Company may revise these Terms within the scope of not violating relevant laws when necessary.
+3. When revising the Terms, the Company shall notify the effective date and reasons for revision at least 7 days prior to the effective date.
+
+## Article 4 (Formation of Usage Contract)
+
+1. The usage contract is formed when a person wishing to become a member agrees to the Terms and applies for membership following the procedures set by the Company, and the Company accepts such application.
+2. The Company shall, in principle, accept the applicant's application for service use.
+3. The Company may not approve an application for membership in any of the following cases:
+   - When using another person's name
+   - When submitting false information
+   - When applying for registration for purposes that violate social order or good customs
+   - Other cases where the registration requirements set by the Company are not met
+
+## Article 5 (Provision and Change of Services)
+
+1. The Company shall do its best to provide stable services to members.
+2. If there are any changes to the content, usage method, or usage time of the service, the Company shall post the reasons for change, changed service content, and provision date on the initial screen of the service before such changes.
+
+## Article 6 (Member Obligations)
+
+Members have the following obligations:
+
+1. Not to use the service for illegal purposes or in illegal ways
+2. Not to interfere with other members' use of the service
+3. Not to copy, distribute, or modify the Company's intellectual property without permission
+4. To comply with other matters stipulated in these Terms and relevant laws
+
+## Article 7 (Service Suspension and Contract Termination)
+
+1. The Company may suspend service provision in the following cases:
+   - System maintenance or repair
+   - Network failure
+   - Force majeure events
+
+2. The Company may terminate the service contract in the following cases:
+   - When a member violates these Terms
+   - When a member interferes with the Company's business operations
+   - When a member engages in activities that damage the Company's reputation
+
+## Article 8 (Intellectual Property Rights)
+
+1. Intellectual property rights for the service belong to the Company.
+2. Members may not use the Company's intellectual property for commercial purposes without permission.
+
+## Article 9 (Limitation of Liability)
+
+1. The Company is not responsible for service interruption due to force majeure events.
+2. The Company is not responsible for losses incurred by members due to their own negligence.
+
+## Article 10 (Dispute Resolution)
+
+1. The Company operates a customer service center to handle member complaints.
+2. In case of disputes, both parties shall endeavor to resolve them through mutual discussion.
+3. If dispute resolution through discussion is difficult, it shall be resolved according to relevant laws.
+
+## Article 11 (Governing Law)
+
+These Terms shall be governed by and construed in accordance with the laws of the Republic of Korea.
+
+## Article 12 (Miscellaneous)
+
+1. Matters not stipulated in these Terms shall be governed by relevant laws and regulations.
+2. If any provision of these Terms is held to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.
+
+---
+
+::: {.footer}
+Effective Date: March 1, 2024  
+Last Updated: March 1, 2024
+
+BitStat Co., Ltd.  
+:::

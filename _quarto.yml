@@ -96,7 +96,11 @@ website:
             href: records.qmd
           - text: "과학기술정보통신부"
             href: https://www.msit.go.kr/
-                
+          - text: "Privacy Policy"
+            href: privacy_policy.qmd
+          - text: "Terms of Service"
+            href: terms_of_service.qmd
+
 format:
   html:
     theme: 

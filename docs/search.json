@@ -37,107 +37,107 @@
   {
     "objectID": "slideshow/202210-hongik/index.html#section",
     "href": "slideshow/202210-hongik/index.html#section",
-    "title": "한국 R 사용자회",
+    "title": "\n데이터 사이언스와 디자인\n",
     "section": "",
     "text": "데이터 사이언스"
   },
   {
     "objectID": "slideshow/202210-hongik/index.html#section-1",
     "href": "slideshow/202210-hongik/index.html#section-1",
-    "title": "한국 R 사용자회",
+    "title": "\n데이터 사이언스와 디자인\n",
     "section": "",
     "text": "데이터 사이언스"
   },
   {
     "objectID": "slideshow/202210-hongik/index.html#데이터-사이언스",
     "href": "slideshow/202210-hongik/index.html#데이터-사이언스",
-    "title": "한국 R 사용자회",
+    "title": "\n데이터 사이언스와 디자인\n",
     "section": "데이터 사이언스",
     "text": "데이터 사이언스"
   },
   {
     "objectID": "slideshow/202210-hongik/index.html#데이터-과학-욕구단계설",
     "href": "slideshow/202210-hongik/index.html#데이터-과학-욕구단계설",
-    "title": "한국 R 사용자회",
+    "title": "\n데이터 사이언스와 디자인\n",
     "section": "데이터 과학 욕구단계설",
-    "text": "데이터 과학 욕구단계설\n\n\n매슬로 욕구단계설\n가치 피라미드"
+    "text": "데이터 과학 욕구단계설\n\n매슬로 욕구단계설가치 피라미드"
   },
   {
     "objectID": "slideshow/202210-hongik/index.html#section-2",
     "href": "slideshow/202210-hongik/index.html#section-2",
-    "title": "한국 R 사용자회",
+    "title": "\n데이터 사이언스와 디자인\n",
     "section": "",
     "text": "데이터 과학 문제"
   },
   {
     "objectID": "slideshow/202210-hongik/index.html#section-3",
     "href": "slideshow/202210-hongik/index.html#section-3",
-    "title": "한국 R 사용자회",
+    "title": "\n데이터 사이언스와 디자인\n",
     "section": "",
     "text": "데이터 과학 문제"
   },
   {
     "objectID": "slideshow/202210-hongik/index.html#데이터-사이언스---출판",
     "href": "slideshow/202210-hongik/index.html#데이터-사이언스---출판",
-    "title": "한국 R 사용자회",
+    "title": "\n데이터 사이언스와 디자인\n",
     "section": "데이터 사이언스 - 출판",
-    "text": "데이터 사이언스 - 출판\n\n\n문제점\n개념\nSingle Sourcing Multi-Use\n\n\n\n\n\n\n\n\n그림 1: 문제점\n\n\n\n\n\n\n\n\n\n그림 2: Single Sourcing 개념\n\n\n\n\n\n\n\n\n\n그림 3: Single Sourcing Multi-Use"
+    "text": "데이터 사이언스 - 출판\n\n문제점개념Single Sourcing Multi-Use\n\n\n\n\n\n\n\n\n그림 1: 문제점\n\n\n\n\n\n\n\n\n\n\n\n그림 2: Single Sourcing 개념\n\n\n\n\n\n\n\n\n\n\n\n그림 3: Single Sourcing Multi-Use"
   },
   {
     "objectID": "slideshow/202210-hongik/index.html#복잡성",
     "href": "slideshow/202210-hongik/index.html#복잡성",
-    "title": "한국 R 사용자회",
+    "title": "\n데이터 사이언스와 디자인\n",
     "section": "복잡성",
-    "text": "복잡성\n\n\n\n엑셀 1\n\n\n아래한글 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nXKCD 1667: AlgorithmsWriting Technical Papers with Markdown and Pandoc"
+    "text": "복잡성\n\n엑셀 1아래한글 2"
   },
   {
     "objectID": "slideshow/202210-hongik/index.html#시각화---그래프-문법-problem-3",
     "href": "slideshow/202210-hongik/index.html#시각화---그래프-문법-problem-3",
-    "title": "한국 R 사용자회",
-    "section": "시각화 - 그래프 문법 1\n",
-    "text": "시각화 - 그래프 문법 1\n\n\n\n\n\n\n\nComparing ggplot2 and R Base Graphics By Nathan Yau"
+    "title": "\n데이터 사이언스와 디자인\n",
+    "section": "시각화 - 그래프 문법 3",
+    "text": "시각화 - 그래프 문법 3"
   },
   {
     "objectID": "slideshow/202210-hongik/index.html#디자인---코드",
     "href": "slideshow/202210-hongik/index.html#디자인---코드",
-    "title": "한국 R 사용자회",
+    "title": "\n데이터 사이언스와 디자인\n",
     "section": "디자인 - 코드",
-    "text": "디자인 - 코드\n\n\n데이터 가공\ndplyr R\nBase R\nSQL\n파이썬\n\n\n\n\n날짜와 시간별로 총 빈도수와 출발연착 평균 시간을 구한다. 단, 총빈도수가 10 회 미만인 것은 제외하고 출발연착 시간의 결측값을 제거하고 계산한다.\n\n\n\nflights 데이터프레임에서\n출발 연착시간(dep_delay) 칼럼에서 결측값이 없는 (!is.na()) 행을 필터링 하고\n날짜별(date), 시간별(hour) 그룹을 묶어\n평균 출발 연착시간을 계산하고 총빈도수 총계를 내고\n총빈도수가 10회 이상인 날짜와 시간을 찾아내시오\n\n\n\n\nhourly_delay &lt;- flights %&gt;%  \n  filter(!is.na(dep_delay)) %&gt;% \n  group_by(date, hour) %&gt;% \n  summarise(delay = mean(dep_delay), n = n()) %&gt;%  \n  filter(n &gt; 10) \n\n\n\n\nhourly_delay &lt;- filter(   \n    summarise(   \n        group_by(   \n             filter(   \n                 flights,    \n                 !is.na(dep_delay)   \n             ),    \n             date, hour   \n        ),    \n    delay = mean(dep_delay),    \n         n = n()   \n    ),    \n    n &gt; 10   \n)\n\n\n\n\nSELECT \"date\", \"hour\", \"delay\", \"n\"\nFROM (\n    SELECT \"date\", \"hour\",\n        AVG(\"dep_delay\") AS \"delay\",\n        COUNT() AS \"n\"\n    FROM \"flights\"\n    WHERE NOT(\"dep_delay\" IS NULL)\n    GROUP BY \"date\", \"hour\"\n) AS \"_W1\"\nWHERE \"n\" &gt; 10.0\n\n\n\n\nflights[['date','hour','dep_delay']]\n..."
+    "text": "디자인 - 코드\n\n데이터 가공dplyr RBase RSQL파이썬\n\n\n\n날짜와 시간별로 총 빈도수와 출발연착 평균 시간을 구한다. 단, 총빈도수가 10 회 미만인 것은 제외하고 출발연착 시간의 결측값을 제거하고 계산한다.\n\n\nflights 데이터프레임에서\n출발 연착시간(dep_delay) 칼럼에서 결측값이 없는 (!is.na()) 행을 필터링 하고\n날짜별(date), 시간별(hour) 그룹을 묶어\n평균 출발 연착시간을 계산하고 총빈도수 총계를 내고\n총빈도수가 10회 이상인 날짜와 시간을 찾아내시오\n\n\n\n\nhourly_delay &lt;- flights %&gt;%  \n  filter(!is.na(dep_delay)) %&gt;% \n  group_by(date, hour) %&gt;% \n  summarise(delay = mean(dep_delay), n = n()) %&gt;%  \n  filter(n &gt; 10) \n\n\n\n\nhourly_delay &lt;- filter(   \n    summarise(   \n        group_by(   \n             filter(   \n                 flights,    \n                 !is.na(dep_delay)   \n             ),    \n             date, hour   \n        ),    \n    delay = mean(dep_delay),    \n         n = n()   \n    ),    \n    n &gt; 10   \n)\n\n\n\n\nSELECT \"date\", \"hour\", \"delay\", \"n\"\nFROM (\n    SELECT \"date\", \"hour\",\n        AVG(\"dep_delay\") AS \"delay\",\n        COUNT() AS \"n\"\n    FROM \"flights\"\n    WHERE NOT(\"dep_delay\" IS NULL)\n    GROUP BY \"date\", \"hour\"\n) AS \"_W1\"\nWHERE \"n\" &gt; 10.0\n\n\n\n\nflights[['date','hour','dep_delay']]\n..."
   },
   {
     "objectID": "slideshow/202210-hongik/index.html#디자인---데이터",
     "href": "slideshow/202210-hongik/index.html#디자인---데이터",
-    "title": "한국 R 사용자회",
+    "title": "\n데이터 사이언스와 디자인\n",
     "section": "디자인 - 데이터",
-    "text": "디자인 - 데이터\n\n\n정돈된 데이터\n사례 - 결핵 데이터\n사례 - Messy 데이터\n사례 - 코드\n사례 - Tidy 데이터\n\n\n\n\n\n\n\n\n\nWHO 결핵 원데이터\n\nWHO 에서 년도별, 국가별, 연령별, 성별, 진단방법별 결핵 발병사례 조사 통계 데이터\n진단방법\n\n\nrel stands for cases of relapse\n\nep stands for cases of extrapulmonary TB\n\nsn stands for cases of pulmonary TB that could not be diagnosed by a pulmonary smear (smear negative)\n\nsp stands for cases of pulmonary TB that could be diagnosed by a pulmonary smear (smear positive)\n\n\n연령\n\n014 = 0 – 14 years old\n1524 = 15 – 24 years old\n2534 = 25 – 34 years old\n3544 = 35 – 44 years old\n4554 = 45 – 54 years old\n5564 = 55 – 64 years old\n65 = 65 or older\n\n\n성별\n\nmales (m)\nfemales (f)\n\n\n\n\n\n\nlibrary(tidyverse)\ntidyr::who \n\n# A tibble: 7,240 × 60\n   country  iso2  iso3   year new_sp_m014 new_sp_m1524 new_sp_m2534 new_sp_m3544\n   &lt;chr&gt;    &lt;chr&gt; &lt;chr&gt; &lt;int&gt;       &lt;int&gt;        &lt;int&gt;        &lt;int&gt;        &lt;int&gt;\n 1 Afghani… AF    AFG    1980          NA           NA           NA           NA\n 2 Afghani… AF    AFG    1981          NA           NA           NA           NA\n 3 Afghani… AF    AFG    1982          NA           NA           NA           NA\n 4 Afghani… AF    AFG    1983          NA           NA           NA           NA\n 5 Afghani… AF    AFG    1984          NA           NA           NA           NA\n 6 Afghani… AF    AFG    1985          NA           NA           NA           NA\n 7 Afghani… AF    AFG    1986          NA           NA           NA           NA\n 8 Afghani… AF    AFG    1987          NA           NA           NA           NA\n 9 Afghani… AF    AFG    1988          NA           NA           NA           NA\n10 Afghani… AF    AFG    1989          NA           NA           NA           NA\n# … with 7,230 more rows, and 52 more variables: new_sp_m4554 &lt;int&gt;,\n#   new_sp_m5564 &lt;int&gt;, new_sp_m65 &lt;int&gt;, new_sp_f014 &lt;int&gt;,\n#   new_sp_f1524 &lt;int&gt;, new_sp_f2534 &lt;int&gt;, new_sp_f3544 &lt;int&gt;,\n#   new_sp_f4554 &lt;int&gt;, new_sp_f5564 &lt;int&gt;, new_sp_f65 &lt;int&gt;,\n#   new_sn_m014 &lt;int&gt;, new_sn_m1524 &lt;int&gt;, new_sn_m2534 &lt;int&gt;,\n#   new_sn_m3544 &lt;int&gt;, new_sn_m4554 &lt;int&gt;, new_sn_m5564 &lt;int&gt;,\n#   new_sn_m65 &lt;int&gt;, new_sn_f014 &lt;int&gt;, new_sn_f1524 &lt;int&gt;, …\n\n\n\n\n\nwho %&gt;%\n  pivot_longer(\n    cols = new_sp_m014:newrel_f65, \n    names_to = \"key\", \n    values_to = \"cases\", \n    values_drop_na = TRUE\n  ) %&gt;% \n  mutate(\n    key = stringr::str_replace(key, \"newrel\", \"new_rel\")\n  ) %&gt;%\n  separate(key, c(\"new\", \"var\", \"sexage\")) %&gt;% \n  select(-new, -iso2, -iso3) %&gt;% \n  separate(sexage, c(\"sex\", \"age\"), sep = 1)\n\n\n\n\n\n# A tibble: 76,046 × 6\n   country      year var   sex   age   cases\n   &lt;chr&gt;       &lt;int&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;int&gt;\n 1 Afghanistan  1997 sp    m     014       0\n 2 Afghanistan  1997 sp    m     1524     10\n 3 Afghanistan  1997 sp    m     2534      6\n 4 Afghanistan  1997 sp    m     3544      3\n 5 Afghanistan  1997 sp    m     4554      5\n 6 Afghanistan  1997 sp    m     5564      2\n 7 Afghanistan  1997 sp    m     65        0\n 8 Afghanistan  1997 sp    f     014       5\n 9 Afghanistan  1997 sp    f     1524     38\n10 Afghanistan  1997 sp    f     2534     36\n# … with 76,036 more rows"
+    "text": "디자인 - 데이터\n\n정돈된 데이터사례 - 결핵 데이터사례 - Messy 데이터사례 - 코드사례 - Tidy 데이터\n\n\n\n\n\n\n\n\nWHO 결핵 원데이터\nWHO 에서 년도별, 국가별, 연령별, 성별, 진단방법별 결핵 발병사례 조사 통계 데이터\n진단방법\n\nrel stands for cases of relapse\nep stands for cases of extrapulmonary TB\nsn stands for cases of pulmonary TB that could not be diagnosed by a pulmonary smear (smear negative)\nsp stands for cases of pulmonary TB that could be diagnosed by a pulmonary smear (smear positive)\n\n연령\n\n014 = 0 – 14 years old\n1524 = 15 – 24 years old\n2534 = 25 – 34 years old\n3544 = 35 – 44 years old\n4554 = 45 – 54 years old\n5564 = 55 – 64 years old\n65 = 65 or older\n\n성별\n\nmales (m)\nfemales (f)\n\n\n\n\n\nlibrary(tidyverse)\ntidyr::who \n\n# A tibble: 7,240 × 60\n   country  iso2  iso3   year new_sp_m014 new_sp_m1524 new_sp_m2534 new_sp_m3544\n   &lt;chr&gt;    &lt;chr&gt; &lt;chr&gt; &lt;int&gt;       &lt;int&gt;        &lt;int&gt;        &lt;int&gt;        &lt;int&gt;\n 1 Afghani… AF    AFG    1980          NA           NA           NA           NA\n 2 Afghani… AF    AFG    1981          NA           NA           NA           NA\n 3 Afghani… AF    AFG    1982          NA           NA           NA           NA\n 4 Afghani… AF    AFG    1983          NA           NA           NA           NA\n 5 Afghani… AF    AFG    1984          NA           NA           NA           NA\n 6 Afghani… AF    AFG    1985          NA           NA           NA           NA\n 7 Afghani… AF    AFG    1986          NA           NA           NA           NA\n 8 Afghani… AF    AFG    1987          NA           NA           NA           NA\n 9 Afghani… AF    AFG    1988          NA           NA           NA           NA\n10 Afghani… AF    AFG    1989          NA           NA           NA           NA\n# … with 7,230 more rows, and 52 more variables: new_sp_m4554 &lt;int&gt;,\n#   new_sp_m5564 &lt;int&gt;, new_sp_m65 &lt;int&gt;, new_sp_f014 &lt;int&gt;,\n#   new_sp_f1524 &lt;int&gt;, new_sp_f2534 &lt;int&gt;, new_sp_f3544 &lt;int&gt;,\n#   new_sp_f4554 &lt;int&gt;, new_sp_f5564 &lt;int&gt;, new_sp_f65 &lt;int&gt;,\n#   new_sn_m014 &lt;int&gt;, new_sn_m1524 &lt;int&gt;, new_sn_m2534 &lt;int&gt;,\n#   new_sn_m3544 &lt;int&gt;, new_sn_m4554 &lt;int&gt;, new_sn_m5564 &lt;int&gt;,\n#   new_sn_m65 &lt;int&gt;, new_sn_f014 &lt;int&gt;, new_sn_f1524 &lt;int&gt;, …\n\n\n\n\n\nwho %&gt;%\n  pivot_longer(\n    cols = new_sp_m014:newrel_f65, \n    names_to = \"key\", \n    values_to = \"cases\", \n    values_drop_na = TRUE\n  ) %&gt;% \n  mutate(\n    key = stringr::str_replace(key, \"newrel\", \"new_rel\")\n  ) %&gt;%\n  separate(key, c(\"new\", \"var\", \"sexage\")) %&gt;% \n  select(-new, -iso2, -iso3) %&gt;% \n  separate(sexage, c(\"sex\", \"age\"), sep = 1)\n\n\n\n\n\n# A tibble: 76,046 × 6\n   country      year var   sex   age   cases\n   &lt;chr&gt;       &lt;int&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;int&gt;\n 1 Afghanistan  1997 sp    m     014       0\n 2 Afghanistan  1997 sp    m     1524     10\n 3 Afghanistan  1997 sp    m     2534      6\n 4 Afghanistan  1997 sp    m     3544      3\n 5 Afghanistan  1997 sp    m     4554      5\n 6 Afghanistan  1997 sp    m     5564      2\n 7 Afghanistan  1997 sp    m     65        0\n 8 Afghanistan  1997 sp    f     014       5\n 9 Afghanistan  1997 sp    f     1524     38\n10 Afghanistan  1997 sp    f     2534     36\n# … with 76,036 more rows"
   },
   {
     "objectID": "slideshow/202210-hongik/index.html#디자인---사람-대-기계",
     "href": "slideshow/202210-hongik/index.html#디자인---사람-대-기계",
-    "title": "한국 R 사용자회",
+    "title": "\n데이터 사이언스와 디자인\n",
     "section": "디자인 - 사람 대 기계",
-    "text": "디자인 - 사람 대 기계\n\n\n전체 개발 시간\n사람 &lt; 기계\n사람 &gt; 기계"
+    "text": "디자인 - 사람 대 기계\n\n전체 개발 시간사람 &lt; 기계사람 &gt; 기계"
   },
   {
     "objectID": "slideshow/202210-hongik/index.html#section-4",
     "href": "slideshow/202210-hongik/index.html#section-4",
-    "title": "한국 R 사용자회",
+    "title": "\n데이터 사이언스와 디자인\n",
     "section": "",
     "text": "데이터 과학 노력들"
   },
   {
     "objectID": "slideshow/202210-hongik/index.html#section-5",
     "href": "slideshow/202210-hongik/index.html#section-5",
-    "title": "한국 R 사용자회",
+    "title": "\n데이터 사이언스와 디자인\n",
     "section": "",
     "text": "데이터 과학 노력들"
   },
   {
     "objectID": "slideshow/202210-hongik/index.html#quarto",
     "href": "slideshow/202210-hongik/index.html#quarto",
-    "title": "한국 R 사용자회",
+    "title": "\n데이터 사이언스와 디자인\n",
     "section": "Quarto",
-    "text": "Quarto\n\n\nR\n파이썬\nQuarto: R\nQuarto: 파이썬"
+    "text": "Quarto\n\nR파이썬Quarto: RQuarto: 파이썬"
   },
   {
     "objectID": "slideshow/202210-hongik/index.html#section-6",
@@ -653,5 +653,295 @@
     "title": "\n데이터 사이언스와 디자인\n",
     "section": "",
     "text": "데이터 사이언스와 디자인\n\n\n디자인과 아키텍쳐의 중요성\n\n\n\n이광춘, 한국 R 사용자회\n\n\n2022-10-11\n\n\n\nr fontawesome::fa(\"github\", \"black\")   github.com/bit2r/quarto"
+  },
+  {
+    "objectID": "terms_of_service.html",
+    "href": "terms_of_service.html",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "These Terms of Service (hereinafter referred to as “Terms”) establish the conditions and procedures for using the services provided by BitStat (hereinafter referred to as “Company”), as well as the rights, obligations, and responsibilities between the Company and its members, and other necessary matters.\n\n\n\nThe terms used in these Terms are defined as follows:\n\n“Service” refers to all services provided by the Company.\n“Member” refers to a person who has entered into a service usage contract with the Company and uses the services provided by the Company.\n“ID” refers to a combination of letters and numbers set by the member and approved by the Company for member identification and service use.\n“Password” refers to the combination of letters and numbers set by the member to confirm their identity and protect their information.\n\n\n\n\n\nThe Company shall post these Terms on the initial screen of the service so that members can easily understand the contents.\nThe Company may revise these Terms within the scope of not violating relevant laws when necessary.\nWhen revising the Terms, the Company shall notify the effective date and reasons for revision at least 7 days prior to the effective date.\n\n\n\n\n\nThe usage contract is formed when a person wishing to become a member agrees to the Terms and applies for membership following the procedures set by the Company, and the Company accepts such application.\nThe Company shall, in principle, accept the applicant’s application for service use.\nThe Company may not approve an application for membership in any of the following cases:\n\nWhen using another person’s name\nWhen submitting false information\nWhen applying for registration for purposes that violate social order or good customs\nOther cases where the registration requirements set by the Company are not met\n\n\n\n\n\n\nThe Company shall do its best to provide stable services to members.\nIf there are any changes to the content, usage method, or usage time of the service, the Company shall post the reasons for change, changed service content, and provision date on the initial screen of the service before such changes.\n\n\n\n\nMembers have the following obligations:\n\nNot to use the service for illegal purposes or in illegal ways\nNot to interfere with other members’ use of the service\nNot to copy, distribute, or modify the Company’s intellectual property without permission\nTo comply with other matters stipulated in these Terms and relevant laws\n\n\n\n\n\nThe Company may suspend service provision in the following cases:\n\nSystem maintenance or repair\nNetwork failure\nForce majeure events\n\nThe Company may terminate the service contract in the following cases:\n\nWhen a member violates these Terms\nWhen a member interferes with the Company’s business operations\nWhen a member engages in activities that damage the Company’s reputation\n\n\n\n\n\n\nIntellectual property rights for the service belong to the Company.\nMembers may not use the Company’s intellectual property for commercial purposes without permission.\n\n\n\n\n\nThe Company is not responsible for service interruption due to force majeure events.\nThe Company is not responsible for losses incurred by members due to their own negligence.\n\n\n\n\n\nThe Company operates a customer service center to handle member complaints.\nIn case of disputes, both parties shall endeavor to resolve them through mutual discussion.\nIf dispute resolution through discussion is difficult, it shall be resolved according to relevant laws.\n\n\n\n\nThese Terms shall be governed by and construed in accordance with the laws of the Republic of Korea.\n\n\n\n\nMatters not stipulated in these Terms shall be governed by relevant laws and regulations.\nIf any provision of these Terms is held to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.\n\n\n\nEffective Date: March 1, 2024\nLast Updated: March 1, 2024\nBitStat Co., Ltd.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "terms_of_service.html#article-1-purpose",
+    "href": "terms_of_service.html#article-1-purpose",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "These Terms of Service (hereinafter referred to as “Terms”) establish the conditions and procedures for using the services provided by BitStat (hereinafter referred to as “Company”), as well as the rights, obligations, and responsibilities between the Company and its members, and other necessary matters.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "terms_of_service.html#article-2-definitions",
+    "href": "terms_of_service.html#article-2-definitions",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "The terms used in these Terms are defined as follows:\n\n“Service” refers to all services provided by the Company.\n“Member” refers to a person who has entered into a service usage contract with the Company and uses the services provided by the Company.\n“ID” refers to a combination of letters and numbers set by the member and approved by the Company for member identification and service use.\n“Password” refers to the combination of letters and numbers set by the member to confirm their identity and protect their information.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "terms_of_service.html#article-3-posting-and-revision-of-terms",
+    "href": "terms_of_service.html#article-3-posting-and-revision-of-terms",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "The Company shall post these Terms on the initial screen of the service so that members can easily understand the contents.\nThe Company may revise these Terms within the scope of not violating relevant laws when necessary.\nWhen revising the Terms, the Company shall notify the effective date and reasons for revision at least 7 days prior to the effective date.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "terms_of_service.html#article-4-formation-of-usage-contract",
+    "href": "terms_of_service.html#article-4-formation-of-usage-contract",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "The usage contract is formed when a person wishing to become a member agrees to the Terms and applies for membership following the procedures set by the Company, and the Company accepts such application.\nThe Company shall, in principle, accept the applicant’s application for service use.\nThe Company may not approve an application for membership in any of the following cases:\n\nWhen using another person’s name\nWhen submitting false information\nWhen applying for registration for purposes that violate social order or good customs\nOther cases where the registration requirements set by the Company are not met",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "terms_of_service.html#article-5-provision-and-change-of-services",
+    "href": "terms_of_service.html#article-5-provision-and-change-of-services",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "The Company shall do its best to provide stable services to members.\nIf there are any changes to the content, usage method, or usage time of the service, the Company shall post the reasons for change, changed service content, and provision date on the initial screen of the service before such changes.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "terms_of_service.html#article-6-member-obligations",
+    "href": "terms_of_service.html#article-6-member-obligations",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "Members have the following obligations:\n\nNot to use the service for illegal purposes or in illegal ways\nNot to interfere with other members’ use of the service\nNot to copy, distribute, or modify the Company’s intellectual property without permission\nTo comply with other matters stipulated in these Terms and relevant laws",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "terms_of_service.html#article-7-service-suspension-and-contract-termination",
+    "href": "terms_of_service.html#article-7-service-suspension-and-contract-termination",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "The Company may suspend service provision in the following cases:\n\nSystem maintenance or repair\nNetwork failure\nForce majeure events\n\nThe Company may terminate the service contract in the following cases:\n\nWhen a member violates these Terms\nWhen a member interferes with the Company’s business operations\nWhen a member engages in activities that damage the Company’s reputation",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "terms_of_service.html#article-8-intellectual-property-rights",
+    "href": "terms_of_service.html#article-8-intellectual-property-rights",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "Intellectual property rights for the service belong to the Company.\nMembers may not use the Company’s intellectual property for commercial purposes without permission.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "terms_of_service.html#article-9-limitation-of-liability",
+    "href": "terms_of_service.html#article-9-limitation-of-liability",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "The Company is not responsible for service interruption due to force majeure events.\nThe Company is not responsible for losses incurred by members due to their own negligence.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "terms_of_service.html#article-10-dispute-resolution",
+    "href": "terms_of_service.html#article-10-dispute-resolution",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "The Company operates a customer service center to handle member complaints.\nIn case of disputes, both parties shall endeavor to resolve them through mutual discussion.\nIf dispute resolution through discussion is difficult, it shall be resolved according to relevant laws.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "terms_of_service.html#article-11-governing-law",
+    "href": "terms_of_service.html#article-11-governing-law",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "These Terms shall be governed by and construed in accordance with the laws of the Republic of Korea.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "terms_of_service.html#article-12-miscellaneous",
+    "href": "terms_of_service.html#article-12-miscellaneous",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "Matters not stipulated in these Terms shall be governed by relevant laws and regulations.\nIf any provision of these Terms is held to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.\n\n\n\nEffective Date: March 1, 2024\nLast Updated: March 1, 2024\nBitStat Co., Ltd.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "privacy_policy.html",
+    "href": "privacy_policy.html",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "BitStat (hereinafter referred to as the “Company”) has established the following privacy policy to protect users’ personal information and rights in accordance with the Personal Information Protection Act and to handle user grievances related to personal information smoothly.\n\n\nThe Company processes personal information for the following purposes. The personal information being processed will not be used for purposes other than the following, and if the purpose of use changes, necessary measures will be taken, such as obtaining separate consent in accordance with Article 18 of the Personal Information Protection Act.\n\nProvision of services and fulfillment of contracts\nMember registration and management\nMarketing and advertising utilization\n\n\n\n\nThe Company processes and retains personal information within the personal information retention and usage period stipulated by law or the personal information retention and usage period agreed upon by the information subject when collecting personal information.\n\n\n\nThe Company provides personal information to third parties only in cases corresponding to Article 17 and Article 18 of the Personal Information Protection Act, such as the consent of the information subject or special provisions of the law.\n\n\n\nThe information subject may exercise the following rights against the Company at any time: - Right to view personal information - Right to correct personal information - Right to delete personal information - Right to suspend processing of personal information\n\n\n\nThe Company takes the following measures to ensure the security of personal information:\n\n\n\nEstablishment and implementation of internal management plans\nRegular employee training\nRegular inspections\n\n\n\n\n\nManagement of access rights to personal information processing systems\nInstallation of access control systems\nEncryption of unique identification information\nInstallation and operation of intrusion prevention systems\n\n\n\n\n\nAccess control of computer rooms and data storage rooms\nManagement of access rights to areas handling personal information\n\n\n\n\n\nThis privacy policy is effective from March 1, 2024, and any additions, deletions, or corrections made in accordance with laws and policies will be notified through announcements on the website.\n\n\n\nThe Company has designated the following privacy officer to handle complaints and inquiries related to personal information protection:\n\nPrivacy Officer\n\nName: Victor Lee\nPosition: Director\nEmail: victor@r2bit.com\n\n\n\n\n\n\nEncryption of Personal Information\n\nEncryption of users’ personal information during transmission\nSecure storage of encrypted personal information\n\nRegular Security Updates\n\nRegular updates of security systems\nPeriodic security assessments\n\nEmployee Training\n\nRegular privacy protection training for employees\nImplementation of privacy protection protocols\n\n\n\n\n\nUsers have the following rights regarding their personal information:\n\nRight to Access\n\nUsers can request access to their personal information\nAccess requests will be processed within reasonable time\n\nRight to Rectification\n\nUsers can request correction of inaccurate personal information\nCorrections will be made promptly upon verification\n\nRight to Erasure\n\nUsers can request deletion of their personal information\nDeletion requests will be processed unless there are legal grounds for retention\n\nRight to Data Portability\n\nUsers can request their personal information in a structured format\nUsers can request transfer of their information to another service provider\n\n\n\n\nEffective Date: March 1, 2024\nLast Updated: March 1, 2024",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Privacy Policy"
+    ]
+  },
+  {
+    "objectID": "privacy_policy.html#purpose-of-processing-personal-information",
+    "href": "privacy_policy.html#purpose-of-processing-personal-information",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "The Company processes personal information for the following purposes. The personal information being processed will not be used for purposes other than the following, and if the purpose of use changes, necessary measures will be taken, such as obtaining separate consent in accordance with Article 18 of the Personal Information Protection Act.\n\nProvision of services and fulfillment of contracts\nMember registration and management\nMarketing and advertising utilization",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Privacy Policy"
+    ]
+  },
+  {
+    "objectID": "privacy_policy.html#processing-and-retention-period-of-personal-information",
+    "href": "privacy_policy.html#processing-and-retention-period-of-personal-information",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "The Company processes and retains personal information within the personal information retention and usage period stipulated by law or the personal information retention and usage period agreed upon by the information subject when collecting personal information.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Privacy Policy"
+    ]
+  },
+  {
+    "objectID": "privacy_policy.html#provision-of-personal-information-to-third-parties",
+    "href": "privacy_policy.html#provision-of-personal-information-to-third-parties",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "The Company provides personal information to third parties only in cases corresponding to Article 17 and Article 18 of the Personal Information Protection Act, such as the consent of the information subject or special provisions of the law.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Privacy Policy"
+    ]
+  },
+  {
+    "objectID": "privacy_policy.html#rights-and-obligations-of-the-information-subject-and-methods-of-exercise",
+    "href": "privacy_policy.html#rights-and-obligations-of-the-information-subject-and-methods-of-exercise",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "The information subject may exercise the following rights against the Company at any time: - Right to view personal information - Right to correct personal information - Right to delete personal information - Right to suspend processing of personal information",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Privacy Policy"
+    ]
+  },
+  {
+    "objectID": "privacy_policy.html#personal-information-security-measures",
+    "href": "privacy_policy.html#personal-information-security-measures",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "The Company takes the following measures to ensure the security of personal information:\n\n\n\nEstablishment and implementation of internal management plans\nRegular employee training\nRegular inspections\n\n\n\n\n\nManagement of access rights to personal information processing systems\nInstallation of access control systems\nEncryption of unique identification information\nInstallation and operation of intrusion prevention systems\n\n\n\n\n\nAccess control of computer rooms and data storage rooms\nManagement of access rights to areas handling personal information",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Privacy Policy"
+    ]
+  },
+  {
+    "objectID": "privacy_policy.html#changes-to-privacy-policy",
+    "href": "privacy_policy.html#changes-to-privacy-policy",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "This privacy policy is effective from March 1, 2024, and any additions, deletions, or corrections made in accordance with laws and policies will be notified through announcements on the website.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Privacy Policy"
+    ]
+  },
+  {
+    "objectID": "privacy_policy.html#privacy-officer",
+    "href": "privacy_policy.html#privacy-officer",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "The Company has designated the following privacy officer to handle complaints and inquiries related to personal information protection:\n\nPrivacy Officer\n\nName: Victor Lee\nPosition: Director\nEmail: victor@r2bit.com",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Privacy Policy"
+    ]
+  },
+  {
+    "objectID": "privacy_policy.html#additional-privacy-protection-measures",
+    "href": "privacy_policy.html#additional-privacy-protection-measures",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "Encryption of Personal Information\n\nEncryption of users’ personal information during transmission\nSecure storage of encrypted personal information\n\nRegular Security Updates\n\nRegular updates of security systems\nPeriodic security assessments\n\nEmployee Training\n\nRegular privacy protection training for employees\nImplementation of privacy protection protocols",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Privacy Policy"
+    ]
+  },
+  {
+    "objectID": "privacy_policy.html#user-rights",
+    "href": "privacy_policy.html#user-rights",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "Users have the following rights regarding their personal information:\n\nRight to Access\n\nUsers can request access to their personal information\nAccess requests will be processed within reasonable time\n\nRight to Rectification\n\nUsers can request correction of inaccurate personal information\nCorrections will be made promptly upon verification\n\nRight to Erasure\n\nUsers can request deletion of their personal information\nDeletion requests will be processed unless there are legal grounds for retention\n\nRight to Data Portability\n\nUsers can request their personal information in a structured format\nUsers can request transfer of their information to another service provider\n\n\n\n\nEffective Date: March 1, 2024\nLast Updated: March 1, 2024",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Privacy Policy"
+    ]
+  },
+  {
+    "objectID": "slideshow/202210-hongik/index.html",
+    "href": "slideshow/202210-hongik/index.html",
+    "title": "\n데이터 사이언스와 디자인\n",
+    "section": "",
+    "text": "데이터 사이언스와 디자인"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/index.html#footnotes",
+    "href": "slideshow/202210-hongik/index.html#footnotes",
+    "title": "\n데이터 사이언스와 디자인\n",
+    "section": "각주",
+    "text": "각주\n\n\nXKCD 1667: Algorithms↩︎\nWriting Technical Papers with Markdown and Pandoc↩︎\nComparing ggplot2 and R Base Graphics By Nathan Yau↩︎"
   }
 ]
