@@ -12,7 +12,6 @@
 
 ## Quarto
 
-::: panel-tabset
 ### R
 
 ![](../../fig/quarto_workflow/rmd-knitr.png)
@@ -28,4 +27,3 @@
 ### Quarto: 파이썬
 
 ![](../../fig/quarto_workflow/qmd-jupyter.png)
-:::

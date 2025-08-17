@@ -1,58 +1,938 @@
 [
   {
+    "objectID": "terms_of_service.html",
+    "href": "terms_of_service.html",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "These Terms of Service (hereinafter referred to as “Terms”) establish the conditions and procedures for using the services provided by BitStat (hereinafter referred to as “Company”), as well as the rights, obligations, and responsibilities between the Company and its members, and other necessary matters.\n\n\n\nThe terms used in these Terms are defined as follows:\n\n“Service” refers to all services provided by the Company.\n“Member” refers to a person who has entered into a service usage contract with the Company and uses the services provided by the Company.\n“ID” refers to a combination of letters and numbers set by the member and approved by the Company for member identification and service use.\n“Password” refers to the combination of letters and numbers set by the member to confirm their identity and protect their information.\n\n\n\n\n\nThe Company shall post these Terms on the initial screen of the service so that members can easily understand the contents.\nThe Company may revise these Terms within the scope of not violating relevant laws when necessary.\nWhen revising the Terms, the Company shall notify the effective date and reasons for revision at least 7 days prior to the effective date.\n\n\n\n\n\nThe usage contract is formed when a person wishing to become a member agrees to the Terms and applies for membership following the procedures set by the Company, and the Company accepts such application.\nThe Company shall, in principle, accept the applicant’s application for service use.\nThe Company may not approve an application for membership in any of the following cases:\n\nWhen using another person’s name\nWhen submitting false information\nWhen applying for registration for purposes that violate social order or good customs\nOther cases where the registration requirements set by the Company are not met\n\n\n\n\n\n\nThe Company shall do its best to provide stable services to members.\nIf there are any changes to the content, usage method, or usage time of the service, the Company shall post the reasons for change, changed service content, and provision date on the initial screen of the service before such changes.\n\n\n\n\nMembers have the following obligations:\n\nNot to use the service for illegal purposes or in illegal ways\nNot to interfere with other members’ use of the service\nNot to copy, distribute, or modify the Company’s intellectual property without permission\nTo comply with other matters stipulated in these Terms and relevant laws\n\n\n\n\n\nThe Company may suspend service provision in the following cases:\n\nSystem maintenance or repair\nNetwork failure\nForce majeure events\n\nThe Company may terminate the service contract in the following cases:\n\nWhen a member violates these Terms\nWhen a member interferes with the Company’s business operations\nWhen a member engages in activities that damage the Company’s reputation\n\n\n\n\n\n\nIntellectual property rights for the service belong to the Company.\nMembers may not use the Company’s intellectual property for commercial purposes without permission.\n\n\n\n\n\nThe Company is not responsible for service interruption due to force majeure events.\nThe Company is not responsible for losses incurred by members due to their own negligence.\n\n\n\n\n\nThe Company operates a customer service center to handle member complaints.\nIn case of disputes, both parties shall endeavor to resolve them through mutual discussion.\nIf dispute resolution through discussion is difficult, it shall be resolved according to relevant laws.\n\n\n\n\nThese Terms shall be governed by and construed in accordance with the laws of the Republic of Korea.\n\n\n\n\nMatters not stipulated in these Terms shall be governed by relevant laws and regulations.\nIf any provision of these Terms is held to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.\n\n\n\nEffective Date: March 1, 2024\nLast Updated: March 1, 2024\nBitStat Co., Ltd.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "terms_of_service.html#article-1-purpose",
+    "href": "terms_of_service.html#article-1-purpose",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "These Terms of Service (hereinafter referred to as “Terms”) establish the conditions and procedures for using the services provided by BitStat (hereinafter referred to as “Company”), as well as the rights, obligations, and responsibilities between the Company and its members, and other necessary matters.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "terms_of_service.html#article-2-definitions",
+    "href": "terms_of_service.html#article-2-definitions",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "The terms used in these Terms are defined as follows:\n\n“Service” refers to all services provided by the Company.\n“Member” refers to a person who has entered into a service usage contract with the Company and uses the services provided by the Company.\n“ID” refers to a combination of letters and numbers set by the member and approved by the Company for member identification and service use.\n“Password” refers to the combination of letters and numbers set by the member to confirm their identity and protect their information.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "terms_of_service.html#article-3-posting-and-revision-of-terms",
+    "href": "terms_of_service.html#article-3-posting-and-revision-of-terms",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "The Company shall post these Terms on the initial screen of the service so that members can easily understand the contents.\nThe Company may revise these Terms within the scope of not violating relevant laws when necessary.\nWhen revising the Terms, the Company shall notify the effective date and reasons for revision at least 7 days prior to the effective date.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "terms_of_service.html#article-4-formation-of-usage-contract",
+    "href": "terms_of_service.html#article-4-formation-of-usage-contract",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "The usage contract is formed when a person wishing to become a member agrees to the Terms and applies for membership following the procedures set by the Company, and the Company accepts such application.\nThe Company shall, in principle, accept the applicant’s application for service use.\nThe Company may not approve an application for membership in any of the following cases:\n\nWhen using another person’s name\nWhen submitting false information\nWhen applying for registration for purposes that violate social order or good customs\nOther cases where the registration requirements set by the Company are not met",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "terms_of_service.html#article-5-provision-and-change-of-services",
+    "href": "terms_of_service.html#article-5-provision-and-change-of-services",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "The Company shall do its best to provide stable services to members.\nIf there are any changes to the content, usage method, or usage time of the service, the Company shall post the reasons for change, changed service content, and provision date on the initial screen of the service before such changes.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "terms_of_service.html#article-6-member-obligations",
+    "href": "terms_of_service.html#article-6-member-obligations",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "Members have the following obligations:\n\nNot to use the service for illegal purposes or in illegal ways\nNot to interfere with other members’ use of the service\nNot to copy, distribute, or modify the Company’s intellectual property without permission\nTo comply with other matters stipulated in these Terms and relevant laws",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "terms_of_service.html#article-7-service-suspension-and-contract-termination",
+    "href": "terms_of_service.html#article-7-service-suspension-and-contract-termination",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "The Company may suspend service provision in the following cases:\n\nSystem maintenance or repair\nNetwork failure\nForce majeure events\n\nThe Company may terminate the service contract in the following cases:\n\nWhen a member violates these Terms\nWhen a member interferes with the Company’s business operations\nWhen a member engages in activities that damage the Company’s reputation",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "terms_of_service.html#article-8-intellectual-property-rights",
+    "href": "terms_of_service.html#article-8-intellectual-property-rights",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "Intellectual property rights for the service belong to the Company.\nMembers may not use the Company’s intellectual property for commercial purposes without permission.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "terms_of_service.html#article-9-limitation-of-liability",
+    "href": "terms_of_service.html#article-9-limitation-of-liability",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "The Company is not responsible for service interruption due to force majeure events.\nThe Company is not responsible for losses incurred by members due to their own negligence.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "terms_of_service.html#article-10-dispute-resolution",
+    "href": "terms_of_service.html#article-10-dispute-resolution",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "The Company operates a customer service center to handle member complaints.\nIn case of disputes, both parties shall endeavor to resolve them through mutual discussion.\nIf dispute resolution through discussion is difficult, it shall be resolved according to relevant laws.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "terms_of_service.html#article-11-governing-law",
+    "href": "terms_of_service.html#article-11-governing-law",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "These Terms shall be governed by and construed in accordance with the laws of the Republic of Korea.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "terms_of_service.html#article-12-miscellaneous",
+    "href": "terms_of_service.html#article-12-miscellaneous",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "Matters not stipulated in these Terms shall be governed by relevant laws and regulations.\nIf any provision of these Terms is held to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.\n\n\n\nEffective Date: March 1, 2024\nLast Updated: March 1, 2024\nBitStat Co., Ltd.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Terms of Service"
+    ]
+  },
+  {
+    "objectID": "records.html",
+    "href": "records.html",
+    "title": "기부금 모금/활용실적",
+    "section": "",
+    "text": "연도\n기부금 모금 활용실적\n파일 다운로드\n\n\n\n\n2022년\n2022년 자료 다운\n다운로드\n\n\n2023년\n2023년 자료 다운\n다운로드\n\n\n2024년\n2024년 자료 다운\n준비중",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "기부금 모금/활용실적"
+    ]
+  },
+  {
+    "objectID": "posts/20220831_low_code_shiny/index.html",
+    "href": "posts/20220831_low_code_shiny/index.html",
+    "title": "로우코드 Shiny 앱 개발",
+    "section": "",
+    "text": "출처: https://itwiki.kr/w/로우_코드\n로우코드는 필요한 부품을 간단한 명령으로 조합하여 시스템을 만드는 개발 방법으로, 복잡한 코딩 과정을 단순화해서 소프트웨어를 빠르게 개발 및 배포하도록 만든 일종의 개발 환경으로 소개되고 있다.\nShiny 앱은 2012년 처음 소개된 이후 약 10년의 세월이 흐르며 다양한 프레임워크가 등장하여 서로 경쟁하고 있다. 이 분야를 개척한 것은 Shiny가 처음이지만 R을 기본언어로 하다보니 파이썬이나 자바스크립트와 같은 다른 언어을 많이 사용하고 있는 다른 반응형 대쉬보드 프레임워크가 등장하다 보니 GitHub 별점수에서 상대적으로 밀리고 있는 것으로 보인다. React 기반한 파이썬 프레임워크 Plotly Dash, 파이썬 Streamlit이 사용자면에서 최근들어 급증하고 있는데 최근 추세를 반영하고 있다고 볼 수 있다.\n출처: Streamlit vs. Dash vs. Shiny vs. Voila vs. Flask vs. Jupyter - Comparing data dashboarding tools and frameworks\n\n\n장점단점\n\n\n\n프로그램 개발 시간 단축\n\n\n모든 소스 코드를 작성하지 않고, 앱을 조합하여 시스템을 구축 하여 개발 기간을 단축\n\n\n개발비 절감\n\n\n개발 기간을 줄이는 효과로 프로그래머의 인력이 감소 개발에 들어 가는 인건비를 절감 하는 효과\n전문 개발자의 경우 필요에 따라 자동화와 불필요한 요소 생략 등을 통해 작업 효율성을 대폭 향상할 수 있다. 이런 효율성 향상은 결국 비용감소\n\n\n오류가 줄어든다\n\n\n프로그램밍을 직접 수행하는 부분이 적어지는 만큼 실수가 줄어 든다.\n사람이 작성하는 코드의 양이 적어지면서 오류 확률이 줄어 든다.\n그 결과 버그 수정 등에 걸리는 시간 단축과 비용 경감에 효과가 있다.\n\n\n인력 확보가 비교적 쉽다.\n\n\n엔지니어가 전문적인 실력을 갖추지 않았더라고 개발 작업이 가능.\n숙련된 엔지니어에 대한 의존성이 줄어 든다.\n\n\n\n\n자유도가 낮다\n\n\n대규모 개발에 사용의 어려움으로 인해 단순 구조 및 단일 비즈니스 프로세스에 적합하다.\n개발 툴에 따라서 가능 한 기능이 다르기 때문에 각 툴에만 의존 하게 되는 단점\n\n\n프로그램의 창의성 악화\n\n\n로우코드에 의존하게 되면 시스템을 새로 구축 하는 프로그래머가 점점 줄어 들어 창의성을 발휘하여 개발하는 경우가 적어 질 것이다.\n\n\n보안의 취약\n\n\n간단한 기능을 만들때는 기본적인 보안 관리에 소홀 할 수 있다.\n빠른 속도와 낮은 비용에만 너무 초점을 맞추면 관리 부족과 보안 취약점이 들어 날 수 있다.\n\n\n\n\n시장에서 다음 시스템이 인기를 끌고 있다.\n\nOutSystems\nmendix\nServiceNow\nKintone\nKISSFLOW\nAppian\nBoomi Flow"
+  },
+  {
+    "objectID": "posts/20220831_low_code_shiny/index.html#shinyuieditor",
+    "href": "posts/20220831_low_code_shiny/index.html#shinyuieditor",
+    "title": "로우코드 Shiny 앱 개발",
+    "section": "2.1 shinyuieditor",
+    "text": "2.1 shinyuieditor\nshinyuieditor는 2022-08-31 현재 알파버젼이지만 기존 Shiny UI 개발에 많은 노력이 든 것에 비하면 빠르고 쉽게 ui.R UI 부분을 제작할 수 있다.\n예를 들어 Drag and Drop 으로 UI 구성요소를 추가하는 것도 가능하다.\nVideo\n그외에도 Shiny 앱 개발에 필요한 다양한 다음 작업을 수행할 수 있다.\n\nUI 구성요소 이동\nUI 구성요소 선택\nUI 구성요소 삭제\nUI 구성요소 설정사항 변경\n행/열 폭 확인\n행/열을 레이아웃 격자에 추가/삭제\n행/열 폭 길이조정\n변경사항 Undo/Redo 기능\n\n동영상 사용방법은 shinyuieditor How to 참고\nshinyuieditor 패키지 명령어는 몇개 없는데 Shiny 앱 UI 제작을 위해 launch_editor() 함수를 사용해서 제작한다. 첫 선택사항에 따라 “shiny앱명칭” 디렉토리 아래 app.R 혹은 ui.R, server.R 이 생성된 것을 확인할 수 있다.\n\nshinyuieditor::launch_editor(app_loc = \"shiny앱명칭\")\n\nUI 제작이 마무리되면 bslib 패키지로 외양을 가꾸고 server.R 서버 코드를 작성하면 간단히 Shiny 앱 개발이 마무리된다."
+  },
+  {
+    "objectID": "posts/20220831_low_code_shiny/index.html#dashboard-builder",
+    "href": "posts/20220831_low_code_shiny/index.html#dashboard-builder",
+    "title": "로우코드 Shiny 앱 개발",
+    "section": "2.2 Dashboard-Builder",
+    "text": "2.2 Dashboard-Builder\nPeter Gandenberger, “Dashboard-Builder: Building Shiny Apps without writing any code”, rstudio::conf(2022), 바로가기\nPeter Gandenberger가 최근에 개발한 Dashboard Builder는 대쉬보드를 키보드 입력없이 마우스만 사용해서 간단히 개발할 수 있다. Dashboard Builder 는 gridstackeR 패키지 기반하고 있다.\n로우코드 대쉬보드 개발 작업흐름은 다음과 같다.\n\n데이터 불러오기\n대쉬보드 구성요소 생성\n대쉬보드 내보내기\n후속작업을 통해 기능추가 및 개선 작업 수행\n\n2분 22초면 대쉬보드를 뚝딱 제작할 수 있는 사례를 다음 동영상을 통해 확인할 수 있다. DASHBOARD-BUILDER: create R-Shiny Dashboards in 2 Minutes and 22 Seconds"
+  },
+  {
+    "objectID": "posts/20220831_low_code_shiny/index.html#bslib-외양",
+    "href": "posts/20220831_low_code_shiny/index.html#bslib-외양",
+    "title": "로우코드 Shiny 앱 개발",
+    "section": "2.3 bslib 외양",
+    "text": "2.3 bslib 외양\nShiny 앱의 외양 Look-and-Feel 을 수월히 제작할 수 있게 해주는 패키지가 bslib로 이를 통해서 Shiny 앱 개발 생산성을 크게 높일 수 있다.\n\nbslib 패키지 bs_theme_preview() 함수를 통해 Shiny 외양을 원하는 대로 제작할 수 있다. 다양한 외양 관련 사항을 지정하면 관련 사항이 코드로 떨어지게 되어 이를 복사하여 Shiny 앱에 CSS 나 코드에 직접 넣어 사용할 수 있다.\n\nbs_theme_preview()\n\n# Warning: package ‘bslib’ was built under R version 4.2.1\n# \n# Attaching package: ‘bslib’\n# \n# The following object is masked from ‘package:utils’:\n# \n#     page\n# \n# Warning: package ‘rlang’ was built under R version 4.2.1\n# Using libcurl 7.64.1 with Schannel\n# This Font Awesome icon ('exclamation-triangle') does not exist:\n# * if providing a custom `html_dependency` these `name` checks can \n#   be deactivated with `verify_fa = FALSE`\n# \n# Listening on http://127.0.0.1:4337\n# \n# ####  Update your bs_theme() R code with:  #####\n# bs_theme_update(theme, primary = \"#6C8FC4\", base_font = font_collection(\"system-ui\", \n#     \"-apple-system\", \"Segoe UI\", font_google(\"Roboto\"), \"Helvetica Neue\", \n#     \"Arial\", font_google(\"Noto Sans\"), \"Liberation Sans\", \"sans-serif\", \n#     \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \n#     \"Noto Color Emoji\"))"
+  },
+  {
+    "objectID": "posts/20220831_low_code_shiny/index.html#데이터-패키지",
+    "href": "posts/20220831_low_code_shiny/index.html#데이터-패키지",
+    "title": "로우코드 Shiny 앱 개발",
+    "section": "2.4 데이터 패키지",
+    "text": "2.4 데이터 패키지\n데이터를 별도 패키지로 묶어 관리하게 되면 Shiny 앱을 개발할 때 별도 데이터 패키지로 묶어 필요한 경우 Shiny 앱에서 불러 사용하게 되면 관리도 그렇고 개발시간도 단축시킬 수 있다.\n\n통계청 통계교육원 실용통계 교과서에 실린 데이터를 묶어낸 R 데이터 패키지: hsData"
+  },
+  {
+    "objectID": "posts/20220831_low_code_shiny/index.html#ui-화면-설계",
+    "href": "posts/20220831_low_code_shiny/index.html#ui-화면-설계",
+    "title": "로우코드 Shiny 앱 개발",
+    "section": "3.1 UI 화면 설계",
+    "text": "3.1 UI 화면 설계\n파워포인트, figma 등 화면설계 도구를 사용해서 Shiny UI를 작성한다."
+  },
+  {
+    "objectID": "posts/20220831_low_code_shiny/index.html#shinyuieditor-1",
+    "href": "posts/20220831_low_code_shiny/index.html#shinyuieditor-1",
+    "title": "로우코드 Shiny 앱 개발",
+    "section": "3.2 shinyuieditor",
+    "text": "3.2 shinyuieditor\nshinyuieditor 패키지를 사용해서 Shiny 앱 UI 부분을 제작한다."
+  },
+  {
+    "objectID": "posts/20220831_low_code_shiny/index.html#서버-구현",
+    "href": "posts/20220831_low_code_shiny/index.html#서버-구현",
+    "title": "로우코드 Shiny 앱 개발",
+    "section": "3.3 서버 구현",
+    "text": "3.3 서버 구현\n마지막으로 server.R 코드를 작성하여 hsData 데이터 패키지에 포함된 데이터셋을 선택할 경우 해당 통계 분석결과를 자동으로 실행되도록 구현한다."
+  },
+  {
+    "objectID": "posts/20220831_low_code_shiny/index.html#배포",
+    "href": "posts/20220831_low_code_shiny/index.html#배포",
+    "title": "로우코드 Shiny 앱 개발",
+    "section": "3.4 배포",
+    "text": "3.4 배포\nshinyapps.io에 RStudio 에서 버튼을 몇번 눌러 배포한다.\n\nhttps://r2bit.shinyapps.io/bitStat-HS/"
+  },
+  {
+    "objectID": "posts/20220831_low_code_shiny/index.html#실행화면",
+    "href": "posts/20220831_low_code_shiny/index.html#실행화면",
+    "title": "로우코드 Shiny 앱 개발",
+    "section": "3.5 실행화면",
+    "text": "3.5 실행화면"
+  },
+  {
+    "objectID": "posts/20220815_quarto_blog/index.html",
+    "href": "posts/20220815_quarto_blog/index.html",
+    "title": "Quarto 블로그",
+    "section": "",
+    "text": "블로그를 작성하고 운영하는 이유를 다음과 같이 들 수 있다.\n\n학습: 강의를 듣거나 무언가 읽어 독서를 통해 학습되는 지식보다 글쓰기를 통해 축적되는 지식이 어떻게 보면 학습 효과가 더 크다. 특히, 학습한 내용을 코드로 작성하여 돌려볼 경우 학습효과를 배가시킨다.\n지식나눔: 구글 검색엔진을 통해 검색된 블로그 게시글을 통해 짧은 시간 학습에 도움을 받지만, 마찬가지로 본인이 작성한 블로그 게시글이 다른 사람에게 도움을 주는 것도 사실이다. 한가지 명심할 사항은 본인 실력보다 한두단계 앞선 사람으로 배우는 것이 실질적으로 큰 도움이 된다. 그래서 눈높이 교육이라는 얘기도 있지 않나 싶다.\n구인구직, 포트폴리오: 차곡차곡 누적된 블로그 게시물은 그 자체로 포트폴리오가 되고 헤드헌터를 통해 채용 인터뷰 요청을 받게 된다."
+  },
+  {
+    "objectID": "posts/20220815_quarto_blog/index.html#quarto_blog.qmd",
+    "href": "posts/20220815_quarto_blog/index.html#quarto_blog.qmd",
+    "title": "Quarto 블로그",
+    "section": "quarto_blog.qmd",
+    "text": "quarto_blog.qmd\n_quarto.yml 파일에 지정된 웹사이트에서 블로그로 들어가는 메뉴에 들어간 파일명이 quarto_blog.qmd 이라 해당 파일에 블로그 설정을 담아낸다.\n---\ntitle: \"Quarto 데이터 과학\"\nlisting:\n  contents: posts\n  sort: \"date desc\"\n  type: default\n  categories: true\n  sort-ui: false\n  filter-ui: false\npage-layout: full\ntitle-block-banner: false\n---"
+  },
+  {
+    "objectID": "learnr.html",
+    "href": "learnr.html",
+    "title": "자기주도 학습 - learnr",
+    "section": "",
+    "text": "# 자기주도학습 콘텐츠 저작\n데이터 과학 자기주도학습 학습 콘텐츠 저작은 기본적으로 rmarkdown으로 데이터 과학 언어는 R, 문서는 마크다운으로 하여 저작한다. 이를 인터랙티브 학습 콘텐츠로 제작하는 방식은 learnr 팩키지를 사용해서 개발한다."
+  },
+  {
+    "objectID": "learnr.html#shinyapps.io",
+    "href": "learnr.html#shinyapps.io",
+    "title": "자기주도 학습 - learnr",
+    "section": "shinyapps.io",
+    "text": "shinyapps.io\n가장 단순한 방법은 shinyapps.io를 통해 바로 배포하는 것이다. shinyapps.io 는 10~20명정도 적은 인원이 자기주도 학습을 할 경우 적합한 것으로 알려져 있다. - shinyaps 사례"
+  },
+  {
+    "objectID": "learnr.html#mybinder.org",
+    "href": "learnr.html#mybinder.org",
+    "title": "자기주도 학습 - learnr",
+    "section": "mybinder.org",
+    "text": "mybinder.org\n두번째 방식은 binder 서비스를 활용하는 것으로 도커 컨테이너를 처음 띄울 때 시간이 다소 소요되지는 이슈가 있지만 자기주도 학습을 원하는 분들이 많은 경우 원활한 서비스를 제공한다는 점에서 큰 장점이 있다. 방식은 Github 저장소를 binder 에 연결시켜 도커 이미지를 컨테이너를 만들어 두어 자기주도 학습 사용자가 붙을 때마다 이를 동일한 학습환경으로 띄워주는 개념이다."
+  },
+  {
+    "objectID": "donation.html",
+    "href": "donation.html",
+    "title": "후원 참여 및 기부 안내",
+    "section": "",
+    "text": "한국 R 사용자들을 위한 특별한 기회: 여러분의 후원으로 더욱 강력해지세요!\n🌟 전문적인 R/쿼토 지원: 서울 R 사용자 모임의 일원이 되어, R/쿼토 복잡한 문제를 해결하는 데 필요한 전문적인 도움을 받으세요. 여러분의 데이터 분석 여정을 쉽고 효율적으로 만들어 드립니다! 디스코드 질의응답 채널에 참여하여 적극적으로 질문하고 답변을 주고받으세요.\n📜 전자 기부금 영수증: 모든 후원에 대해 전자 기부금 영수증을 발급해드리며, 여러분의 후원이 어떻게 사용되는지 투명하게 보여드립니다. 여러분의 기여가 커뮤니티에 얼마나 중요한지 알 수 있습니다.\n🚀 서울 R 밋업에서 배우는 선진 기술: 후원자 여러분은 서울 R 밋업 행사에 우선적으로 초대되어, 업계 선두주자들로부터 최신 R/쿼토 기술과 트렌드를 배울 수 있는 기회를 얻습니다. 네트워킹과 지식 공유의 장에서 여러분의 역량을 한 단계 더 업그레이드 시키세요!\n여러분의 후원은 우리 모두에게 가치 있는 지식과 기술을 전파하는 데 큰 도움이 됩니다. 지금 바로 공익법인 한국 R 사용자 모임의 후원자가 되어, 데이터 과학 커뮤니티를 더욱 강력하게 만드세요!\n\n\n\n회원가입 신청: https://forms.gle/1gF8QezVPa8ur7617\n후원계좌: 하나은행 448-910057-06204 / 사단법인 한국알사용자회\n후원금: 2만원 이상\n후원금 납입(약정) 기부금 영수증 발급 신청\n\nhttps://forms.gle/MEwLjasSaYj4a72k6",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "후원 참여 및 기부 안내"
+    ]
+  },
+  {
+    "objectID": "donation.html#공익법인-후원-참여",
+    "href": "donation.html#공익법인-후원-참여",
+    "title": "후원 참여 및 기부 안내",
+    "section": "",
+    "text": "한국 R 사용자들을 위한 특별한 기회: 여러분의 후원으로 더욱 강력해지세요!\n🌟 전문적인 R/쿼토 지원: 서울 R 사용자 모임의 일원이 되어, R/쿼토 복잡한 문제를 해결하는 데 필요한 전문적인 도움을 받으세요. 여러분의 데이터 분석 여정을 쉽고 효율적으로 만들어 드립니다! 디스코드 질의응답 채널에 참여하여 적극적으로 질문하고 답변을 주고받으세요.\n📜 전자 기부금 영수증: 모든 후원에 대해 전자 기부금 영수증을 발급해드리며, 여러분의 후원이 어떻게 사용되는지 투명하게 보여드립니다. 여러분의 기여가 커뮤니티에 얼마나 중요한지 알 수 있습니다.\n🚀 서울 R 밋업에서 배우는 선진 기술: 후원자 여러분은 서울 R 밋업 행사에 우선적으로 초대되어, 업계 선두주자들로부터 최신 R/쿼토 기술과 트렌드를 배울 수 있는 기회를 얻습니다. 네트워킹과 지식 공유의 장에서 여러분의 역량을 한 단계 더 업그레이드 시키세요!\n여러분의 후원은 우리 모두에게 가치 있는 지식과 기술을 전파하는 데 큰 도움이 됩니다. 지금 바로 공익법인 한국 R 사용자 모임의 후원자가 되어, 데이터 과학 커뮤니티를 더욱 강력하게 만드세요!\n\n\n\n회원가입 신청: https://forms.gle/1gF8QezVPa8ur7617\n후원계좌: 하나은행 448-910057-06204 / 사단법인 한국알사용자회\n후원금: 2만원 이상\n후원금 납입(약정) 기부금 영수증 발급 신청\n\nhttps://forms.gle/MEwLjasSaYj4a72k6",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "후원 참여 및 기부 안내"
+    ]
+  },
+  {
+    "objectID": "contest.html",
+    "href": "contest.html",
+    "title": "경진대회",
+    "section": "",
+    "text": "Shiny\n\n1회: 2019년 4월 05일\n2회: 2020년 7월 13일\n3회: 2021년 6월 24일\n\n\n\nGT\n\n2020년\n2021년"
+  },
+  {
+    "objectID": "book.html",
+    "href": "book.html",
+    "title": "(전자)책",
+    "section": "",
+    "text": "&lt;챗GPT 유닉스 쉘&gt;은 생산성 자동화 도구를 다루고 있습니다.\n\n\n\n\n\n\n\n\n2023-08-15\n\n\n\n\n\n\n\n\n&lt;챗GPT SQL&gt;은 SQL을 넘어 챗GPT와 떠나는 데이터 과학 여정을 담고 있습니다.\n\n\n\n\n\n\n\n\n2024-02-17\n\n\n\n\n\n\n\n\n인공지능 시대 과학기술 저작 도구를 다루고 있습니다\n\n\n\n\n\n\n\n\n2024-03-01\n\n\n\n\n\n\n\n\n출간예정\n\n\n\n\n\n\n\n\n2023-11-15\n\n\n\n\n\n\n\n\n출간예정\n\n\n\n\n\n\n\n\n2023-12-15\n\n\n\n\n\n\n\n\n출간예정\n\n\n\n\n\n\n\n\n2024-01-15\n\n\n\n\n\n\n\n“챗GPT 유닉스 쉘: 데이터 과학 자동화 도구”\n\n뉴스기사: 챗GPT가 던진 새 가능성, 데이터 과학 분야 통해 미리 살펴보기"
+  },
+  {
+    "objectID": "book.html#출판-도서",
+    "href": "book.html#출판-도서",
+    "title": "(전자)책",
+    "section": "",
+    "text": "&lt;챗GPT 유닉스 쉘&gt;은 생산성 자동화 도구를 다루고 있습니다.\n\n\n\n\n\n\n\n\n2023-08-15\n\n\n\n\n\n\n\n\n&lt;챗GPT SQL&gt;은 SQL을 넘어 챗GPT와 떠나는 데이터 과학 여정을 담고 있습니다.\n\n\n\n\n\n\n\n\n2024-02-17\n\n\n\n\n\n\n\n\n인공지능 시대 과학기술 저작 도구를 다루고 있습니다\n\n\n\n\n\n\n\n\n2024-03-01\n\n\n\n\n\n\n\n\n출간예정\n\n\n\n\n\n\n\n\n2023-11-15\n\n\n\n\n\n\n\n\n출간예정\n\n\n\n\n\n\n\n\n2023-12-15\n\n\n\n\n\n\n\n\n출간예정\n\n\n\n\n\n\n\n\n2024-01-15\n\n\n\n\n\n\n\n“챗GPT 유닉스 쉘: 데이터 과학 자동화 도구”\n\n뉴스기사: 챗GPT가 던진 새 가능성, 데이터 과학 분야 통해 미리 살펴보기"
+  },
+  {
+    "objectID": "book.html#오픈-전자책",
+    "href": "book.html#오픈-전자책",
+    "title": "(전자)책",
+    "section": "오픈 전자책",
+    "text": "오픈 전자책\n\n\n\n\n\n\n\n\n\n데이터 과학 프로그래밍\n\n데이터 과학자로 성장하기 위한 프로그래밍 개념\n\n\n\n\n\n\n\n\n2022-06-17\n\n\n\n\n\n\n데이터 시각화\n\n데이터 시각화에 대한 개념과 실무\n\n\n\n\n\n\n\n\n2022-06-03\n\n\n\n\n\n\n데이터 과학 기본기\n\n데이터 과학을 지탱하는 기본기\n\n\n\n\n\n\n\n\n2022-06-04\n\n\n\n\n\n\n오픈 통계 패키지\n\n설치형 오픈 통계 패키지 - Rcmdr\n\n\n\n\n\n\n\n\n2022-06-05\n\n\n\n\n\n\n데이터 과학 언플러그드\n\n종이와 연필로 데이터 과학 개념 설명\n\n\n\n\n\n\n\n\n2022-06-10\n\n\n\n\n\n\n문서 콘텐츠 제작 실무\n\n집필중\n\n\n\n\n\n\n\n\n2022-XX-XX\n\n\n\n\n\n\nR 텍스트 마이닝\n\nbitTA 패키지로 한글 텍스트 분석\n\n\n\n\n\n\n\n\n2022-08-15"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "한국 알(R) 사용자회 소개",
     "section": "",
-    "text": "한국 알(R) 사용자회는 2022년 2월에 설립된 비영리 공익법인입니다. BitStat 오픈 통계 패키지 개발, 데이터 사이언스 전자책 콘텐츠 제작, 서울 R 미트업 및 한국 R 컨퍼런스 개최, 그리고 나눔교육운동본부, 서울교육청 사회단체 교육활동, 대전관광공사 민간분야 과학문화활동 등 다양한 사업을 통해 디지털 불평등 해소와 오픈 과학기술의 보급에 힘쓰며, 더 나은 세상을 만들어가고 있습니다."
+    "text": "한국 알(R) 사용자회는 2022년 2월에 설립된 비영리 공익법인입니다. BitStat 오픈 통계 패키지 개발, 데이터 사이언스 전자책 콘텐츠 제작, 서울 R 미트업 및 한국 R 컨퍼런스 개최, 그리고 나눔교육운동본부, 서울교육청 사회단체 교육활동, 대전관광공사 민간분야 과학문화활동 등 다양한 사업을 통해 디지털 불평등 해소와 오픈 과학기술의 보급에 힘쓰며, 더 나은 세상을 만들어가고 있습니다.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "한국 R 사용자회"
+    ]
+  },
+  {
+    "objectID": "about.html#한국r사용자회",
+    "href": "about.html#한국r사용자회",
+    "title": "한국 알(R) 사용자회 소개",
+    "section": "",
+    "text": "한국 알(R) 사용자회는 2022년 2월에 설립된 비영리 공익법인입니다. BitStat 오픈 통계 패키지 개발, 데이터 사이언스 전자책 콘텐츠 제작, 서울 R 미트업 및 한국 R 컨퍼런스 개최, 그리고 나눔교육운동본부, 서울교육청 사회단체 교육활동, 대전관광공사 민간분야 과학문화활동 등 다양한 사업을 통해 디지털 불평등 해소와 오픈 과학기술의 보급에 힘쓰며, 더 나은 세상을 만들어가고 있습니다.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "한국 R 사용자회"
+    ]
   },
   {
     "objectID": "about.html#r",
     "href": "about.html#r",
     "title": "한국 알(R) 사용자회 소개",
     "section": "R",
-    "text": "R\n과거에는 SPSS, STATA, SAS, 미니탭 등 GUI 기반 통계 패키지가 통계 및 데이터 분석의 주류를 이루었습니다. 그러나 빅데이터 시대가 도래하고, 데이터 사이언스와 챗GPT와 같은 인공지능 기술이 부상하면서 R과 파이썬이 널리 사용되고 있습니다.\nR은 1992년 뉴질랜드 오클랜드 대학의 Robert Gentleman 교수와 Ross Ihaka 교수가 개발을 시작하였으며, 이후 GPL 라이선스 하에 소스코드를 공개하였습니다. R 코어 그룹이 결성되고, 패키지 배포를 위한 CRAN이 공개되었으며, 공식 웹사이트와 함께 2000년에는 R 1.0.0이 처음 배포되었습니다. 이후 R 저널, UseR! 컨퍼런스, R 재단, R 컨소시엄 등이 설립되며, 전 세계 수많은 재능 있고 열정적인 사람들이 R의 발전에 기여해왔습니다. 1\n한국에서는 2017년부터 R Meetup이 시작되었고, 2021년에는 한국 R 컨퍼런스가 개최되었습니다. 2022년에는 사단법인 한국 R 사용자회가 설립되어 활발한 활동을 이어가고 있습니다. 2"
+    "text": "R\n과거에는 SPSS, STATA, SAS, 미니탭 등 GUI 기반 통계 패키지가 통계 및 데이터 분석의 주류를 이루었습니다. 그러나 빅데이터 시대가 도래하고, 데이터 사이언스와 챗GPT와 같은 인공지능 기술이 부상하면서 R과 파이썬이 널리 사용되고 있습니다.\nR은 1992년 뉴질랜드 오클랜드 대학의 Robert Gentleman 교수와 Ross Ihaka 교수가 개발을 시작하였으며, 이후 GPL 라이선스 하에 소스코드를 공개하였습니다. R 코어 그룹이 결성되고, 패키지 배포를 위한 CRAN이 공개되었으며, 공식 웹사이트와 함께 2000년에는 R 1.0.0이 처음 배포되었습니다. 이후 R 저널, UseR! 컨퍼런스, R 재단, R 컨소시엄 등이 설립되며, 전 세계 수많은 재능 있고 열정적인 사람들이 R의 발전에 기여해왔습니다. 1\n한국에서는 2017년부터 R Meetup이 시작되었고, 2021년에는 한국 R 컨퍼런스가 개최되었습니다. 2022년에는 사단법인 한국 R 사용자회가 설립되어 활발한 활동을 이어가고 있습니다. 2",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "한국 R 사용자회"
+    ]
   },
   {
     "objectID": "about.html#r-장점",
     "href": "about.html#r-장점",
     "title": "한국 알(R) 사용자회 소개",
     "section": "R 장점",
-    "text": "R 장점\n\n통계 분석에 최적화: R은 회귀, 시계열, 다변량, 공간, 기계학습, 딥러닝 등 다양한 통계 모형을 지원하여, 복잡한 통계 계산을 효율적으로 수행할 수 있습니다.\n강력한 데이터 시각화: ggplot2, plotly 등 다양한 패키지를 통해 고급 데이터 시각화가 가능합니다.\n풍부한 패키지 생태계: 공식 및 커뮤니티에서 제공하는 수천 개의 패키지를 활용하여 데이터 처리, 분석, 시각화, 모델 개발 등 다양한 작업을 손쉽게 수행할 수 있습니다.\n활발한 커뮤니티 지원: 한국을 포함한 전 세계적으로 활발한 사용자 커뮤니티가 형성되어 있어, 다양한 문제 해결과 정보 공유가 활발하게 이루어집니다."
+    "text": "R 장점\n\n통계 분석에 최적화: R은 회귀, 시계열, 다변량, 공간, 기계학습, 딥러닝 등 다양한 통계 모형을 지원하여, 복잡한 통계 계산을 효율적으로 수행할 수 있습니다.\n강력한 데이터 시각화: ggplot2, plotly 등 다양한 패키지를 통해 고급 데이터 시각화가 가능합니다.\n풍부한 패키지 생태계: 공식 및 커뮤니티에서 제공하는 수천 개의 패키지를 활용하여 데이터 처리, 분석, 시각화, 모델 개발 등 다양한 작업을 손쉽게 수행할 수 있습니다.\n활발한 커뮤니티 지원: 한국을 포함한 전 세계적으로 활발한 사용자 커뮤니티가 형성되어 있어, 다양한 문제 해결과 정보 공유가 활발하게 이루어집니다.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "한국 R 사용자회"
+    ]
   },
   {
     "objectID": "about.html#왜-r에-대한-학술연구가-필요한가",
     "href": "about.html#왜-r에-대한-학술연구가-필요한가",
     "title": "한국 알(R) 사용자회 소개",
     "section": "왜 R에 대한 학술연구가 필요한가",
-    "text": "왜 R에 대한 학술연구가 필요한가\n\n통계적 방법론의 발전: R은 다양한 통계적 방법론을 지원합니다. 이러한 방법론에 대한 학술적 연구는 분석 결과의 정확성과 신뢰성을 높이는 데 기여합니다.\n도구 활용의 효율성 제고: R은 강력한 데이터 처리 및 분석 기능을 제공합니다. 이를 다양한 분야에서 더욱 효율적이고 효과적으로 활용하기 위한 연구가 필요합니다. 특히, 영어 기반의 환경을 한글로 번역하고, 매뉴얼을 제공하며, 사용 경험을 공유하는 등 국내 과학기술 발전을 위한 추가적인 노력이 요구됩니다.\n언어의 효율성과 사용성 향상: R 프로그래밍 언어 자체에 대한 연구는 언어의 효율성과 사용성을 높이는 데 중요합니다. 이를 통해 R을 보다 쉽게 배우고 활용할 수 있는 방법을 개발할 수 있습니다."
+    "text": "왜 R에 대한 학술연구가 필요한가\n\n통계적 방법론의 발전: R은 다양한 통계적 방법론을 지원합니다. 이러한 방법론에 대한 학술적 연구는 분석 결과의 정확성과 신뢰성을 높이는 데 기여합니다.\n도구 활용의 효율성 제고: R은 강력한 데이터 처리 및 분석 기능을 제공합니다. 이를 다양한 분야에서 더욱 효율적이고 효과적으로 활용하기 위한 연구가 필요합니다. 특히, 영어 기반의 환경을 한글로 번역하고, 매뉴얼을 제공하며, 사용 경험을 공유하는 등 국내 과학기술 발전을 위한 추가적인 노력이 요구됩니다.\n언어의 효율성과 사용성 향상: R 프로그래밍 언어 자체에 대한 연구는 언어의 효율성과 사용성을 높이는 데 중요합니다. 이를 통해 R을 보다 쉽게 배우고 활용할 수 있는 방법을 개발할 수 있습니다.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "한국 R 사용자회"
+    ]
   },
   {
     "objectID": "about.html#커뮤니티-네트워크",
     "href": "about.html#커뮤니티-네트워크",
     "title": "한국 알(R) 사용자회 소개",
     "section": "커뮤니티 네트워크",
-    "text": "커뮤니티 네트워크\n\n\n\n\n\n\n한국 알(R) 사용자회: link\n한국 알 사용자회 페이스북: link\nSeoul R Meetup: link\n\nSeoul R Meetup (Repo.): link\nAsia R Community link\nGlobal R Meetup: link\n\nKorea R Conference: link\nYoutube: link\nSlack: link"
-  },
-  {
-    "objectID": "about.html#한국-r-사용자회",
-    "href": "about.html#한국-r-사용자회",
-    "title": "한국 알(R) 사용자회 소개",
-    "section": "한국 R 사용자회",
-    "text": "한국 R 사용자회\n한국 R 사용자회는 오픈 통계 패키지 개발, 오픈 데이터 패키지 개발, 오픈 콘텐츠 제작과 오픈 교육/컨설팅 등을 통해 과학기술 발전과 디지털 불평등 해소를 위해 많은 분들이 함께 하시고 계십니다.\n한국 R 사용자회는 데이터 저널리즘과 데이터 경제 분과를 중심으로 운영되고 있으며 법무법인 평안 소속 김형주 변호사님이 한국 R 사용자회 고문 변호사로 함께 하시고 계십니다."
-  },
-  {
-    "objectID": "about.html#연락처",
-    "href": "about.html#연락처",
-    "title": "한국 알(R) 사용자회 소개",
-    "section": "연락처",
-    "text": "연락처\n다음 전자우편으로 연락주세요. admin@bit2r.com"
+    "text": "커뮤니티 네트워크\n\n\n한국 알(R) 사용자회: link\n한국 알 사용자회 페이스북: link\nSeoul R Meetup: link\n\nSeoul R Meetup (Repo.): link\nAsia R Community link\nGlobal R Meetup: link\n\nKorea R Conference: link\nYoutube: link\nSlack: link",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "한국 R 사용자회"
+    ]
   },
   {
     "objectID": "about.html#한국-r-사용자회-기여-및-참여",
     "href": "about.html#한국-r-사용자회-기여-및-참여",
     "title": "한국 알(R) 사용자회 소개",
     "section": "한국 R 사용자회 기여 및 참여",
-    "text": "한국 R 사용자회 기여 및 참여\n한국 R 사용자회는 오픈 통계 및 데이터 패키지 개발, 오픈 콘텐츠 제작, 오픈 교육 및 컨설팅 등 다양한 활동을 통해 과학기술 발전과 디지털 불평등 해소에 기여하고 있습니다.\n현재 데이터 저널리즘 분과와 데이터 경제 분과를 중심으로 운영되고 있으며, 법무법인 평안의 김형주 변호사님이 고문 변호사로 함께하고 계십니다."
+    "text": "한국 R 사용자회 기여 및 참여\n한국 R 사용자회는 오픈 통계 및 데이터 패키지 개발, 오픈 콘텐츠 제작, 오픈 교육 및 컨설팅 등 다양한 활동을 통해 과학기술 발전과 디지털 불평등 해소에 기여하고 있습니다.\n현재 데이터 저널리즘 분과와 데이터 경제 분과를 중심으로 운영되고 있으며, 법무법인 평안의 김형주 변호사님이 고문 변호사로 함께하고 계십니다.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "한국 R 사용자회"
+    ]
+  },
+  {
+    "objectID": "about.html#연락처",
+    "href": "about.html#연락처",
+    "title": "한국 알(R) 사용자회 소개",
+    "section": "연락처",
+    "text": "연락처\n다음 전자우편으로 연락주세요. admin@bit2r.com",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "한국 R 사용자회"
+    ]
+  },
+  {
+    "objectID": "about.html#footnotes",
+    "href": "about.html#footnotes",
+    "title": "한국 알(R) 사용자회 소개",
+    "section": "각주",
+    "text": "각주\n\n\nR (programming language)↩︎\n데이터 과학과 R 언어↩︎",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "한국 R 사용자회"
+    ]
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Quarto 데이터 과학",
+    "section": "",
+    "text": "로우코드 Shiny 앱 개발\n\n\n\nQuarto\n\nLow code\n\nshiny\n\n앱개발\n\nshinyuieditor\n\n데이터 패키지\n\nbslib\n\n구글 폰트\n\ndashboard-builder\n\n\n\nShiny 앱개발에 Shiny 생태계를 구성하는 로우코드(Low Code)를 적극 도입하여 개발시간을 단축하고 생산성을 높이는 방법을 소개한다.\n\n\n\n\n\n2022년 08월 31일\n\n\n이광춘\n\n\n\n\n\n\n\n\n\n\n\n\n재현가능 글쓰기\n\n\n\nQuarto\n\n재현가능 글쓰기\n\nCompendium\n\n\n\n과학기술에서 중요성을 더해가고 있는 재현성 위기에 대해 재현가능한 글쓰기에 대한 이론적인 토대와 관련 기술 사항을 살펴본다.\n\n\n\n\n\n2022년 08월 16일\n\n\n이광춘\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto 블로그\n\n\n\nQuarto\n\n블로그\n\n\n\nQuarto 블로그 제작방법\n\n\n\n\n\n2022년 08월 15일\n\n\n이광춘\n\n\n\n\n\n일치 없음"
+  },
+  {
+    "objectID": "coc.html",
+    "href": "coc.html",
+    "title": "행동강령 (CoC)",
+    "section": "",
+    "text": "행동강령 (CoC)\n한국 R 컨퍼런스 (이하 R 컨퍼런스)는 비영리 개발자를 위해 “R 사용자회”를 비롯한 다양한 R 커뮤니티가 주관하여 진행하는 행사입니다. R 컨퍼런스 주요 취지는 오픈소스 프로그래밍 언어인 R 활용 방법 공유, Tidyverse 패키지 활용 확대, R 이용자간 활발한 소통과 교류 등입니다.\nR 컨퍼런스 행동규범은 R 컨퍼런스에 참여하는 모든 참석자와 기관이 준수해야 하는 최소한의 기준과 가치입니다. R 커뮤니티와 참석자는 R 컨퍼런스 행동규범을 지키고, 컨퍼런스 주최자는 행동규범을 적용합니다.\nR 컨퍼런스는 행사에 참여하는 R 커뮤니티를 소중하게 여깁니다. R 컨퍼런스는 참석자 모두가 유익한 시간을 보내고, 만족스러운 경험을 쌓고 나누기를 희망합니다. R 컨퍼런스 성과물은 행사 기간 내내 벌어지는 공식, 비공식 모든 활동(예를 들어 행사, 모임, 의견 나눔, 토론 등)에서 다른 분을 존중하고, 예의있게 대해야 생기고 커집니다. 참석자는 행사 기간 동안 다른 참석자에게 존경과 예의를 보여야 합니다.\nR 컨퍼런스는 “누구든지 성별, 종교 또는 사회적 신분에 의하여 정치적, 경제적, 사회적, 문화적 생활의 모든 영역에 있어서 차별을 받지 아니한다”는 헌법 제11조를 지킵니다. R 컨퍼런스는 “합리적인 이유 없이 성별, 장애, 나이, 언어, 출신국가, 출신민족, 인종, 국적, 피부색, 출신지역, 용모 등 신체조건, 혼인여부, 임신 또는 출산, 가족 및 가구의 형태와 상황, 종교, 사상 또는 정치적 의견, 형의 효력이 실효된 전과, 성적지향, 성별정체성, 학력, 고용형태, 병력 또는 건강상태, 사회적 신분”에 따라 “특정 개인, 집단, 법인을 분리·구별·제한·배제·거부하거나 불리하게 대우하는 행위”(이하 ‘차별행위’)를 반대합니다.\nR 컨퍼런스는 “지위를 이용하거나 업무 등과 관련하여 성적 언동 또는 성적 요구 등으로 상대방에게 성적 굴욕감이나 혐오감을 느끼게 하는 행위”와 상대방이 성적 언동 또는 요구에 대한 불응을 이유로 불이익을 주거나 그에 따르는 것을 조건으로 이익 공여의 의사표시를 하는 행위”(이하 ‘성희롱’)을 거부합니다. R 컨퍼런스는 ‘차별행위’와 ’성희롱’ 예방을 위해 노력을 다합니다. R 컨퍼런스는 ‘차별행위’와 ’성희롱’을 안 시점에 ’차별행위’와 ’성희롱’을 한 참여자에게 중단을 요구하며, 바로 관계 기관에 신고합니다. R 컨퍼런스는 ’차별행위’와 ’성희롱’ 피해자 보호를 위해 노력합니다.\n따뜻하고 친목을 도모할 수 있는 행사를 만들수 있도록 도와 준 참석자 여러분에게 감사합니다.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "행동강령(CoC)"
+    ]
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "공개 데이터",
+    "section": "",
+    "text": "패키지명\n데이터 패키지 설명\n로고\n\n\n\n\nbitTomato\nbitTomato는 ’한글 텍스트 데이터 분석의 학습을 위한 실 데이터를 오픈소스로 제공’한다는 목적에 공감하는 뉴스토마토가 제공한 뉴스 기사를, 한국 R 사용자회가 저작 배포하는 R 패키지입니다.\n\n\n\nhsData\n통계청 통계교육원에서 발간한 ‘고등학교 실용통계’ 교과서\n\n\n\nkrvote\n중앙선거관리위원회 선거통계시스템에 공개된 역대 선거관련 투표와 득표 공공 데이터\n\n\n\nbitData\n통계(데이터 과학) 교육과 신속한 현업 적용에 필요한 대한민국 데이터셋: 파머 펭귄, 국방부 남녀 신체측정, 강남 강수량, 인구, 대기오염물질, 온실가스 등"
+  },
+  {
+    "objectID": "data.html#한국-r-사용자회-제작-공개-데이터-패키지",
+    "href": "data.html#한국-r-사용자회-제작-공개-데이터-패키지",
+    "title": "공개 데이터",
+    "section": "",
+    "text": "패키지명\n데이터 패키지 설명\n로고\n\n\n\n\nbitTomato\nbitTomato는 ’한글 텍스트 데이터 분석의 학습을 위한 실 데이터를 오픈소스로 제공’한다는 목적에 공감하는 뉴스토마토가 제공한 뉴스 기사를, 한국 R 사용자회가 저작 배포하는 R 패키지입니다.\n\n\n\nhsData\n통계청 통계교육원에서 발간한 ‘고등학교 실용통계’ 교과서\n\n\n\nkrvote\n중앙선거관리위원회 선거통계시스템에 공개된 역대 선거관련 투표와 득표 공공 데이터\n\n\n\nbitData\n통계(데이터 과학) 교육과 신속한 현업 적용에 필요한 대한민국 데이터셋: 파머 펭귄, 국방부 남녀 신체측정, 강남 강수량, 인구, 대기오염물질, 온실가스 등"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "한국 R 사용자회",
+    "section": "",
+    "text": "챗GPT 시리즈데이터 과학코딩쿼토SQL유닉스 쉘\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n📘 교보 POD 종이책: https://bit.ly/4cVDxxL\n📗 교보 전자책: https://bit.ly/4dccQ8n\n🌐 웹사이트: https://bit.ly/4909pOB\n💻 소스코드: https://bit.ly/3wXugES\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n📘 교보 POD 종이책: https://bit.ly/4a8v1JS\n📗 교보 전자책: https://bit.ly/4auasHU\n🌐 웹사이트: https://bit.ly/48V8u1T\n💻 소스코드: https://bit.ly/48RqMB9\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n📘 교보 POD 종이책: https://bit.ly/3wElKuk\n📗 교보 전자책: https://bit.ly/3IkWE6f\n🌐 웹사이트: https://bit.ly/3P7PVjX\n💻 소스코드: https://bit.ly/3InK46m\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n📘 교보 POD 종이책: https://bit.ly/3OJmMeT\n📗 교보 전자책: https://bit.ly/48fujZD\n🌐 웹사이트: https://bit.ly/48gYn7d\n💻 소스코드: https://bit.ly/3wrgeuP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n📘 교보 POD 종이책: https://bit.ly/434h5y9\n📗 교보 전자책: https://bit.ly/KzUdOU\n🌐 웹사이트: https://bit.ly/3I4FpWS\n💻 소스코드: https://bit.ly/3wrgeuP\n📰 뉴스기사: 챗GPT가 던진 새 가능성, 데이터 과학 분야 통해 미리 살펴보기"
+  },
+  {
+    "objectID": "index.html#챗gpt-출판",
+    "href": "index.html#챗gpt-출판",
+    "title": "한국 R 사용자회",
+    "section": "",
+    "text": "챗GPT 시리즈데이터 과학코딩쿼토SQL유닉스 쉘\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n📘 교보 POD 종이책: https://bit.ly/4cVDxxL\n📗 교보 전자책: https://bit.ly/4dccQ8n\n🌐 웹사이트: https://bit.ly/4909pOB\n💻 소스코드: https://bit.ly/3wXugES\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n📘 교보 POD 종이책: https://bit.ly/4a8v1JS\n📗 교보 전자책: https://bit.ly/4auasHU\n🌐 웹사이트: https://bit.ly/48V8u1T\n💻 소스코드: https://bit.ly/48RqMB9\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n📘 교보 POD 종이책: https://bit.ly/3wElKuk\n📗 교보 전자책: https://bit.ly/3IkWE6f\n🌐 웹사이트: https://bit.ly/3P7PVjX\n💻 소스코드: https://bit.ly/3InK46m\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n📘 교보 POD 종이책: https://bit.ly/3OJmMeT\n📗 교보 전자책: https://bit.ly/48fujZD\n🌐 웹사이트: https://bit.ly/48gYn7d\n💻 소스코드: https://bit.ly/3wrgeuP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n📘 교보 POD 종이책: https://bit.ly/434h5y9\n📗 교보 전자책: https://bit.ly/KzUdOU\n🌐 웹사이트: https://bit.ly/3I4FpWS\n💻 소스코드: https://bit.ly/3wrgeuP\n📰 뉴스기사: 챗GPT가 던진 새 가능성, 데이터 과학 분야 통해 미리 살펴보기"
+  },
+  {
+    "objectID": "index.html#서울-r-미트업",
+    "href": "index.html#서울-r-미트업",
+    "title": "한국 R 사용자회",
+    "section": "서울 R 미트업",
+    "text": "서울 R 미트업\nR Consortium R User Groups에 등록된 Seoul R Meetup은 매월 개최되는 데이터 사이언스 R / Tidyverse 미트업으로 chatGPT, Data Analytics, Tidyverse, Tidymodels, Shiny, Dashboard, Machine Learning, Digital Writing, Quarto/RMarkdown, Deep Learning 등 통계, AI/ML/DL, 데이터 사이언스, 시각화, 제품개발 등을 실제 현장에서 직접 데이터를 다루고 학교와 연구소에서 연구개발을 하시는 분들 뿐만 아니라 관심있는 분들이 함께 모여 교류하고 지식을 나누는 미트업입니다.\n\n서울 R 미트업 meetup.com: link\n\n기타 커뮤니티 관련 링크는 아래와 같습니다.\n\n세계 R 미트업 현황 (Global R Meetup Dashboard): link\n한국 R 사용자회 (Korea R User Group): link\n한국 R 컨퍼런스 (Korea R Conference): link\n서울 R 미트업 (Seoul R Meetup): link\n유튜브 채널 (Youtube Channel): link\n페이스북 그룹 (Facebook Group): link\n한국 R 사용자회 슬랙 (Slack): link"
+  },
+  {
+    "objectID": "index.html#공익법인-후원",
+    "href": "index.html#공익법인-후원",
+    "title": "한국 R 사용자회",
+    "section": "공익법인 후원",
+    "text": "공익법인 후원\n한국 R 사용자들을 위한 특별한 기회: 여러분의 후원으로 더욱 강력해지세요!\n🌟 전문적인 R/쿼토 지원: 서울 R 사용자 모임의 일원이 되어, R/쿼토 복잡한 문제를 해결하는 데 필요한 전문적인 도움을 받으세요. 여러분의 데이터 분석 여정을 쉽고 효율적으로 만들어 드립니다! 디스코드 질의응답 채널에 참여하여 적극적으로 질문하고 답변을 주고받으세요.\n📜 전자 기부금 영수증: 모든 후원에 대해 전자 기부금 영수증을 발급해드리며, 여러분의 후원이 어떻게 사용되는지 투명하게 보여드립니다. 여러분의 기여가 커뮤니티에 얼마나 중요한지 알 수 있습니다.\n🚀 서울 R 밋업에서 배우는 선진 기술: 후원자 여러분은 서울 R 밋업 행사에 우선적으로 초대되어, 업계 선두주자들로부터 최신 R/쿼토 기술과 트렌드를 배울 수 있는 기회를 얻습니다. 네트워킹과 지식 공유의 장에서 여러분의 역량을 한 단계 더 업그레이드 시키세요!\n여러분의 후원은 우리 모두에게 가치 있는 지식과 기술을 전파하는 데 큰 도움이 됩니다. 지금 바로 공익법인 한국 R 사용자 모임의 후원자가 되어, 데이터 과학 커뮤니티를 더욱 강력하게 만드세요!\n\n회원가입 및 기부금 신청\n\n회원가입 신청: https://forms.gle/1gF8QezVPa8ur7617\n후원계좌: 하나은행 448-910062-30904 / 사단법인 한국알사용자회\n후원금: 2만원 이상\n후원금 납입(약정) 후 기부금 영수증 발급 신청\n\nhttps://forms.gle/MEwLjasSaYj4a72k6"
+  },
+  {
+    "objectID": "packages.html",
+    "href": "packages.html",
+    "title": "공개 패키지",
+    "section": "",
+    "text": "휴먼 리소스 낭비를 없애는 보고서 자동화 도구\n\n\n\n\n\n\n\n\n2023-04-25\n\n\n\n\n\n\n\n\nXeLaTeX 기반으로 한글 책을 PDF 파일로 조판\n\n\n\n\n\n\n\n\n2023-04-25\n\n\n\n\n\n\n\n\n챗GPT를 보다 쉽게 사용할 수 있는, 그리고 한국어를 지원하는 bitGPT\n\n\n\n\n\n\n\n\n2023-02-28\n\n\n\n\n\n\n\n\n텍스트 데이터를 탐색하고, 자연어 처리 및 형태소분석, 감성분석을 수행하는, 한글 텍스트 분석 도구모음\n\n\n\n\n\n\n\n\n2022-12-18\n\n\n\n\n\n\n\n\n공간정보 데이터를 지탱하는 기본 패키지\n\n\n\n\n\n\n\n\n2023-01-23\n\n\n\n\n\n\n\n\n데이터셋의 품질 진단, 탐색적 데이터 분석(EDA) 및 데이터의 변환을 지원하는 데이터분석 도구\n\n\n\n\n\n\n\n\n2018-04-27\n\n\n\n\n\n\n\n\n이진 분류 모델 개발의 전체 프로세스를 지원하는 데이터분석 도구\n\n\n\n\n\n\n\n\n2020-03-20\n\n\n\n\n\n\n\n\n오픈 통계 패키지(BitStat)\n\n\n\n\n\n\n\n\n2021-09-18"
+  },
+  {
+    "objectID": "packages.html#프로젝트-개요",
+    "href": "packages.html#프로젝트-개요",
+    "title": "공개 패키지",
+    "section": "프로젝트 개요",
+    "text": "프로젝트 개요\n코로나19로 인해 심화된 디지털 불평등과 디지털 전환(Digital Transformation)으로 인해 시민의 필수 역량이 된 Data Literacy 역량 강화와 통계 대중화를 위해 오픈 통계 패키지 - 빛스탯(BitStat) - 를 개발하게 되었습니다. 데이터 리터러시 역량은 결국 디지털 불평등과 맥이 닿아 있고 이후 교육불평등, 취업불평등, 소득불평등, 자산불평등으로 이어져 사회 양극화를 심화시키는 주범으로 지목되고 있다."
+  },
+  {
+    "objectID": "packages.html#기대-효과",
+    "href": "packages.html#기대-효과",
+    "title": "공개 패키지",
+    "section": "기대 효과",
+    "text": "기대 효과\n\n기술적 측면\n\n기하급수적으로 증가하는 데이터를 분석하여 가치를 창출하는 데이터 경제가 급부상하고 있으나, 인력 육성이나 도구는 선형적 증가 상황을 타개할 수 있는 혁신적인 기술이 요구됨\n폭발적으로 늘어나는 데이터를 일반국민도 활용할 수 있도록 하는 공개SW 통계 패키지는 다분야에서도 활용 가능한 Auto-X 기술을 기반으로 통계분석 생산성과 품질을 큰 폭을 높일 수 있는 혁신적인 기술임\n\n경제적, 산업적 측면\n\n’22년 글로벌 빅데이터, 분석시장 규모는 전년 대비 27% 성장한 $2,740억 달러 규모 전망\n\nIDC, “Revenue from big data and business analytics worldwide from 2015 to 2022”, 2021년 9월\n\n오픈 통계 패키지에 내장된 Auto-X 기술을 포함하여 공개SW로 개방하여 중소기업 및 데이터 기반 의사결정을 지원하고, 공개SW 활용 스타트업을 통한 신규 부가가치 창출\n\n사회적 측면\n\n지속적인 공공데이터 확대, 데이터3법 통과에 따라 데이터가 늘어나고 데이터 경제가 급속도로 커짐에 따라 데이터 리터러시(Data Literacy) 능력과 디지털 불평등의 양극화가 확대됨에 따라 오픈통계 패키지 SW를 공급하고 서비스로 제공함으로써 사회통합과 통계 대중화에 기여할 수 있음"
+  },
+  {
+    "objectID": "packages.html#bitstat-아키텍처",
+    "href": "packages.html#bitstat-아키텍처",
+    "title": "공개 패키지",
+    "section": "BitStat 아키텍처",
+    "text": "BitStat 아키텍처\n데이터 통계 분석의 대중화를 위해서는 통계 비전공자 및 일반인이 쉽게 사용할 수 있는 통계 패키지 소프트웨어 개발 취지에 맞춰 데이터를 입력하면 이를 인식하여 통계 분석 후 산출물을 자동 생성할 수 있는 오픈소스 기반의 클라우드 통계 패키지 소프트웨어."
+  },
+  {
+    "objectID": "packages.html#bitstat-시연",
+    "href": "packages.html#bitstat-시연",
+    "title": "공개 패키지",
+    "section": "BitStat 시연",
+    "text": "BitStat 시연\nBitStat 통계 패키지는 지속적으로 개발을 이어나가고 있으며 2021년 12월 기준 개발버전을 업그레이드하여 2022년 7월 대대적인 업그레이드가 예정되어 있다."
+  },
+  {
+    "objectID": "packages.html#참고자료",
+    "href": "packages.html#참고자료",
+    "title": "공개 패키지",
+    "section": "참고자료",
+    "text": "참고자료\n\n\n한국 R 컨퍼런스 발표 - Digital Divide Solution - 오픈 통계 팩키지\n국산 오픈 통계 팩키지\n2021 오픈소스 컨트리뷰션 아카데미 - Tidyverse Korea 데이터 과학\n오픈 통계 팩키지 개발 안내서\ntidyblocks\n\nTidy Blocks 한글화 지원 : https://github.com/tidyblocks/tidyblocks/\nTidy Blocks 블록 통계 프로그래밍 안내서 한글 번역: https://tidyblocks.tech/en/guide/\n한글 사례(Example) 추가 및 확대 : https://tidyblocks.tech/en/examples/\n\n통그라미"
+  },
+  {
+    "objectID": "posts/20220816_quarto_rr/index.html",
+    "href": "posts/20220816_quarto_rr/index.html",
+    "title": "재현가능 글쓰기",
+    "section": "",
+    "text": "경고\n\n\n\n이광춘 (2019-12-28), “Computational Documents - 개요서(Compendium) 시작하며” 내용을 토대로 작성된 것임을 밝혀둡니다."
+  },
+  {
+    "objectID": "posts/20220816_quarto_rr/index.html#start-small",
+    "href": "posts/20220816_quarto_rr/index.html#start-small",
+    "title": "재현가능 글쓰기",
+    "section": "3.1 시작이 반이다",
+    "text": "3.1 시작이 반이다\n\n시작이 반이다 - start small\n\n\n\n코드\nproject\n|- DESCRIPTION\n|- README.md  \n|- Metadata.txt\n|\n|- data/                \n|   +- 2014ParasiteSurveyJustBrood.csv\n|   +- CedarBPLifeTable2014.csv\n|   +- NorthBPLifeTable2013.txt\n|   +- NorthBPLifeTable2014.csv|\n|- analysis/\n|   +- CodeforBPpaper.R"
+  },
+  {
+    "objectID": "posts/20220816_quarto_rr/index.html#pkg-development",
+    "href": "posts/20220816_quarto_rr/index.html#pkg-development",
+    "title": "재현가능 글쓰기",
+    "section": "3.2 팩키지 개발",
+    "text": "3.2 팩키지 개발\n\n팩키지 개발\n\n\n\n코드\nproject\n|- DESCRIPTION\n|- NAMESPACE\n|- README.md\n|- LakeTrophicModelling.Rproj\n|\n|- R/\n|   +- LakeTrophicModelling-package.r\n|   +- class_prob_rf.R\n|   +- condAccuracy.R\n|   +- crossval_rf.R\n|   +- density_plot.R\n|   +- ecdf_ks_ci.R\n|   +- ecor_map.R\n|   +- getCyanoAbund.R\n|   +- getLakeIDs.R\n|   +- importancePlot.R\n|\n|- man/\n|   +- class_prob_rf.Rd\n|   +- condAccuracy.Rd\n|   +- crossval_rf.Rd\n|   +- density_plot.Rd\n|   +- ecdf_ks_ci.Rd\n|   +- ecor_map.Rd\n|   +- getCyanoAbund.Rd\n|   +- getLakeIDs.Rd\n|   +- importancePlot.Rd\n|\n|- data/                \n|   +- LakeTrophicModelling.rda\n|\n|- vignettes/\n|\n|- inst/\n|   +- doc/\n|      +- manuscript.pdf\n|   +- extdata/\n|      +- ltmData.csv\n|      +- data_def.csv"
+  },
+  {
+    "objectID": "posts/20220816_quarto_rr/index.html#cicd-docker",
+    "href": "posts/20220816_quarto_rr/index.html#cicd-docker",
+    "title": "재현가능 글쓰기",
+    "section": "3.3 CI/CD와 도커",
+    "text": "3.3 CI/CD와 도커\nDockerfile 파일을 추가하여 환경도 재현가능하게 만들 수 있고, .travis.yml을 추가하여 CI/CD 환경도 구축할 수 있다. tests/를 추가하여 테스트 주도 개발(test-driven development, TDD)를 시도할 수 있고, 이를 통해 수작업 검증을 자동화하여 생산성과 품질을 대폭 향상시킬 수도 있다.\n\n\n코드\nproject\n|- DESCRIPTION          # project metadata and dependencies \n|- README.md            # top-level description of content and guide to users\n|- NAMESPACE            # exports R functions in the package for repeated use\n|- LICENSE              # specify the conditions of use and reuse of the code, data & text\n|- .travis.yml          # continuous integration service hook for auto-testing at each commit\n|- Dockerfile           # makes a custom isolated computational environment for the project\n|\n|- data/                # raw data, not changed once created\n|  +- my_data.csv       # data files in open formats such as TXT, CSV, TSV, etc.\n|\n|- analysis/            # any programmatic code\n|  +- my_report.Rmd     # R markdown file with narrative text interwoven with code chunks \n|  +- makefile          # builds a PDF/HTML/DOCX file from the Rmd, code, and data files\n|  +- scripts/          # code files (R, shell, etc.) used for data cleaning, analysis and visualisation \n|\n|- R/                     \n|  +- my_functions.R    # custom R functions that are used more than once throughout the project\n|\n|- man/\n|  +- my_functions.Rd   # documentation for the R functions (auto-generated when using devtools)\n|\n|- tests/\n|  +- testthat.R        # unit tests of R functions to ensure they perform as expected"
+  },
+  {
+    "objectID": "privacy_policy.html",
+    "href": "privacy_policy.html",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "BitStat (hereinafter referred to as the “Company”) has established the following privacy policy to protect users’ personal information and rights in accordance with the Personal Information Protection Act and to handle user grievances related to personal information smoothly.\n\n\nThe Company processes personal information for the following purposes. The personal information being processed will not be used for purposes other than the following, and if the purpose of use changes, necessary measures will be taken, such as obtaining separate consent in accordance with Article 18 of the Personal Information Protection Act.\n\nProvision of services and fulfillment of contracts\nMember registration and management\nMarketing and advertising utilization\n\n\n\n\nThe Company processes and retains personal information within the personal information retention and usage period stipulated by law or the personal information retention and usage period agreed upon by the information subject when collecting personal information.\n\n\n\nThe Company provides personal information to third parties only in cases corresponding to Article 17 and Article 18 of the Personal Information Protection Act, such as the consent of the information subject or special provisions of the law.\n\n\n\nThe information subject may exercise the following rights against the Company at any time: - Right to view personal information - Right to correct personal information - Right to delete personal information - Right to suspend processing of personal information\n\n\n\nThe Company takes the following measures to ensure the security of personal information:\n\n\n\nEstablishment and implementation of internal management plans\nRegular employee training\nRegular inspections\n\n\n\n\n\nManagement of access rights to personal information processing systems\nInstallation of access control systems\nEncryption of unique identification information\nInstallation and operation of intrusion prevention systems\n\n\n\n\n\nAccess control of computer rooms and data storage rooms\nManagement of access rights to areas handling personal information\n\n\n\n\n\nThis privacy policy is effective from March 1, 2024, and any additions, deletions, or corrections made in accordance with laws and policies will be notified through announcements on the website.\n\n\n\nThe Company has designated the following privacy officer to handle complaints and inquiries related to personal information protection:\n\nPrivacy Officer\n\nName: Victor Lee\nPosition: Director\nEmail: victor@r2bit.com\n\n\n\n\n\n\nEncryption of Personal Information\n\nEncryption of users’ personal information during transmission\nSecure storage of encrypted personal information\n\nRegular Security Updates\n\nRegular updates of security systems\nPeriodic security assessments\n\nEmployee Training\n\nRegular privacy protection training for employees\nImplementation of privacy protection protocols\n\n\n\n\n\nUsers have the following rights regarding their personal information:\n\nRight to Access\n\nUsers can request access to their personal information\nAccess requests will be processed within reasonable time\n\nRight to Rectification\n\nUsers can request correction of inaccurate personal information\nCorrections will be made promptly upon verification\n\nRight to Erasure\n\nUsers can request deletion of their personal information\nDeletion requests will be processed unless there are legal grounds for retention\n\nRight to Data Portability\n\nUsers can request their personal information in a structured format\nUsers can request transfer of their information to another service provider\n\n\n\n\nEffective Date: March 1, 2024\nLast Updated: March 1, 2024",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Privacy Policy"
+    ]
+  },
+  {
+    "objectID": "privacy_policy.html#purpose-of-processing-personal-information",
+    "href": "privacy_policy.html#purpose-of-processing-personal-information",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "The Company processes personal information for the following purposes. The personal information being processed will not be used for purposes other than the following, and if the purpose of use changes, necessary measures will be taken, such as obtaining separate consent in accordance with Article 18 of the Personal Information Protection Act.\n\nProvision of services and fulfillment of contracts\nMember registration and management\nMarketing and advertising utilization",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Privacy Policy"
+    ]
+  },
+  {
+    "objectID": "privacy_policy.html#processing-and-retention-period-of-personal-information",
+    "href": "privacy_policy.html#processing-and-retention-period-of-personal-information",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "The Company processes and retains personal information within the personal information retention and usage period stipulated by law or the personal information retention and usage period agreed upon by the information subject when collecting personal information.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Privacy Policy"
+    ]
+  },
+  {
+    "objectID": "privacy_policy.html#provision-of-personal-information-to-third-parties",
+    "href": "privacy_policy.html#provision-of-personal-information-to-third-parties",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "The Company provides personal information to third parties only in cases corresponding to Article 17 and Article 18 of the Personal Information Protection Act, such as the consent of the information subject or special provisions of the law.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Privacy Policy"
+    ]
+  },
+  {
+    "objectID": "privacy_policy.html#rights-and-obligations-of-the-information-subject-and-methods-of-exercise",
+    "href": "privacy_policy.html#rights-and-obligations-of-the-information-subject-and-methods-of-exercise",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "The information subject may exercise the following rights against the Company at any time: - Right to view personal information - Right to correct personal information - Right to delete personal information - Right to suspend processing of personal information",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Privacy Policy"
+    ]
+  },
+  {
+    "objectID": "privacy_policy.html#personal-information-security-measures",
+    "href": "privacy_policy.html#personal-information-security-measures",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "The Company takes the following measures to ensure the security of personal information:\n\n\n\nEstablishment and implementation of internal management plans\nRegular employee training\nRegular inspections\n\n\n\n\n\nManagement of access rights to personal information processing systems\nInstallation of access control systems\nEncryption of unique identification information\nInstallation and operation of intrusion prevention systems\n\n\n\n\n\nAccess control of computer rooms and data storage rooms\nManagement of access rights to areas handling personal information",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Privacy Policy"
+    ]
+  },
+  {
+    "objectID": "privacy_policy.html#changes-to-privacy-policy",
+    "href": "privacy_policy.html#changes-to-privacy-policy",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "This privacy policy is effective from March 1, 2024, and any additions, deletions, or corrections made in accordance with laws and policies will be notified through announcements on the website.",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Privacy Policy"
+    ]
+  },
+  {
+    "objectID": "privacy_policy.html#privacy-officer",
+    "href": "privacy_policy.html#privacy-officer",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "The Company has designated the following privacy officer to handle complaints and inquiries related to personal information protection:\n\nPrivacy Officer\n\nName: Victor Lee\nPosition: Director\nEmail: victor@r2bit.com",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Privacy Policy"
+    ]
+  },
+  {
+    "objectID": "privacy_policy.html#additional-privacy-protection-measures",
+    "href": "privacy_policy.html#additional-privacy-protection-measures",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "Encryption of Personal Information\n\nEncryption of users’ personal information during transmission\nSecure storage of encrypted personal information\n\nRegular Security Updates\n\nRegular updates of security systems\nPeriodic security assessments\n\nEmployee Training\n\nRegular privacy protection training for employees\nImplementation of privacy protection protocols",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Privacy Policy"
+    ]
+  },
+  {
+    "objectID": "privacy_policy.html#user-rights",
+    "href": "privacy_policy.html#user-rights",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "Users have the following rights regarding their personal information:\n\nRight to Access\n\nUsers can request access to their personal information\nAccess requests will be processed within reasonable time\n\nRight to Rectification\n\nUsers can request correction of inaccurate personal information\nCorrections will be made promptly upon verification\n\nRight to Erasure\n\nUsers can request deletion of their personal information\nDeletion requests will be processed unless there are legal grounds for retention\n\nRight to Data Portability\n\nUsers can request their personal information in a structured format\nUsers can request transfer of their information to another service provider\n\n\n\n\nEffective Date: March 1, 2024\nLast Updated: March 1, 2024",
+    "crumbs": [
+      "Home",
+      "공익법인",
+      "Privacy Policy"
+    ]
+  },
+  {
+    "objectID": "swc.html",
+    "href": "swc.html",
+    "title": "소프트웨어 카펜트리",
+    "section": "",
+    "text": "한국 소프트웨어 카펜트리는 소프트웨어 카펜트리 버젼 5.3 한국어로 번역이 되어 있으며 카펜트리 사단법인으로부터 자격증을 취득한 공인강사가 워크샵을 진행합니다. 2012년 1월 18일 이후 현재 시점 기준(2021-12-09) 한국을 비롯한 52개국에서 1,913회 워크샵이 있었습니다.\n\n소프트웨어 카펜트리에 대한 자세한 사항은 다음 웹사이트를 참고 바랍니다.\n\n소프트웨어 카펜트리\nThe Carpentries\n\nSoftware Carpentry\nData Carpentry\nLibrary Carpentry"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/index.html#section",
+    "href": "slideshow/202210-hongik/index.html#section",
+    "title": "한국 R 사용자회",
+    "section": "",
+    "text": "데이터 사이언스"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/index.html#section-1",
+    "href": "slideshow/202210-hongik/index.html#section-1",
+    "title": "한국 R 사용자회",
+    "section": "",
+    "text": "데이터 사이언스"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/index.html#데이터-사이언스",
+    "href": "slideshow/202210-hongik/index.html#데이터-사이언스",
+    "title": "한국 R 사용자회",
+    "section": "데이터 사이언스",
+    "text": "데이터 사이언스"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/index.html#데이터-과학-욕구단계설",
+    "href": "slideshow/202210-hongik/index.html#데이터-과학-욕구단계설",
+    "title": "한국 R 사용자회",
+    "section": "데이터 과학 욕구단계설",
+    "text": "데이터 과학 욕구단계설\n\n\n매슬로 욕구단계설\n\n\n가치 피라미드"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/index.html#section-2",
+    "href": "slideshow/202210-hongik/index.html#section-2",
+    "title": "한국 R 사용자회",
+    "section": "",
+    "text": "데이터 과학 문제"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/index.html#section-3",
+    "href": "slideshow/202210-hongik/index.html#section-3",
+    "title": "한국 R 사용자회",
+    "section": "",
+    "text": "데이터 과학 문제"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/index.html#데이터-사이언스---출판",
+    "href": "slideshow/202210-hongik/index.html#데이터-사이언스---출판",
+    "title": "한국 R 사용자회",
+    "section": "데이터 사이언스 - 출판",
+    "text": "데이터 사이언스 - 출판\n문제점\n\n\n\n\n\n\n그림 1: 문제점\n\n\n\n개념\n\n\n\n\n\n\n그림 2: Single Sourcing 개념\n\n\n\nSingle Sourcing Multi-Use\n\n\n\n\n\n\n그림 3: Single Sourcing Multi-Use"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/index.html#복잡성",
+    "href": "slideshow/202210-hongik/index.html#복잡성",
+    "title": "한국 R 사용자회",
+    "section": "복잡성",
+    "text": "복잡성\n엑셀 1\n\n\n\n\n아래한글 2\n\n\n\nXKCD 1667: AlgorithmsWriting Technical Papers with Markdown and Pandoc"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/index.html#시각화---그래프-문법-problem-3",
+    "href": "slideshow/202210-hongik/index.html#시각화---그래프-문법-problem-3",
+    "title": "한국 R 사용자회",
+    "section": "시각화 - 그래프 문법 1",
+    "text": "시각화 - 그래프 문법 1\n\n\n\nR 코드\n\nlibrary(tidyverse)\nbill_df &lt;- data.frame(\n  sex = factor(c(\"여성\",\"여성\",\"남성\",\"남성\")),\n  time = factor(c(\"점심\",\"저녁\",\"점심\",\"저녁\"), levels=c(\"점심\",\"저녁\")),\n  total_bill = c(13.53, 16.81, 16.24, 17.42)\n)\n\n\n실행결과\n\nbill_df\n\n   sex time total_bill\n1 여성 점심      13.53\n2 여성 저녁      16.81\n3 남성 점심      16.24\n4 남성 저녁      17.42\n\n\n\n\n\n\nR 코드\n\nbill_df %&gt;% \n  ggplot(aes(x=time, y=total_bill, group=sex, shape=sex, colour=sex)) +\n    geom_line(aes(linetype=sex), size=1) +    \n    geom_point(size=3, fill=\"white\") +        \n    expand_limits(y=0) +                      \n    scale_colour_hue(name=\"결재자 성별\", l=30) +\n    scale_shape_manual(name=\"결재자 성별\", values=c(22,21)) +\n    scale_linetype_discrete(name=\"결재자 성별\") +\n    xlab(\"점심, 석식\") + ylab(\"팁(Tip)\") +\n    ggtitle(\"식사 결재 평균 팁\") +    \n    theme_bw() +\n    theme(legend.position=c(.7, .4))\n\n\n실행결과\n\n\n\n\n\n\n\n\n\n\n\n\n\nR 코드\n\nbill_mat &lt;- matrix( bill_df$total_bill,\n                   nrow = 2,\n                   byrow=TRUE,\n                   dimnames = list(c(\"여성\", \"남성\"), c(\"점심\", \"저녁\"))\n                   )\n\nmf_col &lt;- c(\"#3CC3BD\", \"#FD8210\")\nbarplot(bill_mat, beside = TRUE, border=NA, col=mf_col)\nlegend(\"topleft\", row.names(bill_mat), pch=15, col=mf_col)\n\n\npar(cex=1.2, cex.axis=1.1)\nmatplot(bill_mat, type=\"b\", lty=1, pch=19, col=mf_col,\n    cex=1.5, lwd=3, las=1, bty=\"n\", xaxt=\"n\",\n    xlim=c(0.7, 2.2), ylim=c(12,18), ylab=\"\",\n    main=\"식사 결재 평균 팁\", yaxt=\"n\")\naxis(2, at=axTicks(2), labels=sprintf(\"$%s\", axTicks(2)),\n    las=1, cex.axis=0.8, col=NA, line = -0.5)\ngrid(NA, NULL, lty=3, lwd=1, col=\"#000000\")\nabline(v=c(1,2), lty=3, lwd=1, col=\"#000000\")\nmtext(\"점심\", side=1, at=1)\nmtext(\"저녁\", side=1, at=2)\ntext(1.5, 17.3, \"남성\", srt=8, font=3)\ntext(1.5, 15.1, \"여성\", srt=33, font=3)\n\n\n실행결과\n\n\n\n\n\n\n\n\n\n\nComparing ggplot2 and R Base Graphics By Nathan Yau"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/index.html#디자인---코드",
+    "href": "slideshow/202210-hongik/index.html#디자인---코드",
+    "title": "한국 R 사용자회",
+    "section": "디자인 - 코드",
+    "text": "디자인 - 코드\n데이터 가공\n\n날짜와 시간별로 총 빈도수와 출발연착 평균 시간을 구한다. 단, 총빈도수가 10 회 미만인 것은 제외하고 출발연착 시간의 결측값을 제거하고 계산한다.\n\n\nflights 데이터프레임에서\n출발 연착시간(dep_delay) 칼럼에서 결측값이 없는 (!is.na()) 행을 필터링 하고\n날짜별(date), 시간별(hour) 그룹을 묶어\n평균 출발 연착시간을 계산하고 총빈도수 총계를 내고\n총빈도수가 10회 이상인 날짜와 시간을 찾아내시오\n\ndplyr R\n\nhourly_delay &lt;- flights %&gt;%  \n  filter(!is.na(dep_delay)) %&gt;% \n  group_by(date, hour) %&gt;% \n  summarise(delay = mean(dep_delay), n = n()) %&gt;%  \n  filter(n &gt; 10) \n\nBase R\n\nhourly_delay &lt;- filter(   \n    summarise(   \n        group_by(   \n             filter(   \n                 flights,    \n                 !is.na(dep_delay)   \n             ),    \n             date, hour   \n        ),    \n    delay = mean(dep_delay),    \n         n = n()   \n    ),    \n    n &gt; 10   \n)\n\nSQL\n\nSELECT \"date\", \"hour\", \"delay\", \"n\"\nFROM (\n    SELECT \"date\", \"hour\",\n        AVG(\"dep_delay\") AS \"delay\",\n        COUNT() AS \"n\"\n    FROM \"flights\"\n    WHERE NOT(\"dep_delay\" IS NULL)\n    GROUP BY \"date\", \"hour\"\n) AS \"_W1\"\nWHERE \"n\" &gt; 10.0\n\n파이썬\n\nflights[['date','hour','dep_delay']]\n..."
+  },
+  {
+    "objectID": "slideshow/202210-hongik/index.html#디자인---데이터",
+    "href": "slideshow/202210-hongik/index.html#디자인---데이터",
+    "title": "한국 R 사용자회",
+    "section": "디자인 - 데이터",
+    "text": "디자인 - 데이터\n정돈된 데이터\n\n\n\n사례 - 결핵 데이터\n\nWHO 결핵 원데이터\nWHO 에서 년도별, 국가별, 연령별, 성별, 진단방법별 결핵 발병사례 조사 통계 데이터\n진단방법\n\nrel stands for cases of relapse\nep stands for cases of extrapulmonary TB\nsn stands for cases of pulmonary TB that could not be diagnosed by a pulmonary smear (smear negative)\nsp stands for cases of pulmonary TB that could be diagnosed by a pulmonary smear (smear positive)\n\n연령\n\n014 = 0 – 14 years old\n1524 = 15 – 24 years old\n2534 = 25 – 34 years old\n3544 = 35 – 44 years old\n4554 = 45 – 54 years old\n5564 = 55 – 64 years old\n65 = 65 or older\n\n성별\n\nmales (m)\nfemales (f)\n\n\n사례 - Messy 데이터\n\nlibrary(tidyverse)\ntidyr::who \n\n# A tibble: 7,240 × 60\n   country  iso2  iso3   year new_sp_m014 new_sp_m1524 new_sp_m2534 new_sp_m3544\n   &lt;chr&gt;    &lt;chr&gt; &lt;chr&gt; &lt;dbl&gt;       &lt;dbl&gt;        &lt;dbl&gt;        &lt;dbl&gt;        &lt;dbl&gt;\n 1 Afghani… AF    AFG    1980          NA           NA           NA           NA\n 2 Afghani… AF    AFG    1981          NA           NA           NA           NA\n 3 Afghani… AF    AFG    1982          NA           NA           NA           NA\n 4 Afghani… AF    AFG    1983          NA           NA           NA           NA\n 5 Afghani… AF    AFG    1984          NA           NA           NA           NA\n 6 Afghani… AF    AFG    1985          NA           NA           NA           NA\n 7 Afghani… AF    AFG    1986          NA           NA           NA           NA\n 8 Afghani… AF    AFG    1987          NA           NA           NA           NA\n 9 Afghani… AF    AFG    1988          NA           NA           NA           NA\n10 Afghani… AF    AFG    1989          NA           NA           NA           NA\n# ℹ 7,230 more rows\n# ℹ 52 more variables: new_sp_m4554 &lt;dbl&gt;, new_sp_m5564 &lt;dbl&gt;,\n#   new_sp_m65 &lt;dbl&gt;, new_sp_f014 &lt;dbl&gt;, new_sp_f1524 &lt;dbl&gt;,\n#   new_sp_f2534 &lt;dbl&gt;, new_sp_f3544 &lt;dbl&gt;, new_sp_f4554 &lt;dbl&gt;,\n#   new_sp_f5564 &lt;dbl&gt;, new_sp_f65 &lt;dbl&gt;, new_sn_m014 &lt;dbl&gt;,\n#   new_sn_m1524 &lt;dbl&gt;, new_sn_m2534 &lt;dbl&gt;, new_sn_m3544 &lt;dbl&gt;,\n#   new_sn_m4554 &lt;dbl&gt;, new_sn_m5564 &lt;dbl&gt;, new_sn_m65 &lt;dbl&gt;, …\n\n\n사례 - 코드\n\nwho %&gt;%\n  pivot_longer(\n    cols = new_sp_m014:newrel_f65, \n    names_to = \"key\", \n    values_to = \"cases\", \n    values_drop_na = TRUE\n  ) %&gt;% \n  mutate(\n    key = stringr::str_replace(key, \"newrel\", \"new_rel\")\n  ) %&gt;%\n  separate(key, c(\"new\", \"var\", \"sexage\")) %&gt;% \n  select(-new, -iso2, -iso3) %&gt;% \n  separate(sexage, c(\"sex\", \"age\"), sep = 1)\n\n사례 - Tidy 데이터\n\n\n# A tibble: 76,046 × 6\n   country      year var   sex   age   cases\n   &lt;chr&gt;       &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;dbl&gt;\n 1 Afghanistan  1997 sp    m     014       0\n 2 Afghanistan  1997 sp    m     1524     10\n 3 Afghanistan  1997 sp    m     2534      6\n 4 Afghanistan  1997 sp    m     3544      3\n 5 Afghanistan  1997 sp    m     4554      5\n 6 Afghanistan  1997 sp    m     5564      2\n 7 Afghanistan  1997 sp    m     65        0\n 8 Afghanistan  1997 sp    f     014       5\n 9 Afghanistan  1997 sp    f     1524     38\n10 Afghanistan  1997 sp    f     2534     36\n# ℹ 76,036 more rows"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/index.html#디자인---사람-대-기계",
+    "href": "slideshow/202210-hongik/index.html#디자인---사람-대-기계",
+    "title": "한국 R 사용자회",
+    "section": "디자인 - 사람 대 기계",
+    "text": "디자인 - 사람 대 기계\n전체 개발 시간\n\n\n\n\n사람 &lt; 기계\n\n\n\n\n사람 &gt; 기계"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/index.html#section-4",
+    "href": "slideshow/202210-hongik/index.html#section-4",
+    "title": "한국 R 사용자회",
+    "section": "",
+    "text": "데이터 과학 노력들"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/index.html#section-5",
+    "href": "slideshow/202210-hongik/index.html#section-5",
+    "title": "한국 R 사용자회",
+    "section": "",
+    "text": "데이터 과학 노력들"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/index.html#quarto",
+    "href": "slideshow/202210-hongik/index.html#quarto",
+    "title": "한국 R 사용자회",
+    "section": "Quarto",
+    "text": "Quarto\nR\n\n파이썬\n\nQuarto: R\n\nQuarto: 파이썬"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/title-slide.html",
+    "href": "slideshow/202210-hongik/title-slide.html",
+    "title": "\n데이터 사이언스와 디자인\n",
+    "section": "",
+    "text": "데이터 사이언스와 디자인\n\n\n디자인과 아키텍쳐의 중요성\n\n\n\n이광춘, 한국 R 사용자회\n\n\n2022-10-11\n\n\n\nr fontawesome::fa(\"github\", \"black\")   github.com/bit2r/quarto"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/problem.html",
+    "href": "slideshow/202210-hongik/problem.html",
+    "title": "한국 R 사용자회",
+    "section": "",
+    "text": "데이터 과학 문제"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/problem.html#section",
+    "href": "slideshow/202210-hongik/problem.html#section",
+    "title": "한국 R 사용자회",
+    "section": "",
+    "text": "데이터 과학 문제"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/problem.html#section-1",
+    "href": "slideshow/202210-hongik/problem.html#section-1",
+    "title": "한국 R 사용자회",
+    "section": "",
+    "text": "데이터 과학 문제"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/problem.html#데이터-사이언스---출판",
+    "href": "slideshow/202210-hongik/problem.html#데이터-사이언스---출판",
+    "title": "한국 R 사용자회",
+    "section": "데이터 사이언스 - 출판",
+    "text": "데이터 사이언스 - 출판\n\n문제점\n\n\n\n\n\n\n그림 1: 문제점\n\n\n\n\n\n개념\n\n\n\n\n\n\n그림 2: Single Sourcing 개념\n\n\n\n\n\nSingle Sourcing Multi-Use\n\n\n\n\n\n\n그림 3: Single Sourcing Multi-Use"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/problem.html#복잡성",
+    "href": "slideshow/202210-hongik/problem.html#복잡성",
+    "title": "한국 R 사용자회",
+    "section": "복잡성",
+    "text": "복잡성\n\n엑셀 1\n\n\n\n\n\n\n아래한글 2"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/problem.html#시각화---그래프-문법-problem-3",
+    "href": "slideshow/202210-hongik/problem.html#시각화---그래프-문법-problem-3",
+    "title": "한국 R 사용자회",
+    "section": "시각화 - 그래프 문법 3",
+    "text": "시각화 - 그래프 문법 3\n\n\n\n\nR 코드\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.0.4     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nbill_df &lt;- data.frame(\n  sex = factor(c(\"여성\",\"여성\",\"남성\",\"남성\")),\n  time = factor(c(\"점심\",\"저녁\",\"점심\",\"저녁\"), levels=c(\"점심\",\"저녁\")),\n  total_bill = c(13.53, 16.81, 16.24, 17.42)\n)\n\n\n\n\n실행결과\n\nbill_df\n\n   sex time total_bill\n1 여성 점심      13.53\n2 여성 저녁      16.81\n3 남성 점심      16.24\n4 남성 저녁      17.42\n\n\n\n\n\n\n\n\n\nR 코드\n\nbill_df %&gt;% \n  ggplot(aes(x=time, y=total_bill, group=sex, shape=sex, colour=sex)) +\n    geom_line(aes(linetype=sex), size=1) +    \n    geom_point(size=3, fill=\"white\") +        \n    expand_limits(y=0) +                      \n    scale_colour_hue(name=\"결재자 성별\", l=30) +\n    scale_shape_manual(name=\"결재자 성별\", values=c(22,21)) +\n    scale_linetype_discrete(name=\"결재자 성별\") +\n    xlab(\"점심, 석식\") + ylab(\"팁(Tip)\") +\n    ggtitle(\"식사 결재 평균 팁\") +    \n    theme_bw() +\n    theme(legend.position=c(.7, .4))\n\n\n\n\n실행결과\n\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n\n\nWarning: A numeric `legend.position` argument in `theme()` was deprecated in ggplot2\n3.5.0.\nℹ Please use the `legend.position.inside` argument of `theme()` instead.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR 코드\n\nbill_mat &lt;- matrix( bill_df$total_bill,\n                   nrow = 2,\n                   byrow=TRUE,\n                   dimnames = list(c(\"여성\", \"남성\"), c(\"점심\", \"저녁\"))\n                   )\n\nmf_col &lt;- c(\"#3CC3BD\", \"#FD8210\")\nbarplot(bill_mat, beside = TRUE, border=NA, col=mf_col)\nlegend(\"topleft\", row.names(bill_mat), pch=15, col=mf_col)\n\n\npar(cex=1.2, cex.axis=1.1)\nmatplot(bill_mat, type=\"b\", lty=1, pch=19, col=mf_col,\n    cex=1.5, lwd=3, las=1, bty=\"n\", xaxt=\"n\",\n    xlim=c(0.7, 2.2), ylim=c(12,18), ylab=\"\",\n    main=\"식사 결재 평균 팁\", yaxt=\"n\")\naxis(2, at=axTicks(2), labels=sprintf(\"$%s\", axTicks(2)),\n    las=1, cex.axis=0.8, col=NA, line = -0.5)\ngrid(NA, NULL, lty=3, lwd=1, col=\"#000000\")\nabline(v=c(1,2), lty=3, lwd=1, col=\"#000000\")\nmtext(\"점심\", side=1, at=1)\nmtext(\"저녁\", side=1, at=2)\ntext(1.5, 17.3, \"남성\", srt=8, font=3)\ntext(1.5, 15.1, \"여성\", srt=33, font=3)\n\n\n\n\n실행결과"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/problem.html#디자인---코드",
+    "href": "slideshow/202210-hongik/problem.html#디자인---코드",
+    "title": "한국 R 사용자회",
+    "section": "디자인 - 코드",
+    "text": "디자인 - 코드\n\n데이터 가공\n\n날짜와 시간별로 총 빈도수와 출발연착 평균 시간을 구한다. 단, 총빈도수가 10 회 미만인 것은 제외하고 출발연착 시간의 결측값을 제거하고 계산한다.\n\n\nflights 데이터프레임에서\n출발 연착시간(dep_delay) 칼럼에서 결측값이 없는 (!is.na()) 행을 필터링 하고\n날짜별(date), 시간별(hour) 그룹을 묶어\n평균 출발 연착시간을 계산하고 총빈도수 총계를 내고\n총빈도수가 10회 이상인 날짜와 시간을 찾아내시오\n\n\n\ndplyr R\n\nhourly_delay &lt;- flights %&gt;%  \n  filter(!is.na(dep_delay)) %&gt;% \n  group_by(date, hour) %&gt;% \n  summarise(delay = mean(dep_delay), n = n()) %&gt;%  \n  filter(n &gt; 10) \n\n\n\nBase R\n\nhourly_delay &lt;- filter(   \n    summarise(   \n        group_by(   \n             filter(   \n                 flights,    \n                 !is.na(dep_delay)   \n             ),    \n             date, hour   \n        ),    \n    delay = mean(dep_delay),    \n         n = n()   \n    ),    \n    n &gt; 10   \n)\n\n\n\nSQL\n\nSELECT \"date\", \"hour\", \"delay\", \"n\"\nFROM (\n    SELECT \"date\", \"hour\",\n        AVG(\"dep_delay\") AS \"delay\",\n        COUNT() AS \"n\"\n    FROM \"flights\"\n    WHERE NOT(\"dep_delay\" IS NULL)\n    GROUP BY \"date\", \"hour\"\n) AS \"_W1\"\nWHERE \"n\" &gt; 10.0\n\n\n\n파이썬\n\nflights[['date','hour','dep_delay']]\n..."
+  },
+  {
+    "objectID": "slideshow/202210-hongik/problem.html#디자인---데이터",
+    "href": "slideshow/202210-hongik/problem.html#디자인---데이터",
+    "title": "한국 R 사용자회",
+    "section": "디자인 - 데이터",
+    "text": "디자인 - 데이터\n\n정돈된 데이터\n\n\n\n\n\n사례 - 결핵 데이터\n\nWHO 결핵 원데이터\nWHO 에서 년도별, 국가별, 연령별, 성별, 진단방법별 결핵 발병사례 조사 통계 데이터\n진단방법\n\nrel stands for cases of relapse\nep stands for cases of extrapulmonary TB\nsn stands for cases of pulmonary TB that could not be diagnosed by a pulmonary smear (smear negative)\nsp stands for cases of pulmonary TB that could be diagnosed by a pulmonary smear (smear positive)\n\n연령\n\n014 = 0 – 14 years old\n1524 = 15 – 24 years old\n2534 = 25 – 34 years old\n3544 = 35 – 44 years old\n4554 = 45 – 54 years old\n5564 = 55 – 64 years old\n65 = 65 or older\n\n성별\n\nmales (m)\nfemales (f)\n\n\n\n\n사례 - Messy 데이터\n\nlibrary(tidyverse)\ntidyr::who \n\n# A tibble: 7,240 × 60\n   country  iso2  iso3   year new_sp_m014 new_sp_m1524 new_sp_m2534 new_sp_m3544\n   &lt;chr&gt;    &lt;chr&gt; &lt;chr&gt; &lt;dbl&gt;       &lt;dbl&gt;        &lt;dbl&gt;        &lt;dbl&gt;        &lt;dbl&gt;\n 1 Afghani… AF    AFG    1980          NA           NA           NA           NA\n 2 Afghani… AF    AFG    1981          NA           NA           NA           NA\n 3 Afghani… AF    AFG    1982          NA           NA           NA           NA\n 4 Afghani… AF    AFG    1983          NA           NA           NA           NA\n 5 Afghani… AF    AFG    1984          NA           NA           NA           NA\n 6 Afghani… AF    AFG    1985          NA           NA           NA           NA\n 7 Afghani… AF    AFG    1986          NA           NA           NA           NA\n 8 Afghani… AF    AFG    1987          NA           NA           NA           NA\n 9 Afghani… AF    AFG    1988          NA           NA           NA           NA\n10 Afghani… AF    AFG    1989          NA           NA           NA           NA\n# ℹ 7,230 more rows\n# ℹ 52 more variables: new_sp_m4554 &lt;dbl&gt;, new_sp_m5564 &lt;dbl&gt;,\n#   new_sp_m65 &lt;dbl&gt;, new_sp_f014 &lt;dbl&gt;, new_sp_f1524 &lt;dbl&gt;,\n#   new_sp_f2534 &lt;dbl&gt;, new_sp_f3544 &lt;dbl&gt;, new_sp_f4554 &lt;dbl&gt;,\n#   new_sp_f5564 &lt;dbl&gt;, new_sp_f65 &lt;dbl&gt;, new_sn_m014 &lt;dbl&gt;,\n#   new_sn_m1524 &lt;dbl&gt;, new_sn_m2534 &lt;dbl&gt;, new_sn_m3544 &lt;dbl&gt;,\n#   new_sn_m4554 &lt;dbl&gt;, new_sn_m5564 &lt;dbl&gt;, new_sn_m65 &lt;dbl&gt;, …\n\n\n\n\n사례 - 코드\n\nwho %&gt;%\n  pivot_longer(\n    cols = new_sp_m014:newrel_f65, \n    names_to = \"key\", \n    values_to = \"cases\", \n    values_drop_na = TRUE\n  ) %&gt;% \n  mutate(\n    key = stringr::str_replace(key, \"newrel\", \"new_rel\")\n  ) %&gt;%\n  separate(key, c(\"new\", \"var\", \"sexage\")) %&gt;% \n  select(-new, -iso2, -iso3) %&gt;% \n  separate(sexage, c(\"sex\", \"age\"), sep = 1)\n\n\n\n사례 - Tidy 데이터\n\n\n# A tibble: 76,046 × 6\n   country      year var   sex   age   cases\n   &lt;chr&gt;       &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;dbl&gt;\n 1 Afghanistan  1997 sp    m     014       0\n 2 Afghanistan  1997 sp    m     1524     10\n 3 Afghanistan  1997 sp    m     2534      6\n 4 Afghanistan  1997 sp    m     3544      3\n 5 Afghanistan  1997 sp    m     4554      5\n 6 Afghanistan  1997 sp    m     5564      2\n 7 Afghanistan  1997 sp    m     65        0\n 8 Afghanistan  1997 sp    f     014       5\n 9 Afghanistan  1997 sp    f     1524     38\n10 Afghanistan  1997 sp    f     2534     36\n# ℹ 76,036 more rows"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/problem.html#디자인---사람-대-기계",
+    "href": "slideshow/202210-hongik/problem.html#디자인---사람-대-기계",
+    "title": "한국 R 사용자회",
+    "section": "디자인 - 사람 대 기계",
+    "text": "디자인 - 사람 대 기계\n\n전체 개발 시간\n\n\n\n\n\n\n사람 &lt; 기계\n\n\n\n\n\n\n사람 &gt; 기계"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/problem.html#footnotes",
+    "href": "slideshow/202210-hongik/problem.html#footnotes",
+    "title": "한국 R 사용자회",
+    "section": "각주",
+    "text": "각주\n\n\nXKCD 1667: Algorithms↩︎\nWriting Technical Papers with Markdown and Pandoc↩︎\nComparing ggplot2 and R Base Graphics By Nathan Yau↩︎"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/data-science.html",
+    "href": "slideshow/202210-hongik/data-science.html",
+    "title": "한국 R 사용자회",
+    "section": "",
+    "text": "데이터 사이언스"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/data-science.html#section",
+    "href": "slideshow/202210-hongik/data-science.html#section",
+    "title": "한국 R 사용자회",
+    "section": "",
+    "text": "데이터 사이언스"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/data-science.html#section-1",
+    "href": "slideshow/202210-hongik/data-science.html#section-1",
+    "title": "한국 R 사용자회",
+    "section": "",
+    "text": "데이터 사이언스"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/data-science.html#데이터-사이언스",
+    "href": "slideshow/202210-hongik/data-science.html#데이터-사이언스",
+    "title": "한국 R 사용자회",
+    "section": "데이터 사이언스",
+    "text": "데이터 사이언스"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/data-science.html#데이터-과학-욕구단계설",
+    "href": "slideshow/202210-hongik/data-science.html#데이터-과학-욕구단계설",
+    "title": "한국 R 사용자회",
+    "section": "데이터 과학 욕구단계설",
+    "text": "데이터 과학 욕구단계설\n\n\n매슬로 욕구단계설\n\n\n가치 피라미드"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/solution.html",
+    "href": "slideshow/202210-hongik/solution.html",
+    "title": "한국 R 사용자회",
+    "section": "",
+    "text": "데이터 과학 노력들"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/solution.html#section",
+    "href": "slideshow/202210-hongik/solution.html#section",
+    "title": "한국 R 사용자회",
+    "section": "",
+    "text": "데이터 과학 노력들"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/solution.html#section-1",
+    "href": "slideshow/202210-hongik/solution.html#section-1",
+    "title": "한국 R 사용자회",
+    "section": "",
+    "text": "데이터 과학 노력들"
+  },
+  {
+    "objectID": "slideshow/202210-hongik/solution.html#quarto",
+    "href": "slideshow/202210-hongik/solution.html#quarto",
+    "title": "한국 R 사용자회",
+    "section": "Quarto",
+    "text": "Quarto\n\nR\n\n\n\n파이썬\n\n\n\nQuarto: R\n\n\n\nQuarto: 파이썬"
   }
 ]

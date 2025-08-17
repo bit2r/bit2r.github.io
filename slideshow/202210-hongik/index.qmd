@@ -7,7 +7,6 @@ format:
     footer: "[한국 R 사용자회](https://r2bit.com/)&nbsp;"
     code-copy: true
     center-title-slide: false
-    include-in-header: heading-meta.html
     code-link: true
     code-overflow: wrap
     highlight-style: a11y

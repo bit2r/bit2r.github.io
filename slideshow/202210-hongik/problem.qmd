@@ -12,7 +12,6 @@
 
 ## 데이터 사이언스 - 출판
 
-::: panel-tabset
 ### 문제점
 
 ![문제점](../../fig/single-sourcing-problem.jpg){#fig-problem width="50%"}
@@ -24,21 +23,18 @@
 ### Single Sourcing Multi-Use
 
 ![Single Sourcing Multi-Use](../../fig/single-sourcing-publishing.jpg){#fig-publishing width="60%"}
-:::
 
 ## 복잡성
 
-::: panel-tabset
 ### 엑셀 [^problem-1]
 
 <br>
 
 <center>![](../../fig/xkcd-algorithms.png){width="1000"}</center>
 
-### 아래한글 [^problem-2] {.selected}
+### 아래한글 [^problem-2]
 
 <center>![](../../fig/markdown-writing.png)</center>
-:::
 
 [^problem-1]: [XKCD 1667: Algorithms](https://www.explainxkcd.com/wiki/index.php/1667:_Algorithms)
 
@@ -48,7 +44,6 @@
 
 [^problem-3]: Comparing ggplot2 and R Base Graphics By [Nathan Yau](https://flowingdata.com/2016/03/22/comparing-ggplot2-and-r-base-graphics/)
 
-::: panel-tabset
 <!-- 데이터  -->
 
 ::: columns
@@ -186,11 +181,8 @@ text(1.5, 15.1, "여성", srt=33, font=3)
 ```
 :::
 :::
-:::
 
 ## 디자인 - 코드
-
-::: panel-tabset
 ### 데이터 가공
 
 > 날짜와 시간별로 총 빈도수와 출발연착 평균 시간을 구한다. 단, 총빈도수가 10 회 미만인 것은 제외하고 출발연착 시간의 결측값을 제거하고 계산한다.
@@ -253,14 +245,12 @@ WHERE "n" > 10.0
 
 ```{python}
 #| eval: false
+#| python.reticulate: false
 flights[['date','hour','dep_delay']]
 ...
 ```
-:::
 
 ## 디자인 - 데이터
-
-::: panel-tabset
 ### 정돈된 데이터
 
 <center>![](../../fig/messy_tidy_data.png){width="1000"}</center>
@@ -331,11 +321,8 @@ tidyr::who %>%
   select(-new, -iso2, -iso3) %>% 
   separate(sexage, c("sex", "age"), sep = 1)
 ```
-:::
 
 ## 디자인 - 사람 대 기계
-
-::: panel-tabset
 ### 전체 개발 시간
 
 <br>
@@ -353,4 +340,3 @@ tidyr::who %>%
 <br>
 
 <center>![](../../fig/human-computer-human.png)</center>
-:::

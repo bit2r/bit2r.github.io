@@ -20,12 +20,16 @@
 
 ## 데이터 과학 욕구단계설
 
-::: panel-tabset
-### 매슬로 욕구단계설
+::: {.columns}
+::: {.column width="50%"}
+**매슬로 욕구단계설**
 
 ![](../../fig/pyramid-needs.png)
+:::
 
-### 가치 피라미드
+::: {.column width="50%"}
+**가치 피라미드**
 
 ![](../../fig/pyramid-data-science.png)
+:::
 :::
