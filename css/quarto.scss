@@ -20,6 +20,7 @@ $black:    #000 !default;
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
 
 @font-face {
     font-family: 'MaruBuri-Regular';
@@ -66,7 +67,7 @@ $headings-font-family:  $font-family-sans-serif !default;
 h1, .h1, h2, .h2 {
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-family: 'Noto Sans KR';
+    font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
 }
 
 p {
