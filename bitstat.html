@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="통계 대중화와 불평등 해소를 위해 전세계적으로 검증된 콘텐츠를 한국 알 사용자회에서 선별하여 크리에이티브 커먼즈 라이선스에 준용하여 번역 및 우리나라 상황을 반영하여 콘텐츠를 추가하였습니다. 디지털 콘텐츠도 재현성과 추적성이 강조되는 세계적인 현상을 감안하여 소프트웨어 개발 방법론을 적극 채용하여 지속적인 업그레이드와 개발이 이뤄지고 있습니다.">
+<meta name="dcterms.date" content="2022-08-22">
+<meta name="description" content="Data Literacy 역량 강화를 위해 컴퓨터를 처음 접하거나 데이터 작업이 처음인 대한민국 국민 누구나 쉽게 통계 패키지를 접할 수 있도록 하고 데이터 프로그래밍 역량도 수준별로 강화할 수 있도록 새로운 형태의 블록 통계 분석을 포함한 오픈 통계 패키지 개발을 목표로 합니다.">
 
-<title>한국 R 사용자회 - 콘텐츠</title>
+<title>한국 R 사용자회 - 오픈 통계 패키지</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -56,7 +57,6 @@ ul.task-list{list-style: none;}
 }</script>
 
 
-<link rel="stylesheet" href="strapless.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -83,10 +83,10 @@ ul.task-list{list-style: none;}
     <a class="nav-link" href="https://r2bit.com/chatGPT/"><strong>chatGPT</strong></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./bitstat.html">통계 패키지</a>
+    <a class="nav-link active" href="./bitstat.html" aria-current="page">통계 패키지</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./book.html" aria-current="page">콘텐츠</a>
+    <a class="nav-link" href="./book.html">콘텐츠</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./data.html">데이터</a>
@@ -171,7 +171,7 @@ ul.task-list{list-style: none;}
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">콘텐츠</h1>
+      <h1 class="quarto-secondary-nav-title">오픈 통계 패키지</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -234,19 +234,29 @@ ul.task-list{list-style: none;}
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#프로젝트-개요" id="toc-프로젝트-개요" class="nav-link active" data-scroll-target="#프로젝트-개요">프로젝트 개요</a></li>
+  <li><a href="#기대-효과" id="toc-기대-효과" class="nav-link" data-scroll-target="#기대-효과">기대 효과</a></li>
+  <li><a href="#bitstat-아키텍처" id="toc-bitstat-아키텍처" class="nav-link" data-scroll-target="#bitstat-아키텍처"><code>BitStat</code> 아키텍처</a></li>
+  <li><a href="#bitstat-시연" id="toc-bitstat-시연" class="nav-link" data-scroll-target="#bitstat-시연">BitStat 시연</a></li>
+  <li><a href="#참고자료" id="toc-참고자료" class="nav-link" data-scroll-target="#참고자료">참고자료</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">콘텐츠</h1>
+<h1 class="title d-none d-lg-block">오픈 통계 패키지</h1>
 </div>
 
 <div>
   <div class="description">
-    <p>통계 대중화와 불평등 해소를 위해 전세계적으로 검증된 콘텐츠를 한국 알 사용자회에서 선별하여 크리에이티브 커먼즈 라이선스에 준용하여 번역 및 우리나라 상황을 반영하여 콘텐츠를 추가하였습니다. 디지털 콘텐츠도 재현성과 추적성이 강조되는 세계적인 현상을 감안하여 소프트웨어 개발 방법론을 적극 채용하여 지속적인 업그레이드와 개발이 이뤄지고 있습니다.</p>
+    <p>Data Literacy 역량 강화를 위해 컴퓨터를 처음 접하거나 데이터 작업이 처음인 대한민국 국민 누구나 쉽게 통계 패키지를 접할 수 있도록 하고 데이터 프로그래밍 역량도 수준별로 강화할 수 있도록 새로운 형태의 블록 통계 분석을 포함한 오픈 통계 패키지 개발을 목표로 합니다.</p>
   </div>
 </div>
 
@@ -254,148 +264,75 @@ ul.task-list{list-style: none;}
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 22, 2022</p>
+    </div>
+  </div>
     
   </div>
   
 
 </header>
 
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div>
-<div class="row p-0 row-cols-1 row-cols-md-2 row-cols-lg-3" style="margin-left: -.2rem; margin-right: -.2rem; margin-top: 1rem; margin-bottom: 1rem; ">
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
-<div class="card-body m-0 p-0 col-12" style="visibility: visible; border-style:solid; border-color:inherits; border-width:1px; background-color: inherits;border-radius: .6rem .6rem 0 0 ;">
-<div class="row no-gutters h-100 border-0" style="border-radius: .6rem .6rem 0 0 ;">
-<div class="col-7 h-100">
-<a href="https://r2bit.com/book_programming/">
-<h5 class="card-title my-auto px-3 pt-3 pb-1 anchored">데이터 과학 프로그래밍</h5>
-</a>
-<p class="card-text my-auto px-3 pb-3 pt-1">데이터 과학자로 성장하기 위한 프로그래밍 개념</p>
-</div>
-<div class="col-5" style="border-radius: 0 .6rem 0 0 ;">
-<a href="https://r2bit.com/book_programming/" style="color: inherit;">
-<img src="fig/favicon_book_programming.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:1px; margin-left: 1px;margin-right: -1px;margin-top: -1px;margin-bottom: -1px;border-radius: 0 .6rem 0 0 ;">
-</a>
-</div>
-</div>
-</div>
-<div class="card-footer small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:0 1px 1px 1px; border-radius: 0 0 .6rem .6rem ;">2022-06-17</div>
-</div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
-<div class="card-body m-0 p-0 col-12" style="visibility: visible; border-style:solid; border-color:inherits; border-width:1px; background-color: inherits;border-radius: .6rem .6rem 0 0 ;">
-<div class="row no-gutters h-100 border-0" style="border-radius: .6rem .6rem 0 0 ;">
-<div class="col-7 h-100">
-<a href="https://r2bit.com/book_viz/">
-<h5 class="card-title my-auto px-3 pt-3 pb-1 anchored">데이터 시각화</h5>
-</a>
-<p class="card-text my-auto px-3 pb-3 pt-1">데이터 시각화에 대한 개념과 실무</p>
-</div>
-<div class="col-5" style="border-radius: 0 .6rem 0 0 ;">
-<a href="https://r2bit.com/book_viz/" style="color: inherit;">
-<img src="fig/favicon_book_viz.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:1px; margin-left: 1px;margin-right: -1px;margin-top: -1px;margin-bottom: -1px;border-radius: 0 .6rem 0 0 ;">
-</a>
-</div>
-</div>
-</div>
-<div class="card-footer small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:0 1px 1px 1px; border-radius: 0 0 .6rem .6rem ;">2022-06-03</div>
-</div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
-<div class="card-body m-0 p-0 col-12" style="visibility: visible; border-style:solid; border-color:inherits; border-width:1px; background-color: inherits;border-radius: .6rem .6rem 0 0 ;">
-<div class="row no-gutters h-100 border-0" style="border-radius: .6rem .6rem 0 0 ;">
-<div class="col-7 h-100">
-<a href="https://r2bit.com/book_analytics/">
-<h5 class="card-title my-auto px-3 pt-3 pb-1 anchored">데이터 과학 기본기</h5>
-</a>
-<p class="card-text my-auto px-3 pb-3 pt-1">데이터 과학을 지탱하는 기본기</p>
-</div>
-<div class="col-5" style="border-radius: 0 .6rem 0 0 ;">
-<a href="https://r2bit.com/book_analytics/" style="color: inherit;">
-<img src="fig/favicon_book_basic.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:1px; margin-left: 1px;margin-right: -1px;margin-top: -1px;margin-bottom: -1px;border-radius: 0 .6rem 0 0 ;">
-</a>
-</div>
-</div>
-</div>
-<div class="card-footer small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:0 1px 1px 1px; border-radius: 0 0 .6rem .6rem ;">2022-06-04</div>
-</div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
-<div class="card-body m-0 p-0 col-12" style="visibility: visible; border-style:solid; border-color:inherits; border-width:1px; background-color: inherits;border-radius: .6rem .6rem 0 0 ;">
-<div class="row no-gutters h-100 border-0" style="border-radius: .6rem .6rem 0 0 ;">
-<div class="col-7 h-100">
-<a href="https://r2bit.com/Rcmdr/">
-<h5 class="card-title my-auto px-3 pt-3 pb-1 anchored">오픈 통계 패키지</h5>
-</a>
-<p class="card-text my-auto px-3 pb-3 pt-1">설치형 오픈 통계 패키지 - Rcmdr</p>
-</div>
-<div class="col-5" style="border-radius: 0 .6rem 0 0 ;">
-<a href="https://r2bit.com/Rcmdr/" style="color: inherit;">
-<img src="fig/favicon_book_rcmdr.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:1px; margin-left: 1px;margin-right: -1px;margin-top: -1px;margin-bottom: -1px;border-radius: 0 .6rem 0 0 ;">
-</a>
-</div>
-</div>
-</div>
-<div class="card-footer small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:0 1px 1px 1px; border-radius: 0 0 .6rem .6rem ;">2022-06-05</div>
-</div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
-<div class="card-body m-0 p-0 col-12" style="visibility: visible; border-style:solid; border-color:inherits; border-width:1px; background-color: inherits;border-radius: .6rem .6rem 0 0 ;">
-<div class="row no-gutters h-100 border-0" style="border-radius: .6rem .6rem 0 0 ;">
-<div class="col-7 h-100">
-<a href="https://r2bit.com/book_unplugged/">
-<h5 class="card-title my-auto px-3 pt-3 pb-1 anchored">데이터 과학 언플러그드</h5>
-</a>
-<p class="card-text my-auto px-3 pb-3 pt-1">종이와 연필로 데이터 과학 개념 설명</p>
-</div>
-<div class="col-5" style="border-radius: 0 .6rem 0 0 ;">
-<a href="https://r2bit.com/book_unplugged/" style="color: inherit;">
-<img src="fig/favicon_book_unplugged.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:1px; margin-left: 1px;margin-right: -1px;margin-top: -1px;margin-bottom: -1px;border-radius: 0 .6rem 0 0 ;">
-</a>
-</div>
-</div>
-</div>
-<div class="card-footer small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:0 1px 1px 1px; border-radius: 0 0 .6rem .6rem ;">2022-06-10</div>
-</div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
-<div class="card-body m-0 p-0 col-12" style="visibility: visible; border-style:solid; border-color:inherits; border-width:1px; background-color: inherits;border-radius: .6rem .6rem 0 0 ;">
-<div class="row no-gutters h-100 border-0" style="border-radius: .6rem .6rem 0 0 ;">
-<div class="col-7 h-100">
-<a href="">
-<h5 class="card-title my-auto px-3 pt-3 pb-1 anchored">문서 콘텐츠 제작 실무</h5>
-</a>
-<p class="card-text my-auto px-3 pb-3 pt-1">집필중</p>
-</div>
-<div class="col-5" style="border-radius: 0 .6rem 0 0 ;">
-<a href="" style="color: inherit;">
-<img src="fig/favicon_book_document.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:1px; margin-left: 1px;margin-right: -1px;margin-top: -1px;margin-bottom: -1px;border-radius: 0 .6rem 0 0 ;">
-</a>
-</div>
-</div>
-</div>
-<div class="card-footer small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:0 1px 1px 1px; border-radius: 0 0 .6rem .6rem ;">2022-XX-XX</div>
-</div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
-<div class="card-body m-0 p-0 col-12" style="visibility: visible; border-style:solid; border-color:inherits; border-width:1px; background-color: inherits;border-radius: .6rem .6rem 0 0 ;">
-<div class="row no-gutters h-100 border-0" style="border-radius: .6rem .6rem 0 0 ;">
-<div class="col-7 h-100">
-<a href="https://r2bit.com/book_tm/">
-<h5 class="card-title my-auto px-3 pt-3 pb-1 anchored">R 텍스트 마이닝</h5>
-</a>
-<p class="card-text my-auto px-3 pb-3 pt-1">bitTA 패키지로 한글 텍스트 분석</p>
-</div>
-<div class="col-5" style="border-radius: 0 .6rem 0 0 ;">
-<a href="https://r2bit.com/book_tm/" style="color: inherit;">
-<img src="fig/favicon_bitTA.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:1px; margin-left: 1px;margin-right: -1px;margin-top: -1px;margin-bottom: -1px;border-radius: 0 .6rem 0 0 ;">
-</a>
-</div>
-</div>
-</div>
-<div class="card-footer small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:0 1px 1px 1px; border-radius: 0 0 .6rem .6rem ;">2022-08-15</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+<p><img src="fig/bitstat.png" class="img-fluid"></p>
+<section id="프로젝트-개요" class="level1">
+<h1>프로젝트 개요</h1>
+<p>코로나19로 인해 심화된 <strong>디지털 불평등</strong>과 <strong>디지털 전환(Digital Transformation)</strong>으로 인해 시민의 필수 역량이 된 <strong>Data Literacy 역량 강화</strong>와 통계 대중화를 위해 오픈 통계 패키지 - 빛스탯(<code>BitStat</code>) - 를 개발하게 되었습니다. 데이터 리터러시 역량은 결국 디지털 불평등과 맥이 닿아 있고 이후 교육불평등, 취업불평등, 소득불평등, 자산불평등으로 이어져 사회 양극화를 심화시키는 주범으로 지목되고 있다.</p>
+<p><img src="fig/inequality.jpeg" class="img-fluid" style="width:100.0%"></p>
+</section>
+<section id="기대-효과" class="level1">
+<h1>기대 효과</h1>
+<ul>
+<li>기술적 측면
+<ul>
+<li>기하급수적으로 증가하는 데이터를 분석하여 가치를 창출하는 데이터 경제가 급부상하고 있으나, 인력 육성이나 도구는 선형적 증가 상황을 타개할 수 있는 혁신적인 기술이 요구됨</li>
+<li>폭발적으로 늘어나는 데이터를 일반국민도 활용할 수 있도록 하는 공개SW 통계 패키지는 다분야에서도 활용 가능한 Auto-X 기술을 기반으로 통계분석 생산성과 품질을 큰 폭을 높일 수 있는 혁신적인 기술임</li>
+</ul></li>
+<li>경제적, 산업적 측면
+<ul>
+<li>’22년 글로벌 빅데이터, 분석시장 규모는 전년 대비 27% 성장한 $2,740억 달러 규모 전망
+<ul>
+<li>IDC, “Revenue from big data and business analytics worldwide from 2015 to 2022”, 2021년 9월</li>
+</ul></li>
+<li>오픈 통계 패키지에 내장된 Auto-X 기술을 포함하여 공개SW로 개방하여 중소기업 및 데이터 기반 의사결정을 지원하고, 공개SW 활용 스타트업을 통한 신규 부가가치 창출</li>
+</ul></li>
+<li>사회적 측면
+<ul>
+<li>지속적인 공공데이터 확대, 데이터3법 통과에 따라 데이터가 늘어나고 데이터 경제가 급속도로 커짐에 따라 데이터 리터러시(Data Literacy) 능력과 디지털 불평등의 양극화가 확대됨에 따라 오픈통계 패키지 SW를 공급하고 서비스로 제공함으로써 사회통합과 통계 대중화에 기여할 수 있음</li>
+</ul></li>
+</ul>
+</section>
+<section id="bitstat-아키텍처" class="level1">
+<h1><code>BitStat</code> 아키텍처</h1>
+<p>데이터 통계 분석의 대중화를 위해서는 통계 비전공자 및 일반인이 쉽게 사용할 수 있는 통계 패키지 소프트웨어 개발 취지에 맞춰 데이터를 입력하면 이를 인식하여 통계 분석 후 산출물을 자동 생성할 수 있는 오픈소스 기반의 클라우드 통계 패키지 소프트웨어.</p>
+<p><img src="fig/bitstat_architecture.png" class="img-fluid"></p>
+</section>
+<section id="bitstat-시연" class="level1">
+<h1>BitStat 시연</h1>
+<p><code>BitStat</code> 통계 패키지는 지속적으로 개발을 이어나가고 있으며 2021년 12월 기준 개발버전을 업그레이드하여 2022년 7월 대대적인 업그레이드가 예정되어 있다.</p>
+<p><img src="fig/openStat_quick.gif" class="img-fluid"></p>
+</section>
+<section id="참고자료" class="level1">
+<h1>참고자료</h1>
+<p><img src="fig/statistics-pkg.jpeg" class="img-fluid" style="width:100.0%"></p>
+<ul>
+<li><a href="https://use-r.kr/">한국 R 컨퍼런스</a> 발표 - <a href="https://www.youtube.com/watch?v=XtGFpZJML2s">Digital Divide Solution - 오픈 통계 팩키지</a></li>
+<li><a href="https://docs.google.com/presentation/d/1v5gu8pTHMcRUei8II4eGB5367fGRZJlRzML9v0U9QdE/edit?usp=sharing">국산 오픈 통계 팩키지</a></li>
+<li><a href="https://contributionacademy.oopy.io/">2021 오픈소스 컨트리뷰션 아카데미 - Tidyverse Korea 데이터 과학</a></li>
+<li><a href="https://docs.google.com/presentation/d/1xXQ_DzjSaS24Kr7c_rqiaAr5GqP5gsEKujq5fQNy-MA/edit?usp=sharing">오픈 통계 팩키지 개발 안내서</a></li>
+<li><code>tidyblocks</code>
+<ul>
+<li>Tidy Blocks 한글화 지원 : <a href="https://github.com/tidyblocks/tidyblocks/" class="uri">https://github.com/tidyblocks/tidyblocks/</a></li>
+<li>Tidy Blocks 블록 통계 프로그래밍 안내서 한글 번역: <a href="https://tidyblocks.tech/en/guide/" class="uri">https://tidyblocks.tech/en/guide/</a></li>
+<li>한글 사례(Example) 추가 및 확대 : <a href="https://tidyblocks.tech/en/examples/" class="uri">https://tidyblocks.tech/en/examples/</a></li>
+</ul></li>
+<li><a href="https://mdis.kostat.go.kr/tong/index.html">통그라미</a></li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
