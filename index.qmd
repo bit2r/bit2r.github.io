@@ -14,7 +14,22 @@ knitr::opts_chunk$set(echo = FALSE)
 :::{.panel-tabset}
 ### 챗GPT 시리즈 
 
-![](fig/chatGPT_series3.png){fig-align="center"}
+![](fig/chatGPT_series5.png){fig-align="center"}
+
+### **고수요 데이터**
+
+::: {#chatGPT-retail layout-ncol="2"}
+
+![](fig/고수요.jpg){fig-align="center" width="250"}
+
+:::
+
+
+📘 교보 POD 종이책: <https://product.kyobobook.co.kr/detail/S000218304161>
+
+📗 교보 전자책: <https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012087955>
+
+🌐 웹사이트: <https://statkclee.github.io/gpt-retail/>
 
 ### **데이터 과학**
 
@@ -54,22 +69,18 @@ knitr::opts_chunk$set(echo = FALSE)
 💻 소스코드: [https://bit.ly/48RqMB9](https://bit.ly/48RqMB9)
 
 
-### 쿼토
+### AI 글쓰기
 
 ::: {#chatGPT-sql layout-ncol="2"}
-![](fig/cover_quarto.jpg){fig-align="center" width="250"}
+![](fig/AI 글쓰기.jpg){fig-align="center" width="250"}
 
-![](fig/quarto_logo){fig-align="center" width="300"}
+![](fig/cover_quarto.jpg){fig-align="center" width="250"}
 :::
 
 
 📘 교보 POD 종이책: [https://bit.ly/3wElKuk](https://bit.ly/3wElKuk)
 
-📗 교보 전자책: [https://bit.ly/3IkWE6f](https://bit.ly/3IkWE6f)
-
-🌐 웹사이트: [https://bit.ly/3P7PVjX](https://bit.ly/3P7PVjX)
-
-💻 소스코드: [https://bit.ly/3InK46m](https://bit.ly/3InK46m)
+📗 교보 전자책: <https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012272268>
 
 ### SQL
 
@@ -91,19 +102,15 @@ knitr::opts_chunk$set(echo = FALSE)
 ### 유닉스 쉘
 
 ::: {#chatGPT-shell layout-ncol="2"}
-![](fig/챗GPT_유닉스쉘.jpg){fig-align="center" width="250"}
+![](fig/유닉스쉘_개정판.jpg){fig-align="center" width="250"}
 
-![](fig/hex_chatGPT_unix_shell_02.png){fig-align="center" width="300"}
+![](fig/챗GPT_유닉스쉘.jpg){fig-align="center" width="250"}
 :::
 
 
-📘 교보 POD 종이책: <https://bit.ly/434h5y9>
+📘 교보 POD 종이책(개정판): <https://product.kyobobook.co.kr/detail/S000218008711>
 
-📗 교보 전자책: [https://bit.ly/KzUdOU](https://bit.ly/3KzUdOU)
-
-🌐 웹사이트: <https://bit.ly/3I4FpWS>
-
-💻 소스코드: [https://bit.ly/3wrgeuP](https://bit.ly/49p0I1f)
+📗 교보 전자책(개정판): <https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000011929412>
 
 📰  뉴스기사: [챗GPT가 던진 새 가능성, 데이터 과학 분야 통해 미리 살펴보기](https://omn.kr/25f0i)
 
