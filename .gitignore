@@ -9,3 +9,10 @@
 /.quarto/
 
 **/*.quarto_ipynb
+
+CLAUDE.md
+.cursorrules
+.cursor/
+.opencode/
+.gpt/
+__worklog__/
