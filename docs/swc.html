@@ -41,10 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-f1c0bee89b19dbd6d93277359775cf96.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-65e995565c0977a2feba90ba1206aa92.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-83ec60fbbeab7663eddccc7c091ff4e1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -342,7 +339,7 @@ ga('send', {
 
 
 <p>한국 소프트웨어 카펜트리는 <a href="https://aispiration.com/swcarpentry-version-5-3-new/">소프트웨어 카펜트리 버젼 5.3</a> 한국어로 번역이 되어 있으며 카펜트리 사단법인으로부터 자격증을 취득한 공인강사가 워크샵을 진행합니다. 2012년 1월 18일 이후 현재 시점 기준(2021-12-09) 한국을 비롯한 52개국에서 1,913회 워크샵이 있었습니다.</p>
-<p><a href="fig/swc-workshop.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="fig/swc-workshop.png" class="img-fluid"></a></p>
+<p><img src="fig/swc-workshop.png" class="img-fluid"></p>
 <p>소프트웨어 카펜트리에 대한 자세한 사항은 다음 웹사이트를 참고 바랍니다.</p>
 <ul>
 <li><a href="https://aispiration.com/swcarpentry-version-5-3-new/">소프트웨어 카펜트리</a></li>
@@ -761,50 +758,18 @@ ga('send', {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-사업자 등록번호: 735-82-003300 <br> 대표: 형환희, 전자우편: <a href="mailto:admin@r2bit.com">admin@r2bit.com</a> <br> 주소: 서울특별시 서초구 법원로3길 15, 4층 <br> ©
-<script>document.write(new Date().getFullYear())</script>
-<p>BitStat. All rights reserved.</p>
-</div>   
+      &nbsp;
+    </div>   
     <div class="nav-footer-center">
+사업자 등록번호: 735-82-003300 | 대표: 형환희 | 전자우편: <a href="mailto:admin@r2bit.com">admin@r2bit.com</a> | 주소: 서울특별시 서초구 법원로3길 15, 4층<br> ©
+<script>document.write(new Date().getFullYear())</script>
+<p>BitStat. All rights reserved. | 본 웹사이트는 <a href="https://quarto.org/">쿼토(Quarto)</a>로 제작되었습니다.</p>
+</div>
+    <div class="nav-footer-right">
       &nbsp;
     </div>
-    <div class="nav-footer-right">
-<p>본 웹사이트는 <a href="https://quarto.org/">쿼토(Quarto)</a>로 제작되었습니다.</p>
-</div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 
