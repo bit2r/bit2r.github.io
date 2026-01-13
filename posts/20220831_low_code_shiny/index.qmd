@@ -27,9 +27,6 @@ format:
     highlight-style: github    
     self-contained: true
 link-citations: true
-filters:
-   - lightbox      
-lightbox: auto
 ---
 
 
