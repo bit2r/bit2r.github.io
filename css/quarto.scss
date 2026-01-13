@@ -16,18 +16,10 @@ $gray-900: #212529 !default;
 $black:    #000 !default;
 
 
-// 글꼴 
+// 글꼴
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
-
-@font-face {
-    font-family: 'MaruBuri-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 @font-face {
     font-family: 'D2Coding';
@@ -43,8 +35,7 @@ $black:    #000 !default;
 
 // scss-docs-start font-variables
 // stylelint-disable value-keyword-case
-$font-family-sans-serif: "Noto Sans KR", 'Nanum Myeongjo',  !default;
-// $font-family-serif: 'MaruBuri-Regular', "Noto Serif KR", !default;
+$font-family-sans-serif: 'Pretendard', "Noto Sans KR", sans-serif !default;
 $font-family-monospace:  'D2Coding', "Courier New", monospace !default;
 
 // scss-docs-start headings-variables
@@ -56,12 +47,12 @@ $headings-font-family:  $font-family-sans-serif !default;
 .navbar-dark {
     background-color:$gray-600;
     color: #000000;
-    font-family: 'MaruBuri-Regular';
+    font-family: 'Pretendard', sans-serif;
 }
 
 .sidebar-item {
     margin-bottom: 0.2em;
-    font-family: 'Noto Serif KR';
+    font-family: 'Pretendard', sans-serif;
 }
 
 h1, .h1, h2, .h2 {
@@ -71,8 +62,5 @@ h1, .h1, h2, .h2 {
 }
 
 p {
-    font-family: 'MaruBuri-Regular', serif;
+    font-family: 'Pretendard', sans-serif;
 }
-
-
-
