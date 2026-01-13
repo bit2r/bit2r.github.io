@@ -51,19 +51,19 @@ $headings-font-family:  $font-family-sans-serif !default;
     font-family: 'Pretendard', sans-serif;
 }
 
-.navbar-brand {
-    font-family: 'Paperlogy', sans-serif;
-    font-weight: 700;
-    font-size: 1.4rem;
+.navbar-title {
+    font-family: 'Paperlogy', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 1.5rem !important;
 }
 
-.navbar-nav .nav-link {
-    font-family: 'Pretendard', sans-serif;
-    font-size: 1.05rem;
+.navbar .nav-link {
+    font-family: 'Pretendard', sans-serif !important;
+    font-size: 1.1rem !important;
 }
 
 .navbar .dropdown-menu {
-    font-size: 1rem;
+    font-size: 1.05rem !important;
 }
 
 .sidebar-item {
