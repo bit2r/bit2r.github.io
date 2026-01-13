@@ -16,13 +16,15 @@ website:
   google-analytics: "UA-229551680-1"
   page-footer:
     center: |
-      사업자 등록번호: 735-82-003300 | 대표: 형환희 | 전자우편: <a href="mailto:admin@r2bit.com">admin@r2bit.com</a> | 주소: 서울특별시 서초구 법원로3길 15, 4층<br>&copy; 2025 BitStat. All rights reserved. | 본 웹사이트는 <a href="https://quarto.org/">쿼토(Quarto)</a>로 제작되었습니다.
+      사업자 등록번호: 735-82-003300 | 대표: 형환희 | 전자우편: <a href="mailto:admin@r2bit.com">admin@r2bit.com</a> | 주소: 서울특별시 서초구 법원로3길 15, 4층<br>&copy; <script>document.write(new Date().getFullYear())</script> BitStat. All rights reserved. | 본 웹사이트는 <a href="https://quarto.org/">쿼토(Quarto)</a>로 제작되었습니다.
     
   navbar:
     background: "#447099"
     left:
       - href: index.qmd
         text: "Home"
+      - href: about.qmd
+        text: "소개"
       - text: "(공개)패키지"
         href: packages.qmd
       - text: "(전자)책"
