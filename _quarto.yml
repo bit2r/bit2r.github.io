@@ -19,7 +19,7 @@ website:
       사업자 등록번호: 735-82-003300 <br>
       대표: 형환희, 전자우편: <a href="mailto:admin@r2bit.com">admin@r2bit.com</a> <br>
       주소: 서울특별시 서초구 법원로3길 15, 4층 <br>
-      &copy; 2024 BitStat. All rights reserved.
+      &copy; <script>document.write(new Date().getFullYear())</script> BitStat. All rights reserved.
     right: |
       본 웹사이트는 <a href="https://quarto.org/">쿼토(Quarto)</a>로 제작되었습니다.
     
