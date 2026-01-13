@@ -20,6 +20,7 @@ $black:    #000 !default;
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR');
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
+@import url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/subsets/Paperlogy-dynamic-subset.css');
 
 @font-face {
     font-family: 'D2Coding';
@@ -50,6 +51,21 @@ $headings-font-family:  $font-family-sans-serif !default;
     font-family: 'Pretendard', sans-serif;
 }
 
+.navbar-brand {
+    font-family: 'Paperlogy', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Pretendard', sans-serif;
+    font-size: 1.05rem;
+}
+
+.navbar .dropdown-menu {
+    font-size: 1rem;
+}
+
 .sidebar-item {
     margin-bottom: 0.2em;
     font-family: 'Pretendard', sans-serif;
@@ -63,4 +79,14 @@ h1, .h1, h2, .h2 {
 
 p {
     font-family: 'Pretendard', sans-serif;
+}
+
+.nav-footer {
+    font-family: 'Pretendard', sans-serif;
+    font-size: 0.85rem;
+}
+
+.nav-footer-center {
+    text-align: center;
+    flex-wrap: wrap;
 }
