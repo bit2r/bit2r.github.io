@@ -70,9 +70,14 @@ pkg_gt <- table_data |>
       ))
       }
     ) |> 
-    fmt_markdown(columns = c(pkg_name, 데이터_패키지_설명)) |> 
-    gt_theme_538() |> 
-    cols_align(align = "center")
+    fmt_markdown(columns = c(pkg_name, 데이터_패키지_설명)) |>
+    gt_theme_538() |>
+    cols_align(align = "center") |>
+    cols_width(
+      pkg_name ~ px(120),
+      데이터_패키지_설명 ~ px(500),
+      로고 ~ px(150)
+    )
 
 pkg_gt
 ```
