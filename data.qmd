@@ -24,9 +24,9 @@ library(tidyverse)
 # Create a data frame with the table data
 table_data <- data.frame(
   pkg_name = c(
-    "bitTomato", 
-    "hsData", 
-    "krvote", 
+    "bitTomato",
+    "hsData",
+    "krvote",
     "bitData"
   ),
   pkg_url = c(
@@ -49,34 +49,24 @@ table_data <- data.frame(
   )
 )
 
-table_data$pkg_name <- str_glue("<a href={table_data$pkg_url}>{table_data$pkg_name}</a>")
+table_data$pkg_name <- str_glue("<a href='{table_data$pkg_url}'>{table_data$pkg_name}</a>")
+table_data$로고 <- str_glue("<img src='{table_data$로고}' style='height:80px;'>")
 
 # Create the gt table
-pkg_gt <- table_data |> 
-  select(-pkg_url) |> 
-  gt() %>%
+pkg_gt <- table_data |>
+  select(로고, pkg_name, 데이터_패키지_설명) |>
+  gt() |>
     cols_label(
-      pkg_name = "패키지명",
       로고 = "로고",
+      pkg_name = "패키지명",
       데이터_패키지_설명 = "데이터 패키지 설명"
-    ) |> 
-     # gt_img_rows(columns = 로고, height = 25) 
-    text_transform(
-      locations = cells_body(columns = 로고),
-      fn = function(x) {
-        map_chr(x, ~ local_image(
-          filename = .x,
-          height = 100
-      ))
-      }
-    ) |> 
-    fmt_markdown(columns = c(pkg_name, 데이터_패키지_설명)) |>
-    gt_theme_538() |>
-    cols_align(align = "center") |>
-    cols_width(
-      pkg_name ~ px(120),
-      데이터_패키지_설명 ~ px(500),
-      로고 ~ px(150)
+    ) |>
+    fmt_markdown(columns = everything()) |>
+    cols_align(align = "center", columns = c(로고, pkg_name)) |>
+    cols_align(align = "left", columns = 데이터_패키지_설명) |>
+    tab_options(
+      table.width = pct(100),
+      column_labels.font.weight = "bold"
     )
 
 pkg_gt
