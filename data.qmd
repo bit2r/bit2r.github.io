@@ -50,7 +50,7 @@ table_data <- data.frame(
 )
 
 table_data$pkg_name <- str_glue("<a href='{table_data$pkg_url}'>{table_data$pkg_name}</a>")
-table_data$로고 <- str_glue("<img src='{table_data$로고}' style='height:80px;'>")
+table_data$로고 <- str_glue("<img src='{table_data$로고}' style='height:80px; width:auto;'>")
 
 # Create the gt table
 pkg_gt <- table_data |>
@@ -62,6 +62,11 @@ pkg_gt <- table_data |>
       데이터_패키지_설명 = "데이터 패키지 설명"
     ) |>
     fmt_markdown(columns = everything()) |>
+    cols_width(
+      로고 ~ px(100),
+      pkg_name ~ px(250),
+      데이터_패키지_설명 ~ pct(65)
+    ) |>
     cols_align(align = "center", columns = c(로고, pkg_name)) |>
     cols_align(align = "left", columns = 데이터_패키지_설명) |>
     tab_options(
