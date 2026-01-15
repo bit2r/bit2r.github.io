@@ -90,14 +90,20 @@ body {
 // ============================================
 
 .navbar {
-    background-color: $brand-blue !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/header_background.jpg') !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     border-bottom: none;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
     padding: 0.75rem 1rem;
 }
 
 .navbar-dark {
-    background-color: $brand-blue !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/header_background.jpg') !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .navbar-title {

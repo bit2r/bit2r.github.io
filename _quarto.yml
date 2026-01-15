@@ -21,7 +21,7 @@ website:
     background: "#447099"
     left:
       - href: index.qmd
-        text: "Home"
+        text: "홈"
       - href: about.qmd
         text: "소개"
       - text: "(공개)패키지"
@@ -30,8 +30,8 @@ website:
         href: book.qmd
       - text: "데이터"
         href: data.qmd
-      - href: blog.qmd     
-        text: "Blog"
+      - href: blog.qmd
+        text: "블로그"
       - text: "워크샵/발표자료"
         menu:
           - href: https://www.sharingkorea.net/gboard/
