@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-21eaec5268d3247debc4e011afa38212.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6045033f9ba455975c4e5b33328fd3f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-90541722e18035ebc45107e7704b37f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -94,6 +94,8 @@ ga('send', {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./fig/koRea_logo_navbar.png" alt="한국 R 사용자회 로고" class="navbar-logo light-content">
+    <img src="./fig/koRea_logo_navbar.png" alt="한국 R 사용자회 로고" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">한국 R 사용자회</span>
@@ -114,16 +116,20 @@ ga('send', {
 <span class="menu-text">소개</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./activities.html"> 
+<span class="menu-text">활동·교육</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./packages.html"> 
-<span class="menu-text">(공개)패키지</span></a>
+<span class="menu-text">공개 패키지</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./book.html"> 
-<span class="menu-text">(전자)책</span></a>
+<span class="menu-text">발행 도서</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./data.html"> 
-<span class="menu-text">데이터</span></a>
+<span class="menu-text">공개 데이터</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./blog.html"> 
@@ -131,37 +137,9 @@ ga('send', {
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">워크샵/발표자료</span>
+ <span class="menu-text">관련 링크</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-">    
-        <li>
-    <a class="dropdown-item" href="https://www.sharingkorea.net/gboard/">
- <span class="dropdown-text">나눔국민운동본부</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://r2bit.com/sen">
- <span class="dropdown-text">서울교육청 - 혁신교육</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://choonghyunryu.github.io/workshop_lecture/">
- <span class="dropdown-text">HCI 2024 (준비중)</span></a>
-  </li>  
-        <li><hr class="dropdown-divider"></li>
-        <li>
-    <a class="dropdown-item" href="https://r2bit.com/bitSlide/">
- <span class="dropdown-text">챗GPT 발표자료</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://r2bit.com/chatGPT/">
- <span class="dropdown-text"><strong>챗GPT</strong></span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu--1" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">관련정보</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu--1">    
         <li>
     <a class="dropdown-item" href="https://use-r.kr/">
  <span class="dropdown-text">한국 R 컨퍼런스</span></a>
@@ -182,19 +160,6 @@ ga('send', {
         <li>
     <a class="dropdown-item" href="https://quarto.org/">
  <span class="dropdown-text">쿼토(Quarto)</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./contest.html">
- <span class="dropdown-text">경진대회</span></a>
-  </li>  
-        <li><hr class="dropdown-divider"></li>
-        <li>
-    <a class="dropdown-item" href="./swc.html">
- <span class="dropdown-text">소프트웨어 카펜트리</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./learnr.html">
- <span class="dropdown-text">자기주도학습</span></a>
   </li>  
     </ul>
   </li>
@@ -736,6 +701,12 @@ ga('send', {
     </div>
   </div>
 </footer>
+<script>
+(function () {
+  var t = document.querySelector('.navbar-title');
+  if (t) t.innerHTML = '한국<span class="brand-r">R</span>사용자회';
+})();
+</script>
 
 
 

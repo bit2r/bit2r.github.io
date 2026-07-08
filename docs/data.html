@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="통계 대중화와 디지털 불평등 해소를 위한 노력으로, 한국 R 사용자회는 다양한 오픈 데이터 패키지를 제작하여 제공하고 있습니다. 공개 패키지들은 교육, 연구, 그리고 현업에서 신속하고 효과적인 데이터 분석의 토대가 될 것으로 기대됩니다.">
+<meta name="description" content="통계 대중화와 디지털 불평등 해소를 위해, 한국 R 사용자회는 다양한 오픈 데이터 패키지를 제작해 공개하고 있습니다. 교육·연구·현업에서 신속하고 효과적인 데이터 분석의 토대가 되도록 돕습니다.">
 
 <title>공개 데이터 – 한국 R 사용자회</title>
 <style>
@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-21eaec5268d3247debc4e011afa38212.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6045033f9ba455975c4e5b33328fd3f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-90541722e18035ebc45107e7704b37f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -85,6 +85,7 @@ ga('send', {
 </script>
 
 
+<link rel="stylesheet" href="strapless.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -95,6 +96,8 @@ ga('send', {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./fig/koRea_logo_navbar.png" alt="한국 R 사용자회 로고" class="navbar-logo light-content">
+    <img src="./fig/koRea_logo_navbar.png" alt="한국 R 사용자회 로고" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">한국 R 사용자회</span>
@@ -115,16 +118,20 @@ ga('send', {
 <span class="menu-text">소개</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./activities.html"> 
+<span class="menu-text">활동·교육</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./packages.html"> 
-<span class="menu-text">(공개)패키지</span></a>
+<span class="menu-text">공개 패키지</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./book.html"> 
-<span class="menu-text">(전자)책</span></a>
+<span class="menu-text">발행 도서</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./data.html" aria-current="page"> 
-<span class="menu-text">데이터</span></a>
+<span class="menu-text">공개 데이터</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./blog.html"> 
@@ -132,37 +139,9 @@ ga('send', {
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">워크샵/발표자료</span>
+ <span class="menu-text">관련 링크</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-">    
-        <li>
-    <a class="dropdown-item" href="https://www.sharingkorea.net/gboard/">
- <span class="dropdown-text">나눔국민운동본부</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://r2bit.com/sen">
- <span class="dropdown-text">서울교육청 - 혁신교육</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://choonghyunryu.github.io/workshop_lecture/">
- <span class="dropdown-text">HCI 2024 (준비중)</span></a>
-  </li>  
-        <li><hr class="dropdown-divider"></li>
-        <li>
-    <a class="dropdown-item" href="https://r2bit.com/bitSlide/">
- <span class="dropdown-text">챗GPT 발표자료</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://r2bit.com/chatGPT/">
- <span class="dropdown-text"><strong>챗GPT</strong></span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu--1" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">관련정보</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu--1">    
         <li>
     <a class="dropdown-item" href="https://use-r.kr/">
  <span class="dropdown-text">한국 R 컨퍼런스</span></a>
@@ -183,19 +162,6 @@ ga('send', {
         <li>
     <a class="dropdown-item" href="https://quarto.org/">
  <span class="dropdown-text">쿼토(Quarto)</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./contest.html">
- <span class="dropdown-text">경진대회</span></a>
-  </li>  
-        <li><hr class="dropdown-divider"></li>
-        <li>
-    <a class="dropdown-item" href="./swc.html">
- <span class="dropdown-text">소프트웨어 카펜트리</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./learnr.html">
- <span class="dropdown-text">자기주도학습</span></a>
   </li>  
     </ul>
   </li>
@@ -251,7 +217,7 @@ ga('send', {
 
 <div>
   <div class="description">
-    <p>통계 대중화와 디지털 불평등 해소를 위한 노력으로, 한국 R 사용자회는 다양한 오픈 데이터 패키지를 제작하여 제공하고 있습니다. 공개 패키지들은 교육, 연구, 그리고 현업에서 신속하고 효과적인 데이터 분석의 토대가 될 것으로 기대됩니다.</p>
+    <p>통계 대중화와 디지털 불평등 해소를 위해, 한국 R 사용자회는 다양한 오픈 데이터 패키지를 제작해 공개하고 있습니다. 교육·연구·현업에서 신속하고 효과적인 데이터 분석의 토대가 되도록 돕습니다.</p>
   </div>
 </div>
 
@@ -259,12 +225,6 @@ ga('send', {
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">공개</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">2026년 01월 15일</p>
-    </div>
-  </div>
   
     
   </div>
@@ -274,498 +234,129 @@ ga('send', {
 </header>
 
 
-<section id="한국-r-사용자회-제작-공개-데이터-패키지" class="level2">
-<h2 class="anchored" data-anchor-id="한국-r-사용자회-제작-공개-데이터-패키지">한국 R 사용자회 제작 공개 데이터 패키지</h2>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div id="yxvifmpmer" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#yxvifmpmer table {
-  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+<style>
+/* ── 데이터 패키지 카드 그리드 ── 발행 도서·공개 패키지와 동일한 카드 UI */
+.bk-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(230px, 1fr));
+  gap:1.5rem;
+  margin:1.75rem 0 2.5rem;
 }
-
-#yxvifmpmer thead, #yxvifmpmer tbody, #yxvifmpmer tfoot, #yxvifmpmer tr, #yxvifmpmer td, #yxvifmpmer th {
-  border-style: none;
+.bk-card{
+  display:flex; flex-direction:column;
+  border:1px solid rgba(0,0,0,.08);
+  border-radius:16px; overflow:hidden;
+  background:#fff; color:inherit; text-decoration:none;
+  box-shadow:0 1px 3px rgba(0,0,0,.05);
+  transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
 }
-
-#yxvifmpmer p {
-  margin: 0;
-  padding: 0;
+a.bk-card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 14px 30px rgba(0,0,0,.13);
+  border-color:rgba(68,112,153,.55); /* navbar 색 계열 강조 */
 }
-
-#yxvifmpmer .gt_table {
-  display: table;
-  border-collapse: collapse;
-  line-height: normal;
-  margin-left: auto;
-  margin-right: auto;
-  color: #333333;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  background-color: #FFFFFF;
-  width: 100%;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #A8A8A8;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #A8A8A8;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
+/* 표지(로고) 영역 — 밝은 배경으로 투명 PNG 로고도 선명하게 */
+.bk-cover{
+  position:relative;
+  aspect-ratio:3 / 4;
+  display:flex; align-items:center; justify-content:center;
+  padding:1.5rem;
+  background:linear-gradient(135deg, #f5f7fa, #e8edf3);
 }
-
-#yxvifmpmer .gt_caption {
-  padding-top: 4px;
-  padding-bottom: 4px;
+.bk-cover img{max-width:100%; max-height:100%; object-fit:contain; border-radius:5px;}
+/* 출처 배지 */
+.bk-badge{
+  position:absolute; top:.65rem; left:.65rem;
+  font-size:.72rem; font-weight:600; color:#fff;
+  padding:.2rem .6rem; border-radius:999px;
+  letter-spacing:.01em;
 }
-
-#yxvifmpmer .gt_title {
-  color: #333333;
-  font-size: 125%;
-  font-weight: initial;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-color: #FFFFFF;
-  border-bottom-width: 0;
+.bk-badge.is-repo{background:#4a5568;} /* GitHub 저장소 */
+.bk-badge.is-web{background:#2b6cb0;}  /* 웹사이트 */
+/* 본문 */
+.bk-body{display:flex; flex-direction:column; gap:.55rem; flex:1; padding:1.05rem 1.15rem 1.2rem;}
+.bk-title{margin:0; font-size:1.03rem; font-weight:700; line-height:1.4;}
+.bk-text{
+  margin:0; font-size:.88rem; color:#5b6570; line-height:1.6;
+  display:-webkit-box; -webkit-line-clamp:4; -webkit-box-orient:vertical; overflow:hidden;
 }
+.bk-foot{margin-top:auto; display:flex; align-items:center; justify-content:space-between; padding-top:.5rem;}
+.bk-cta{font-size:.83rem; font-weight:600; color:#447099;}
 
-#yxvifmpmer .gt_subtitle {
-  color: #333333;
-  font-size: 85%;
-  font-weight: initial;
-  padding-top: 3px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top-color: #FFFFFF;
-  border-top-width: 0;
-}
-
-#yxvifmpmer .gt_heading {
-  background-color: #FFFFFF;
-  text-align: center;
-  border-bottom-color: #FFFFFF;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-
-#yxvifmpmer .gt_bottom_border {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-
-#yxvifmpmer .gt_col_headings {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-
-#yxvifmpmer .gt_col_heading {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: bold;
-  text-transform: inherit;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 6px;
-  padding-left: 5px;
-  padding-right: 5px;
-  overflow-x: hidden;
-}
-
-#yxvifmpmer .gt_column_spanner_outer {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: bold;
-  text-transform: inherit;
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 4px;
-  padding-right: 4px;
-}
-
-#yxvifmpmer .gt_column_spanner_outer:first-child {
-  padding-left: 0;
-}
-
-#yxvifmpmer .gt_column_spanner_outer:last-child {
-  padding-right: 0;
-}
-
-#yxvifmpmer .gt_column_spanner {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  overflow-x: hidden;
-  display: inline-block;
-  width: 100%;
-}
-
-#yxvifmpmer .gt_spanner_row {
-  border-bottom-style: hidden;
-}
-
-#yxvifmpmer .gt_group_heading {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: middle;
-  text-align: left;
-}
-
-#yxvifmpmer .gt_empty_group_heading {
-  padding: 0.5px;
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  vertical-align: middle;
-}
-
-#yxvifmpmer .gt_from_md > :first-child {
-  margin-top: 0;
-}
-
-#yxvifmpmer .gt_from_md > :last-child {
-  margin-bottom: 0;
-}
-
-#yxvifmpmer .gt_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin: 10px;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-top-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: middle;
-  overflow-x: hidden;
-}
-
-#yxvifmpmer .gt_stub {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-right-style: solid;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#yxvifmpmer .gt_stub_row_group {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-right-style: solid;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  padding-left: 5px;
-  padding-right: 5px;
-  vertical-align: top;
-}
-
-#yxvifmpmer .gt_row_group_first td {
-  border-top-width: 2px;
-}
-
-#yxvifmpmer .gt_row_group_first th {
-  border-top-width: 2px;
-}
-
-#yxvifmpmer .gt_summary_row {
-  color: #333333;
-  background-color: #FFFFFF;
-  text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#yxvifmpmer .gt_first_summary_row {
-  border-top-style: solid;
-  border-top-color: #D3D3D3;
-}
-
-#yxvifmpmer .gt_first_summary_row.thick {
-  border-top-width: 2px;
-}
-
-#yxvifmpmer .gt_last_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-
-#yxvifmpmer .gt_grand_summary_row {
-  color: #333333;
-  background-color: #FFFFFF;
-  text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#yxvifmpmer .gt_first_grand_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top-style: double;
-  border-top-width: 6px;
-  border-top-color: #D3D3D3;
-}
-
-#yxvifmpmer .gt_last_grand_summary_row_top {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-style: double;
-  border-bottom-width: 6px;
-  border-bottom-color: #D3D3D3;
-}
-
-#yxvifmpmer .gt_striped {
-  background-color: rgba(128, 128, 128, 0.05);
-}
-
-#yxvifmpmer .gt_table_body {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-
-#yxvifmpmer .gt_footnotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-
-#yxvifmpmer .gt_footnote {
-  margin: 0px;
-  font-size: 90%;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#yxvifmpmer .gt_sourcenotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-
-#yxvifmpmer .gt_sourcenote {
-  font-size: 90%;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#yxvifmpmer .gt_left {
-  text-align: left;
-}
-
-#yxvifmpmer .gt_center {
-  text-align: center;
-}
-
-#yxvifmpmer .gt_right {
-  text-align: right;
-  font-variant-numeric: tabular-nums;
-}
-
-#yxvifmpmer .gt_font_normal {
-  font-weight: normal;
-}
-
-#yxvifmpmer .gt_font_bold {
-  font-weight: bold;
-}
-
-#yxvifmpmer .gt_font_italic {
-  font-style: italic;
-}
-
-#yxvifmpmer .gt_super {
-  font-size: 65%;
-}
-
-#yxvifmpmer .gt_footnote_marks {
-  font-size: 75%;
-  vertical-align: 0.4em;
-  position: initial;
-}
-
-#yxvifmpmer .gt_asterisk {
-  font-size: 100%;
-  vertical-align: 0;
-}
-
-#yxvifmpmer .gt_indent_1 {
-  text-indent: 5px;
-}
-
-#yxvifmpmer .gt_indent_2 {
-  text-indent: 10px;
-}
-
-#yxvifmpmer .gt_indent_3 {
-  text-indent: 15px;
-}
-
-#yxvifmpmer .gt_indent_4 {
-  text-indent: 20px;
-}
-
-#yxvifmpmer .gt_indent_5 {
-  text-indent: 25px;
-}
-
-#yxvifmpmer .katex-display {
-  display: inline-flex !important;
-  margin-bottom: 0.75em !important;
-}
-
-#yxvifmpmer div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
-  height: 0px !important;
+/* 다크모드 대응 — 표지(로고) 영역은 밝게 유지, 본문은 헤더색 톤 */
+@media (prefers-color-scheme: dark){
+  .bk-card{background:#2c4f70; border-color:rgba(255,255,255,.12); color:#eceff3;}
+  .bk-title{color:#f3f5f8;}
+  .bk-text{color:#c2c9d2;}
+  .bk-cta{color:#8fbce8;}
 }
 </style>
-
-<table class="gt_table caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
-<colgroup>
-<col>
-<col>
-<col style="width: 65%">
-</colgroup>
-<thead>
-<tr class="gt_col_headings header">
-<th id="a로고" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">로고</th>
-<th id="pkg_name" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">패키지명</th>
-<th id="a데이터_패키지_설명" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">데이터 패키지 설명</th>
-</tr>
-</thead>
-<tbody class="gt_table_body">
-<tr class="odd">
-<td class="gt_row gt_center" headers="로고"><img src="fig/bitTomato_logo.png" style="height:80px; width:auto;"></td>
-<td class="gt_row gt_center" headers="pkg_name"><a href="https://github.com/bit2r/bitTomato">bitTomato</a></td>
-<td class="gt_row gt_left" headers="데이터_패키지_설명">bitTomato는 ’한글 텍스트 데이터 분석의 학습을 위한 실 데이터를 오픈소스로 제공’한다는 목적에 공감하는 <a href="https://www.newstomato.com/">뉴스토마토</a>가 제공한 뉴스 기사를, 한국 R 사용자회가 저작 배포하는 R 패키지입니다.</td>
-</tr>
-<tr class="even">
-<td class="gt_row gt_center" headers="로고"><img src="fig/logo_hsData.png" style="height:80px; width:auto;"></td>
-<td class="gt_row gt_center" headers="pkg_name"><a href="https://r2bit.com/hsData/">hsData</a></td>
-<td class="gt_row gt_left" headers="데이터_패키지_설명">통계청 통계교육원에서 발간한 ‘고등학교 실용통계’ 교과서</td>
-</tr>
-<tr class="odd">
-<td class="gt_row gt_center" headers="로고"><img src="fig/logo_krvote.png" style="height:80px; width:auto;"></td>
-<td class="gt_row gt_center" headers="pkg_name"><a href="https://ai-carpentry.github.io/krvote/">krvote</a></td>
-<td class="gt_row gt_left" headers="데이터_패키지_설명"><a href="https://www.nec.go.kr/site/nec/main.do">중앙선거관리위원회</a> <a href="http://info.nec.go.kr/main/main_load.xhtml">선거통계시스템</a>에 공개된 역대 선거관련 투표와 득표 공공 데이터</td>
-</tr>
-<tr class="even">
-<td class="gt_row gt_center" headers="로고"><img src="fig/favicon_bitData.png" style="height:80px; width:auto;"></td>
-<td class="gt_row gt_center" headers="pkg_name"><a href="https://r2bit.com/bitData/">bitData</a></td>
-<td class="gt_row gt_left" headers="데이터_패키지_설명">통계(데이터 과학) 교육과 신속한 현업 적용에 필요한 대한민국 데이터셋: 파머 펭귄, 국방부 남녀 신체측정, 강남 강수량, 인구, 대기오염물질, 온실가스 등</td>
-</tr>
-</tbody>
-</table>
-
+<section id="한국-r-사용자회-제작-공개-데이터-패키지" class="level2">
+<h2 class="anchored" data-anchor-id="한국-r-사용자회-제작-공개-데이터-패키지">한국 R 사용자회 제작 공개 데이터 패키지</h2>
+<p>교육과 연구, 현업에 바로 활용할 수 있는 오픈 데이터 패키지입니다.</p>
+<div class="cell" data-layout-align="center">
+<div class="bk-grid">
+<a class="bk-card" href="https://github.com/bit2r/bitTomato">
+<div class="bk-cover">
+<span class="bk-badge is-repo">GitHub</span><img src="fig/bitTomato_logo.png" alt="bitTomato" loading="lazy">
 </div>
+<div class="bk-body">
+<h3 class="bk-title anchored">
+bitTomato
+</h3>
+<p class="bk-text">
+뉴스토마토가 제공한 뉴스 기사를 한국 R 사용자회가 저작·배포하는 R 패키지. 한글 텍스트 데이터 분석 학습에 활용합니다.
+</p>
+<div class="bk-foot">
+<span></span><span class="bk-cta">자세히 →</span>
+</div>
+</div>
+</a><a class="bk-card" href="https://r2bit.com/hsData/">
+<div class="bk-cover">
+<span class="bk-badge is-web">웹</span><img src="fig/logo_hsData.png" alt="hsData" loading="lazy">
+</div>
+<div class="bk-body">
+<h3 class="bk-title anchored">
+hsData
+</h3>
+<p class="bk-text">
+통계청 통계교육원에서 발간한 『고등학교 실용통계』 교과서 데이터.
+</p>
+<div class="bk-foot">
+<span></span><span class="bk-cta">자세히 →</span>
+</div>
+</div>
+</a><a class="bk-card" href="https://ai-carpentry.github.io/krvote/">
+<div class="bk-cover">
+<span class="bk-badge is-web">웹</span><img src="fig/logo_krvote.png" alt="krvote" loading="lazy">
+</div>
+<div class="bk-body">
+<h3 class="bk-title anchored">
+krvote
+</h3>
+<p class="bk-text">
+중앙선거관리위원회 선거통계시스템에 공개된 역대 선거 투표·득표 공공 데이터.
+</p>
+<div class="bk-foot">
+<span></span><span class="bk-cta">자세히 →</span>
+</div>
+</div>
+</a><a class="bk-card" href="https://r2bit.com/bitData/">
+<div class="bk-cover">
+<span class="bk-badge is-web">웹</span><img src="fig/favicon_bitData.png" alt="bitData" loading="lazy">
+</div>
+<div class="bk-body">
+<h3 class="bk-title anchored">
+bitData
+</h3>
+<p class="bk-text">
+파머 펭귄, 국방부 신체측정, 강남 강수량, 인구, 대기오염물질, 온실가스 등 통계·데이터 과학 교육용 대한민국 데이터셋 모음.
+</p>
+<div class="bk-foot">
+<span></span><span class="bk-cta">자세히 →</span>
+</div>
+</div>
+</a>
 </div>
 </div>
 
@@ -1187,6 +778,12 @@ ga('send', {
     </div>
   </div>
 </footer>
+<script>
+(function () {
+  var t = document.querySelector('.navbar-title');
+  if (t) t.innerHTML = '한국<span class="brand-r">R</span>사용자회';
+})();
+</script>
 
 
 
