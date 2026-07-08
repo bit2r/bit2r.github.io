@@ -98,6 +98,10 @@ a.bk-card:hover{
 
 교육과 연구, 현업에 바로 활용할 수 있는 오픈 데이터 패키지입니다.
 
+::: {.callout-tip appearance="simple"}
+{{< fa database >}} 모든 공개 데이터는 **교육·연구·현업에 자유롭게** 활용하실 수 있습니다.
+:::
+
 ```{r}
 #| output: asis
 data_tbl <- tribble(

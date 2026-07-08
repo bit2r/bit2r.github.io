@@ -24,7 +24,9 @@ description: |
 
 ### 회원가입 및 기부 안내
 
-- 회원가입: [회원가입 신청서 작성하기](https://forms.gle/1gF8QezVPa8ur7617)
-- 후원계좌: 하나은행 448-910057-06204 / 사단법인 한국알사용자회
-- 후원금: 2만원 이상
-- 기부금 영수증: [발급 신청서 작성하기](https://forms.gle/MEwLjasSaYj4a72k6)
+::: {.callout-tip appearance="simple"}
+- {{< fa user-plus >}} **회원가입**: [회원가입 신청서 작성하기](https://forms.gle/1gF8QezVPa8ur7617)
+- {{< fa building-columns >}} **후원 계좌**: 하나은행 448-910057-06204 / 사단법인 한국알사용자회
+- {{< fa won-sign >}} **후원금**: 2만원 이상
+- {{< fa receipt >}} **기부금 영수증**: [발급 신청서 작성하기](https://forms.gle/MEwLjasSaYj4a72k6)
+:::
