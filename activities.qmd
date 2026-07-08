@@ -1,0 +1,158 @@
+---
+title: "활동·교육"
+description: |
+  한국 R 사용자회는 대학·공공·기업을 대상으로 데이터 과학과 인공지능(AI) 실무 교육을 이어가고 있습니다. 워크샵과 기업 교육, 교육 프로그램, 발표 자료를 한 곳에 모았습니다.
+format:
+  html:
+    css: "strapless.css"
+---
+
+```{=html}
+<style>
+/* ── 활동·교육 페이지 ── 링크 카드 그리드 (다른 페이지와 통일된 카드 UI) */
+.link-grid{
+  display:grid; grid-template-columns:repeat(auto-fit, minmax(230px, 1fr));
+  gap:1.1rem; margin:1.25rem 0 2rem;
+}
+.link-card{
+  display:block; border:1px solid rgba(0,0,0,.08); border-radius:16px;
+  padding:1.35rem 1.3rem; background:#fff; color:inherit; text-decoration:none;
+  box-shadow:0 1px 3px rgba(0,0,0,.05);
+  transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.link-card:hover{transform:translateY(-4px); box-shadow:0 12px 26px rgba(0,0,0,.1); border-color:rgba(68,112,153,.55);}
+.link-card .lc-ico{
+  display:inline-flex; align-items:center; justify-content:center;
+  width:2.6rem; height:2.6rem; border-radius:13px;
+  background:rgba(68,112,153,.12); color:#447099; font-size:1.15rem; margin-bottom:.8rem;
+}
+.link-card h4{margin:0 0 .45rem; font-size:1.04rem; font-weight:700; line-height:1.35;}
+.link-card p{margin:0; font-size:.9rem; line-height:1.6; color:#5b6570;}
+
+@media (prefers-color-scheme: dark){
+  .link-card{background:#2c4f70; border-color:rgba(255,255,255,.12); color:#eceff3;}
+  .link-card h4{color:#f3f5f8;}
+  .link-card p{color:#c2c9d2;}
+  .link-card .lc-ico{background:rgba(143,188,232,.18); color:#8fbce8;}
+}
+
+/* ── 활동 연혁 타임라인 ── 년/월별 활동 나열 */
+.timeline{position:relative; margin:1.5rem 0 2.5rem; padding-left:1.9rem;}
+.timeline::before{                       /* 세로 라인 */
+  content:""; position:absolute; left:.42rem; top:.4rem; bottom:.4rem;
+  width:2px; background:rgba(68,112,153,.28);
+}
+.tl-year{
+  font-weight:800; font-size:1.2rem; color:#2c4f70;
+  margin:1.6rem 0 .7rem; letter-spacing:.01em;
+}
+.tl-year:first-child{margin-top:0;}
+.tl-item{position:relative; margin:0 0 1.1rem;}
+.tl-item::before{                        /* 타임라인 점 */
+  content:""; position:absolute; left:-1.62rem; top:.28rem;
+  width:.7rem; height:.7rem; border-radius:50%;
+  background:#447099; box-shadow:0 0 0 3px rgba(68,112,153,.18);
+}
+.tl-when{
+  display:inline-block; font-size:.76rem; font-weight:700; color:#447099;
+  background:rgba(68,112,153,.1); padding:.05rem .5rem; border-radius:999px; margin-bottom:.25rem;
+}
+.tl-title{font-weight:700; font-size:1rem; line-height:1.4; color:#18181b;}
+.tl-desc{margin:.15rem 0 0; font-size:.9rem; color:#3f3f46; line-height:1.55;}
+/* 타임라인은 흰 본문 위에 놓이므로 다크모드에서도 진한 글씨 유지 (밝은 글씨 오버라이드 없음) */
+</style>
+```
+
+## 활동 연혁
+
+년·월별 주요 활동 내역입니다. (최근 순)
+
+```{=html}
+<div class="timeline">
+
+  <div class="tl-year">2026</div>
+  <div class="tl-item">
+    <span class="tl-when">6월</span>
+    <div class="tl-title">세종대 소프트웨어 카펜트리 + AI 워크샵 (2차)</div>
+    <p class="tl-desc">유닉스 셸·R·Git·SQL에 생성형 AI를 결합한 2일 집중 워크샵. <a href="https://ai-carpentry.github.io/2026-06-26-sejong/">워크샵 페이지</a></p>
+  </div>
+  <div class="tl-item">
+    <span class="tl-when">2026년</span>
+    <div class="tl-title">㈜마켓링크 — 여론·설문조사 조직 AI 실무역량 강화 교육</div>
+    <p class="tl-desc">질문지 설계·개방형 응답 자동 코딩·Paradata 품질관리·가중치·편향 진단·리포팅 자동화 등 현업 적용 교육.</p>
+  </div>
+
+  <div class="tl-year">2025</div>
+  <div class="tl-item">
+    <span class="tl-when">11월</span>
+    <div class="tl-title">세종대 소프트웨어 카펜트리 + AI 워크샵 (1차)</div>
+    <p class="tl-desc">The Carpentries 공식 커리큘럼 기반 2일 워크샵. <a href="https://ai-carpentry.github.io/2025-11-28-sejong/">워크샵 페이지</a></p>
+  </div>
+  <div class="tl-item">
+    <span class="tl-when">9월</span>
+    <div class="tl-title">조원씨앤아이 — 지방선거 예측 분석 플랫폼 교육</div>
+    <p class="tl-desc">R·Quarto 기반 선거 예측·시각화 실습. <a href="https://statkclee.github.io/jowon/">교육 자료</a></p>
+  </div>
+
+  <div class="tl-year">2022</div>
+  <div class="tl-item">
+    <span class="tl-when">2월</span>
+    <div class="tl-title">공익법인 한국 R 사용자회 설립</div>
+    <p class="tl-desc">비영리 공익법인으로 출범, 통계 대중화와 디지털 불평등 해소 활동 시작.</p>
+  </div>
+
+</div>
+```
+
+## 소프트웨어 카펜트리 + AI 워크샵 (세종대학교)
+
+전 세계 연구자 대상 컴퓨팅 교육 커뮤니티인 [The Carpentries](https://carpentries.org/)의 공식 커리큘럼(유닉스 셸, R, Git, SQL)에 생성형 AI 활용을 결합한 2일 집중 워크샵입니다. (강사: 이광춘 · 진행 도움: 형환희)
+
+- {{< fa chalkboard-user >}} [2026년 6월 26~27일 · 세종대학교 율곡관](https://ai-carpentry.github.io/2026-06-26-sejong/)
+- {{< fa chalkboard-user >}} [2025년 11월 28~29일 · 세종대학교 율곡관](https://ai-carpentry.github.io/2025-11-28-sejong/)
+
+## 기업 맞춤형 AI 실무 교육 (여론·설문조사 리서치)
+
+여론·설문조사(리서치) 조직을 대상으로 질문지 설계·프롬프트 엔지니어링, 개방형 응답 자동 코딩, Paradata 기반 필드 품질관리, 가중치·편향 진단, 리포팅 자동화 등 현업에 바로 적용 가능한 AI 실무역량 강화 교육을 진행했습니다.
+
+- {{< fa building >}} **㈜마켓링크** — 여론·설문조사 조직 AI 실무역량 강화 교육
+- {{< fa building >}} **조원씨앤아이** — [지방선거 예측 분석 플랫폼 교육](https://statkclee.github.io/jowon/)
+
+## 교육·협력 활동
+
+공공·비영리 기관과 협력해 데이터 과학·통계 대중화 교육에 참여하고 있습니다.
+
+- {{< fa school >}} [서울교육청 혁신교육](https://r2bit.com/sen)
+- {{< fa hands-holding-circle >}} [나눔국민운동본부](https://www.sharingkorea.net/gboard/)
+- {{< fa chalkboard-user >}} [HCI 2024 워크샵 (준비중)](https://choonghyunryu.github.io/workshop_lecture/)
+
+## 교육 프로그램
+
+::: {.link-grid}
+::: {.link-card style="cursor:default"}
+[{{< fa laptop-code >}}]{.lc-ico}
+
+#### 소프트웨어 카펜트리
+
+연구자를 위한 컴퓨팅·데이터 과학 기초 교육 프로그램입니다. [자세히 보기](swc.qmd)
+:::
+::: {.link-card style="cursor:default"}
+[{{< fa graduation-cap >}}]{.lc-ico}
+
+#### 자기주도학습
+
+스스로 익히는 R·데이터 과학 학습 자료입니다. [자세히 보기](learnr.qmd)
+:::
+::: {.link-card style="cursor:default"}
+[{{< fa trophy >}}]{.lc-ico}
+
+#### 경진대회
+
+데이터 분석 역량을 겨루는 경진대회입니다. [자세히 보기](contest.qmd)
+:::
+:::
+
+## 발표자료
+
+- {{< fa file-powerpoint >}} [챗GPT 발표자료](https://r2bit.com/bitSlide/)
+- {{< fa robot >}} [챗GPT 발표자료 모음](https://r2bit.com/chatGPT/)

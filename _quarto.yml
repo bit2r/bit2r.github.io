@@ -18,35 +18,26 @@ website:
     center: "사업자 등록번호: 735-82-003300 | 대표: 형환희 | 전자우편: <a href='mailto:admin@r2bit.com'>admin@r2bit.com</a> | 주소: 서울특별시 서초구 법원로3길 15, 4층<br>&copy; 2026 BitStat. All rights reserved. | 본 웹사이트는 <a href='https://quarto.org/'>쿼토(Quarto)</a>로 제작되었습니다."
     
   navbar:
-    background: "#447099"
+    background: "#2c4f70"
+    # 좌상단 로고 (투명 여백을 잘라낸 navbar 전용 버전, 흰색 라운드 칩 스타일은 css/quarto.scss)
+    logo: fig/koRea_logo_navbar.png
+    logo-alt: "한국 R 사용자회 로고"
     left:
       - href: index.qmd
         text: "홈"
       - href: about.qmd
         text: "소개"
-      - text: "(공개)패키지"
+      - href: activities.qmd
+        text: "활동·교육"
+      - text: "공개 패키지"
         href: packages.qmd
-      - text: "(전자)책"
+      - text: "발행 도서"
         href: book.qmd
-      - text: "데이터"
+      - text: "공개 데이터"
         href: data.qmd
       - href: blog.qmd
         text: "블로그"
-      - text: "워크샵/발표자료"
-        menu:
-          - href: https://www.sharingkorea.net/gboard/
-            text: "나눔국민운동본부"
-          - href: https://r2bit.com/sen
-            text: "서울교육청 - 혁신교육"            
-          - href: https://choonghyunryu.github.io/workshop_lecture/
-            text: "HCI 2024 (준비중)"
-          - text: "----------------"
-          - text: "챗GPT 발표자료"
-            href: https://r2bit.com/bitSlide/
-          - text: "**챗GPT**"
-            href: https://r2bit.com/chatGPT/
-
-      - text: "관련정보"
+      - text: "관련 링크"
         menu:
           - text: "한국 R 컨퍼런스"
             href: https://use-r.kr/
@@ -59,13 +50,6 @@ website:
             href: https://r2bit.com/seoul-r/
           - text: "쿼토(Quarto)"
             href: https://quarto.org/
-          - text: "경진대회"
-            href: contest.qmd
-          - text: "----------------"
-          - text: "소프트웨어 카펜트리"
-            href: swc.qmd
-          - text: "자기주도학습"
-            href: learnr.qmd
 
     right:
       - icon: discord
@@ -98,10 +82,19 @@ website:
 
 format:
   html:
-    theme: 
+    theme:
       - litera
       - css/quarto.scss
     toc: true
+    # navbar 타이틀의 "R" 만 로고 색(파랑)으로 강조 (부분 색상은 마크업이 필요해 스크립트로 처리)
+    include-after-body:
+      text: |
+        <script>
+        (function () {
+          var t = document.querySelector('.navbar-title');
+          if (t) t.innerHTML = '한국<span class="brand-r">R</span>사용자회';
+        })();
+        </script>
 
 filters:
   - parse-latex

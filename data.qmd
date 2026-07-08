@@ -1,79 +1,112 @@
 ---
 title: "공개 데이터"
 description: |
-  통계 대중화와 디지털 불평등 해소를 위한 노력으로, 한국 R 사용자회는 다양한 오픈 데이터 패키지를 제작하여 제공하고 있습니다. 공개 패키지들은 교육, 연구, 그리고 현업에서 신속하고 효과적인 데이터 분석의 토대가 될 것으로 기대됩니다.
-date: "`r Sys.Date()`"
-format: html
-editor_options: 
-  chunk_output_type: console
+  통계 대중화와 디지털 불평등 해소를 위해, 한국 R 사용자회는 다양한 오픈 데이터 패키지를 제작해 공개하고 있습니다. 교육·연구·현업에서 신속하고 효과적인 데이터 분석의 토대가 되도록 돕습니다.
+format:
+  html:
+    css: "strapless.css"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE,
-                      comment = "#>", 
+                      comment = "#>",
                       digits = 3, tidy = FALSE, prompt = FALSE, fig.align = 'center')
+
+library(tidyverse)
+
+# ── 데이터 패키지 카드 생성기 ──────────────────────────────────────
+# 데이터 정보 tibble 을 받아 반응형 카드 그리드 HTML 문자열을 반환한다.
+# source 값에 따라 배지를 달리한다: GitHub(회색) / 웹(파랑).
+data_cards <- function(df) {
+  one <- function(title, image, text, link, source) {
+    badge_cls <- if (source == "GitHub") "is-repo" else "is-web"
+    sprintf(paste0(
+      '<a class="bk-card" href="%s">',
+      '<div class="bk-cover"><span class="bk-badge %s">%s</span>',
+      '<img src="%s" alt="%s" loading="lazy"></div>',
+      '<div class="bk-body"><h3 class="bk-title">%s</h3>',
+      '<p class="bk-text">%s</p>',
+      '<div class="bk-foot"><span></span><span class="bk-cta">자세히 &rarr;</span></div></div></a>'),
+      link, badge_cls, source, image, title, title, text)
+  }
+  inner <- purrr::pmap_chr(df, one)
+  paste0('<div class="bk-grid">', paste(inner, collapse = ""), '</div>')
+}
+```
+
+```{=html}
+<style>
+/* ── 데이터 패키지 카드 그리드 ── 발행 도서·공개 패키지와 동일한 카드 UI */
+.bk-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(230px, 1fr));
+  gap:1.5rem;
+  margin:1.75rem 0 2.5rem;
+}
+.bk-card{
+  display:flex; flex-direction:column;
+  border:1px solid rgba(0,0,0,.08);
+  border-radius:16px; overflow:hidden;
+  background:#fff; color:inherit; text-decoration:none;
+  box-shadow:0 1px 3px rgba(0,0,0,.05);
+  transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+a.bk-card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 14px 30px rgba(0,0,0,.13);
+  border-color:rgba(68,112,153,.55); /* navbar 색 계열 강조 */
+}
+/* 표지(로고) 영역 — 밝은 배경으로 투명 PNG 로고도 선명하게 */
+.bk-cover{
+  position:relative;
+  aspect-ratio:3 / 4;
+  display:flex; align-items:center; justify-content:center;
+  padding:1.5rem;
+  background:linear-gradient(135deg, #f5f7fa, #e8edf3);
+}
+.bk-cover img{max-width:100%; max-height:100%; object-fit:contain; border-radius:5px;}
+/* 출처 배지 */
+.bk-badge{
+  position:absolute; top:.65rem; left:.65rem;
+  font-size:.72rem; font-weight:600; color:#fff;
+  padding:.2rem .6rem; border-radius:999px;
+  letter-spacing:.01em;
+}
+.bk-badge.is-repo{background:#4a5568;} /* GitHub 저장소 */
+.bk-badge.is-web{background:#2b6cb0;}  /* 웹사이트 */
+/* 본문 */
+.bk-body{display:flex; flex-direction:column; gap:.55rem; flex:1; padding:1.05rem 1.15rem 1.2rem;}
+.bk-title{margin:0; font-size:1.03rem; font-weight:700; line-height:1.4;}
+.bk-text{
+  margin:0; font-size:.88rem; color:#5b6570; line-height:1.6;
+  display:-webkit-box; -webkit-line-clamp:4; -webkit-box-orient:vertical; overflow:hidden;
+}
+.bk-foot{margin-top:auto; display:flex; align-items:center; justify-content:space-between; padding-top:.5rem;}
+.bk-cta{font-size:.83rem; font-weight:600; color:#447099;}
+
+/* 다크모드 대응 — 표지(로고) 영역은 밝게 유지, 본문은 헤더색 톤 */
+@media (prefers-color-scheme: dark){
+  .bk-card{background:#2c4f70; border-color:rgba(255,255,255,.12); color:#eceff3;}
+  .bk-title{color:#f3f5f8;}
+  .bk-text{color:#c2c9d2;}
+  .bk-cta{color:#8fbce8;}
+}
+</style>
 ```
 
 ## 한국 R 사용자회 제작 공개 데이터 패키지
 
-```{r}
-library(gt)
-library(gtExtras)
-library(tidyverse)
+교육과 연구, 현업에 바로 활용할 수 있는 오픈 데이터 패키지입니다.
 
-# Create a data frame with the table data
-table_data <- data.frame(
-  pkg_name = c(
-    "bitTomato",
-    "hsData",
-    "krvote",
-    "bitData"
-  ),
-  pkg_url = c(
-    "https://github.com/bit2r/bitTomato",
-    "https://r2bit.com/hsData/",
-    "https://ai-carpentry.github.io/krvote/",
-    "https://r2bit.com/bitData/"
-  ),
-  데이터_패키지_설명 = c(
-    "bitTomato는 '한글 텍스트 데이터 분석의 학습을 위한 실 데이터를 오픈소스로 제공'한다는 목적에 공감하는 [뉴스토마토](https://www.newstomato.com/)가 제공한 뉴스 기사를, 한국 R 사용자회가 저작 배포하는 R 패키지입니다.",
-    "통계청 통계교육원에서 발간한 '고등학교 실용통계' 교과서",
-    "[중앙선거관리위원회](https://www.nec.go.kr/site/nec/main.do) [선거통계시스템](http://info.nec.go.kr/main/main_load.xhtml)에 공개된 역대 선거관련 투표와 득표 공공 데이터",
-    "통계(데이터 과학) 교육과 신속한 현업 적용에 필요한 대한민국 데이터셋: 파머 펭귄, 국방부 남녀 신체측정, 강남 강수량, 인구, 대기오염물질, 온실가스 등"
-  ),
-  로고 = c(
-    "fig/bitTomato_logo.png",
-    "fig/logo_hsData.png",
-    "fig/logo_krvote.png",
-    "fig/favicon_bitData.png"
-  )
+```{r}
+#| output: asis
+data_tbl <- tribble(
+  ~title,      ~image,                    ~text,                                                                                              ~link,                                    ~source,
+  "bitTomato", "fig/bitTomato_logo.png",  "뉴스토마토가 제공한 뉴스 기사를 한국 R 사용자회가 저작·배포하는 R 패키지. 한글 텍스트 데이터 분석 학습에 활용합니다.", "https://github.com/bit2r/bitTomato",     "GitHub",
+  "hsData",    "fig/logo_hsData.png",     "통계청 통계교육원에서 발간한 『고등학교 실용통계』 교과서 데이터.",                                       "https://r2bit.com/hsData/",              "웹",
+  "krvote",    "fig/logo_krvote.png",     "중앙선거관리위원회 선거통계시스템에 공개된 역대 선거 투표·득표 공공 데이터.",                             "https://ai-carpentry.github.io/krvote/", "웹",
+  "bitData",   "fig/favicon_bitData.png", "파머 펭귄, 국방부 신체측정, 강남 강수량, 인구, 대기오염물질, 온실가스 등 통계·데이터 과학 교육용 대한민국 데이터셋 모음.", "https://r2bit.com/bitData/",             "웹"
 )
 
-table_data$pkg_name <- str_glue("<a href='{table_data$pkg_url}'>{table_data$pkg_name}</a>")
-table_data$로고 <- str_glue("<img src='{table_data$로고}' style='height:80px; width:auto;'>")
-
-# Create the gt table
-pkg_gt <- table_data |>
-  select(로고, pkg_name, 데이터_패키지_설명) |>
-  gt() |>
-    cols_label(
-      로고 = "로고",
-      pkg_name = "패키지명",
-      데이터_패키지_설명 = "데이터 패키지 설명"
-    ) |>
-    fmt_markdown(columns = everything()) |>
-    cols_width(
-      로고 ~ px(100),
-      pkg_name ~ px(250),
-      데이터_패키지_설명 ~ pct(65)
-    ) |>
-    cols_align(align = "center", columns = c(로고, pkg_name)) |>
-    cols_align(align = "left", columns = 데이터_패키지_설명) |>
-    tab_options(
-      table.width = pct(100),
-      column_labels.font.weight = "bold"
-    )
-
-pkg_gt
+cat(data_cards(data_tbl))
 ```
-

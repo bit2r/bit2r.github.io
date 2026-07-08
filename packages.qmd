@@ -1,7 +1,7 @@
 ---
 title: "공개 패키지"
 description: |
-  외산 패키지에 의존하지 않고 R 개발자와 사용자의 작업 효율을 극대화하려는 목표 하에 다양한 분야별 핵심 패키지를 개발하고 있습니다. 데이터 과학 분야에서 CRAN에 등록된 `dlookr`과 `alookr` 패키지를 비롯하여, 오픈 통계 패키지 `bitStat`, 텍스트 자연어처리 `bitNLP`, 공간 데이터 `bitSpatial`, 보고서 자동화 `bitReport`, 출판 `bitPublish` 패키지가 특화된 기능을 제공하고 있다. 또한, 최근에 인기를 얻고 있는 생성형 AI 챗GPT를 손쉽게 활용할 수 있도록 `bitGPT` 패키지도 출시하하여 지속적 기여를 하고 있습니다.
+  외산 패키지에 의존하지 않고 R 개발자와 사용자의 작업 효율을 극대화하기 위해, 한국 R 사용자회는 분야별 핵심 패키지를 직접 개발하고 있습니다. CRAN에 등록된 `dlookr`·`alookr` 을 비롯해 오픈 통계 `bitStat`, 자연어처리 `bitNLP`, 공간 데이터 `bitSpatial`, 보고서 자동화 `bitReport`, 출판 `bitPublish` 가 각 분야에 특화된 기능을 제공합니다. 또한 생성형 AI 챗GPT를 손쉽게 활용하도록 돕는 `bitGPT` 패키지도 출시하여 지속적으로 기여하고 있습니다.
 format:
   html:
     css: "strapless.css"
@@ -9,129 +9,205 @@ format:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE,
-                      comment = "#>", 
+                      comment = "#>",
                       digits = 3, tidy = FALSE, prompt = FALSE, fig.align = 'center')
-```
 
-```{r card-groups}
-#| echo: false
-
-library(bs4cards)
 library(tidyverse)
 
-package_list <- list(
-  tibble(
-    title = "bitReport",
-    image = "fig/bitReport_logo.png",
-    text = "휴먼 리소스 낭비를 없애는 보고서 자동화 도구",
-    link = "https://github.com/bit2r/bitReport",
-    footer = "2023-04-25"
-  ),  
-  tibble(
-    title = "bitPublish",
-    image = "fig/bitPublish_logo.png",
-    text = "XeLaTeX 기반으로 한글 책을 PDF 파일로 조판",
-    link = "https://github.com/bit2r/bitPublish",
-    footer = "2023-04-25"
-  ),  
-  tibble(
-    title = "bitGPT",
-    image = "fig/bitGPT.png",
-    text = "챗GPT를 보다 쉽게 사용할 수 있는, 그리고 한국어를 지원하는 bitGPT",
-    link = "https://github.com/bit2r/bitGPT",
-    footer = "2023-02-28"
-  ),
-  tibble(
-    title = "bitNLP",
-    image = "fig/bitNLP_logo.png",
-    text = "텍스트 데이터를 탐색하고, 자연어 처리 및 형태소분석, 감성분석을 수행하는, 한글 텍스트 분석 도구모음",
-    link = "https://github.com/bit2r/bitNLP",
-    footer = "2022-12-18"
-  ),
-  tibble(
-    title = "bitSpatial",
-    image = "fig/bitSpatial_logo.png",
-    text = "공간정보 데이터를 지탱하는 기본 패키지",
-    link = "https://github.com/bit2r/bitSpatial",
-    footer = "2023-01-23"
-  ),
-  tibble(
-    title = "dlookr",
-    image = "fig/dlookr_logo.png",
-    text = "데이터셋의 품질 진단, 탐색적 데이터 분석(EDA) 및 데이터의 변환을 지원하는 데이터분석 도구",
-    link = "https://cran.r-project.org/web/packages/dlookr/index.html",
-    footer = "2018-04-27"
-  ),
-  tibble(
-    title = "alookr",
-    image = "fig/alookr_logo.png",
-    text = "이진 분류 모델 개발의 전체 프로세스를 지원하는 데이터분석 도구",
-    link = "https://cran.r-project.org/web/packages/alookr/index.html",
-    footer = "2020-03-20"
-  ),
-  tibble(
-    title = "bitStat",
-    image = "fig/bitstat.png",
-    text = "오픈 통계 패키지(BitStat)",
-    link = "https://github.com/bit2r/BitStat",
-    footer = "2021-09-18"
-  )    
+# ── 패키지 카드 생성기 ────────────────────────────────────────────
+# 패키지 정보 tibble 을 받아 반응형 카드 그리드 HTML 문자열을 반환한다.
+# source 값에 따라 배지를 달리한다: CRAN(파랑) / GitHub(회색).
+pkg_cards <- function(df) {
+  one <- function(title, image, text, link, date, source) {
+    badge_cls <- if (source == "CRAN") "is-cran" else "is-repo"
+    date_html <- if (!is.na(date) && nzchar(date)) sprintf('<span class="bk-date">%s</span>', date) else '<span></span>'
+    sprintf(paste0(
+      '<a class="bk-card" href="%s">',
+      '<div class="bk-cover"><span class="bk-badge %s">%s</span>',
+      '<img src="%s" alt="%s" loading="lazy"></div>',
+      '<div class="bk-body"><h3 class="bk-title font-bitstat">%s</h3>',
+      '<p class="bk-text">%s</p>',
+      '<div class="bk-foot">%s<span class="bk-cta">자세히 &rarr;</span></div></div></a>'),
+      link, badge_cls, source, image, title, title, text, date_html)
+  }
+  inner <- purrr::pmap_chr(df, one)
+  paste0('<div class="bk-grid">', paste(inner, collapse = ""), '</div>')
+}
+```
+
+```{=html}
+<style>
+/* ── 패키지 카드 그리드 ── 발행 도서 페이지와 동일한 카드 UI (반응형·호버·다크모드) */
+.bk-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(230px, 1fr));
+  gap:1.5rem;
+  margin:1.75rem 0 2.5rem;
+}
+.bk-card{
+  display:flex; flex-direction:column;
+  border:1px solid rgba(0,0,0,.08);
+  border-radius:16px; overflow:hidden;
+  background:#fff; color:inherit; text-decoration:none;
+  box-shadow:0 1px 3px rgba(0,0,0,.05);
+  transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+a.bk-card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 14px 30px rgba(0,0,0,.13);
+  border-color:rgba(68,112,153,.55); /* navbar 색(#447099) 계열 강조 */
+}
+/* 표지(로고) 영역 — 정사각 로고를 가운데 정렬. 밝은 배경으로 투명 PNG 로고도 선명하게 */
+.bk-cover{
+  position:relative;
+  aspect-ratio:3 / 4;
+  display:flex; align-items:center; justify-content:center;
+  padding:1.5rem;
+  background:linear-gradient(135deg, #f5f7fa, #e8edf3);
+}
+.bk-cover img{max-width:100%; max-height:100%; object-fit:contain; border-radius:5px;}
+/* 출처 배지 */
+.bk-badge{
+  position:absolute; top:.65rem; left:.65rem;
+  font-size:.72rem; font-weight:600; color:#fff;
+  padding:.2rem .6rem; border-radius:999px;
+  letter-spacing:.01em;
+}
+.bk-badge.is-cran{background:#2b6cb0;} /* CRAN 등록 */
+.bk-badge.is-repo{background:#4a5568;} /* GitHub 저장소 */
+/* 본문 */
+.bk-body{display:flex; flex-direction:column; gap:.55rem; flex:1; padding:1.05rem 1.15rem 1.2rem;}
+.bk-title{margin:0; font-size:1.03rem; font-weight:700; line-height:1.4;}
+.bk-text{
+  margin:0; font-size:.88rem; color:#5b6570; line-height:1.6;
+  display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden;
+}
+.bk-foot{margin-top:auto; display:flex; align-items:center; justify-content:space-between; padding-top:.5rem;}
+.bk-date{font-size:.78rem; color:#8a929b;}
+.bk-cta{font-size:.83rem; font-weight:600; color:#447099;}
+
+/* 다크모드 대응 — 표지(로고) 영역은 밝게 유지, 본문만 다크 톤 */
+@media (prefers-color-scheme: dark){
+  .bk-card{background:#2c4f70; border-color:rgba(255,255,255,.12); color:#eceff3;}
+  .bk-title{color:#f3f5f8;}
+  .bk-text{color:#c2c9d2;}
+  .bk-date{color:#98a0aa;}
+  .bk-cta{color:#8fbce8;}
+}
+
+/* ── 오픈 통계 패키지 상세 섹션 ── 이미지·기대효과 카드 정돈 */
+/* 섹션 내 이미지에 둥근 모서리와 부드러운 그림자 */
+.pkg-detail img{border-radius:12px; box-shadow:0 6px 22px rgba(0,0,0,.09); max-width:100%; height:auto;}
+/* 기대 효과 3열 카드 */
+.feat-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(230px, 1fr)); gap:1.25rem; margin:1.5rem 0 2.25rem;}
+.feat-card{
+  border:1px solid rgba(0,0,0,.08); border-radius:16px;
+  padding:1.5rem 1.35rem; background:#fff;
+  box-shadow:0 1px 3px rgba(0,0,0,.05);
+  transition:transform .18s ease, box-shadow .18s ease;
+}
+.feat-card:hover{transform:translateY(-4px); box-shadow:0 12px 26px rgba(0,0,0,.1);}
+/* 아이콘 배지 */
+.feat-ico{
+  display:inline-flex; align-items:center; justify-content:center;
+  width:2.7rem; height:2.7rem; border-radius:13px;
+  background:rgba(68,112,153,.12); color:#447099; font-size:1.2rem;
+  margin-bottom:.9rem;
+}
+.feat-card h4{margin:0 0 .55rem; font-size:1.06rem; font-weight:700; line-height:1.35;}
+.feat-card p{margin:0; font-size:.9rem; line-height:1.65; color:#5b6570;}
+.feat-note{display:block; font-size:.76rem; color:#8a929b; margin-top:.65rem;}
+
+@media (prefers-color-scheme: dark){
+  .feat-card{background:#2c4f70; border-color:rgba(255,255,255,.12); color:#eceff3;}
+  .feat-card h4{color:#f3f5f8;}   /* 어두운 카드 위에서 제목이 보이도록 흰색 */
+  .feat-card p{color:#c2c9d2;}
+  .feat-ico{background:rgba(143,188,232,.18); color:#8fbce8;}
+  .feat-note{color:#98a0aa;}
+  .pkg-detail img{box-shadow:0 6px 22px rgba(0,0,0,.4);}
+}
+</style>
+```
+
+```{r}
+#| output: asis
+pkg_tbl <- tribble(
+  ~title,        ~image,                    ~text,                                                                          ~link,                                                       ~date,        ~source,
+  "bitReport",   "fig/bitReport_logo.png",  "휴먼 리소스 낭비를 없애는 보고서 자동화 도구.",                                  "https://github.com/bit2r/bitReport",                        "2023-04-25", "GitHub",
+  "bitPublish",  "fig/bitPublish_logo.png", "XeLaTeX 기반으로 한글 책을 PDF로 조판하는 출판 도구.",                            "https://github.com/bit2r/bitPublish",                       "2023-04-25", "GitHub",
+  "bitGPT",      "fig/bitGPT.png",          "챗GPT를 더 쉽게, 한국어까지 지원하며 활용하는 생성형 AI 도구.",                    "https://github.com/bit2r/bitGPT",                           "2023-02-28", "GitHub",
+  "bitNLP",      "fig/bitNLP_logo.png",     "형태소 분석·감성 분석 등 한글 텍스트 분석을 아우르는 자연어처리 도구모음.",          "https://github.com/bit2r/bitNLP",                           "2022-12-18", "GitHub",
+  "bitSpatial",  "fig/bitSpatial_logo.png", "공간정보 데이터를 지탱하는 기본 패키지.",                                        "https://github.com/bit2r/bitSpatial",                       "2023-01-23", "GitHub",
+  "dlookr",      "fig/dlookr_logo.png",     "데이터 품질 진단, 탐색적 데이터 분석(EDA), 변환을 지원하는 데이터 분석 도구.",       "https://cran.r-project.org/web/packages/dlookr/index.html", "2018-04-27", "CRAN",
+  "alookr",      "fig/alookr_logo.png",     "이진 분류 모델 개발의 전체 과정을 지원하는 데이터 분석 도구.",                     "https://cran.r-project.org/web/packages/alookr/index.html", "2020-03-20", "CRAN",
+  "bitStat",     "fig/bitstat.png",         "누구나 쉽게 쓰는 오픈 통계 패키지(BitStat).",                                    "https://github.com/bit2r/BitStat",                          "2021-09-18", "GitHub"
 )
 
-
-
-package_tbl <- package_list %>% 
-  enframe() %>% 
-  unnest(value)
-
-package_tbl %>% 
-  cards(
-    title = title,
-    text = text,
-    link = link,
-    image = image,
-    footer = footer,
-    layout = "label-left", 
-    width = 3
-  )
-
+cat(pkg_cards(pkg_tbl))
 ```
 
 <br>
 
+::: {.pkg-detail}
+
 # 오픈 통계 패키지
 
-Data Literacy 역량 강화를 위해 컴퓨터를 처음 접하거나 데이터 작업이 처음인 대한민국 국민 누구나 쉽게 통계 패키지를 접할 수 있도록 하고 데이터 프로그래밍 역량도 수준별로 강화할 수 있도록 새로운 형태의 블록 통계 분석을 포함한 오픈 통계 패키지 개발을 목표로 합니다.
+컴퓨터나 데이터 작업이 처음인 국민 누구나 쉽게 통계 패키지를 접할 수 있도록, 그리고 데이터 프로그래밍 역량을 수준별로 키울 수 있도록 돕는 것이 목표입니다. 이를 위해 새로운 형태의 **블록 통계 분석**을 포함한 오픈 통계 패키지 개발을 이어가고 있습니다.
 
 ![](fig/bitstat.png){fig-align="center" width="857"}
 
 ## 프로젝트 개요
 
-코로나19로 인해 심화된 **디지털 불평등**과 **디지털 전환(Digital Transformation)**으로 인해 시민의 필수 역량이 된 **Data Literacy 역량 강화**와 통계 대중화를 위해 오픈 통계 패키지 - 빛스탯(`BitStat`) - 를 개발하게 되었습니다. 데이터 리터러시 역량은 결국 디지털 불평등과 맥이 닿아 있고 이후 교육불평등, 취업불평등, 소득불평등, 자산불평등으로 이어져 사회 양극화를 심화시키는 주범으로 지목되고 있다.
+::: {.row .align-items-center}
+::: {.col-md-7}
+코로나19로 심화된 **디지털 불평등**과 **디지털 전환(Digital Transformation)** 속에서, 데이터 리터러시(Data Literacy)는 시민의 필수 역량이 되었습니다.
 
-![](fig/inequality.jpeg){fig-align="center" width="457"}
+이러한 배경에서 통계 대중화를 위해 오픈 통계 패키지 — 빛스탯(`BitStat`) — 을 개발하게 되었습니다.
+
+데이터 리터러시 역량은 결국 디지털 불평등과 맞닿아 있으며, 나아가 교육·취업·소득·자산 불평등으로 이어져 사회 양극화를 심화시키는 주범으로 지목되고 있습니다.
+:::
+::: {.col-md-5}
+![](fig/inequality.jpeg)
+:::
+:::
 
 ## 기대 효과
 
--   기술적 측면
-    -   기하급수적으로 증가하는 데이터를 분석하여 가치를 창출하는 데이터 경제가 급부상하고 있으나, 인력 육성이나 도구는 선형적 증가 상황을 타개할 수 있는 혁신적인 기술이 요구됨
-    -   폭발적으로 늘어나는 데이터를 일반국민도 활용할 수 있도록 하는 공개SW 통계 패키지는 다분야에서도 활용 가능한 Auto-X 기술을 기반으로 통계분석 생산성과 품질을 큰 폭을 높일 수 있는 혁신적인 기술임
--   경제적, 산업적 측면
-    -   ‘22년 글로벌 빅데이터, 분석시장 규모는 전년 대비 27% 성장한 \$2,740억 달러 규모 전망
-        -   IDC, “Revenue from big data and business analytics worldwide from 2015 to 2022”, 2021년 9월
-    -   오픈 통계 패키지에 내장된 Auto-X 기술을 포함하여 공개SW로 개방하여 중소기업 및 데이터 기반 의사결정을 지원하고, 공개SW 활용 스타트업을 통한 신규 부가가치 창출
--   사회적 측면
-    -   지속적인 공공데이터 확대, 데이터3법 통과에 따라 데이터가 늘어나고 데이터 경제가 급속도로 커짐에 따라 데이터 리터러시(Data Literacy) 능력과 디지털 불평등의 양극화가 확대됨에 따라 오픈통계 패키지 SW를 공급하고 서비스로 제공함으로써 사회통합과 통계 대중화에 기여할 수 있음
+::: {.feat-grid}
+::: {.feat-card}
+[{{< fa microchip >}}]{.feat-ico}
+
+#### 기술적 측면
+
+기하급수적으로 늘어나는 데이터를 따라잡을 혁신 기술이 필요합니다. 다분야에 활용 가능한 **Auto-X** 기술을 기반으로 통계 분석의 생산성과 품질을 크게 높입니다.
+:::
+::: {.feat-card}
+[{{< fa chart-line >}}]{.feat-ico}
+
+#### 경제·산업적 측면
+
+'22년 글로벌 빅데이터·분석 시장은 전년 대비 27% 성장한 **2,740억 달러** 규모로 전망되었습니다. 공개SW로 개방해 중소기업·스타트업의 신규 부가가치 창출을 지원합니다.
+
+[IDC, "Revenue from big data and business analytics worldwide from 2015 to 2022", 2021.9]{.feat-note}
+:::
+::: {.feat-card}
+[{{< fa users >}}]{.feat-ico}
+
+#### 사회적 측면
+
+데이터3법·공공데이터 확대로 데이터 경제가 커지며 리터러시 격차도 벌어집니다. 오픈 통계 패키지를 SW·서비스로 제공해 **사회 통합과 통계 대중화**에 기여합니다.
+:::
+:::
 
 ## `BitStat` 아키텍처
 
-데이터 통계 분석의 대중화를 위해서는 통계 비전공자 및 일반인이 쉽게 사용할 수 있는 통계 패키지 소프트웨어 개발 취지에 맞춰 데이터를 입력하면 이를 인식하여 통계 분석 후 산출물을 자동 생성할 수 있는 오픈소스 기반의 클라우드 통계 패키지 소프트웨어.
+통계 비전공자와 일반인도 쉽게 쓸 수 있도록, 데이터를 입력하면 이를 인식해 통계 분석을 수행하고 산출물을 자동 생성하는 **오픈소스 기반 클라우드 통계 패키지**입니다.
 
 ![](fig/bitstat_architecture.png)
 
 ## BitStat 시연
 
-`BitStat` 통계 패키지는 지속적으로 개발을 이어나가고 있으며 2021년 12월 기준 개발버전을 업그레이드하여 2022년 7월 대대적인 업그레이드가 예정되어 있다.
+`BitStat` 통계 패키지는 지속적으로 개발을 이어가고 있으며, 개발 버전을 꾸준히 업그레이드하고 있습니다.
 
 ![](fig/openStat_quick.gif)
 
@@ -144,7 +220,9 @@ Data Literacy 역량 강화를 위해 컴퓨터를 처음 접하거나 데이터
 -   [2021 오픈소스 컨트리뷰션 아카데미 - Tidyverse Korea 데이터 과학](https://contributionacademy.oopy.io/)
 -   [오픈 통계 팩키지 개발 안내서](https://docs.google.com/presentation/d/1xXQ_DzjSaS24Kr7c_rqiaAr5GqP5gsEKujq5fQNy-MA/edit?usp=sharing)
 -   `tidyblocks`
-    -   Tidy Blocks 한글화 지원 : <https://github.com/tidyblocks/tidyblocks/>
-    -   Tidy Blocks 블록 통계 프로그래밍 안내서 한글 번역: <https://tidyblocks.tech/en/guide/>
-    -   한글 사례(Example) 추가 및 확대 : <https://tidyblocks.tech/en/examples/>
+    -   [Tidy Blocks 한글화 지원](https://github.com/tidyblocks/tidyblocks/)
+    -   [Tidy Blocks 블록 통계 프로그래밍 안내서 한글 번역](https://tidyblocks.tech/en/guide/)
+    -   [한글 사례(Example) 추가 및 확대](https://tidyblocks.tech/en/examples/)
 -   [통그라미](https://mdis.kostat.go.kr/tong/index.html)
+
+:::

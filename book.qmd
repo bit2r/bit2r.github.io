@@ -1,7 +1,7 @@
 ---
-title: "(전자)책"
+title: "발행 도서"
 description: |
-  통계 대중화와 사회적 불평등 해소를 목표로 한국 R 사용자회는 전세계적으로 검증된 콘텐츠를 선별하고 크리에이티브 커먼즈 라이선스를 준용하여 한국어로 번역하는 것을 넘어, 국내 상황을 고려하여 챗GPT 연속간행물을 발간하고 있습니다. 이렇게 저작된 디지털 콘텐츠는 재현성과 추적성이 중요한 현대의 데이터 환경을 반영하고 있을 뿐만 아니라 체계적인 소프트웨어 개발 방법론을 적극 채용하고 있습니다. 지속적인 업그레이드와 개발을 통해 사용자에게 신뢰성과 지속성을 약속합니다. 공개 전자책은 이러한 철학과 방법론 아래, 누구나 자유롭게 접근할 수 있는 지식의 저장소로서의 역할을 충실히 하고 있습니다.
+  통계 대중화와 사회적 불평등 해소를 위해, 한국 R 사용자회는 전 세계적으로 검증된 콘텐츠를 선별해 크리에이티브 커먼즈 라이선스로 한국어화하고, 국내 상황에 맞춘 챗GPT 연속간행물을 발간합니다. 재현성과 추적성을 갖춘 디지털 콘텐츠에 체계적인 소프트웨어 개발 방법론을 더해, 지속적인 업그레이드로 신뢰성을 약속합니다.
 format:
   html:
     css: "strapless.css"
@@ -9,160 +9,149 @@ format:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE,
-                      comment = "#>", 
+                      comment = "#>",
                       digits = 3, tidy = FALSE, prompt = FALSE, fig.align = 'center')
+
+library(tidyverse)
+
+# ── 도서 카드 생성기 ──────────────────────────────────────────────
+# 도서 정보 tibble 을 받아 반응형 카드 그리드 HTML 문자열을 반환한다.
+# status 값에 따라 배지 색을 달리한다: 발행/공개(초록), 출간예정(호박), 집필중(회색).
+book_cards <- function(df) {
+  one <- function(title, image, text, link, date, status) {
+    # 상태별 배지 클래스 매핑
+    badge <- dplyr::case_when(
+      status %in% c("발행", "공개", "오픈") ~ "is-live",
+      status == "출간예정"                   ~ "is-soon",
+      TRUE                                    ~ "is-wip"
+    )
+    has_link  <- !is.na(link) && nzchar(link)
+    # 링크가 있으면 카드 전체를 <a> 로, 없으면 <div> 로 (집필중 등)
+    open_tag  <- if (has_link) sprintf('<a class="bk-card" href="%s">', link) else '<div class="bk-card is-static">'
+    close_tag <- if (has_link) '</a>' else '</div>'
+    date_html <- if (!is.na(date) && nzchar(date)) sprintf('<span class="bk-date">%s</span>', date) else '<span></span>'
+    cta       <- if (has_link) '<span class="bk-cta">자세히 &rarr;</span>' else ''
+
+    sprintf(paste0(
+      '%s',
+      '<div class="bk-cover"><span class="bk-badge %s">%s</span>',
+      '<img src="%s" alt="%s" loading="lazy"></div>',
+      '<div class="bk-body"><h3 class="bk-title">%s</h3>',
+      '<p class="bk-text">%s</p>',
+      '<div class="bk-foot">%s%s</div></div>%s'),
+      open_tag, badge, status, image, title, title, text, date_html, cta, close_tag)
+  }
+  inner <- purrr::pmap_chr(df, one)
+  paste0('<div class="bk-grid">', paste(inner, collapse = ""), '</div>')
+}
+```
+
+```{=html}
+<style>
+/* ── 도서 카드 그리드 ── 요즘 카드 UI 추세에 맞춘 반응형·호버·다크모드 지원 */
+.bk-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(230px, 1fr));
+  gap:1.5rem;
+  margin:1.75rem 0 2.5rem;
+}
+.bk-card{
+  display:flex; flex-direction:column;
+  border:1px solid rgba(0,0,0,.08);
+  border-radius:16px; overflow:hidden;
+  background:#fff; color:inherit; text-decoration:none;
+  box-shadow:0 1px 3px rgba(0,0,0,.05);
+  transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+/* 링크형 카드만 호버 시 살짝 떠오르게 */
+a.bk-card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 14px 30px rgba(0,0,0,.13);
+  border-color:rgba(68,112,153,.55); /* navbar 색(#447099) 계열 강조 */
+}
+.bk-card.is-static{opacity:.9;}
+/* 표지 영역 — 세로형 책표지와 정사각 로고를 모두 가운데 정렬로 수용 */
+.bk-cover{
+  position:relative;
+  aspect-ratio:3 / 4;
+  display:flex; align-items:center; justify-content:center;
+  padding:1.1rem;
+  background:linear-gradient(135deg, #f5f7fa, #e8edf3);
+}
+.bk-cover img{max-width:100%; max-height:100%; object-fit:contain; border-radius:5px;}
+/* 상태 배지 */
+.bk-badge{
+  position:absolute; top:.65rem; left:.65rem;
+  font-size:.72rem; font-weight:600; color:#fff;
+  padding:.2rem .6rem; border-radius:999px;
+  letter-spacing:.01em;
+}
+.bk-badge.is-live{background:#2e7d5b;} /* 발행·공개 */
+.bk-badge.is-soon{background:#c98a1a;} /* 출간예정 */
+.bk-badge.is-wip{background:#7a828c;}  /* 집필중 */
+/* 본문 */
+.bk-body{display:flex; flex-direction:column; gap:.55rem; flex:1; padding:1.05rem 1.15rem 1.2rem;}
+.bk-title{margin:0; font-size:1.03rem; font-weight:700; line-height:1.4;}
+.bk-text{
+  margin:0; font-size:.88rem; color:#5b6570; line-height:1.6;
+  display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden;
+}
+.bk-foot{margin-top:auto; display:flex; align-items:center; justify-content:space-between; padding-top:.5rem;}
+.bk-date{font-size:.78rem; color:#8a929b;}
+.bk-cta{font-size:.83rem; font-weight:600; color:#447099;}
+
+/* 다크모드 대응 */
+@media (prefers-color-scheme: dark){
+  /* color 를 밝게 지정해야 제목(.bk-title)이 기본 어두운 글자색을 상속받지 않음 */
+  .bk-card{background:#2c4f70; border-color:rgba(255,255,255,.12); color:#eceff3;}
+  /* 표지 영역은 어둡게 바꾸지 않음 — 투명 PNG 로고가 밝은 판 위에서 항상 보이도록 */
+  .bk-title{color:#f3f5f8;}
+  .bk-text{color:#c2c9d2;}
+  .bk-date{color:#98a0aa;}
+  .bk-cta{color:#8fbce8;}
+}
+</style>
 ```
 
 ## 출판 도서
 
-```{r publish-groups}
-#| echo: false
+교보문고 POD 종이책과 전자책으로 만나는 한국 R 사용자회의 **챗GPT 시리즈**입니다.
 
-library(bs4cards)
-library(tidyverse)
-
-kyobo_list <- list(
-  tibble(
-    title = "챗GPT 유닉스 쉘",
-    image = "fig/챗GPT_유닉스쉘.jpg",
-    text = "<챗GPT 유닉스 쉘>은 생산성 자동화 도구를 다루고 있습니다.",
-    link = "https://r2bit.com/gpt-shell/",
-    footer = "2023-08-15"
-  ),
-  tibble(
-    title = "챗GPT SQL",
-    image = "fig/sql_cover.jpg",
-    text = "<챗GPT SQL>은 SQL을 넘어 챗GPT와 떠나는 데이터 과학 여정을 담고 있습니다.",
-    link = "https://r2bit.com/gpt-sql",
-    footer = "2024-02-17"
-  ),
-  tibble(
-    title = "챗GPT 쿼토",
-    image = "fig/cover_quarto.jpg",
-    text = "인공지능 시대 과학기술 저작 도구를 다루고 있습니다",
-    link = "https://r2bit.com/gpt-quarto/",
-    footer = "2024-03-01"
-  ),
-  tibble(
-    title = "챗GPT 데이터 디지털 글쓰기",
-    image = "fig/챗GPT_템플릿.png",
-    text = "출간예정",
-    link = "https://github.com/bit2r/gpt-writing",
-    footer = "2023-11-15"
-  ),
-  tibble(
-    title = "챗GPT 확률통계",
-    image = "fig/챗GPT_템플릿.png",
-    text = "출간예정",
-    link = "https://github.com/bit2r/gpt-stat",
-    footer = "2023-12-15"
-  ),
-  tibble(
-    title = "챗GPT 프로그래밍",
-    image = "fig/챗GPT_템플릿.png",
-    text = "출간예정",
-    link = "https://github.com/bit2r/gpt-programming",
-    footer = "2024-01-15"
-  )  
+```{r}
+#| output: asis
+pub_tbl <- tribble(
+  ~title,                    ~image,                  ~text,                                                    ~link,                                    ~date,        ~status,
+  "챗GPT 유닉스 쉘",         "fig/챗GPT_유닉스쉘.jpg", "데이터 과학 생산성을 높이는 자동화 도구, 유닉스 쉘을 다룹니다.", "https://r2bit.com/gpt-shell/",           "2023-08-15", "발행",
+  "챗GPT SQL",               "fig/sql_cover.jpg",     "SQL을 넘어 챗GPT와 함께 떠나는 데이터 과학 여정을 담았습니다.",   "https://r2bit.com/gpt-sql",              "2024-02-17", "발행",
+  "챗GPT 쿼토",              "fig/cover_quarto.jpg",  "인공지능 시대의 과학기술 저작 도구, 쿼토(Quarto)를 안내합니다.", "https://r2bit.com/gpt-quarto/",          "2024-03-01", "발행",
+  "챗GPT 데이터 디지털 글쓰기", "fig/챗GPT_템플릿.png",  "인공지능과 함께하는 데이터 기반 디지털 글쓰기.",              "https://github.com/bit2r/gpt-writing",   "2023-11-15", "오픈",
+  "챗GPT 확률통계",          "fig/챗GPT_템플릿.png",  "챗GPT로 배우는 확률과 통계의 기본기.",                       "https://github.com/bit2r/gpt-stat",      "2023-12-15", "오픈",
+  "챗GPT 프로그래밍",        "fig/챗GPT_템플릿.png",  "챗GPT와 함께 시작하는 프로그래밍 입문.",                     "https://github.com/bit2r/gpt-programming", "2024-01-15", "오픈"
 )
 
-kyobo_tbl <- kyobo_list %>% 
-  enframe() %>% 
-  unnest(value)
-
-kyobo_tbl %>% 
-  cards(
-    title = title,
-    text = text,
-    link = link,
-    image = image,
-    footer = footer,
-    layout = "label-left", 
-    width = 3
-  )
-
+cat(book_cards(pub_tbl))
 ```
 
-<br>
-
-- "챗GPT 유닉스 쉘: 데이터 과학 자동화 도구"
-  - 뉴스기사: [챗GPT가 던진 새 가능성, 데이터 과학 분야 통해 미리 살펴보기](https://omn.kr/25f0i)
+::: {.callout-note appearance="simple"}
+📰 **관련 뉴스** — 「챗GPT 유닉스 쉘」 [챗GPT가 던진 새 가능성, 데이터 과학 분야 통해 미리 살펴보기](https://omn.kr/25f0i)
+:::
 
 ## 오픈 전자책
 
-```{r card-groups}
-#| echo: false
+누구나 무료로 열람할 수 있는 데이터 과학 학습 콘텐츠입니다.
 
-library(bs4cards)
-library(tidyverse)
-
-book_list <- list(
-  tibble(
-    title = "데이터 과학 프로그래밍",
-    image = "fig/favicon_book_programming.png",
-    text = "데이터 과학자로 성장하기 위한 프로그래밍 개념",
-    link = "https://r2bit.com/book_programming/",
-    footer = "2022-06-17"
-  ),
-  tibble(
-    title = "데이터 시각화",
-    image = "fig/favicon_book_viz.png",
-    text = "데이터 시각화에 대한 개념과 실무",
-    link = "https://r2bit.com/book_viz/",
-    footer = "2022-06-03"
-  ),
-  tibble(
-    title = "데이터 과학 기본기",
-    image = "fig/favicon_book_basic.png",
-    text = "데이터 과학을 지탱하는 기본기",
-    link = "https://r2bit.com/book_analytics/",
-    footer = "2022-06-04"
-  ),
-  tibble(
-    title = "오픈 통계 패키지",
-    image = "fig/favicon_book_rcmdr.png",
-    text = "설치형 오픈 통계 패키지 - Rcmdr",
-    link = "https://r2bit.com/Rcmdr/",
-    footer = "2022-06-05"
-  ),
-  tibble(
-    title = "데이터 과학 언플러그드",
-    image = "fig/favicon_book_unplugged.png",
-    text = "종이와 연필로 데이터 과학 개념 설명",
-    link = "https://r2bit.com/book_unplugged/",
-    footer = "2022-06-10"
-  ),
-  tibble(
-    title = "문서 콘텐츠 제작 실무",
-    image = "fig/favicon_book_document.png",
-    text = "집필중",
-    link = "",
-    footer = "2022-XX-XX"
-  ),
-  tibble(
-    title = "R 텍스트 마이닝",
-    image = "fig/favicon_bitTA.png",
-    text = "bitTA 패키지로 한글 텍스트 분석",
-    link = "https://r2bit.com/book_tm/",
-    footer = "2022-08-15"
-  )  
+```{r}
+#| output: asis
+book_tbl <- tribble(
+  ~title,               ~image,                           ~text,                                          ~link,                          ~date,        ~status,
+  "데이터 과학 프로그래밍", "fig/favicon_book_programming.png", "데이터 과학자로 성장하기 위한 프로그래밍 개념.",     "https://r2bit.com/book_programming/", "2022-06-17", "공개",
+  "데이터 시각화",         "fig/favicon_book_viz.png",         "데이터 시각화에 대한 개념과 실무.",                 "https://r2bit.com/book_viz/",         "2022-06-03", "공개",
+  "데이터 과학 기본기",     "fig/favicon_book_basic.png",       "데이터 과학을 지탱하는 기본기.",                    "https://r2bit.com/book_analytics/",   "2022-06-04", "공개",
+  "오픈 통계 패키지",       "fig/favicon_book_rcmdr.png",       "설치형 오픈 통계 패키지 - Rcmdr.",                  "https://r2bit.com/Rcmdr/",            "2022-06-05", "공개",
+  "데이터 과학 언플러그드",  "fig/favicon_book_unplugged.png",   "종이와 연필로 익히는 데이터 과학 개념.",             "https://r2bit.com/book_unplugged/",   "2022-06-10", "공개",
+  "R 텍스트 마이닝",        "fig/favicon_bitTA.png",            "bitTA 패키지로 배우는 한글 텍스트 분석.",           "https://r2bit.com/book_tm/",          "2022-08-15", "공개",
+  "문서 콘텐츠 제작 실무",   "fig/favicon_book_document.png",    "재현가능한 문서·콘텐츠 제작 실무.",                 NA,                                     NA,           "집필중"
 )
 
-
-
-book_tbl <- book_list %>% 
-  enframe() %>% 
-  unnest(value)
-
-book_tbl %>% 
-  cards(
-    title = title,
-    text = text,
-    link = link,
-    image = image,
-    footer = footer,
-    layout = "label-left", 
-    width = 3
-  )
-
+cat(book_cards(book_tbl))
 ```

@@ -56,9 +56,9 @@ knitr::opts_chunk$set(echo = FALSE)
 - [2021 오픈소스 컨트리뷰션 아카데미 - Tidyverse Korea 데이터 과학](https://contributionacademy.oopy.io/)
 - [오픈 통계 팩키지 개발 안내서](https://docs.google.com/presentation/d/1xXQ_DzjSaS24Kr7c_rqiaAr5GqP5gsEKujq5fQNy-MA/edit?usp=sharing)
 - `tidyblocks`
-    - Tidy Blocks 한글화 지원 : <https://github.com/tidyblocks/tidyblocks/>
-    - Tidy Blocks 블록 통계 프로그래밍 안내서 한글 번역: <https://tidyblocks.tech/en/guide/>
-    - 한글 사례(Example) 추가 및 확대 : <https://tidyblocks.tech/en/examples/>
+    - [Tidy Blocks 한글화 지원](https://github.com/tidyblocks/tidyblocks/)
+    - [Tidy Blocks 블록 통계 프로그래밍 안내서 한글 번역](https://tidyblocks.tech/en/guide/)
+    - [한글 사례(Example) 추가 및 확대](https://tidyblocks.tech/en/examples/)
 - [통그라미](https://mdis.kostat.go.kr/tong/index.html)
 
 

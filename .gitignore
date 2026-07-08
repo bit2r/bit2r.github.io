@@ -10,10 +10,56 @@
 
 **/*.quarto_ipynb
 
-CLAUDE.md
 .cursorrules
-.cursor/
 .opencode/
 .gpt/
 __worklog__/
 tmpclaude-*
+
+# 내부/개인정보 문서 (사업 제안서, 임원취임승낙서 등) — 공개 repo 에 커밋 금지
+__materials__/
+
+# =============================================================================
+# AI 도구 관련 — 전부 ignore.
+# 본 repo 는 공개(GitHub Pages)이므로 AI 인스트럭션·설정·데이터·개인 tooling 을
+# 하나도 커밋하지 않는다. (인스트럭션 원본은 개발자 로컬/별도 비공개 위치에 보관.)
+# =============================================================================
+
+# 도구 무관 인스트럭션 진입점
+AGENTS.md
+GEMINI.md
+CLAUDE.md
+**/AGENTS.md
+**/GEMINI.md
+**/CLAUDE.md
+**/CODEX.md
+**/COPILOT.md
+**/WINDSURF.md
+**/AIDER.md
+**/CONTINUE.md
+
+# 도구별 룰/설정 파일
+.cursorrules
+.clinerules
+.windsurfrules
+.aider.conf.yml
+.cursor/
+.continue/
+.github/copilot-instructions.md
+
+# Claude Code (설정 + per-project 데이터 junction 대상)
+.claude/
+
+# Gemini CLI per-project 데이터
+.gemini/
+
+# Codex CLI (CODEX_HOME redirect 결과물)
+.codex/
+
+# AI 도구 개인 tooling 폴더 (junction 셋업/데이터 링크 스크립트 등)
+__ai__/
+
+# Aider 로컬 캐시 / 히스토리
+.aider.tags.cache.v3/
+.aider.chat.history.md
+.aider.input.history

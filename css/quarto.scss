@@ -46,6 +46,10 @@ $radius-xl: 1rem !default;
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
 @import url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/subsets/Paperlogy-dynamic-subset.css');
+// 본문 = 감탄로드바탕체, 제목 = 감탄로드돋움체, 빛스탯 시리즈 = 평창평화체
+@import url('https://cdn.jsdelivr.net/gh/fonts-archive/GamtanRoadBatang/GamtanRoadBatang.css');
+@import url('https://cdn.jsdelivr.net/gh/fonts-archive/GamtanRoadDotum/GamtanRoadDotum.css');
+@import url('https://cdn.jsdelivr.net/gh/fonts-archive/PyeongChangPeace/PyeongChangPeace.css');
 
 @font-face {
     font-family: 'D2Coding';
@@ -56,8 +60,14 @@ $radius-xl: 1rem !default;
 
 // Typography
 $font-family-sans-serif: 'Pretendard', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !default;
+// 본문 바탕(세리프) — 감탄로드바탕체
+$font-family-serif:      'GamtanRoad Batang', 'Nanum Myeongjo', Georgia, serif !default;
 $font-family-monospace:  'D2Coding', ui-monospace, monospace !default;
-$headings-font-family:  $font-family-sans-serif !default;
+// 본문 기본 글꼴 = 바탕체, 제목 = 돋움체
+$font-family-base:       $font-family-serif !default;
+$headings-font-family:   'GamtanRoad Dotum', 'Paperlogy', sans-serif !default;
+// 빛스탯 시리즈 강조용 — 평창평화체
+$font-family-pyeongchang: 'Pyeong Chang Peace', $headings-font-family !default;
 
 // 사이드바 너비
 $sidebar-width: 280px !default;
@@ -78,7 +88,7 @@ $border-radius-lg: $radius-lg !default;
 // ============================================
 
 body {
-    font-family: $font-family-sans-serif;
+    font-family: $font-family-base;   // 본문 = 감탄로드바탕체
     color: $gray-900;
     background-color: $white;
     -webkit-font-smoothing: antialiased;
@@ -89,28 +99,108 @@ body {
 // 네비게이션 바 (shadcn/ui 스타일)
 // ============================================
 
+// 헤더 배경 — 브랜드 블루 단색 + 은은한 그래프 페이퍼 그리드 (통계 플롯 느낌, 난잡하지 않게)
+// 그라데이션은 빼고 잔잔한 좌표 격자만. (원본 이미지는 images/header_background.jpg 로 보관)
+@mixin header-bg {
+    background-color: #2c4f70;   // 브랜드 블루보다 짙은 스틸 블루
+    // 그래프 페이퍼: 보조 격자(가는·촘촘) + 주 격자(굵게·성글게) — 통계 플롯 느낌, 또렷하되 잔잔하게
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.16) 1px, transparent 1px),          // 주 격자 가로
+        linear-gradient(90deg, rgba(255, 255, 255, 0.16) 1px, transparent 1px),   // 주 격자 세로
+        linear-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),          // 보조 격자 가로
+        linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);   // 보조 격자 세로
+    background-size: 120px 120px, 120px 120px, 24px 24px, 24px 24px;
+    background-position: center center;
+    background-repeat: repeat;
+}
+
 .navbar {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/header_background.jpg') !important;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    @include header-bg;
+    position: relative;   // ::before 플롯 오버레이 기준
     border-bottom: none;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
-    padding: 0.75rem 1rem;
+    padding: 0.4rem 1rem;   // 로고가 헤더 높이를 거의 채우도록 상하 패딩 축소
 }
 
 .navbar-dark {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/header_background.jpg') !important;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    @include header-bg;
 }
 
-.navbar-title {
+// ggplot2 미니 플롯 스트립을 헤더 뒤에 반투명으로 배치 (R 언어 느낌)
+// ::before 레이어라 로고·메뉴 등 콘텐츠는 그대로 위에 표시됨
+.navbar::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url('images/header_plots.png');
+    background-size: auto 100%;      // 헤더 높이에 맞추고 가로로 반복
+    background-repeat: repeat-x;
+    background-position: center;
+    opacity: 0.22;                   // 은은하게
+    pointer-events: none;
+    z-index: 0;
+}
+
+// 콘텐츠(로고/메뉴)를 플롯 오버레이 위로
+.navbar > * {
+    position: relative;
+    z-index: 1;
+}
+
+// 좌상단 로고 — 어두운 navbar 배경에서 브랜드 색(파란 R)을 살리도록 흰색 라운드 칩 위에 배치
+// 헤더 높이를 거의 꽉 채우도록 크게
+.navbar-brand img,
+.navbar-logo {
+    // Quarto 기본값(max-height:48px/24px, object-fit:cover)이 크기를 제한·왜곡하므로 모두 덮어씀
+    // 흰 박스는 이제 컨테이너(.navbar-brand-container)가 담당 — 이미지 자체 칩은 제거
+    height: 44px !important;
+    max-height: 44px !important;
+    min-height: 0 !important;
+    width: auto !important;
+    object-fit: contain !important;
+    background-color: transparent !important;
+    padding: 0 0 1px 0 !important;   // 로고 하단 1px 패딩 (아래라인 미세 정렬)
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+// 스크롤 시 상단 navbar 자동 숨김(headroom) 비활성화 — 항상 고정 표시
+.navbar.headroom--unpinned,
+.headroom--unpinned {
+    transform: translateY(0%) !important;
+}
+
+// 로고 + 타이틀을 하나의 흰색 라운드 박스에 함께 담음
+.navbar-brand-container {
+    display: inline-flex;
+    align-items: flex-end;   // 로고 글씨와 아래라인 맞추기 위해 하단 정렬
+    gap: 0.55rem;
+    background-color: #d8e5f3;   // 푸르스름한 밝은 박스
+    padding: 5px 14px;
+    border-radius: $radius-lg;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+// Quarto 규칙 `.navbar .navbar-container>.navbar-brand-container{margin:0 !important}`(specificity 0,3,0)
+// 을 이기기 위해 mx-auto 클래스를 더해 specificity(0,4,0) 로 올려 여백을 재지정한다.
+.navbar .navbar-container > .navbar-brand-container.mx-auto {
+    margin-left: 0 !important;
+    margin-right: 2.75rem !important;   // 브랜드 박스와 "홈" 메뉴 사이 여백
+}
+
+// 박스 안 타이틀 — 검정 글자, R 만 로고의 파란색(#2160AB)
+.navbar-title,
+.navbar-brand-container .navbar-brand {
     font-family: 'Paperlogy', sans-serif !important;
     font-weight: 700 !important;
-    font-size: 1.5rem !important;
-    color: $white !important;
+    font-size: 2.1rem !important;    // 로고 안 글씨와 균형
+    line-height: 1 !important;       // 글자 아래 여백 최소화 (아래라인 정렬)
+    padding-bottom: 0 !important;    // 로고 글씨 아래라인과 정렬
+    color: #111 !important;          // R 외 글자는 검은색
+}
+
+.navbar-title .brand-r {
+    color: #2160AB !important;       // 로고 안 R 과 동일한 파란색
 }
 
 .navbar .nav-link {
@@ -173,21 +263,23 @@ body {
 
 .sidebar-title {
     font-family: 'Paperlogy', sans-serif !important;
-    font-weight: 600 !important;
-    font-size: 0.875rem !important;
+    font-weight: 700 !important;
+    font-size: 1.1rem !important;      // 사이드바 제목 확대
     color: $gray-900 !important;
-    padding: 1.25rem 1rem 0.75rem 1rem;
+    padding: 1.4rem 1rem 0.9rem 1rem;
     letter-spacing: -0.01em;
+    border-bottom: 1px solid $border-color;
+    margin-bottom: 0.5rem;
 }
 
 .sidebar-item {
-    margin-bottom: 0.125rem;
+    margin-bottom: 0.2rem;
     font-family: $font-family-sans-serif;
 }
 
 .sidebar-item-container {
     border-radius: $radius-md;
-    margin: 1px 0.5rem;
+    margin: 2px 0.25rem;   // 선택 박스 좌우 바깥 여백 축소
     transition: all 0.15s ease;
 }
 
@@ -196,10 +288,11 @@ body {
 }
 
 .sidebar-item-text.sidebar-link {
-    padding: 0.5rem 0.75rem;
-    color: $gray-600;
-    font-size: 0.875rem;
+    padding: 0.62rem 0.7rem;           // 텍스트 좌우 안쪽 여백 축소
+    color: $gray-700;
+    font-size: 1.02rem;                // 메뉴 글씨 확대 (0.875 → 1.02rem)
     font-weight: 500;
+    line-height: 1.35;
     border-radius: $radius-md;
     transition: all 0.15s ease;
 }
@@ -209,10 +302,12 @@ body {
     text-decoration: none;
 }
 
+// 활성 메뉴 — 브랜드색 배경 + 살짝 굵게 + 은은한 그림자로 강조
 .sidebar-item-text.sidebar-link.active {
     background-color: $brand-blue;
     color: $white !important;
-    font-weight: 500;
+    font-weight: 600;
+    box-shadow: 0 2px 6px rgba(68, 112, 153, 0.35);
 }
 
 .sidebar-section {
@@ -225,7 +320,7 @@ body {
 // ============================================
 
 h1, .h1 {
-    font-family: $font-family-sans-serif;
+    font-family: $headings-font-family;   // 제목 = 감탄로드탄탄체
     font-weight: 700;
     font-size: 2.25rem;
     line-height: 1.2;
@@ -236,7 +331,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-    font-family: $font-family-sans-serif;
+    font-family: $headings-font-family;   // 제목 = 감탄로드탄탄체
     font-weight: 600;
     font-size: 1.5rem;
     line-height: 1.3;
@@ -247,7 +342,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-    font-family: $font-family-sans-serif;
+    font-family: $headings-font-family;   // 제목 = 감탄로드탄탄체
     font-weight: 600;
     font-size: 1.25rem;
     line-height: 1.4;
@@ -257,13 +352,13 @@ h3, .h3 {
 }
 
 h4, .h4, h5, .h5, h6, .h6 {
-    font-family: $font-family-sans-serif;
+    font-family: $headings-font-family;   // 제목 = 감탄로드탄탄체
     font-weight: 600;
     color: $gray-900;
 }
 
 p {
-    font-family: $font-family-sans-serif;
+    font-family: $font-family-base;   // 본문 = 감탄로드바탕체
     color: $gray-700;
     line-height: 1.7;
 }
@@ -553,6 +648,11 @@ pre code {
     border-radius: 9999px;
     background-color: $gray-100;
     color: $gray-700;
+}
+
+// 빛스탯 시리즈 강조 글꼴 — 평창평화체 (원하는 요소에 .font-bitstat 클래스 적용)
+.font-bitstat {
+    font-family: $font-family-pyeongchang !important;
 }
 
 .badge-primary {
