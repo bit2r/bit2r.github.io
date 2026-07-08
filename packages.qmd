@@ -209,16 +209,16 @@ webR·WebAssembly 기반으로 **설치 없이 브라우저에서** 실행되는
 ::: {.link-card}
 [{{< fa pen-nib >}}]{.lc-ico}
 
-#### BitWriter — AI 글쓰기 워드프로세서
+#### 빛워드프로세서 (BitWriter)
 
-인공지능과 함께 쓰는 글쓰기 워드프로세서를 개발하고 있습니다. (개발 중) — [GitHub](https://github.com/bit2r/BitWriter/)
+인공지능과 함께 쓰는 AI 글쓰기 워드프로세서를 개발하고 있습니다. *(비공개 개발 중)*
 :::
 ::: {.link-card}
 [{{< fa language >}}]{.lc-ico}
 
-#### BitHangul
+#### 빛한글 (BitHangul)
 
-한글 처리를 지원하는 도구입니다. — [GitHub](https://github.com/bit2r/BitHangul)
+한글 처리를 지원하는 도구를 개발하고 있습니다. *(비공개 개발 중)*
 :::
 :::
 

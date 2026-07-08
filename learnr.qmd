@@ -14,6 +14,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 ![](fig/learnr.jpg)
+
+::: {.callout-tip appearance="simple"}
+{{< fa laptop-code >}} `learnr` 로 브라우저에서 **직접 코드를 실행하며** 스스로 학습합니다.
+:::
+
 # 자기주도학습 콘텐츠 저작
 
 데이터 과학 자기주도학습 학습 콘텐츠 저작은 기본적으로 [`rmarkdown`](https://rmarkdown.rstudio.com/)으로 데이터 과학 언어는 R, 문서는 마크다운으로 하여 저작한다. 이를 인터랙티브 학습 콘텐츠로 제작하는 방식은 [`learnr`](https://rstudio.github.io/learnr/) 팩키지를 사용해서 개발한다.

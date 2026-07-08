@@ -10,6 +10,10 @@ date: "March 1, 2024"
 
 # Privacy Policy
 
+::: {.callout-note appearance="simple"}
+{{< fa shield-halved >}} Effective date: **March 1, 2024**. This policy explains how the Company collects, uses, and protects your personal information.
+:::
+
 BitStat (hereinafter referred to as the "Company") has established the following privacy policy to protect users' personal information and rights in accordance with the Personal Information Protection Act and to handle user grievances related to personal information smoothly.
 
 ## 1. Purpose of Processing Personal Information

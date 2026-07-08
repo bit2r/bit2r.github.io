@@ -10,6 +10,10 @@ date: "March 1, 2024"
 
 # Terms of Service
 
+::: {.callout-note appearance="simple"}
+{{< fa file-contract >}} Effective date: **March 1, 2024**. These terms govern your use of the services provided by the Company.
+:::
+
 ## Article 1 (Purpose)
 
 These Terms of Service (hereinafter referred to as "Terms") establish the conditions and procedures for using the services provided by BitStat (hereinafter referred to as "Company"), as well as the rights, obligations, and responsibilities between the Company and its members, and other necessary matters.

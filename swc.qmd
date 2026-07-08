@@ -10,6 +10,10 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+::: {.callout-tip appearance="simple"}
+{{< fa gauge-high >}} 단 **2일 워크샵**으로 컴퓨터가 잘하는 일을 자동화해 생산성을 크게 높이세요. 시간을 복리로 저축하는 셈입니다.
+:::
+
 한국 소프트웨어 카펜트리는 [소프트웨어 카펜트리 버젼 5.3](https://aispiration.com/swcarpentry-version-5-3-new/) 한국어로 번역이 되어 있으며 카펜트리 사단법인으로부터 자격증을 취득한 공인강사가 워크샵을 진행합니다. 2012년 1월 18일 이후 현재 시점 기준(2021-12-09) 한국을 비롯한 52개국에서 1,913회 워크샵이 있었습니다.
 
 ![](fig/swc-workshop.png)

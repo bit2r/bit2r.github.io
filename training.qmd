@@ -13,6 +13,10 @@ editor_options:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+::: {.callout-note appearance="simple"}
+{{< fa award >}} 글로벌 R Consortium **RUGS 2022** 프로그램 후원으로 진행되는 R 교육 프로그램입니다.
+:::
+
 # 참여대학과 기관
 
 -   성균관대 (확정)
