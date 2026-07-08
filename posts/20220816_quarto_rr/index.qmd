@@ -24,7 +24,7 @@ format:
     toc-title: 목차
     number-sections: true
     highlight-style: github    
-    self-contained: true
+    self-contained: false
 link-citations: true
 reference-location: margin
 bibliography: ../../bibliography.bib
