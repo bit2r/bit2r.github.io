@@ -577,25 +577,54 @@ pre code {
 // ============================================
 
 #TOC, .toc {
-    font-size: 0.875rem;
+    font-size: 0.85rem;
 }
 
+// "목차" 라벨 — 작은 대문자 스타일 라벨
+#TOC .toc-title, #toc-title, .toc-title {
+    font-family: $font-family-label !important;
+    font-size: 0.75rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #727782 !important;
+    margin-bottom: 0.7rem;
+}
+
+// 세로 레일 (최상위 목록에만)
+#TOC > ul, .toc > ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    border-left: 1px solid $border-color;
+}
+#TOC ul ul {          // 하위 항목은 레일 없이 들여쓰기
+    list-style: none;
+    border-left: none;
+    padding-left: 0.75rem;
+}
+#TOC li { margin: 0; }
+
 #TOC a, .toc a {
-    color: $gray-600;
-    font-weight: 500;
-    padding: 0.25rem 0;
     display: block;
-    transition: color 0.15s ease;
+    color: #6b7280;
+    font-weight: 500;
+    line-height: 1.4;
+    padding: 0.32rem 0 0.32rem 0.9rem;
+    margin-left: -1px;                        // 레일과 겹쳐 활성 바가 레일을 덮도록
+    border-left: 2px solid transparent;
+    transition: color 0.15s ease, border-color 0.15s ease;
 }
 
 #TOC a:hover, .toc a:hover {
-    color: $gray-900;
+    color: $brand-blue;
     text-decoration: none;
 }
 
 #TOC a.active, .toc a.active {
-    color: $gray-900;
+    color: $brand-dark;
     font-weight: 600;
+    border-left: 2px solid $brand-blue;       // 활성 항목 좌측 강조 바
 }
 
 // ============================================
