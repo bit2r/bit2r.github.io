@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-21eaec5268d3247debc4e011afa38212.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-90541722e18035ebc45107e7704b37f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-da79f07ee6081830469108ae2fbe552d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -89,7 +89,7 @@ ga('send', {
 
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -199,21 +199,7 @@ ga('send', {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">목차</h2>
-   
-  <ul>
-  <li><a href="#챗gpt-출판" id="toc-챗gpt-출판" class="nav-link active" data-scroll-target="#챗gpt-출판">챗GPT 출판</a></li>
-  <li><a href="#교육워크샵-활동" id="toc-교육워크샵-활동" class="nav-link" data-scroll-target="#교육워크샵-활동">교육·워크샵 활동</a></li>
-  <li><a href="#서울-r-미트업" id="toc-서울-r-미트업" class="nav-link" data-scroll-target="#서울-r-미트업">서울 R 미트업</a></li>
-  <li><a href="#공익법인-후원" id="toc-공익법인-후원" class="nav-link" data-scroll-target="#공익법인-후원">공익법인 후원</a>
-  <ul class="collapse">
-  <li><a href="#회원가입-및-기부금-신청" id="toc-회원가입-및-기부금-신청" class="nav-link" data-scroll-target="#회원가입-및-기부금-신청">회원가입 및 기부금 신청</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -242,66 +228,90 @@ ga('send', {
 
 
 <style>
-/* ── 홈 전용 히어로/카드/애니메이션 (이 페이지에만 적용) ── */
+/* ── 홈(Open Analytics Nexus 스타일) — 밝은 학술·모던 ── */
 #title-block-header{display:none;}   /* 기본 타이틀 블록 숨김 — 히어로로 대체 */
 
+/* 히어로 */
 .home-hero{
   position:relative; overflow:hidden;
-  margin:-0.5rem 0 2rem; padding:3.6rem 1.5rem; border-radius:20px;
-  text-align:center; color:#fff; background-color:#2c4f70;
-  background-image:
-    radial-gradient(rgba(255,255,255,.08) 1px, transparent 1.3px),
-    linear-gradient(135deg,#24405c 0%, #2c4f70 55%, #3a6690 100%);
-  background-size:22px 22px, cover;
-  animation:homeFadeUp .7s ease both;
+  margin:0 0 2.5rem; padding:3.5rem 2rem;
+  border:1px solid #e1e4e8; border-radius:12px; background:#f8f9fa;
+  background-image:radial-gradient(#dde2ea 1px, transparent 1.4px);
+  background-size:22px 22px;
+  animation:homeFadeUp .6s ease both;
+}
+.home-hero-badge{
+  display:inline-block; font-family:'Pretendard',sans-serif;
+  font-size:.72rem; font-weight:600; letter-spacing:.08em; text-transform:uppercase;
+  color:#004d8c; background:#d4e3ff; padding:.3rem .7rem; border-radius:2px; margin-bottom:1.1rem;
 }
 .home-hero-title{
-  font-family:'Paperlogy',sans-serif; font-weight:800; letter-spacing:-.02em;
-  font-size:clamp(2rem,5vw,3.2rem); line-height:1.15; margin:0 0 .7rem; color:#fff;
+  font-family:'GamtanRoad Dotum','Paperlogy',sans-serif; font-weight:700; letter-spacing:-.02em;
+  font-size:clamp(1.9rem,4.5vw,3rem); line-height:1.2; margin:0 0 .8rem; color:#191c1d;
 }
-.home-hero-title .hero-r{color:#8fd0ff;}
+.home-hero-title .hero-r{color:#2165ac;}
 .home-hero-tagline{
-  font-size:clamp(1rem,2.2vw,1.22rem); color:rgba(255,255,255,.92);
-  max-width:640px; margin:0 auto 1.7rem; line-height:1.6;
+  font-size:clamp(1rem,2.2vw,1.15rem); color:#424751;
+  max-width:640px; margin:0 0 1.7rem; line-height:1.7;
 }
-.home-hero-cta{display:flex; gap:.75rem; justify-content:center; flex-wrap:wrap;}
-.hero-btn{
-  display:inline-block; padding:.7rem 1.5rem; border-radius:999px;
-  font-weight:600; font-size:.98rem; text-decoration:none;
-  transition:transform .15s ease, box-shadow .15s ease;
+.home-hero-cta{display:flex; gap:.75rem; flex-wrap:wrap;}
+.btn-hero{
+  display:inline-flex; align-items:center; gap:.45rem;
+  padding:.72rem 1.5rem; border-radius:4px; font-weight:600; font-size:.98rem;
+  text-decoration:none; transition:all .15s ease;
 }
-.hero-btn.primary{background:#fff; color:#2c4f70; box-shadow:0 4px 14px rgba(0,0,0,.2);}
-.hero-btn.ghost{background:rgba(255,255,255,.12); color:#fff; border:1px solid rgba(255,255,255,.55);}
-.hero-btn:hover{transform:translateY(-2px); box-shadow:0 8px 22px rgba(0,0,0,.28); text-decoration:none;}
+.btn-hero.primary{background:#2165ac; color:#fff;}
+.btn-hero.primary:hover{background:#004d8c; color:#fff; text-decoration:none;}
+.btn-hero.secondary{background:#fff; color:#2165ac; border:1px solid #2165ac;}
+.btn-hero.secondary:hover{background:#f3f4f5; text-decoration:none;}
 
-.home-cards{
-  display:grid; grid-template-columns:repeat(auto-fit, minmax(210px,1fr));
-  gap:1.1rem; margin:0 0 2.75rem; animation:homeFadeUp .7s .12s ease both;
-}
+/* 섹션 제목(홈 전용) */
+.home-h2{font-family:'GamtanRoad Dotum','Paperlogy',sans-serif; font-weight:700; font-size:1.55rem; color:#191c1d; letter-spacing:-.01em; margin:2.6rem 0 .35rem;}
+.home-sub{color:#424751; margin:0 0 1.2rem; font-size:.98rem;}
+
+/* 바로가기 카드 */
+.home-cards{display:grid; grid-template-columns:repeat(auto-fit, minmax(210px,1fr)); gap:1rem; margin:0;}
 .home-card{
   display:block; text-decoration:none; color:inherit;
-  border:1px solid rgba(0,0,0,.08); border-radius:16px; padding:1.5rem 1.35rem;
-  background:#fff; box-shadow:0 1px 3px rgba(0,0,0,.05);
-  transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+  border:1px solid #e1e4e8; border-radius:8px; padding:1.5rem 1.35rem; background:#fff;
+  transition:border-color .15s ease, box-shadow .15s ease;
 }
-.home-card:hover{transform:translateY(-5px); box-shadow:0 14px 30px rgba(0,0,0,.12); border-color:rgba(68,112,153,.5); text-decoration:none;}
+.home-card:hover{border-color:#2165ac; box-shadow:0 0 0 4px rgba(33,101,172,.1); text-decoration:none;}
 .home-card .hc-ico{
   display:inline-flex; align-items:center; justify-content:center;
-  width:3rem; height:3rem; border-radius:14px;
-  background:rgba(68,112,153,.12); color:#447099; font-size:1.4rem; margin-bottom:.85rem;
+  width:2.8rem; height:2.8rem; border-radius:8px; background:#eef3fb; color:#2165ac;
+  font-size:1.3rem; margin-bottom:.8rem;
 }
-.home-card h3{margin:0 0 .4rem; font-size:1.1rem; font-weight:700; color:#18181b;}
-.home-card p{margin:0; font-size:.88rem; color:#5b6570; line-height:1.55;}
+.home-card h3{margin:0 0 .35rem; font-size:1.05rem; font-weight:700; color:#191c1d;}
+.home-card p{margin:0; font-size:.88rem; color:#424751; line-height:1.55;}
 
-@keyframes homeFadeUp{from{opacity:0; transform:translateY(18px);} to{opacity:1; transform:none;}}
+/* 사명 */
+.mission-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(250px,1fr)); gap:1.6rem; margin:1.2rem 0 .5rem;}
+.mission-item{display:flex; gap:.9rem; align-items:flex-start;}
+.mission-item .mi-ico{
+  flex:0 0 auto; display:inline-flex; align-items:center; justify-content:center;
+  width:2.6rem; height:2.6rem; border-radius:8px; background:#eef3fb; color:#2165ac; font-size:1.15rem;
+}
+.mission-item h4{margin:.1rem 0 .35rem; font-size:1.02rem; font-weight:700; color:#191c1d;}
+.mission-item p{margin:0; font-size:.9rem; color:#424751; line-height:1.6;}
+
+/* 협력처 */
+.partners{border-top:1px solid #e1e4e8; margin-top:2.8rem; padding-top:1.6rem;}
+.partners-label{font-family:'Pretendard',sans-serif; font-size:.72rem; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:#727782; text-align:center; margin-bottom:1rem;}
+.partners-list{display:flex; flex-wrap:wrap; gap:.7rem 1.6rem; justify-content:center; align-items:center;}
+.partners-list a{color:#424751; font-weight:600; text-decoration:none; font-size:1rem;}
+.partners-list a:hover{color:#2165ac; text-decoration:none;}
+
+@keyframes homeFadeUp{from{opacity:0; transform:translateY(16px);} to{opacity:1; transform:none;}}
 </style>
 
 <div class="home-hero">
-  <h1 class="home-hero-title">한국 <span class="hero-r">R</span> 사용자회</h1>
-  <p class="home-hero-tagline">데이터 과학과 통계 대중화로 디지털 불평등을 해소하는 공익법인입니다. 오픈 패키지·전자책 제작과 교육·워크샵으로 인공지능 시대의 격차를 줄여갑니다.</p>
+  <span class="home-hero-badge">공익법인 · 오픈소스</span>
+  <h1 class="home-hero-title">데이터로 여는 더 나은 세상,<br>한국 <span class="hero-r">R</span> 사용자회</h1>
+  <p class="home-hero-tagline">통계적 정밀함과 오픈 소스의 투명성을 결합해 데이터 민주주의와 과학적 방법론을 확산시키는 비영리 사단법인입니다.</p>
   <div class="home-hero-cta">
-    <a class="hero-btn primary" href="activities.html">활동·교육 보기</a>
-    <a class="hero-btn ghost" href="donation.html">후원하기</a>
+    <a class="btn-hero primary" href="donation.html">커뮤니티 가입하기</a>
+    <a class="btn-hero secondary" href="book.html">발간물 보기</a>
   </div>
 </div>
 
@@ -326,6 +336,34 @@ ga('send', {
     <h3 class="anchored">활동·교육</h3>
     <p>대학·공공·기업 대상 워크샵과 AI 실무 교육을 진행합니다.</p>
   </a>
+</div>
+
+<h2 class="home-h2 anchored">우리의 사명 — Open Science &amp; Data Literacy</h2>
+<p class="home-sub">데이터 과학과 데이터 문해력을 높여 인공지능 시대의 격차를 줄여갑니다.</p>
+<div class="mission-grid">
+  <div class="mission-item">
+    <span class="mi-ico"><i class="fa-solid fa-eye"></i></span>
+    <div><h4 class="anchored">투명한 데이터 생태계</h4><p>오픈 소스 정신을 바탕으로 누구나 데이터에 접근·분석할 수 있는 투명한 도구와 문화를 보급합니다.</p></div>
+  </div>
+  <div class="mission-item">
+    <span class="mi-ico"><i class="fa-solid fa-brain"></i></span>
+    <div><h4 class="anchored">과학적 리터러시 함양</h4><p>통계적 사고와 프로그래밍 교육으로 인공지능 시대에 필수적인 비판적 사고 능력을 향상시킵니다.</p></div>
+  </div>
+  <div class="mission-item">
+    <span class="mi-ico"><i class="fa-solid fa-handshake"></i></span>
+    <div><h4 class="anchored">공익을 위한 기술 협력</h4><p>정부기관·연구소·사회적 기업과 협력해 사회 문제를 데이터로 해결해 나갑니다.</p></div>
+  </div>
+</div>
+
+<div class="partners">
+  <div class="partners-label">함께하는 곳</div>
+  <div class="partners-list">
+    <a href="https://www.r-consortium.org/" target="_blank">R Consortium</a>
+    <a href="https://www.sharingkorea.net/" target="_blank">나눔국민운동본부</a>
+    <a href="https://www.sen.go.kr/" target="_blank">서울특별시교육청</a>
+    <a href="http://www.djto.kr/" target="_blank">대전관광공사</a>
+    <a href="https://www.msit.go.kr/" target="_blank">과학기술정보통신부</a>
+  </div>
 </div>
 <section id="챗gpt-출판" class="level2">
 <h2 class="anchored" data-anchor-id="챗gpt-출판">챗GPT 출판</h2>

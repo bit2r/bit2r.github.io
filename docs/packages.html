@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-21eaec5268d3247debc4e011afa38212.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-90541722e18035ebc45107e7704b37f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-da79f07ee6081830469108ae2fbe552d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -264,7 +264,7 @@ ga('send', {
 a.bk-card:hover{
   transform:translateY(-5px);
   box-shadow:0 14px 30px rgba(0,0,0,.13);
-  border-color:rgba(68,112,153,.55); /* navbar 색(#447099) 계열 강조 */
+  border-color:rgba(33,101,172,.55); /* navbar 색(#2165ac) 계열 강조 */
 }
 /* 표지(로고) 영역 — 정사각 로고를 가운데 정렬. 밝은 배경으로 투명 PNG 로고도 선명하게 */
 .bk-cover{
@@ -293,16 +293,9 @@ a.bk-card:hover{
 }
 .bk-foot{margin-top:auto; display:flex; align-items:center; justify-content:space-between; padding-top:.5rem;}
 .bk-date{font-size:.78rem; color:#8a929b;}
-.bk-cta{font-size:.83rem; font-weight:600; color:#447099;}
+.bk-cta{font-size:.83rem; font-weight:600; color:#2165ac;}
 
 /* 다크모드 대응 — 표지(로고) 영역은 밝게 유지, 본문만 다크 톤 */
-@media (prefers-color-scheme: dark){
-  .bk-card{background:#2c4f70; border-color:rgba(255,255,255,.12); color:#eceff3;}
-  .bk-title{color:#f3f5f8;}
-  .bk-text{color:#c2c9d2;}
-  .bk-date{color:#98a0aa;}
-  .bk-cta{color:#8fbce8;}
-}
 
 /* ── 오픈 통계 패키지 상세 섹션 ── 이미지·기대효과 카드 정돈 */
 /* 섹션 내 이미지에 둥근 모서리와 부드러운 그림자 */
@@ -320,21 +313,13 @@ a.bk-card:hover{
 .feat-ico{
   display:inline-flex; align-items:center; justify-content:center;
   width:2.7rem; height:2.7rem; border-radius:13px;
-  background:rgba(68,112,153,.12); color:#447099; font-size:1.2rem;
+  background:rgba(33,101,172,.12); color:#2165ac; font-size:1.2rem;
   margin-bottom:.9rem;
 }
 .feat-card h4{margin:0 0 .55rem; font-size:1.06rem; font-weight:700; line-height:1.35;}
 .feat-card p{margin:0; font-size:.9rem; line-height:1.65; color:#5b6570;}
 .feat-note{display:block; font-size:.76rem; color:#8a929b; margin-top:.65rem;}
 
-@media (prefers-color-scheme: dark){
-  .feat-card{background:#2c4f70; border-color:rgba(255,255,255,.12); color:#eceff3;}
-  .feat-card h4{color:#f3f5f8;}   /* 어두운 카드 위에서 제목이 보이도록 흰색 */
-  .feat-card p{color:#c2c9d2;}
-  .feat-ico{background:rgba(143,188,232,.18); color:#8fbce8;}
-  .feat-note{color:#98a0aa;}
-  .pkg-detail img{box-shadow:0 6px 22px rgba(0,0,0,.4);}
-}
 
 /* ── 링크 카드 (빛스탯2·신규 도구) ── */
 .link-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(230px, 1fr)); gap:1.1rem; margin:1.25rem 0 2rem;}
@@ -344,20 +329,14 @@ a.bk-card:hover{
   box-shadow:0 1px 3px rgba(0,0,0,.05);
   transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
 }
-.link-card:hover{transform:translateY(-4px); box-shadow:0 12px 26px rgba(0,0,0,.1); border-color:rgba(68,112,153,.55);}
+.link-card:hover{transform:translateY(-4px); box-shadow:0 12px 26px rgba(0,0,0,.1); border-color:rgba(33,101,172,.55);}
 .link-card .lc-ico{
   display:inline-flex; align-items:center; justify-content:center;
   width:2.6rem; height:2.6rem; border-radius:13px;
-  background:rgba(68,112,153,.12); color:#447099; font-size:1.15rem; margin-bottom:.8rem;
+  background:rgba(33,101,172,.12); color:#2165ac; font-size:1.15rem; margin-bottom:.8rem;
 }
 .link-card h4{margin:0 0 .45rem; font-size:1.04rem; font-weight:700; line-height:1.35;}
 .link-card p{margin:0; font-size:.9rem; line-height:1.6; color:#5b6570;}
-@media (prefers-color-scheme: dark){
-  .link-card{background:#2c4f70; border-color:rgba(255,255,255,.12); color:#eceff3;}
-  .link-card h4{color:#f3f5f8;}
-  .link-card p{color:#c2c9d2;}
-  .link-card .lc-ico{background:rgba(143,188,232,.18); color:#8fbce8;}
-}
 </style>
 <div class="cell" data-layout-align="center">
 <div class="bk-grid">
