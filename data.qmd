@@ -54,7 +54,7 @@ data_cards <- function(df) {
 a.bk-card:hover{
   transform:translateY(-5px);
   box-shadow:0 14px 30px rgba(0,0,0,.13);
-  border-color:rgba(68,112,153,.55); /* navbar 색 계열 강조 */
+  border-color:rgba(33,101,172,.55); /* navbar 색 계열 강조 */
 }
 /* 표지(로고) 영역 — 밝은 배경으로 투명 PNG 로고도 선명하게 */
 .bk-cover{
@@ -82,15 +82,9 @@ a.bk-card:hover{
   display:-webkit-box; -webkit-line-clamp:4; -webkit-box-orient:vertical; overflow:hidden;
 }
 .bk-foot{margin-top:auto; display:flex; align-items:center; justify-content:space-between; padding-top:.5rem;}
-.bk-cta{font-size:.83rem; font-weight:600; color:#447099;}
+.bk-cta{font-size:.83rem; font-weight:600; color:#2165ac;}
 
 /* 다크모드 대응 — 표지(로고) 영역은 밝게 유지, 본문은 헤더색 톤 */
-@media (prefers-color-scheme: dark){
-  .bk-card{background:#2c4f70; border-color:rgba(255,255,255,.12); color:#eceff3;}
-  .bk-title{color:#f3f5f8;}
-  .bk-text{color:#c2c9d2;}
-  .bk-cta{color:#8fbce8;}
-}
 </style>
 ```
 

@@ -28,13 +28,13 @@ $accent:     #f1f5f9 !default;
 $muted:      #f1f5f9 !default;
 $destructive: #ef4444 !default;
 
-// 브랜드 색상
-$brand-blue: #447099 !default;
-$brand-dark: #447099 !default;
+// 브랜드 색상 — 새 디자인(Open Analytics Nexus) 딥블루
+$brand-blue: #2165ac !default;   // primary-container (강조·링크)
+$brand-dark: #004d8c !default;   // primary (진한 파랑, 버튼·헤딩 포인트)
 
 // 테두리 및 링
-$border-color: #e4e4e7 !default;
-$ring-color: #447099 !default;
+$border-color: #e1e4e8 !default; // 1px 아웃라인 (학술 톤)
+$ring-color: #2165ac !default;
 
 // 반경
 $radius-sm: 0.375rem !default;
@@ -42,11 +42,10 @@ $radius-md: 0.5rem !default;
 $radius-lg: 0.75rem !default;
 $radius-xl: 1rem !default;
 
-// 글꼴
+// 글꼴 — 예전 세트 복원: 본문 감탄로드바탕, 제목 감탄로드돋움, UI Pretendard, 네비 타이틀 Paperlogy, 빛스탯 평창평화체
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
 @import url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/subsets/Paperlogy-dynamic-subset.css');
-// 본문 = 감탄로드바탕체, 제목 = 감탄로드돋움체, 빛스탯 시리즈 = 평창평화체
 @import url('https://cdn.jsdelivr.net/gh/fonts-archive/GamtanRoadBatang/GamtanRoadBatang.css');
 @import url('https://cdn.jsdelivr.net/gh/fonts-archive/GamtanRoadDotum/GamtanRoadDotum.css');
 @import url('https://cdn.jsdelivr.net/gh/fonts-archive/PyeongChangPeace/PyeongChangPeace.css');
@@ -66,6 +65,8 @@ $font-family-monospace:  'D2Coding', ui-monospace, monospace !default;
 // 본문 기본 글꼴 = 바탕체, 제목 = 돋움체
 $font-family-base:       $font-family-serif !default;
 $headings-font-family:   'GamtanRoad Dotum', 'Paperlogy', sans-serif !default;
+// 라벨/카테고리용 — UI 산세리프(Pretendard)
+$font-family-label:      $font-family-sans-serif !default;
 // 빛스탯 시리즈 강조용 — 평창평화체
 $font-family-pyeongchang: 'Pyeong Chang Peace', $headings-font-family !default;
 
@@ -99,68 +100,27 @@ body {
 // 네비게이션 바 (shadcn/ui 스타일)
 // ============================================
 
-// 헤더 배경 — 브랜드 블루 단색 + 은은한 그래프 페이퍼 그리드 (통계 플롯 느낌, 난잡하지 않게)
-// 그라데이션은 빼고 잔잔한 좌표 격자만. (원본 이미지는 images/header_background.jpg 로 보관)
-@mixin header-bg {
-    background-color: #2c4f70;   // 브랜드 블루보다 짙은 스틸 블루
-    // 그래프 페이퍼: 보조 격자(가는·촘촘) + 주 격자(굵게·성글게) — 통계 플롯 느낌, 또렷하되 잔잔하게
-    background-image:
-        linear-gradient(rgba(255, 255, 255, 0.16) 1px, transparent 1px),          // 주 격자 가로
-        linear-gradient(90deg, rgba(255, 255, 255, 0.16) 1px, transparent 1px),   // 주 격자 세로
-        linear-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),          // 보조 격자 가로
-        linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);   // 보조 격자 세로
-    background-size: 120px 120px, 120px 120px, 24px 24px, 24px 24px;
-    background-position: center center;
-    background-repeat: repeat;
-}
-
+// ── 헤더(navbar) — 밝은 학술 스타일 (Open Analytics Nexus) ──
+// 흰 배경 + 하단 헤어라인, 그림자 없음
 .navbar {
-    @include header-bg;
-    position: relative;   // ::before 플롯 오버레이 기준
-    border-bottom: none;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
-    padding: 0.4rem 1rem;   // 로고가 헤더 높이를 거의 채우도록 상하 패딩 축소
+    background-color: #2165ac !important;   // 시안 팔레트 primary-container(진한 브랜드 블루)
+    border-bottom: 1px solid #1b568f;
+    box-shadow: none !important;
+    padding: 0.55rem 1rem;
 }
 
-.navbar-dark {
-    @include header-bg;
-}
-
-// ggplot2 미니 플롯 스트립을 헤더 뒤에 반투명으로 배치 (R 언어 느낌)
-// ::before 레이어라 로고·메뉴 등 콘텐츠는 그대로 위에 표시됨
-.navbar::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-image: url('images/header_plots.png');
-    background-size: auto 100%;      // 헤더 높이에 맞추고 가로로 반복
-    background-repeat: repeat-x;
-    background-position: center;
-    opacity: 0.22;                   // 은은하게
-    pointer-events: none;
-    z-index: 0;
-}
-
-// 콘텐츠(로고/메뉴)를 플롯 오버레이 위로
-.navbar > * {
-    position: relative;
-    z-index: 1;
-}
-
-// 좌상단 로고 — 어두운 navbar 배경에서 브랜드 색(파란 R)을 살리도록 흰색 라운드 칩 위에 배치
-// 헤더 높이를 거의 꽉 채우도록 크게
+// 좌상단 로고 — 짙은 라운드 사각 테두리 칩
 .navbar-brand img,
 .navbar-logo {
-    // Quarto 기본값(max-height:48px/24px, object-fit:cover)이 크기를 제한·왜곡하므로 모두 덮어씀
-    // 흰 박스는 이제 컨테이너(.navbar-brand-container)가 담당 — 이미지 자체 칩은 제거
-    height: 44px !important;
-    max-height: 44px !important;
+    height: 38px !important;
+    max-height: 38px !important;
     min-height: 0 !important;
     width: auto !important;
     object-fit: contain !important;
-    background-color: transparent !important;
-    padding: 0 0 1px 0 !important;   // 로고 하단 1px 패딩 (아래라인 미세 정렬)
-    border-radius: 0 !important;
+    background: #fff !important;
+    padding: 3px 8px !important;
+    border: 2px solid #004d8c !important;   // 짙은 브랜드 블루 테두리
+    border-radius: 8px !important;          // 라운드 사각형
     box-shadow: none !important;
 }
 
@@ -170,56 +130,47 @@ body {
     transform: translateY(0%) !important;
 }
 
-// 로고 + 타이틀을 하나의 흰색 라운드 박스에 함께 담음
+// 로고 + 타이틀 (사이 여백으로 구분감)
 .navbar-brand-container {
     display: inline-flex;
-    align-items: flex-end;   // 로고 글씨와 아래라인 맞추기 위해 하단 정렬
-    gap: 0.55rem;
-    background-color: #d8e5f3;   // 푸르스름한 밝은 박스
-    padding: 5px 14px;
-    border-radius: $radius-lg;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    align-items: center;
+    gap: 1rem;
 }
-
-// Quarto 규칙 `.navbar .navbar-container>.navbar-brand-container{margin:0 !important}`(specificity 0,3,0)
-// 을 이기기 위해 mx-auto 클래스를 더해 specificity(0,4,0) 로 올려 여백을 재지정한다.
+// Quarto 기본 margin:0 !important 를 이기기 위해 specificity 를 높여 우측 여백 부여
 .navbar .navbar-container > .navbar-brand-container.mx-auto {
     margin-left: 0 !important;
-    margin-right: 2.75rem !important;   // 브랜드 박스와 "홈" 메뉴 사이 여백
+    margin-right: 2.5rem !important;
 }
 
-// 박스 안 타이틀 — 검정 글자, R 만 로고의 파란색(#2160AB)
+// 타이틀 — 진한 텍스트, R 만 브랜드 블루
 .navbar-title,
 .navbar-brand-container .navbar-brand {
     font-family: 'Paperlogy', sans-serif !important;
     font-weight: 700 !important;
-    font-size: 2.1rem !important;    // 로고 안 글씨와 균형
-    line-height: 1 !important;       // 글자 아래 여백 최소화 (아래라인 정렬)
-    padding-bottom: 0 !important;    // 로고 글씨 아래라인과 정렬
-    color: #111 !important;          // R 외 글자는 검은색
+    font-size: 1.6rem !important;
+    line-height: 1 !important;
+    letter-spacing: -0.01em;
+    color: #ffffff !important;                 // 진한 헤더 위 흰 글자
 }
+.navbar-title .brand-r { color: #a4c9ff !important; }   // 어두운 배경에서 보이는 밝은 파랑
 
-.navbar-title .brand-r {
-    color: #2160AB !important;       // 로고 안 R 과 동일한 파란색
-}
-
+// 메뉴 링크 — 진한 회색, hover·active 는 브랜드 블루
 .navbar .nav-link {
     font-family: $font-family-sans-serif !important;
-    font-size: 1.05rem !important;
+    font-size: 1rem !important;
     font-weight: 500 !important;
     color: rgba(255, 255, 255, 0.9) !important;
-    padding: 0.5rem 0.875rem !important;
+    padding: 0.5rem 0.85rem !important;
     border-radius: $radius-md;
-    transition: all 0.15s ease;
+    transition: color 0.15s ease, background-color 0.15s ease;
 }
-
 .navbar .nav-link:hover {
-    color: $white !important;
+    color: #ffffff !important;
     background-color: rgba(255, 255, 255, 0.15);
 }
-
 .navbar .nav-link.active {
-    color: $white !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
 }
 
 .navbar .dropdown-menu {
@@ -242,14 +193,14 @@ body {
     color: $gray-900;
 }
 
-// 네비게이션 아이콘
+// 네비게이션 아이콘 (우측 소셜)
 .navbar .bi {
     color: rgba(255, 255, 255, 0.9);
     transition: color 0.15s ease;
 }
 
 .navbar .nav-link:hover .bi {
-    color: $white;
+    color: #ffffff;
 }
 
 // ============================================
@@ -262,7 +213,7 @@ body {
 }
 
 .sidebar-title {
-    font-family: 'Paperlogy', sans-serif !important;
+    font-family: $headings-font-family !important;
     font-weight: 700 !important;
     font-size: 1.1rem !important;      // 사이드바 제목 확대
     color: $gray-900 !important;
@@ -372,6 +323,26 @@ a {
 a:hover {
     color: darken($brand-blue, 10%);
     text-decoration: underline;
+}
+
+// ============================================
+// 타이틀 블록 — 큰 제목과 바로 아래 설명 문장 사이 여백
+// ============================================
+
+.quarto-title-block .title {
+    line-height: 1.25;
+    margin-bottom: 0.75rem;   // 제목과 설명 사이 간격
+}
+
+.quarto-title-block .description {
+    margin-top: 0;
+    font-size: 1.02rem;
+    line-height: 1.7;
+    color: $gray-700;
+}
+
+.quarto-title-block {
+    margin-bottom: 1.75rem;   // 타이틀 블록과 본문 사이 간격
 }
 
 // ============================================

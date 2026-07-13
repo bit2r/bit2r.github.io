@@ -18,7 +18,7 @@ website:
     center: "사업자 등록번호: 735-82-003300 | 대표: 형환희 | 전자우편: <a href='mailto:admin@r2bit.com'>admin@r2bit.com</a> | 주소: 서울특별시 서초구 법원로3길 15, 4층<br>&copy; 2026 BitStat. All rights reserved. | 본 웹사이트는 <a href='https://quarto.org/'>쿼토(Quarto)</a>로 제작되었습니다."
     
   navbar:
-    background: "#2c4f70"
+    background: "#2165ac"
     # 좌상단 로고 (투명 여백을 잘라낸 navbar 전용 버전, 흰색 라운드 칩 스타일은 css/quarto.scss)
     logo: fig/koRea_logo_navbar.png
     logo-alt: "한국 R 사용자회 로고"

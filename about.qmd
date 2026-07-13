@@ -24,18 +24,12 @@ title: "한국 알(R) 사용자회 소개"
 .feat-ico{
   display:inline-flex; align-items:center; justify-content:center;
   width:2.6rem; height:2.6rem; border-radius:13px;
-  background:rgba(68,112,153,.12); color:#447099; font-size:1.15rem;
+  background:rgba(33,101,172,.12); color:#2165ac; font-size:1.15rem;
   margin-bottom:.8rem;
 }
 .feat-card h4{margin:0 0 .5rem; font-size:1.04rem; font-weight:700; line-height:1.35;}
 .feat-card p{margin:0; font-size:.9rem; line-height:1.6; color:#5b6570;}
 
-@media (prefers-color-scheme: dark){
-  .feat-card{background:#2c4f70; border-color:rgba(255,255,255,.12); color:#eceff3;}
-  .feat-card h4{color:#f3f5f8;}   /* 어두운 카드 위에서 제목이 보이도록 흰색 */
-  .feat-card p{color:#c2c9d2;}
-  .feat-ico{background:rgba(143,188,232,.18); color:#8fbce8;}
-}
 </style>
 ```
 
