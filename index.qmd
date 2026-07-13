@@ -81,12 +81,16 @@ knitr::opts_chunk$set(echo = FALSE)
 .mission-item h4{margin:.1rem 0 .35rem; font-size:1.02rem; font-weight:700; color:#191c1d;}
 .mission-item p{margin:0; font-size:.9rem; color:#424751; line-height:1.6;}
 
-/* 협력처 */
-.partners{border-top:1px solid #e1e4e8; margin-top:2.8rem; padding-top:1.6rem;}
-.partners-label{font-family:'Pretendard',sans-serif; font-size:.72rem; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:#727782; text-align:center; margin-bottom:1rem;}
-.partners-list{display:flex; flex-wrap:wrap; gap:.7rem 1.6rem; justify-content:center; align-items:center;}
-.partners-list a{color:#424751; font-weight:600; text-decoration:none; font-size:1rem;}
-.partners-list a:hover{color:#2165ac; text-decoration:none;}
+/* 협력처 — 상하 헤어라인으로 감싼 밴드 + 칩(pill) 링크 */
+.partners{border-top:1px solid #e1e4e8; border-bottom:1px solid #e1e4e8; margin:2.8rem 0 2.75rem; padding:1.6rem 0;}
+.partners-label{font-family:'Pretendard',sans-serif; font-size:1rem; font-weight:700; letter-spacing:.02em; color:#424751; text-align:center; margin-bottom:1.1rem;}
+.partners-list{display:flex; flex-wrap:wrap; gap:.6rem .7rem; justify-content:center; align-items:center;}
+.partners-list a{
+  color:#424751; font-weight:500; text-decoration:none; font-size:.92rem;
+  border:1px solid #e1e4e8; border-radius:999px; padding:.42rem .95rem; background:#fff;
+  transition:border-color .15s ease, color .15s ease, background-color .15s ease;
+}
+.partners-list a:hover{border-color:#2165ac; color:#2165ac; background:#f3f7fc; text-decoration:none;}
 
 @keyframes homeFadeUp{from{opacity:0; transform:translateY(16px);} to{opacity:1; transform:none;}}
 </style>
