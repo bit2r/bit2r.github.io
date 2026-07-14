@@ -271,7 +271,7 @@ webR·WebAssembly 기반으로 **설치 없이 브라우저에서** 실행되는
 ![](fig/statistics-pkg.jpeg){width="100%"}
 
 -   [한국 R 컨퍼런스](https://use-r.kr/) 발표 - [Digital Divide Solution - 오픈 통계 팩키지](https://www.youtube.com/watch?v=XtGFpZJML2s)
--   [국산 오픈 통계 팩키지](https://docs.google.com/presentation/d/1v5gu8pTHMcRUei8II4eGB5367fGRZJlRzML9v0U9QdE/edit?usp=sharing)
+-   [국산 오픈 통계 팩키지 발표자료](slides-openstat.qmd) (슬라이드 전체 보기)
 -   [2021 오픈소스 컨트리뷰션 아카데미 - Tidyverse Korea 데이터 과학](https://contributionacademy.oopy.io/)
 -   [오픈 통계 팩키지 개발 안내서](https://docs.google.com/presentation/d/1xXQ_DzjSaS24Kr7c_rqiaAr5GqP5gsEKujq5fQNy-MA/edit?usp=sharing)
 -   `tidyblocks`

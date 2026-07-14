@@ -1,0 +1,42 @@
+---
+title: "국산 오픈 통계 패키지 — 발표자료"
+description: |
+  Tidyverse Korea가 발표한 「국산 오픈 통계 팩키지(초중등 교육용)」 슬라이드입니다. (2021년 10월)
+format:
+  html:
+    toc: false
+---
+
+```{=html}
+<style>
+/* 슬라이드 갤러리 */
+.slide-deck{max-width:900px; margin:1.5rem auto 0;}
+.slide-deck figure{margin:0 0 1.6rem;}
+.slide-deck img{
+  width:100%; height:auto; display:block;
+  border:1px solid #e1e4e8; border-radius:8px;
+  box-shadow:0 2px 12px rgba(0,0,0,.08);
+}
+.slide-deck figcaption{
+  font-family:'Pretendard',sans-serif; font-size:.8rem; color:#727782;
+  text-align:right; margin-top:.35rem;
+}
+</style>
+```
+
+::: {.callout-note appearance="simple"}
+{{< fa google >}} 원본 슬라이드(Google Slides): [국산 오픈 통계 팩키지 발표자료 열기](https://docs.google.com/presentation/d/1v5gu8pTHMcRUei8II4eGB5367fGRZJlRzML9v0U9QdE/edit?usp=sharing)
+:::
+
+```{r}
+#| echo: false
+#| output: asis
+slides <- sort(list.files("fig/slides-openstat", pattern = "slide-\\d+\\.png$"))
+cat('<div class="slide-deck">\n')
+for (i in seq_along(slides)) {
+  cat(sprintf(
+    '<figure><img src="fig/slides-openstat/%s" alt="슬라이드 %d" loading="lazy"><figcaption>%d / %d</figcaption></figure>\n',
+    slides[i], i, i, length(slides)))
+}
+cat('</div>\n')
+```
