@@ -367,6 +367,18 @@ a:hover {
     margin-bottom: 1.75rem !important;   // 타이틀 블록과 본문 사이 간격
 }
 
+// 배너형 타이틀(블로그 상세 등) — 색(파란) 배경 위 글자를 밝게
+.quarto-title-banner .title,
+.quarto-title-banner .subtitle,
+.quarto-title-banner .description,
+.quarto-title-banner .quarto-title-meta-heading,
+.quarto-title-banner .quarto-title-meta-contents,
+.quarto-title-banner .quarto-title-meta-contents a {
+    color: #ffffff !important;
+}
+.quarto-title-banner .description { opacity: 0.95; }
+.quarto-title-banner .quarto-title-meta-heading { opacity: 0.75; }
+
 // ============================================
 // 버튼 (shadcn/ui 스타일)
 // ============================================
