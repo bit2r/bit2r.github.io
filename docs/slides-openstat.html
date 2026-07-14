@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Data Literacy 역량 강화를 위해 컴퓨터를 처음 접하거나 데이터 작업이 처음인 대한민국 국민 누구나 쉽게 통계 패키지를 접할 수 있도록 하고 데이터 프로그래밍 역량도 수준별로 강화할 수 있도록 새로운 형태의 블록 통계 분석을 포함한 오픈 통계 패키지 개발을 목표로 합니다.">
+<meta name="description" content="Tidyverse Korea가 발표한 「국산 오픈 통계 팩키지(초중등 교육용)」 슬라이드입니다. (2021년 10월)">
 
-<title>오픈 통계 패키지 – 한국 R 사용자회</title>
+<title>국산 오픈 통계 패키지 — 발표자료 – 한국 R 사용자회</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -42,6 +42,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-e2fa99380b4fac64fa194bd40664339d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -87,7 +89,7 @@ ga('send', {
 
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -197,30 +199,18 @@ ga('send', {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">목차</h2>
-   
-  <ul>
-  <li><a href="#프로젝트-개요" id="toc-프로젝트-개요" class="nav-link active" data-scroll-target="#프로젝트-개요">프로젝트 개요</a></li>
-  <li><a href="#기대-효과" id="toc-기대-효과" class="nav-link" data-scroll-target="#기대-효과">기대 효과</a></li>
-  <li><a href="#bitstat-아키텍처" id="toc-bitstat-아키텍처" class="nav-link" data-scroll-target="#bitstat-아키텍처"><code>BitStat</code> 아키텍처</a></li>
-  <li><a href="#bitstat-시연" id="toc-bitstat-시연" class="nav-link" data-scroll-target="#bitstat-시연">BitStat 시연</a></li>
-  <li><a href="#참고자료" id="toc-참고자료" class="nav-link" data-scroll-target="#참고자료">참고자료</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">오픈 통계 패키지</h1>
+<h1 class="title">국산 오픈 통계 패키지 — 발표자료</h1>
 </div>
 
 <div>
   <div class="description">
-    <p>Data Literacy 역량 강화를 위해 컴퓨터를 처음 접하거나 데이터 작업이 처음인 대한민국 국민 누구나 쉽게 통계 패키지를 접할 수 있도록 하고 데이터 프로그래밍 역량도 수준별로 강화할 수 있도록 새로운 형태의 블록 통계 분석을 포함한 오픈 통계 패키지 개발을 목표로 합니다.</p>
+    <p>Tidyverse Korea가 발표한 「국산 오픈 통계 팩키지(초중등 교육용)」 슬라이드입니다. (2021년 10월)</p>
   </div>
 </div>
 
@@ -228,12 +218,6 @@ ga('send', {
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">공개</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">2026년 07월 14일</p>
-    </div>
-  </div>
   
     
   </div>
@@ -243,63 +227,124 @@ ga('send', {
 </header>
 
 
-<p><img src="fig/bitstat.png" class="img-fluid"></p>
-<section id="프로젝트-개요" class="level1">
-<h1>프로젝트 개요</h1>
-<p>코로나19로 인해 심화된 <strong>디지털 불평등</strong>과 <strong>디지털 전환(Digital Transformation)</strong>으로 인해 시민의 필수 역량이 된 <strong>Data Literacy 역량 강화</strong>와 통계 대중화를 위해 오픈 통계 패키지 - 빛스탯(<code>BitStat</code>) - 를 개발하게 되었습니다. 데이터 리터러시 역량은 결국 디지털 불평등과 맥이 닿아 있고 이후 교육불평등, 취업불평등, 소득불평등, 자산불평등으로 이어져 사회 양극화를 심화시키는 주범으로 지목되고 있다.</p>
-<p><img src="fig/inequality.jpeg" class="img-fluid" style="width:100.0%"></p>
-</section>
-<section id="기대-효과" class="level1">
-<h1>기대 효과</h1>
-<ul>
-<li>기술적 측면
-<ul>
-<li>기하급수적으로 증가하는 데이터를 분석하여 가치를 창출하는 데이터 경제가 급부상하고 있으나, 인력 육성이나 도구는 선형적 증가 상황을 타개할 수 있는 혁신적인 기술이 요구됨</li>
-<li>폭발적으로 늘어나는 데이터를 일반국민도 활용할 수 있도록 하는 공개SW 통계 패키지는 다분야에서도 활용 가능한 Auto-X 기술을 기반으로 통계분석 생산성과 품질을 큰 폭을 높일 수 있는 혁신적인 기술임</li>
-</ul></li>
-<li>경제적, 산업적 측면
-<ul>
-<li>’22년 글로벌 빅데이터, 분석시장 규모는 전년 대비 27% 성장한 $2,740억 달러 규모 전망
-<ul>
-<li>IDC, “Revenue from big data and business analytics worldwide from 2015 to 2022”, 2021년 9월</li>
-</ul></li>
-<li>오픈 통계 패키지에 내장된 Auto-X 기술을 포함하여 공개SW로 개방하여 중소기업 및 데이터 기반 의사결정을 지원하고, 공개SW 활용 스타트업을 통한 신규 부가가치 창출</li>
-</ul></li>
-<li>사회적 측면
-<ul>
-<li>지속적인 공공데이터 확대, 데이터3법 통과에 따라 데이터가 늘어나고 데이터 경제가 급속도로 커짐에 따라 데이터 리터러시(Data Literacy) 능력과 디지털 불평등의 양극화가 확대됨에 따라 오픈통계 패키지 SW를 공급하고 서비스로 제공함으로써 사회통합과 통계 대중화에 기여할 수 있음</li>
-</ul></li>
-</ul>
-</section>
-<section id="bitstat-아키텍처" class="level1">
-<h1><code>BitStat</code> 아키텍처</h1>
-<p>데이터 통계 분석의 대중화를 위해서는 통계 비전공자 및 일반인이 쉽게 사용할 수 있는 통계 패키지 소프트웨어 개발 취지에 맞춰 데이터를 입력하면 이를 인식하여 통계 분석 후 산출물을 자동 생성할 수 있는 오픈소스 기반의 클라우드 통계 패키지 소프트웨어.</p>
-<p><img src="fig/bitstat_architecture.png" class="img-fluid"></p>
-</section>
-<section id="bitstat-시연" class="level1">
-<h1>BitStat 시연</h1>
-<p><code>BitStat</code> 통계 패키지는 지속적으로 개발을 이어나가고 있으며 2021년 12월 기준 개발버전을 업그레이드하여 2022년 7월 대대적인 업그레이드가 예정되어 있다.</p>
-<p><img src="fig/openStat_quick.gif" class="img-fluid"></p>
-</section>
-<section id="참고자료" class="level1">
-<h1>참고자료</h1>
-<p><img src="fig/statistics-pkg.jpeg" class="img-fluid" style="width:100.0%"></p>
-<ul>
-<li><a href="https://use-r.kr/">한국 R 컨퍼런스</a> 발표 - <a href="https://www.youtube.com/watch?v=XtGFpZJML2s">Digital Divide Solution - 오픈 통계 팩키지</a></li>
-<li><a href="./slides-openstat.html">국산 오픈 통계 팩키지 발표자료</a> (슬라이드 전체 보기)</li>
-<li><a href="https://contributionacademy.oopy.io/">2021 오픈소스 컨트리뷰션 아카데미 - Tidyverse Korea 데이터 과학</a></li>
-<li><a href="https://docs.google.com/presentation/d/1xXQ_DzjSaS24Kr7c_rqiaAr5GqP5gsEKujq5fQNy-MA/edit?usp=sharing">오픈 통계 팩키지 개발 안내서</a></li>
-<li><code>tidyblocks</code>
-<ul>
-<li><a href="https://github.com/tidyblocks/tidyblocks/">Tidy Blocks 한글화 지원</a></li>
-<li><a href="https://tidyblocks.tech/en/guide/">Tidy Blocks 블록 통계 프로그래밍 안내서 한글 번역</a></li>
-<li><a href="https://tidyblocks.tech/en/examples/">한글 사례(Example) 추가 및 확대</a></li>
-</ul></li>
-<li><a href="https://mdis.kostat.go.kr/tong/index.html">통그라미</a></li>
-</ul>
+<style>
+/* 슬라이드 갤러리 */
+.slide-deck{max-width:900px; margin:1.5rem auto 0;}
+.slide-deck figure{margin:0 0 1.6rem;}
+.slide-deck img{
+  width:100%; height:auto; display:block;
+  border:1px solid #e1e4e8; border-radius:8px;
+  box-shadow:0 2px 12px rgba(0,0,0,.08);
+}
+.slide-deck figcaption{
+  font-family:'Pretendard',sans-serif; font-size:.8rem; color:#727782;
+  text-align:right; margin-top:.35rem;
+}
+</style>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><i class="fa-solid fa-google" aria-label="google"></i> 원본 슬라이드(Google Slides): <a href="https://docs.google.com/presentation/d/1v5gu8pTHMcRUei8II4eGB5367fGRZJlRzML9v0U9QdE/edit?usp=sharing">국산 오픈 통계 팩키지 발표자료 열기</a></p>
+</div>
+</div>
+</div>
+<div class="slide-deck">
+<figure class="figure">
+<img src="fig/slides-openstat/slide-01.png" alt="슬라이드 1" loading="lazy" class="figure-img">
+<figcaption>
+1 / 15
+</figcaption>
+</figure>
+<figure class="figure">
+<img src="fig/slides-openstat/slide-02.png" alt="슬라이드 2" loading="lazy" class="figure-img">
+<figcaption>
+2 / 15
+</figcaption>
+</figure>
+<figure class="figure">
+<img src="fig/slides-openstat/slide-03.png" alt="슬라이드 3" loading="lazy" class="figure-img">
+<figcaption>
+3 / 15
+</figcaption>
+</figure>
+<figure class="figure">
+<img src="fig/slides-openstat/slide-04.png" alt="슬라이드 4" loading="lazy" class="figure-img">
+<figcaption>
+4 / 15
+</figcaption>
+</figure>
+<figure class="figure">
+<img src="fig/slides-openstat/slide-05.png" alt="슬라이드 5" loading="lazy" class="figure-img">
+<figcaption>
+5 / 15
+</figcaption>
+</figure>
+<figure class="figure">
+<img src="fig/slides-openstat/slide-06.png" alt="슬라이드 6" loading="lazy" class="figure-img">
+<figcaption>
+6 / 15
+</figcaption>
+</figure>
+<figure class="figure">
+<img src="fig/slides-openstat/slide-07.png" alt="슬라이드 7" loading="lazy" class="figure-img">
+<figcaption>
+7 / 15
+</figcaption>
+</figure>
+<figure class="figure">
+<img src="fig/slides-openstat/slide-08.png" alt="슬라이드 8" loading="lazy" class="figure-img">
+<figcaption>
+8 / 15
+</figcaption>
+</figure>
+<figure class="figure">
+<img src="fig/slides-openstat/slide-09.png" alt="슬라이드 9" loading="lazy" class="figure-img">
+<figcaption>
+9 / 15
+</figcaption>
+</figure>
+<figure class="figure">
+<img src="fig/slides-openstat/slide-10.png" alt="슬라이드 10" loading="lazy" class="figure-img">
+<figcaption>
+10 / 15
+</figcaption>
+</figure>
+<figure class="figure">
+<img src="fig/slides-openstat/slide-11.png" alt="슬라이드 11" loading="lazy" class="figure-img">
+<figcaption>
+11 / 15
+</figcaption>
+</figure>
+<figure class="figure">
+<img src="fig/slides-openstat/slide-12.png" alt="슬라이드 12" loading="lazy" class="figure-img">
+<figcaption>
+12 / 15
+</figcaption>
+</figure>
+<figure class="figure">
+<img src="fig/slides-openstat/slide-13.png" alt="슬라이드 13" loading="lazy" class="figure-img">
+<figcaption>
+13 / 15
+</figcaption>
+</figure>
+<figure class="figure">
+<img src="fig/slides-openstat/slide-14.png" alt="슬라이드 14" loading="lazy" class="figure-img">
+<figcaption>
+14 / 15
+</figcaption>
+</figure>
+<figure class="figure">
+<img src="fig/slides-openstat/slide-15.png" alt="슬라이드 15" loading="lazy" class="figure-img">
+<figcaption>
+15 / 15
+</figcaption>
+</figure>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
