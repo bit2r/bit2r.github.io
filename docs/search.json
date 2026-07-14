@@ -750,9 +750,93 @@
   {
     "objectID": "slides-openstat.html",
     "href": "slides-openstat.html",
-    "title": "국산 오픈 통계 패키지 — 발표자료",
+    "title": "국산 오픈 통계 팩키지",
     "section": "",
-    "text": "원본 슬라이드(Google Slides): 국산 오픈 통계 팩키지 발표자료 열기\n\n\n\n\n\n\n\n1 / 15\n\n\n\n\n\n2 / 15\n\n\n\n\n\n3 / 15\n\n\n\n\n\n4 / 15\n\n\n\n\n\n5 / 15\n\n\n\n\n\n6 / 15\n\n\n\n\n\n7 / 15\n\n\n\n\n\n8 / 15\n\n\n\n\n\n9 / 15\n\n\n\n\n\n10 / 15\n\n\n\n\n\n11 / 15\n\n\n\n\n\n12 / 15\n\n\n\n\n\n13 / 15\n\n\n\n\n\n14 / 15\n\n\n\n\n\n15 / 15"
+    "text": "원본 슬라이드(Google Slides): 국산 오픈 통계 팩키지 발표자료 열기"
+  },
+  {
+    "objectID": "slides-openstat.html#목차",
+    "href": "slides-openstat.html#목차",
+    "title": "국산 오픈 통계 팩키지",
+    "section": "목차",
+    "text": "목차\n\nPrologue — Data Literacy 중요성, 공학 소프트웨어 현황\n오픈 통계 팩키지 — Introduction, 데모 (2021년 8월 기준)\n확산과 보급 — 디지털 불평등 극복\nAppendix — 커뮤니티 오픈 소스 개발자, 한국 R 컨퍼런스"
+  },
+  {
+    "objectID": "slides-openstat.html#불평등의-심화",
+    "href": "slides-openstat.html#불평등의-심화",
+    "title": "국산 오픈 통계 팩키지",
+    "section": "불평등의 심화",
+    "text": "불평등의 심화\n데이터 리터러시·디지털·통계·컴퓨팅 사고·수학 역량의 격차는 곧 디지털 불평등으로 이어지고, 이는 다시 교육 불평등 → 취업 불평등 → 소득 불평등 → 자산 불평등으로 확산되며 사회 양극화를 심화시킵니다."
+  },
+  {
+    "objectID": "slides-openstat.html#data-literacy-의-중요성",
+    "href": "slides-openstat.html#data-literacy-의-중요성",
+    "title": "국산 오픈 통계 팩키지",
+    "section": "Data Literacy 의 중요성",
+    "text": "Data Literacy 의 중요성\n데이터 리터러시(Data Literacy) 는 데이터를 읽고, 쓰고, 소통할 수 있는 능력이자 데이터에 대해 비판적으로 사고할 수 있는 능력입니다. 데이터 각각의 단편적 이해가 아니라, 데이터 세트 전체가 어떻게 작동·생산되고 그 안의 데이터들이 어떻게 연결·해석되는지를 이해하는 능력입니다.\n디지털 리터러시(Digital Literacy) 는 사회적·문화적 활동을 지원하도록 다양한 매체를 활용하는 능력입니다. 텍스트·도구·테크놀로지의 활용, 비판적 사고와 분석, 메시지의 창작과 창의성, 자기성찰과 윤리적 사고, 협업에의 적극적 참여를 포함하는 인지적·정의적·사회적 역량입니다. (한국인의 디지털 리터러시 교육은 OECD 하위권으로 지적됩니다.)\n\n\n출처 1: OECD 7개국 중등교사의 디지털 리터러시 교육 실태와 ICT의 교육적 활용 간 관계 탐색 · 출처 2: Beyond Data Literacy: Reinventing Community Engagement and Empowerment in the Age of Data"
+  },
+  {
+    "objectID": "slides-openstat.html#코딩알고리즘-교육에-집중된-현황",
+    "href": "slides-openstat.html#코딩알고리즘-교육에-집중된-현황",
+    "title": "국산 오픈 통계 팩키지",
+    "section": "코딩·알고리즘 교육에 집중된 현황",
+    "text": "코딩·알고리즘 교육에 집중된 현황\n현재 초중등 소프트웨어 교육은 코딩·알고리즘 중심으로, 통계·데이터 리터러시·데이터 분석·시각화 영역은 상대적으로 부족합니다.\n\n\n\n사이트\n내용\n주소\n\n\n\n\n이솦(EBS)\nEBS 소프트웨어 교육 콘텐츠 — 온라인 코딩 강의·다큐·교재·교육콘텐츠\nebssw.kr\n\n\n소프트웨어중심사회\n온라인 SW 교육 사이트 소개, 무료 교재, 체험주간·코딩파티·창의캠프\nsoftware.kr\n\n\n에듀넷·티-클리어\n연구·선도학교 자료, 무료 SW 교재·연수자료, 로봇활용교육 자료\nedunet.net\n\n\nCode.org\n단계별 과제형 코딩 학습, 저학년 친화 캐릭터, 수료증 제공\ncode.org\n\n\n\n\n\n출처: 국회입법조사처 「초중등 소프트웨어 교육 운영실태와 개선과제」 2019.12. 제34호"
+  },
+  {
+    "objectID": "slides-openstat.html#외산상용비공개-제품-중심",
+    "href": "slides-openstat.html#외산상용비공개-제품-중심",
+    "title": "국산 오픈 통계 팩키지",
+    "section": "외산·상용·비공개 제품 중심",
+    "text": "외산·상용·비공개 제품 중심\n현재 통계·데이터 교육 소프트웨어 시장은 문서편집기 초창기 시장(워드·한글·훈민정음·보석글 등) 과 유사한 양상입니다. 디지털 전환에 따라 이제 수학·과학·통계·기술·사회 등 거의 모든 교과가 소프트웨어 없이는 교육이 어려워지고 있습니다."
+  },
+  {
+    "objectID": "slides-openstat.html#초중등-vs-외산-통계-팩키지",
+    "href": "slides-openstat.html#초중등-vs-외산-통계-팩키지",
+    "title": "국산 오픈 통계 팩키지",
+    "section": "초중등 vs 외산 통계 팩키지",
+    "text": "초중등 vs 외산 통계 팩키지\n초중등 교육 현장의 통그라미·eStat 과 달리, 전문·연구 영역에서는 SAS·SPSS·Minitab 을 비롯한 수많은 외산·상용 도구가 쓰입니다. (R·Python·Stata·JMP·KNIME·RapidMiner·MATLAB·Tableau 등)\n\n\n출처 1: The Popularity of Data Science Software · 출처 3: Comparison of statistical packages · 출처 4: 어린이도 배우는 ‘공짜 통계 소프트웨어’ 만든 65세 노교수"
+  },
+  {
+    "objectID": "slides-openstat.html#introduction",
+    "href": "slides-openstat.html#introduction",
+    "title": "국산 오픈 통계 팩키지",
+    "section": "Introduction",
+    "text": "Introduction\n초중등 데이터 리터러시 를 위한 오픈 통계 팩키지는 다음 요소로 구성됩니다.\n\nUI: WIMP 기반의 쉬운 통계 패키지 서비스\nAI·기계학습·통계 엔진\n데이터베이스·클라우드 서비스\n오픈 소스 소프트웨어 / 오픈 소스 커뮤니티 기반의 지속 개발\n데이터 리터러시 · 디지털 글쓰기로의 확장\n\n\n\nWIMP 출처: Identifying 5 Mobile Device Web Design Anti-patterns"
+  },
+  {
+    "objectID": "slides-openstat.html#데모-2021년-8월-기준",
+    "href": "slides-openstat.html#데모-2021년-8월-기준",
+    "title": "국산 오픈 통계 팩키지",
+    "section": "데모 (2021년 8월 기준)",
+    "text": "데모 (2021년 8월 기준)\n\n학생용 — 코드 저장소: https://github.com/bit2r/BitStat\n교사용 — 코드 저장소: https://github.com/tidyverse-korea/open_stat"
+  },
+  {
+    "objectID": "slides-openstat.html#디지털-불평등-극복",
+    "href": "slides-openstat.html#디지털-불평등-극복",
+    "title": "국산 오픈 통계 팩키지",
+    "section": "디지털 불평등 극복",
+    "text": "디지털 불평등 극복\n오픈 소스 소프트웨어와 오픈 소스 커뮤니티를 통해 전국 초·중·고교에 무료로 보급합니다.\n\n초등학교: 약 6,120 개교\n중학교: 약 3,223 개교\n고등학교: 약 2,367 개교\n\n\n\ne-나라지표 출처: 초중등교육 규모"
+  },
+  {
+    "objectID": "slides-openstat.html#contributors-tidyverse-korea",
+    "href": "slides-openstat.html#contributors-tidyverse-korea",
+    "title": "국산 오픈 통계 팩키지",
+    "section": "Contributors — Tidyverse Korea",
+    "text": "Contributors — Tidyverse Korea\n\n이광춘 — RStudio Tidyverse Instructor, Seoul R Meetup 운영, Software Carpentry Instructor, 한국 R 컨퍼런스 운영위원, 한국 R 사용자회 대표\n유충현 — 데이터 사이언티스트, 『R을 이용한 통계학의 이해』 외 5종 저술, R 패키지 author(dlookr/alookr), Korea R User Group 초대 대표 역임\n홍성학 — 데이터 사이언티스트, 『R을 활용한 데이터 시각화』 저자, Korea R User Group 운영진 역임, 오픈소스 RHive 패키지 컨트리뷰터\n그 외 기여자: 윤화영 · 김민서 · 김상돈 · 김은지 · 김현지 · 이민철 · 이소연 · 이승현 · 이창렬 · 한진영"
+  },
+  {
+    "objectID": "slides-openstat.html#한국-r-컨퍼런스",
+    "href": "slides-openstat.html#한국-r-컨퍼런스",
+    "title": "국산 오픈 통계 팩키지",
+    "section": "한국 R 컨퍼런스",
+    "text": "한국 R 컨퍼런스\n한국 R 컨퍼런스 2021에서 「오픈 통계 팩키지 — 디지털 불평등 극복을 위한 작은 첫걸음」 을 발표했습니다.\n\n\n출처: 한국 R 컨퍼런스 2021 · 한겨레 특집기사 「데이터 분석 언어 ‘R’ 한국 콘퍼런스 열린다」"
+  },
+  {
+    "objectID": "slides-openstat.html#초중등-교과서-내장-데이터",
+    "href": "slides-openstat.html#초중등-교과서-내장-데이터",
+    "title": "국산 오픈 통계 팩키지",
+    "section": "초중등 교과서 내장 데이터",
+    "text": "초중등 교과서 내장 데이터\n초중등 교과서에 수록된 데이터를 오픈 데이터로 정리해 제공합니다. (출처: eStat)"
   },
   {
     "objectID": "slideshow/202210-hongik/problem.html",
