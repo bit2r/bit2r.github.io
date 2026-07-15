@@ -1,5 +1,6 @@
 ---
-title: "Quarto 데이터 과학"
+title: "데이터 과학 블로그"
+description: "R·Quarto·오픈 통계 등 데이터 과학 이야기를 나눕니다."
 listing:
   contents: posts
   sort: "date desc"

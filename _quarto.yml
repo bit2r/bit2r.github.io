@@ -86,6 +86,10 @@ format:
       - litera
       - css/quarto.scss
     toc: true
+    # 모든 페이지에 파란 배너형 타이틀 헤더 적용
+    # (배경은 navbar 색 #2165ac 를 Quarto 가 자동 사용, 흰 글자는 css/quarto.scss 의 .quarto-title-banner 규칙)
+    # 홈(index.qmd)은 커스텀 히어로를 쓰므로 해당 파일에서 false 로 개별 오버라이드
+    title-block-banner: true
     # navbar 타이틀의 "R" 만 로고 색(파랑)으로 강조 (부분 색상은 마크업이 필요해 스크립트로 처리)
     include-after-body:
       text: |
