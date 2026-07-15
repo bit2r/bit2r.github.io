@@ -368,9 +368,12 @@ a:hover {
 }
 
 // 배너형 타이틀(블로그 상세 등) — 색(파란) 배경 위 글자를 밝게
+// 설명은 .description > p 구조라 내부 p 까지 흰색으로 지정해야 함
 .quarto-title-banner .title,
 .quarto-title-banner .subtitle,
 .quarto-title-banner .description,
+.quarto-title-banner .description p,
+.quarto-title-banner p,
 .quarto-title-banner .quarto-title-meta-heading,
 .quarto-title-banner .quarto-title-meta-contents,
 .quarto-title-banner .quarto-title-meta-contents a {
