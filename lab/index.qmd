@@ -1,0 +1,144 @@
+---
+title: "R2BIT 데이터 과학 연구소"
+subtitle: "R2BIT Data Science Lab"
+description: "오픈 통계 소프트웨어와 AI, 데이터 문해력을 연구하는 한국 R 사용자회의 연구소입니다."
+toc: false
+---
+
+```{=html}
+<style>
+/* ── 연구소(랩) 페이지 — 사이트 공통 카드 UI ── */
+.lab-intro{font-size:1.05rem; line-height:1.8; color:#424751; margin:.4rem 0 2rem; word-break:keep-all;}
+.lab-h2{font-family:'GamtanRoad Dotum','Paperlogy',sans-serif; font-weight:700;
+  font-size:1.45rem; color:#191c1d; margin:2.4rem 0 .3rem; letter-spacing:-.01em;}
+.lab-h2 .en{font-family:'Pretendard',sans-serif; font-size:.85rem; font-weight:600;
+  color:#2165ac; letter-spacing:.06em; text-transform:uppercase; margin-left:.5rem;}
+.lab-sub{color:#424751; margin:0 0 1.2rem; font-size:.95rem;}
+
+/* 연구 분야 */
+.lab-areas{display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1rem;}
+.lab-area{border:1px solid #e1e4e8; border-radius:8px; padding:1.35rem 1.25rem; background:#fff;}
+.lab-area .ico{display:inline-flex; align-items:center; justify-content:center;
+  width:2.6rem; height:2.6rem; border-radius:8px; background:#eef3fb; color:#2165ac;
+  font-size:1.15rem; margin-bottom:.75rem;}
+.lab-area h3{margin:0 0 .15rem; font-size:1.02rem; font-weight:700; color:#191c1d;}
+.lab-area .en{display:block; font-family:'Pretendard',sans-serif; font-size:.78rem;
+  color:#2165ac; font-weight:600; margin-bottom:.5rem;}
+.lab-area p{margin:0; font-size:.88rem; color:#424751; line-height:1.6; word-break:keep-all;}
+
+/* 연구진 */
+.lab-members{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1.1rem;}
+.lab-member{border:1px solid #e1e4e8; border-radius:10px; padding:1.6rem 1.4rem; background:#fff;
+  text-align:center; transition:border-color .15s ease, box-shadow .15s ease;}
+.lab-member:hover{border-color:#2165ac; box-shadow:0 0 0 4px rgba(33,101,172,.1);}
+.lab-avatar{display:inline-flex; align-items:center; justify-content:center;
+  width:4.2rem; height:4.2rem; border-radius:50%;
+  background:linear-gradient(135deg,#2165ac,#004d8c); color:#fff;
+  font-family:'Pretendard',sans-serif; font-weight:700; font-size:1.25rem; letter-spacing:.02em;
+  margin-bottom:.9rem;}
+.lab-member .name-en{font-family:'Pretendard',sans-serif; font-size:1.15rem; font-weight:700; color:#191c1d; margin:0;}
+.lab-member .name-ko{font-size:.9rem; color:#6b7280; margin:.1rem 0 .8rem;}
+.lab-role{display:inline-block; background:#eef3fb; color:#004d8c; border-radius:999px;
+  padding:.3rem .85rem; font-size:.86rem; font-weight:700; margin-bottom:.25rem;}
+.lab-role-en{display:block; font-family:'Pretendard',sans-serif; font-size:.8rem;
+  color:#2165ac; font-weight:600; letter-spacing:.03em; margin-bottom:.8rem;}
+.lab-member p{margin:0; font-size:.86rem; color:#424751; line-height:1.6; word-break:keep-all;}
+</style>
+```
+
+::: {.lab-intro}
+**R2BIT 데이터 과학 연구소**는 공익법인 한국 R 사용자회가 운영하는 연구 조직입니다. 통계학·컴퓨터 과학·인공지능을 아우르는 연구자들이 모여 누구나 쓸 수 있는 오픈 통계 소프트웨어를 만들고, AI 시대의 데이터 문해력 격차를 줄이는 방법을 연구합니다.
+:::
+
+```{=html}
+<h2 class="lab-h2">연구 분야<span class="en">Research Areas</span></h2>
+<p class="lab-sub">연구소가 집중하는 네 가지 주제입니다.</p>
+
+```
+
+:::: {.lab-areas}
+::: {.lab-area}
+[{{< fa chart-column >}}]{.ico}
+
+### 오픈 통계 소프트웨어 {.unnumbered .unlisted}
+
+[Open Statistical Software]{.en}
+
+빛스탯(BitStat) 등 교육·현업용 국산 오픈 통계 패키지와 R 패키지를 연구·개발합니다.
+:::
+
+::: {.lab-area}
+[{{< fa robot >}}]{.ico}
+
+### AI와 데이터 과학 {.unnumbered .unlisted}
+
+[AI & Data Science]{.en}
+
+생성형 AI와 데이터 분석 워크플로의 결합, AI 활용 글쓰기·코딩 도구를 탐구합니다.
+:::
+
+::: {.lab-area}
+[{{< fa graduation-cap >}}]{.ico}
+
+### 데이터 문해력 교육 {.unnumbered .unlisted}
+
+[Data Literacy Education]{.en}
+
+초중등부터 대학·기업까지, 데이터 과학 교육 과정과 교재를 설계합니다.
+:::
+
+::: {.lab-area}
+[{{< fa code-branch >}}]{.ico}
+
+### 재현 가능한 연구 {.unnumbered .unlisted}
+
+[Reproducible Research]{.en}
+
+쿼토(Quarto) 기반 과학 출판과 재현 가능한 분석 환경을 연구합니다.
+:::
+
+::::
+
+```{=html}
+<h2 class="lab-h2">연구진<span class="en">Members</span></h2>
+<p class="lab-sub">연구소를 이끄는 연구진입니다.</p>
+
+<div class="lab-members">
+  <div class="lab-member">
+    <span class="lab-avatar">KL</span>
+    <p class="name-en">Kwangchun Lee</p>
+    <p class="name-ko">이광춘</p>
+    <span class="lab-role">AI 연구원</span>
+    <span class="lab-role-en">AI Researcher</span>
+    <p>생성형 AI와 데이터 과학 교육을 연구합니다. Software Carpentry 강사, Seoul R Meetup 운영.</p>
+  </div>
+  <div class="lab-member">
+    <span class="lab-avatar">CR</span>
+    <p class="name-en">Choonghyun Ryu</p>
+    <p class="name-ko">유충현</p>
+    <span class="lab-role">통계학자</span>
+    <span class="lab-role-en">Statistician</span>
+    <span class="lab-role">데이터 사이언티스트</span>
+    <span class="lab-role-en">Data Scientist</span>
+    <p>『R을 이용한 통계학의 이해』 외 저술, dlookr·alookr 패키지 개발자.</p>
+  </div>
+  <div class="lab-member">
+    <span class="lab-avatar">SH</span>
+    <p class="name-en">Seonghak Hong</p>
+    <p class="name-ko">홍성학</p>
+    <span class="lab-role">AI/ML 연구 엔지니어</span>
+    <span class="lab-role-en">AI/ML Research Engineer</span>
+    <p>『R을 활용한 데이터 시각화』 저자, 오픈소스 RHive 패키지 컨트리뷰터.</p>
+  </div>
+  <div class="lab-member">
+    <span class="lab-avatar">HH</span>
+    <p class="name-en">Hwanhee Hyung</p>
+    <p class="name-ko">형환희</p>
+    <span class="lab-role">데이터 사이언티스트</span>
+    <span class="lab-role-en">Data Scientist</span>
+    <span class="lab-role">금융공학자</span>
+    <span class="lab-role-en">Financial Engineer</span>
+    <p>재무·회계 데이터 분석과 금융공학을 연구합니다. 공인회계사, 한국 R 사용자회 대표.</p>
+  </div>
+</div>
+```
