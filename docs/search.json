@@ -1057,5 +1057,12 @@
       "소개",
       "Terms of Service"
     ]
+  },
+  {
+    "objectID": "lab/index.html",
+    "href": "lab/index.html",
+    "title": "R2BIT 데이터 과학 연구소",
+    "section": "",
+    "text": "R2BIT 데이터 과학 연구소는 공익법인 한국 R 사용자회가 운영하는 연구 조직입니다. 통계학·컴퓨터 과학·인공지능을 아우르는 연구자들이 모여 누구나 쓸 수 있는 오픈 통계 소프트웨어를 만들고, AI 시대의 데이터 문해력 격차를 줄이는 방법을 연구합니다.\n\n연구 분야Research Areas\n연구소가 집중하는 네 가지 주제입니다.\n\n\n\n\n\n오픈 통계 소프트웨어\nOpen Statistical Software\n빛스탯(BitStat) 등 교육·현업용 국산 오픈 통계 패키지와 R 패키지를 연구·개발합니다.\n\n\n\n\n\nAI와 데이터 과학\nAI & Data Science\n생성형 AI와 데이터 분석 워크플로의 결합, AI 활용 글쓰기·코딩 도구를 탐구합니다.\n\n\n\n\n\n데이터 문해력 교육\nData Literacy Education\n초중등부터 대학·기업까지, 데이터 과학 교육 과정과 교재를 설계합니다.\n\n\n\n\n\n재현 가능한 연구\nReproducible Research\n쿼토(Quarto) 기반 과학 출판과 재현 가능한 분석 환경을 연구합니다.\n\n\n\n연구진Members\n연구소를 이끄는 연구진입니다.\n\n\n  \n    KL\n    Kwangchun Lee\n    이광춘\n    AI 연구원\n    AI Researcher\n    생성형 AI와 데이터 과학 교육을 연구합니다. Software Carpentry 강사, Seoul R Meetup 운영.\n  \n  \n    CR\n    Choonghyun Ryu\n    유충현\n    통계학자\n    Statistician\n    데이터 사이언티스트\n    Data Scientist\n    『R을 이용한 통계학의 이해』 외 저술, dlookr·alookr 패키지 개발자.\n  \n  \n    SH\n    Seonghak Hong\n    홍성학\n    AI/ML 연구 엔지니어\n    AI/ML Research Engineer\n    『R을 활용한 데이터 시각화』 저자, 오픈소스 RHive 패키지 컨트리뷰터.\n  \n  \n    HH\n    Hwanhee Hyung\n    형환희\n    데이터 사이언티스트\n    Data Scientist\n    금융공학자\n    Financial Engineer\n    재무·회계 데이터 분석과 금융공학을 연구합니다. 공인회계사, 한국 R 사용자회 대표."
   }
 ]
